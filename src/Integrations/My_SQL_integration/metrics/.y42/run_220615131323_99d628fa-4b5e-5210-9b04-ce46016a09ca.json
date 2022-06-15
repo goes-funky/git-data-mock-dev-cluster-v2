@@ -1,6 +1,6 @@
 {
   "request_id": "220615131323_99d628fa-4b5e-5210-9b04-ce46016a09ca",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -41,5 +41,51 @@
     }
   },
   "created_at": "2022-06-15T13:13:23.212730+00:00",
-  "_signature": "GIX9AIHaEfEHtCrVVf7Le9d/iMmjpsKos0egYqPHtXKPaRUGtMzxU4zWXCC7EhQgHRUBpN4m3sI1FhWbS3PsCg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-15T13:15:48.079711+00:00",
+    "external_state": {
+      "bookmarks": {
+        "sys-metrics": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "cc1e3257e26c7c36c5b34f1ddb25e0e5"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "af4b1520-7977-44a8-9360-49ded428fa0b",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/599e4e79-0d0a-4d70-88d4-209b8e1a2e22",
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:16:01.769513+00:00",
+    "row_count": 436,
+    "current_import_row_count": 436,
+    "size_in_bytes": 25729,
+    "columns": [
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "variable_value",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "variable_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "enabled",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220615131323_99d628fa-4b5e-5210-9b04-ce46016a09ca",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131323_99d628fa-4b5e-5210-9b04-ce46016a09ca&page=table"
+  },
+  "finished_at": "2022-06-15T13:16:01.769700+00:00",
+  "_signature": "7SFxTffUV13eju6i3h4mt74klJJ4RoJyJIBs32E6sP/iicLHm6D1DPsKGFnfebSTUIMprK2C9GFi16AhVLdTBw=="
 }
