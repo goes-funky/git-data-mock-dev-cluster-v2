@@ -47,7 +47,7 @@
   "created_at": "2022-06-15T13:13:16.684710+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-06-15T13:15:39.330367+00:00",
+    "export_finished_at": "2022-06-15T13:15:47.566827+00:00",
     "external_state": {
       "bookmarks": {
         "sys-innodb_buffer_stats_by_table": {
@@ -58,9 +58,9 @@
       "schema_hash": "a1ea927fcdf08cbe76c55ad1aabdbca1"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "1e404edb-fcd1-4f6c-aef2-93e91111db22",
-    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/35316422-5caa-46af-a350-c6eb522da59a",
+    "external_id": "34a97aa5-0bce-4784-98ed-6e0beebe16be",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/1456db3d-2236-4109-b725-69d7cd35faf1",
     "partial": false
   },
-  "_signature": "6DjanAVAzfUAtmLL1gA1b1hfRVbRPr7QGW2+dP3+p6gSjqIA7vpnwuFCI2M3e86X+RJKEQN/PGEjScgdX9LFCw=="
+  "_signature": "ZlMnE6oGKSnWJGOe6YyevPOYXNImohKkfXjqZ0HrF8+X23Ty7zjXL/KHAtQAO731Vc6tt96EmxVOqKVxZ0GfDw=="
 }
