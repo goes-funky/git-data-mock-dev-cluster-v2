@@ -1,3 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/source.json"
+  "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/source.json",
+  "parent_id": "102004408442825,105306121815794,110203024472908",
+  "start_date": "2021-06-15T15:40:24Z"
 }
