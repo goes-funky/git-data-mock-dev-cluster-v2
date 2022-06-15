@@ -1,6 +1,6 @@
 {
   "request_id": "220615145105_e30fbcd4-f168-54b6-bb25-1d16641a8c84",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -91,7 +91,116 @@
     "write_disposition": "TRUNCATE",
     "external_id": "0045a1da-e17b-4a82-bb30-20b79a2e2091",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/91fbe801-b531-40fe-b9ac-c6ee8aef048c",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-15T14:51:51.734579+00:00",
+    "row_count": 122,
+    "current_import_row_count": 122,
+    "size_in_bytes": 134835,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allowed_advertising_objects",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "created_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "full_picture",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "icon",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "message",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "is_eligible_for_promotion",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_expired",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_hidden",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_instagram_eligible",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_popular",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_published",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_spherical",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "parent_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "permalink_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "place",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "story",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "subscribed",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "updated_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220615145105_e30fbcd4-f168-54b6-bb25-1d16641a8c84",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615145105_e30fbcd4-f168-54b6-bb25-1d16641a8c84&page=table"
   },
-  "_signature": "cWoYxwBTuDyuVBRwfv+RXUJVg3cgYsn6/3Rgm1sW2t07Qh/nVHPdwgCPKY9A7Gq+h1T78o93WMPwjcSq3UPlBw=="
+  "finished_at": "2022-06-15T14:51:51.734707+00:00",
+  "_signature": "QuOdG0Lp0IPmmK9NO5PpOH83qI8ekHsOEgJNltI2L7In4EgdhX6jMRxfnNCJPopFxC2+a0xrN24+/vMfpe11Cw=="
 }
