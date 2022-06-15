@@ -1,6 +1,6 @@
 {
   "request_id": "220615131342_a929efca-76bd-5855-9e46-f47c53bd453a",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -58,7 +58,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "dca6ac70-f8e8-4e45-8b5a-740574b9de7b",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/c6e8bcfd-b933-4f08-80cf-fcda24d7c7fe",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:14:41.934081+00:00",
+    "row_count": 437,
+    "current_import_row_count": 437,
+    "size_in_bytes": 32359,
+    "columns": [
+      {
+        "field_name": "index_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "subpart_exists",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "non_unique",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "table_schema",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "index_columns",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "table_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220615131342_a929efca-76bd-5855-9e46-f47c53bd453a",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131342_a929efca-76bd-5855-9e46-f47c53bd453a&page=table"
   },
-  "_signature": "WuQWmyZo1IBOWNC9Tjj5CgMTBZUw54NX8/yQ5Qxfe2+ZFMY6fifx08Xw/VS/ycF0cGx+PXLwrxA0EnN1kMozCA=="
+  "finished_at": "2022-06-15T13:14:41.934181+00:00",
+  "_signature": "CBSKP81nHWHUmZljaPaKBAkGnZRps+WUI7P8LveNEczgxw5ljHjGDGLDF3bjTu3cbslEBupBoJPl8lR5djNcCg=="
 }
