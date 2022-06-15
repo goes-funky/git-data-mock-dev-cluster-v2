@@ -1,0 +1,35 @@
+{
+  "streams": [
+    {
+      "group": "Copy of Numeric2",
+      "stream": "Copy of Numeric2-Sheet1",
+      "table_name": "Copy of Numeric2-Sheet1",
+      "tap_stream_id": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Numeric1",
+      "stream": "Numeric1-Sheet1",
+      "table_name": "Numeric1-Sheet1",
+      "tap_stream_id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "9dxDBpvg024pc7CDezOoA+SsuRHTOPUNEHWEN7usqtuCrAy0P5NL7BqAWpw90wTXFSmE3xX/L2Ng+fpAyzxoBw=="
+}
