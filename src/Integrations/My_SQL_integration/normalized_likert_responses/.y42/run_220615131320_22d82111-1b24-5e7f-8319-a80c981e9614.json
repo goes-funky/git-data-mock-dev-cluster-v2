@@ -45,8 +45,8 @@
     }
   },
   "created_at": "2022-06-15T13:13:20.340713+00:00",
-  "failed_at": "2022-06-15T13:14:19.837859+00:00",
-  "error_code": 500,
-  "error_message": "import failed",
-  "_signature": "/dHnP5COd+UzuKzOC8n45BC467xI1OnU3K7pX4t9fws6sxis4hix76/V3DdROIPHsF86jkIXQ3pwb1xITzxfDQ=="
+  "failed_at": "2022-06-15T13:16:12.145119+00:00",
+  "error_code": 404,
+  "error_message": "no data",
+  "_signature": "yMebv3tqsXqA5ZTkLtVwiQ9xuexzxUg67oKTwgGTKO7HF/CyW8m55NWh/gxa0v30DiWVSbl5CjKCttVhzTFYCQ=="
 }
