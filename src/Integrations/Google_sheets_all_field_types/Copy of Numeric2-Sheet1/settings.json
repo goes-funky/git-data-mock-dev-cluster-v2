@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+  "columns": [
+    "auto_detect"
+  ],
+  "import": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg/Sheet1",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}
