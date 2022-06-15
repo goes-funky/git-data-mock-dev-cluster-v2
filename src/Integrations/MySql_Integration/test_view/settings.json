@@ -1,0 +1,9 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "country",
+    "order_priority",
+    "order_date"
+  ],
+  "import": "tmp_test_data-test_view"
+}
