@@ -1,0 +1,43 @@
+{
+  "request_id": "220615131324_6d4951e1-bd1f-5258-bce2-eeaf86ddf301",
+  "status": "pending",
+  "request": {
+    "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "variable_name",
+        "variable_value"
+      ],
+      "import": "sys-ps_check_lost_instrumentation"
+    },
+    "created_at": "2022-06-15T13:13:24.459678+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/ps_check_lost_instrumentation",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "05061d972ba05c1a421ac76d20e5446d1f24d960"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-15T13:13:24.459678+00:00",
+  "_signature": "pLFaeK5SxH2o7vM/rZNu/g1/lp9wBasDe6InR0u0sk1s/OxFdSJgTwwR3eTGChfId5eqgc6ozfgSTLVHT/QWDg=="
+}
