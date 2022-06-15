@@ -1,6 +1,6 @@
 {
   "request_id": "220615131332_fc4ed166-f14b-52f3-9c95-88de3f7e5664",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -60,7 +60,56 @@
     "write_disposition": "TRUNCATE",
     "external_id": "9492463d-c5b6-4ac4-8822-ebf31ff73695",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/e9fc134e-7581-46af-905b-26edb7e67dbe",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:14:59.851303+00:00",
+    "row_count": 60,
+    "current_import_row_count": 60,
+    "size_in_bytes": 4578,
+    "columns": [
+      {
+        "field_name": "object_schema",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "pages",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "data",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "pages_old",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "rows_cached",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "object_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "pages_hashed",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "allocated",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220615131332_fc4ed166-f14b-52f3-9c95-88de3f7e5664",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131332_fc4ed166-f14b-52f3-9c95-88de3f7e5664&page=table"
   },
-  "_signature": "n6Ns1dYO7an17JHODKJ0MbboKtmtNWYTJqSp5tFoGjsCKT+L5WTMV8pX6UiaOCWt+EUHb3gSxPgrxDA+SeYnDw=="
+  "finished_at": "2022-06-15T13:14:59.851481+00:00",
+  "_signature": "7rnsrVcVAgzrbQA+kzaCe83nCZkQ9tMjf+J7pxLTpGYQ05oRL218J7FC+q4iLNgLKNjsmO3ZH3dtcAen+jiLCg=="
 }
