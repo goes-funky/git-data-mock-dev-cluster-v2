@@ -1,0 +1,57 @@
+{
+  "request_id": "220615131329_97573d14-f41e-5da2-9db9-7c8597a965d3",
+  "status": "pending",
+  "request": {
+    "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "query",
+        "db",
+        "full_scan",
+        "exec_count",
+        "err_count",
+        "warn_count",
+        "total_latency",
+        "max_latency",
+        "avg_latency",
+        "rows_sent",
+        "rows_sent_avg",
+        "rows_examined",
+        "rows_examined_avg",
+        "first_seen",
+        "last_seen",
+        "digest"
+      ],
+      "import": "sys-statements_with_runtimes_in_95th_percentile"
+    },
+    "created_at": "2022-06-15T13:13:29.645748+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/statements_with_runtimes_in_95th_percentile",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "61346480845bc74c2b343a3bcb896f9f977953b5"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-15T13:13:29.645748+00:00",
+  "_signature": "GpslB78D7V4k7Yp2SQEC9ZISpHhn7uRBuSxWSjA4IRbYNG8DDdqlclCd/TS9IJPmjmlqBv70VmOrDhsrYNVeAg=="
+}
