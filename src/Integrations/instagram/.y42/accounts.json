@@ -1,0 +1,17 @@
+{
+  "accounts": [
+    {
+      "id": "102004408442825",
+      "name": "y42dotcom"
+    },
+    {
+      "id": "105306121815794",
+      "name": "singer.test"
+    },
+    {
+      "id": "110203024472908",
+      "name": "singer.integration"
+    }
+  ],
+  "_signature": "G9O82AojU/A9szJDN1Rvam+LtTZ2GsNPkuD6fMZI6gUEKprPurWwcwXgM3aE9NOrAJPUu06V5I0df54Pc/HkCQ=="
+}
