@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/table",
+  "columns": [
+    "id",
+    "page_id",
+    "allowed_advertising_objects",
+    "created_time",
+    "full_picture",
+    "icon",
+    "message",
+    "is_eligible_for_promotion",
+    "is_expired",
+    "is_hidden",
+    "is_instagram_eligible",
+    "is_popular",
+    "is_published",
+    "is_spherical",
+    "parent_id",
+    "permalink_url",
+    "place",
+    "story",
+    "subscribed",
+    "updated_time"
+  ],
+  "import": "posts"
+}

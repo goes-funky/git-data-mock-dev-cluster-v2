@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/table",
+  "columns": [
+    "name",
+    "period",
+    "value",
+    "context",
+    "end_time",
+    "title",
+    "description",
+    "id",
+    "page_id"
+  ],
+  "import": "page_insight_website_clicks"
+}
