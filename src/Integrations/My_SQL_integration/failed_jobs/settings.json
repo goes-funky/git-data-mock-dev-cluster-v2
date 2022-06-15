@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "connection",
+    "queue",
+    "payload",
+    "exception",
+    "failed_at",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-failed_jobs"
+}

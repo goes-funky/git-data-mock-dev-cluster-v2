@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "table_schema",
+    "table_name",
+    "index_name",
+    "rows_selected",
+    "select_latency",
+    "rows_inserted",
+    "insert_latency",
+    "rows_updated",
+    "update_latency",
+    "rows_deleted",
+    "delete_latency"
+  ],
+  "import": "sys-x$schema_index_statistics"
+}

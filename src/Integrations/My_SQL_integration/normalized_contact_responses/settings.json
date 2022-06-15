@@ -1,0 +1,24 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "question_text_1",
+    "question_text_2",
+    "first_name",
+    "last_name",
+    "email",
+    "phone",
+    "address_line_1",
+    "address_line_2",
+    "postal_code",
+    "city",
+    "country",
+    "survey_file_id",
+    "answer_id",
+    "question_id",
+    "parent_question_id",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-normalized_contact_responses"
+}

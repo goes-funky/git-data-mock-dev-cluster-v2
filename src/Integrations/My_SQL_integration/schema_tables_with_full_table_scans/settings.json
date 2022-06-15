@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "object_schema",
+    "object_name",
+    "rows_full_scanned",
+    "latency"
+  ],
+  "import": "sys-schema_tables_with_full_table_scans"
+}

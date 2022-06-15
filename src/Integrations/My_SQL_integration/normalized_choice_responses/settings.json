@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "val",
+    "survey_file_id",
+    "answer_id",
+    "question_id",
+    "parent_question_id",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-normalized_choice_responses"
+}

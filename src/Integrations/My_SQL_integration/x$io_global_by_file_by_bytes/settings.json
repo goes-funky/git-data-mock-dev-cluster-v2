@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "file",
+    "count_read",
+    "total_read",
+    "avg_read",
+    "count_write",
+    "total_written",
+    "avg_write",
+    "total",
+    "write_pct"
+  ],
+  "import": "sys-x$io_global_by_file_by_bytes"
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "Variable_name",
+    "Variable_value",
+    "Type",
+    "Enabled"
+  ],
+  "import": "sys-metrics"
+}

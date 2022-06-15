@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "variable",
+    "value",
+    "set_time",
+    "set_by",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "sys-sys_config"
+}

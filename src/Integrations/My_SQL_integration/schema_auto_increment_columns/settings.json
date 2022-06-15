@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "table_schema",
+    "table_name",
+    "column_name",
+    "data_type",
+    "column_type",
+    "is_signed",
+    "is_unsigned",
+    "max_value",
+    "auto_increment",
+    "auto_increment_ratio"
+  ],
+  "import": "sys-schema_auto_increment_columns"
+}

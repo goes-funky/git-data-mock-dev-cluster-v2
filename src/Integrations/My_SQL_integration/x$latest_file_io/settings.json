@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "thread",
+    "file",
+    "latency",
+    "operation",
+    "requested"
+  ],
+  "import": "sys-x$latest_file_io"
+}

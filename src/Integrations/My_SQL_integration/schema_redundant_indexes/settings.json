@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "table_schema",
+    "table_name",
+    "redundant_index_name",
+    "redundant_index_columns",
+    "redundant_index_non_unique",
+    "dominant_index_name",
+    "dominant_index_columns",
+    "dominant_index_non_unique",
+    "subpart_exists",
+    "sql_drop_index"
+  ],
+  "import": "sys-schema_redundant_indexes"
+}

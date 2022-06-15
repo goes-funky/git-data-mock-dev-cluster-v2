@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "host",
+    "current_count_used",
+    "current_allocated",
+    "current_avg_alloc",
+    "current_max_alloc",
+    "total_allocated"
+  ],
+  "import": "sys-memory_by_host_by_current_bytes"
+}

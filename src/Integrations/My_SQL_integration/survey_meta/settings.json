@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "name",
+    "description",
+    "display_name",
+    "icon",
+    "type",
+    "hidden",
+    "created_at",
+    "updated_at",
+    "type_id",
+    "options",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-survey_meta"
+}

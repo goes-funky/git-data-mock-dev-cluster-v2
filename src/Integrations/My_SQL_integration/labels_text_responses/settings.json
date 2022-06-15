@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "label_id",
+    "normalized_text_response_id",
+    "created_at",
+    "updated_at",
+    "survey_file_id",
+    "answer_id",
+    "question_id",
+    "parent_question_id",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-labels_text_responses"
+}

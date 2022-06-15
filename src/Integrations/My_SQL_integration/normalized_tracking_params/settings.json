@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "val",
+    "tracking_param_id",
+    "survey_file_id",
+    "answer_id",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-normalized_tracking_params"
+}

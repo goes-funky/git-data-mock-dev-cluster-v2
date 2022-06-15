@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "avg_us",
+    "percentile"
+  ],
+  "import": "sys-x$ps_digest_95th_percentile_by_avg_us"
+}

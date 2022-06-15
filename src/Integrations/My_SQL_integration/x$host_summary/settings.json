@@ -1,0 +1,18 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "host",
+    "statements",
+    "statement_latency",
+    "statement_avg_latency",
+    "table_scans",
+    "file_ios",
+    "file_io_latency",
+    "current_connections",
+    "total_connections",
+    "unique_users",
+    "current_memory",
+    "total_memory_allocated"
+  ],
+  "import": "sys-x$host_summary"
+}

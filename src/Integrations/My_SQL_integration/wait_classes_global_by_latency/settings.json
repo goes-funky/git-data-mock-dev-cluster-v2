@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "event_class",
+    "total",
+    "total_latency",
+    "min_latency",
+    "avg_latency",
+    "max_latency"
+  ],
+  "import": "sys-wait_classes_global_by_latency"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "query",
+    "db",
+    "exec_count",
+    "total_latency",
+    "sort_merge_passes",
+    "avg_sort_merges",
+    "sorts_using_scans",
+    "sort_using_range",
+    "rows_sorted",
+    "avg_rows_sorted",
+    "first_seen",
+    "last_seen",
+    "digest"
+  ],
+  "import": "sys-x$statements_with_sorting"
+}

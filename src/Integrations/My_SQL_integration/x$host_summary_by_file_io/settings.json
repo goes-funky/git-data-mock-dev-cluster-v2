@@ -1,0 +1,9 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "host",
+    "ios",
+    "io_latency"
+  ],
+  "import": "sys-x$host_summary_by_file_io"
+}

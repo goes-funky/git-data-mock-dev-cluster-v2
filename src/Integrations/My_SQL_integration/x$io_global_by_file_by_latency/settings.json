@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "file",
+    "total",
+    "total_latency",
+    "count_read",
+    "read_latency",
+    "count_write",
+    "write_latency",
+    "count_misc",
+    "misc_latency"
+  ],
+  "import": "sys-x$io_global_by_file_by_latency"
+}

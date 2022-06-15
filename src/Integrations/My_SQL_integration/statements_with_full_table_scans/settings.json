@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "query",
+    "db",
+    "exec_count",
+    "total_latency",
+    "no_index_used_count",
+    "no_good_index_used_count",
+    "no_index_used_pct",
+    "rows_sent",
+    "rows_examined",
+    "rows_sent_avg",
+    "rows_examined_avg",
+    "first_seen",
+    "last_seen",
+    "digest"
+  ],
+  "import": "sys-statements_with_full_table_scans"
+}

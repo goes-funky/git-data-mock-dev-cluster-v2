@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "cnt",
+    "avg_us"
+  ],
+  "import": "sys-x$ps_digest_avg_latency_distribution"
+}

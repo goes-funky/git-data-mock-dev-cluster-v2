@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "thread_id",
+    "ssl_version",
+    "ssl_cipher",
+    "ssl_sessions_reused"
+  ],
+  "import": "sys-session_ssl_status"
+}

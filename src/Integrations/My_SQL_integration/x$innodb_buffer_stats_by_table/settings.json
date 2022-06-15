@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "object_schema",
+    "object_name",
+    "allocated",
+    "data",
+    "pages",
+    "pages_hashed",
+    "pages_old",
+    "rows_cached"
+  ],
+  "import": "sys-x$innodb_buffer_stats_by_table"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "query",
+    "db",
+    "exec_count",
+    "total_latency",
+    "memory_tmp_tables",
+    "disk_tmp_tables",
+    "avg_tmp_tables_per_query",
+    "tmp_tables_to_disk_pct",
+    "first_seen",
+    "last_seen",
+    "digest"
+  ],
+  "import": "sys-statements_with_temp_tables"
+}

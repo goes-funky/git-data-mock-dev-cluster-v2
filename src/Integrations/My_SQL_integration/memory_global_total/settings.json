@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "total_allocated"
+  ],
+  "import": "sys-memory_global_total"
+}

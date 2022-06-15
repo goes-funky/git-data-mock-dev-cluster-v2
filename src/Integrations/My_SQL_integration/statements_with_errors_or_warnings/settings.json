@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "query",
+    "db",
+    "exec_count",
+    "errors",
+    "error_pct",
+    "warnings",
+    "warning_pct",
+    "first_seen",
+    "last_seen",
+    "digest"
+  ],
+  "import": "sys-statements_with_errors_or_warnings"
+}

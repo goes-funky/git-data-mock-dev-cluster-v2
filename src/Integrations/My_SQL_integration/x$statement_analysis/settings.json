@@ -1,0 +1,29 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "query",
+    "db",
+    "full_scan",
+    "exec_count",
+    "err_count",
+    "warn_count",
+    "total_latency",
+    "max_latency",
+    "avg_latency",
+    "lock_latency",
+    "rows_sent",
+    "rows_sent_avg",
+    "rows_examined",
+    "rows_examined_avg",
+    "rows_affected",
+    "rows_affected_avg",
+    "tmp_tables",
+    "tmp_disk_tables",
+    "rows_sorted",
+    "sort_merge_passes",
+    "digest",
+    "first_seen",
+    "last_seen"
+  ],
+  "import": "sys-x$statement_analysis"
+}

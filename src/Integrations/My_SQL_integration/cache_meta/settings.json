@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "cache_key",
+    "valid_until",
+    "table_name",
+    "created_at",
+    "updated_at",
+    "refresh_count",
+    "filter_query",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-cache_meta"
+}

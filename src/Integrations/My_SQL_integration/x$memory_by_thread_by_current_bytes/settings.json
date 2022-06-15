@@ -1,0 +1,13 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "thread_id",
+    "user",
+    "current_count_used",
+    "current_allocated",
+    "current_avg_alloc",
+    "current_max_alloc",
+    "total_allocated"
+  ],
+  "import": "sys-x$memory_by_thread_by_current_bytes"
+}

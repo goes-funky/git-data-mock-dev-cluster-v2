@@ -1,0 +1,11 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "events",
+    "total",
+    "total_latency",
+    "avg_latency",
+    "max_latency"
+  ],
+  "import": "sys-x$waits_global_by_latency"
+}

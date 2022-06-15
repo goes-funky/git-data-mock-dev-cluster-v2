@@ -1,0 +1,31 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "survey_file_id",
+    "ip_address",
+    "is_complete",
+    "response_data",
+    "survey_number",
+    "is_test",
+    "is_processed",
+    "iso_code",
+    "country",
+    "city",
+    "state",
+    "state_name",
+    "postal_code",
+    "lat",
+    "lon",
+    "timezone",
+    "continent",
+    "currency",
+    "csv_answer_id",
+    "query_params",
+    "created_at",
+    "updated_at",
+    "sdc_deleted_at",
+    "sdc_extracted_at"
+  ],
+  "import": "analytics-survey_answers"
+}

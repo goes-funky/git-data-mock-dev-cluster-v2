@@ -1,0 +1,15 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "user",
+    "total",
+    "total_latency",
+    "max_latency",
+    "lock_latency",
+    "rows_sent",
+    "rows_examined",
+    "rows_affected",
+    "full_scans"
+  ],
+  "import": "sys-user_summary_by_statement_latency"
+}

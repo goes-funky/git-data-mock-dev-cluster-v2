@@ -1,0 +1,12 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "table_schema",
+    "table_name",
+    "index_name",
+    "non_unique",
+    "subpart_exists",
+    "index_columns"
+  ],
+  "import": "sys-x$schema_flattened_keys"
+}
