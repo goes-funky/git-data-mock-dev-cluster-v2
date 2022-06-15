@@ -1,6 +1,6 @@
 {
   "request_id": "220615131321_b24b101c-cdaa-5b23-abcf-27e402c42221",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -53,7 +53,21 @@
     "write_disposition": "TRUNCATE",
     "external_id": "5c37f296-3ebb-4718-964c-d17f54a51d1f",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/e074d2f7-c63e-4471-9b96-5f8c0fec12b4",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:16:06.454046+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 0,
+    "columns": [
+      {
+        "field_name": "total_allocated",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220615131321_b24b101c-cdaa-5b23-abcf-27e402c42221",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131321_b24b101c-cdaa-5b23-abcf-27e402c42221&page=table"
   },
-  "_signature": "5EXJK0r60vawszXFEf45BDFOxsH52hJ4Ol4Bv0a11IxzItVIdYWddRqvVySDoInPzgHQskcRl/0v9alBKaEPDg=="
+  "finished_at": "2022-06-15T13:16:06.454136+00:00",
+  "_signature": "fhukYfYL9MSjtR5B3QHMKCyC1e12oCyKzkG+yvL+QkRIxN4TzTroeuWrXI9IMskxQd2ORZ52XU/C5yp5YSO7DQ=="
 }
