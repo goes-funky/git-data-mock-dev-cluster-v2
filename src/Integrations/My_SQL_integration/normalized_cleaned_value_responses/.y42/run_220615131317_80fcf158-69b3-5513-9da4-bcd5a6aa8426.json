@@ -1,0 +1,51 @@
+{
+  "request_id": "220615131317_80fcf158-69b3-5513-9da4-bcd5a6aa8426",
+  "status": "pending",
+  "request": {
+    "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "id",
+        "val",
+        "normalized_text_id",
+        "survey_file_id",
+        "answer_id",
+        "question_id",
+        "polarity",
+        "parent_question_id",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "analytics-normalized_cleaned_value_responses"
+    },
+    "created_at": "2022-06-15T13:13:17.289354+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/normalized_cleaned_value_responses",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "7b85031de6860bfee39563f655dddadfdac89b20"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-15T13:13:17.289354+00:00",
+  "_signature": "EZyY9kM3vIgaffcwdhAL1omTSkF3boyPFHx64VRHBdwfOXJryqfvQ7XeAIqSmlG6gYxJ1qhML+58TuENdl5mCQ=="
+}
