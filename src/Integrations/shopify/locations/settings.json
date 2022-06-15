@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "phone",
+    "id",
+    "country",
+    "address1",
+    "name",
+    "address2",
+    "province",
+    "city",
+    "company",
+    "country_code",
+    "province_code",
+    "zip",
+    "created_at",
+    "updated_at"
+  ],
+  "import": "locations"
+}
