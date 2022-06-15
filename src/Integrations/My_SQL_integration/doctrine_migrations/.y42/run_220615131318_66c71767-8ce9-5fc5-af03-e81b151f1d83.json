@@ -1,6 +1,6 @@
 {
   "request_id": "220615131318_66c71767-8ce9-5fc5-af03-e81b151f1d83",
-  "status": "invalid",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -43,5 +43,46 @@
   "failed_at": "2022-06-15T13:14:04.715377+00:00",
   "error_code": 500,
   "error_message": "import failed",
-  "_signature": "DgNEoZ0KbfJjWka9vImB5TRQV92wRa0JWeGhL4m+J4+S1zWQGfw865/gMpbzKBnPctvaszhpC4Ohpb853Qq4Dg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-15T13:14:31.331159+00:00",
+    "external_state": {
+      "bookmarks": {
+        "analytics-doctrine_migrations": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "8d3d30bf2c1c6f6ca85b32e0cf618527"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "1b67de85-404e-4d0e-a6b0-7a0f46da05a7",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/b21f6803-d67a-4132-b48a-18a7db3b6f36",
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:14:43.041940+00:00",
+    "row_count": 26,
+    "current_import_row_count": 26,
+    "size_in_bytes": 416,
+    "columns": [
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "version",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220615131318_66c71767-8ce9-5fc5-af03-e81b151f1d83",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131318_66c71767-8ce9-5fc5-af03-e81b151f1d83&page=table"
+  },
+  "finished_at": "2022-06-15T13:14:43.042065+00:00",
+  "_signature": "K8ikh1uGR1iGL84avfG+B8fZRnxtWxy6ui7lqDaOflwT0x0AD+1jN8NKFCVwSNCNsj1mfWXVw6AlVdUtfELKBg=="
 }
