@@ -1,6 +1,6 @@
 {
   "request_id": "220615131315_fb5b149b-c3d7-5ee3-a5ae-95d13789b9b7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -62,5 +62,158 @@
     }
   },
   "created_at": "2022-06-15T13:13:15.073974+00:00",
-  "_signature": "2LBqSiEPrJNRQbVLtvR88v11uMcB8KE9445hNIMlZiRoDVKa6dvw8Qrm8b8JYw4rJzioLkzcgPsWhnQ/6T5cCg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-15T13:13:58.528739+00:00",
+    "external_state": {
+      "bookmarks": {
+        "analytics-survey_answers": {
+          "replication_key": "id",
+          "replication_key_value": 322,
+          "version": 1655298815214
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "6d4f5ea731086bbe81f40b5149ef646a"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "8b1d54e6-8f2c-45ab-bedc-19b502f6f1c8",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/57655424-faa6-4015-8d14-d7157754f950",
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:14:09.299809+00:00",
+    "row_count": 322,
+    "current_import_row_count": 322,
+    "size_in_bytes": 346023,
+    "columns": [
+      {
+        "field_name": "postal_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "state_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "csv_answer_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "is_processed",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "survey_number",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "iso_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "survey_file_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "is_test",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "timezone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "is_complete",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "lon",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ip_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "query_params",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "state",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "city",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "currency",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "response_data",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "continent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "lat",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220615131315_fb5b149b-c3d7-5ee3-a5ae-95d13789b9b7",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131315_fb5b149b-c3d7-5ee3-a5ae-95d13789b9b7&page=table"
+  },
+  "finished_at": "2022-06-15T13:14:09.299995+00:00",
+  "_signature": "p5JRLKwtW5SUiHpF4gOaTGIDICXMwdNoi6lw8nQglJ7F8YM9DPeUhbPsTkpHYFPPUc/BkkscPO2bxktAGA4UBA=="
 }
