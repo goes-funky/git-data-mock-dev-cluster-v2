@@ -1,0 +1,66 @@
+{
+  "request_id": "220615131315_fb5b149b-c3d7-5ee3-a5ae-95d13789b9b7",
+  "status": "pending",
+  "request": {
+    "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "id",
+        "survey_file_id",
+        "ip_address",
+        "is_complete",
+        "response_data",
+        "survey_number",
+        "is_test",
+        "is_processed",
+        "iso_code",
+        "country",
+        "city",
+        "state",
+        "state_name",
+        "postal_code",
+        "lat",
+        "lon",
+        "timezone",
+        "continent",
+        "currency",
+        "csv_answer_id",
+        "query_params",
+        "created_at",
+        "updated_at",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "analytics-survey_answers"
+    },
+    "created_at": "2022-06-15T13:13:15.073974+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/survey_answers",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "7b85031de6860bfee39563f655dddadfdac89b20"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-15T13:13:15.073974+00:00",
+  "_signature": "2LBqSiEPrJNRQbVLtvR88v11uMcB8KE9445hNIMlZiRoDVKa6dvw8Qrm8b8JYw4rJzioLkzcgPsWhnQ/6T5cCg=="
+}
