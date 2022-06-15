@@ -1,0 +1,54 @@
+{
+  "request_id": "220615131337_60ac6a04-3089-5db8-a035-e97bac96ce9c",
+  "status": "pending",
+  "request": {
+    "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "event_name",
+        "total",
+        "total_latency",
+        "min_latency",
+        "avg_latency",
+        "max_latency",
+        "count_read",
+        "total_read",
+        "avg_read",
+        "count_write",
+        "total_written",
+        "avg_written",
+        "total_requested"
+      ],
+      "import": "sys-x$io_global_by_wait_by_bytes"
+    },
+    "created_at": "2022-06-15T13:13:37.434302+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/x$io_global_by_wait_by_bytes",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "292ab17a81ad55efa0200bba17a58a27c25039df"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "95",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-15T13:13:37.434302+00:00",
+  "_signature": "lwfAw0tQoBARTrNxsilgK1aOCQGLPFrNLLrlH0Mge6VgkmxZc60LEmeH0ZXR3Z3TGyZV+AHOoTMK5EeMb4OOAA=="
+}
