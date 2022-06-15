@@ -50,8 +50,8 @@
     }
   },
   "created_at": "2022-06-15T13:13:38.960717+00:00",
-  "failed_at": "2022-06-15T13:14:18.904228+00:00",
-  "error_code": 500,
-  "error_message": "import failed",
-  "_signature": "AFv3h+13+mvVDOda4dTXXZPOe/jIsgirtskAVJgucdELOS5/CotSqldoXFTsX+fG/7MEHPdvLxFEjrvbRB3XBw=="
+  "failed_at": "2022-06-15T13:16:12.635494+00:00",
+  "error_code": 404,
+  "error_message": "no data",
+  "_signature": "wGJk4vK75KgLRGNOgrrww8Y1yLECigS4TNR4CZcKlMpEX+SqLaqbqjmJ94sCAvVCFKQHa3hZP8HCbUZB0UGBAQ=="
 }
