@@ -1,6 +1,6 @@
 {
   "request_id": "220615131320_cdc6fd83-71e7-5524-bf93-1c4c7a4db23c",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -62,7 +62,56 @@
     "write_disposition": "TRUNCATE",
     "external_id": "67822b09-9e45-4acc-a3b6-508166c46987",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/cce9d6af-eaf4-4712-a69f-314bbbf1a895",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:16:29.909360+00:00",
+    "row_count": 17393,
+    "current_import_row_count": 17393,
+    "size_in_bytes": 233920225,
+    "columns": [
+      {
+        "field_name": "queue",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "connection",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "exception",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "failed_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "payload",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220615131320_cdc6fd83-71e7-5524-bf93-1c4c7a4db23c",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131320_cdc6fd83-71e7-5524-bf93-1c4c7a4db23c&page=table"
   },
-  "_signature": "HJLRq+QQmXIT6SAHJ/CpBi+APeiMMAT7/Z+2HvJRi/X6jtbGutR0BhGs8el8a6N4TyaVbgnc8nBTRVICjN23Dw=="
+  "finished_at": "2022-06-15T13:16:29.909507+00:00",
+  "_signature": "DJsrlX6sV6sgHA10jhSvCnqhc2uYNMd7FvQpLPse4rPRrfcTv0mqThwtyw8fNKPtI0+q1W4Y5u7qlslVlJX8Bw=="
 }
