@@ -1,6 +1,6 @@
 {
   "request_id": "220615131329_98e9e2d7-3040-581a-b101-aa6ce45472a3",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -58,7 +58,46 @@
     "write_disposition": "TRUNCATE",
     "external_id": "b614f708-5741-447f-ab96-83081e6e64ce",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/5c425c9f-3b13-4ffa-b88c-b61731e8f487",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-15T13:15:48.471070+00:00",
+    "row_count": 6,
+    "current_import_row_count": 6,
+    "size_in_bytes": 259,
+    "columns": [
+      {
+        "field_name": "set_by",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "variable",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "set_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220615131329_98e9e2d7-3040-581a-b101-aa6ce45472a3",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131329_98e9e2d7-3040-581a-b101-aa6ce45472a3&page=table"
   },
-  "_signature": "nuPXZlVNtpWeBec/va7veltJoQvDAMNGPfoLuc9uH0FjZHYQLJ8Doqc16tkK1ljggPWY0b/zb05EMVoCm69CBg=="
+  "finished_at": "2022-06-15T13:15:48.471173+00:00",
+  "_signature": "fvn4H496SGkp2kOWdNTYhOCSFoQ+vENfVzl8rwwz64zCRkWuVUrXG/LR2temsulu7RkoUmObEGaKN/OW49YXAg=="
 }
