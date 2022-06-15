@@ -1,6 +1,6 @@
 {
   "request_id": "220615131326_e9816512-1dd7-5612-8e29-3464938d4715",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d01d3522-28b4-41f2-8458-693d311d900e",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -47,5 +47,68 @@
     }
   },
   "created_at": "2022-06-15T13:13:26.100367+00:00",
-  "_signature": "0w0lNrH/Khb+y/DyWD14+91xTpJ82Rh61doNttaAkAv2bWzbUCDnHjK/x/y3BNxOItJKtNlKPgSfPzodUsgHBg=="
+  "finished_at": "2022-06-15T13:16:28.378438+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-15T13:16:28.378326+00:00",
+    "row_count": 11,
+    "current_import_row_count": 11,
+    "size_in_bytes": 1994,
+    "external_id": "cbb3ff84-16ad-4494-8584-0d90b2b44d7d",
+    "columns": [
+      {
+        "field_name": "table_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "dominant_index_columns",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "redundant_index_columns",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "dominant_index_non_unique",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "sql_drop_index",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "table_schema",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "subpart_exists",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "redundant_index_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "redundant_index_non_unique",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "dominant_index_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220615131326_e9816512-1dd7-5612-8e29-3464938d4715",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220615131326_e9816512-1dd7-5612-8e29-3464938d4715&page=table"
+  },
+  "_signature": "94A8ATWEd55b/885RmmYTTsgViqU0dnWW9kQFmg6yKliJQKcmLtngWib5LR8PPdja4OrDn2ODfuMMlku+riGAQ=="
 }
