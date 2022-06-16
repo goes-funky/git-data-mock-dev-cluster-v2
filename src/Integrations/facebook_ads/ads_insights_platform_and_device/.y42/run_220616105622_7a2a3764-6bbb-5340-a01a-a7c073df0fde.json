@@ -1,0 +1,54 @@
+{
+  "request_id": "220616105622_7a2a3764-6bbb-5340-a01a-a7c073df0fde",
+  "status": "pending",
+  "request": {
+    "source_credentials": "4e9fee00-6402-4dd3-acbe-bf7fd9cb9e49",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook/0.0.0/source.json",
+      "parent_id": "2869712333351891,437123967579523",
+      "start_date": "2021-06-16T12:52:31Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook/0.0.0/table",
+      "columns": [
+        "account_currency",
+        "account_id",
+        "account_name",
+        "ad_id",
+        "ad_name",
+        "adset_id",
+        "campaign_id",
+        "date_start",
+        "publisher_platform",
+        "platform_position",
+        "impression_device"
+      ],
+      "import": "ads_insights_platform_and_device"
+    },
+    "created_at": "2022-06-16T10:56:22.860365+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/facebook_ads/ads_insights_platform_and_device",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "5191e166bc4f95b3ea050657c7fae962691295f7"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-16T10:56:22.860365+00:00",
+  "_signature": "1umudEb/j5jTFzdi1uYJUjo9WrX0Od2PQEFBq8RNo1Hs5n3WEhXc/putBNe2PDYjy+RqGZEyFt0GyMrGi9WuCA=="
+}
