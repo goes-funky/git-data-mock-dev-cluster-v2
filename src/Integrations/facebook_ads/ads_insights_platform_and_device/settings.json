@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/facebook/0.0.0/table",
+  "columns": [
+    "account_currency",
+    "account_id",
+    "account_name",
+    "ad_id",
+    "ad_name",
+    "adset_id",
+    "campaign_id",
+    "date_start",
+    "publisher_platform",
+    "platform_position",
+    "impression_device"
+  ],
+  "import": "ads_insights_platform_and_device"
+}
