@@ -17,7 +17,9 @@
     {
       "type": "email",
       "custom_emails": [],
-      "team_ids": [],
+      "team_ids": [
+        "f5f2887e-efa5-4481-ae94-8b6ee95eb303"
+      ],
       "user_ids": [
         "gabriel.llamas@y42.com"
       ]
