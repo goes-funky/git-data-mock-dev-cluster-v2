@@ -1,6 +1,6 @@
 {
   "request_id": "220616150839_1bbc4642-ff7b-5bd3-a820-5ecce29dd4d9",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "4e9fee00-6402-4dd3-acbe-bf7fd9cb9e49",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -72,9 +72,74 @@
       "schema_hash": "978ea88ac43e3322445403735bbcffcf"
     },
     "write_disposition": "APPEND",
-    "external_id": "9ff3476b-c2d0-4e55-a7b4-ff68b99ffe4a",
+    "external_id": "070d43a6-4e78-43fe-9d02-c4a7e55de9f7",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-datos/2c9916c5-26d1-48dd-8430-8658810d9d50",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-16T15:11:19.354761+00:00",
+    "row_count": 46507,
+    "current_import_row_count": 6562,
+    "size_in_bytes": 6666005,
+    "previous_id": "220616105622_7a2a3764-6bbb-5340-a01a-a7c073df0fde",
+    "columns": [
+      {
+        "field_name": "account_currency",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "account_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ad_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "publisher_platform",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "platform_position",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "impression_device",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220616105622_7a2a3764-6bbb-5340-a01a-a7c073df0fde",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220616105622_7a2a3764-6bbb-5340-a01a-a7c073df0fde&page=table"
   },
-  "_signature": "gL3x7my0thlQFtCODwkcHBpMoT5JFX0fMIE9hu3/SwRwLbHmNX3F6kUoSujC18DQcRq9UL2kxHek2RHJAZywAA=="
+  "finished_at": "2022-06-16T15:11:19.354947+00:00",
+  "_signature": "50uYVDsoKJbIOGBPNitwumltnfJlIlsJi4tSh6Mbr3gZjThKIIiNf0FM/hB/FbYnOPRBYCReQmoVZJuAEjCrBQ=="
 }
