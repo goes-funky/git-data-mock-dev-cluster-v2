@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "Simon's Dash-1028caf0-4964-42ad-a4e4-0f9e2392850a.json",
+  "order": [
+    "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+  ],
+  "last_used_datasource_table_path": "src/Integrations/MySql_Integration/test_view"
+}
