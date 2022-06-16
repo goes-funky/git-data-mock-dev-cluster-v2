@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/alert/status-alert-settings.json",
+  "feature_type": "Integration",
+  "alert_on": [
+    "success"
+  ],
+  "triggered_by": [
+    "user"
+  ],
+  "title": "all vars",
+  "message_body": "<p><span style=\"color: rgb(152, 195, 121);\">{{url}} {{object_name}} {{triggered_by_type}} {{status}} {{completed_at}} {{git_url}} {{runtime}} {{feature_type}}</span></p>",
+  "patterns": [
+    "Google sheets all field types"
+  ],
+  "tags": [],
+  "destinations": [
+    {
+      "type": "email",
+      "custom_emails": [],
+      "team_ids": [],
+      "user_ids": [
+        "gabriel.llamas@y42.com"
+      ]
+    }
+  ]
+}
