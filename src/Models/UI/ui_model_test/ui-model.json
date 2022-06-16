@@ -1,5 +1,106 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "Google sheets all field types",
+        "transformObject": {
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-395 -163"
+    },
+    {
+      "key": "ca912279-95f5-437d-afd3-41e0d4f6f717",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "ca912279-95f5-437d-afd3-41e0d4f6f717",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "date",
+            "source": "date",
+            "type": "STRING",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-148 -177"
+    },
+    {
+      "key": "ef667a54-9172-48a6-aeb3-88cc5a37aebf",
+      "type": "DATE_PARSER",
+      "category": "DATE_PARSER",
+      "transformationStep": {
+        "id": "ef667a54-9172-48a6-aeb3-88cc5a37aebf",
+        "title": "",
+        "transformationType": "DATE_PARSER",
+        "transformObject": [
+          {
+            "target": "date",
+            "targetColumn": "date",
+            "format": "YYYY-MM-DD",
+            "timeZone": "UTC"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "157 -177"
+    },
+    {
+      "key": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
+      "type": "DATE_FORMATTER",
+      "category": "DATE_FORMATTER",
+      "transformationStep": {
+        "id": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
+        "title": "",
+        "transformationType": "DATE_FORMATTER",
+        "transformObject": [
+          {
+            "target": "date",
+            "source": "date",
+            "format": "MM-DD-YYYY",
+            "timezone": "UTC"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-132 29"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "ca912279-95f5-437d-afd3-41e0d4f6f717"
+    },
+    {
+      "from": "ca912279-95f5-437d-afd3-41e0d4f6f717",
+      "to": "ef667a54-9172-48a6-aeb3-88cc5a37aebf"
+    },
+    {
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "762a4f18-e20e-48ae-a236-8a7c9476f08f"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
