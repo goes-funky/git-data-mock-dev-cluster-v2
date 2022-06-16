@@ -3,8 +3,8 @@
   "name": "Google sheets all field types",
   "description": "",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": ["gabriel.llamas@y42.com"],
+  "experts": ["gabriel.llamas@y42.com"],
+  "watchers": ["gabriel.llamas@y42.com"],
   "asset_status": "no status"
 }
