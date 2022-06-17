@@ -1,3 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/source.json"
+  "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/source.json",
+   "start_date":"2021-01-13T03:22:26Z",
+   "parent_id":"150680723"
 }
