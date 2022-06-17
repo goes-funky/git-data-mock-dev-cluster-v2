@@ -1,0 +1,21 @@
+{
+  "request_id": "220617073653_849d642f-c69c-5cb2-8969-55a10748e2e0",
+  "status": "pending",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-17T07:38:07.454398+00:00",
+    "external_state": {
+      "bookmarks": {
+        "ads_insights_platform_and_device": {
+          "date_start": "2022-06-17"
+        }
+      },
+      "schema_hash": "978ea88ac43e3322445403735bbcffcf"
+    },
+    "write_disposition": "APPEND",
+    "external_id": "5b2a3300-11aa-46f7-ab6a-d9c8f2d55e82",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-datos/bf22b873-0b42-411f-8747-2a5adae1a136",
+    "partial": false
+  },
+  "_signature": "LWzN0OLaZNzmQyWK0G9NkTZImLNXG1jRB7WK1PvCLSDguEUqtX6wVBPJQlQntL/HIxLZqHcl6usigBspC1LwDw=="
+}
