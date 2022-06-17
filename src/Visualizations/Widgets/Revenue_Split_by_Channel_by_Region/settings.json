@@ -1,0 +1,64 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "treemap_chart",
+  "settings": {
+    "series": [
+      {
+        "field_id": "338c33a3_0f29_464c_a6e2_7cdfd74e37c8",
+        "format": "inherit"
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "5d9488bb_1d52_45fb_9c4f_9bd51731c787"
+    ],
+    "breakdowns": [
+      "be964fe2_f397_4443_82eb_8af5e68370aa"
+    ]
+  },
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "filters": [],
+  "fields": [
+    {
+      "field": "sales_channel",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_sales_channel_be964fe2_f397_4443_82eb_8af5e68370aa",
+      "id": "be964fe2_f397_4443_82eb_8af5e68370aa",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "region",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_region_5d9488bb_1d52_45fb_9c4f_9bd51731c787",
+      "id": "5d9488bb_1d52_45fb_9c4f_9bd51731c787",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "unit_price",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_unit_price_338c33a3_0f29_464c_a6e2_7cdfd74e37c8",
+      "id": "338c33a3_0f29_464c_a6e2_7cdfd74e37c8",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

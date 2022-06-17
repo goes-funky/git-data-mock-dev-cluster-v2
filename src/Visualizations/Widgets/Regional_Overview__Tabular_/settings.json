@@ -1,0 +1,630 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "table",
+  "settings": {
+    "series": [
+      {
+        "field_id": "8623ac09_1dd3_48f0_be16_a16fafc48a6a",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      },
+      {
+        "field_id": "c579b2ef_e7af_4c53_b9c9_a3f306158b44",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      },
+      {
+        "field_id": "5c7948fc_2a37_4b4b_946a_b646b054b044",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "dimensions": [
+      {
+        "field_id": "27c0264a_dc39_4879_ae57_4d1999489698",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "breakdowns": [],
+    "columnState": [],
+    "groupExpandedKeys": [],
+    "suppressMovable": false,
+    "paging": true,
+    "sortable": true,
+    "resizable": true,
+    "showFooterTotal": false,
+    "rowSettings": {
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderWidth": 1,
+      "fontSize": 12,
+      "align": "center",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "verticalAlign": "middle",
+      "fontFamily": "Arial",
+      "borderRadius": 0,
+      "padding": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "color": "#a7a7a7",
+      "colorTo": "#a7a7a7",
+      "borderPosition": "noneBorder",
+      "wordBreak": "keepAll",
+      "activeStyles": false
+    },
+    "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+    "chart_type": "table",
+    "filters": [],
+    "fields": [
+      {
+        "field": "region",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_region_27c0264a_dc39_4879_ae57_4d1999489698",
+        "id": "27c0264a_dc39_4879_ae57_4d1999489698",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "unit_price",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_unit_price_8623ac09_1dd3_48f0_be16_a16fafc48a6a",
+        "id": "8623ac09_1dd3_48f0_be16_a16fafc48a6a",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "unit_cost",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_unit_cost_c579b2ef_e7af_4c53_b9c9_a3f306158b44",
+        "id": "c579b2ef_e7af_4c53_b9c9_a3f306158b44",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "id",
+        "aggregation": "COUNT",
+        "type": "INTEGER",
+        "alias": "COUNT_id_5c7948fc_2a37_4b4b_946a_b646b054b044",
+        "id": "5c7948fc_2a37_4b4b_946a_b646b054b044",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "8623ac09_1dd3_48f0_be16_a16fafc48a6a",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        },
+        {
+          "field_id": "c579b2ef_e7af_4c53_b9c9_a3f306158b44",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        },
+        {
+          "field_id": "5c7948fc_2a37_4b4b_946a_b646b054b044",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "dimensions": [
+        {
+          "field_id": "27c0264a_dc39_4879_ae57_4d1999489698",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "breakdowns": [],
+      "columnState": [
+        {
+          "colId": "ag-Grid-AutoColumn-region",
+          "width": 283,
+          "hide": false,
+          "pinned": null,
+          "sort": null,
+          "sortIndex": null,
+          "aggFunc": null,
+          "rowGroup": false,
+          "rowGroupIndex": null,
+          "pivot": false,
+          "pivotIndex": null,
+          "flex": null
+        },
+        {
+          "colId": "unit_price",
+          "width": 271,
+          "hide": false,
+          "pinned": null,
+          "sort": null,
+          "sortIndex": null,
+          "aggFunc": "SUM",
+          "rowGroup": false,
+          "rowGroupIndex": null,
+          "pivot": false,
+          "pivotIndex": null,
+          "flex": null
+        },
+        {
+          "colId": "unit_cost",
+          "width": 257,
+          "hide": false,
+          "pinned": null,
+          "sort": null,
+          "sortIndex": null,
+          "aggFunc": "SUM",
+          "rowGroup": false,
+          "rowGroupIndex": null,
+          "pivot": false,
+          "pivotIndex": null,
+          "flex": null
+        },
+        {
+          "colId": "id",
+          "width": 263,
+          "hide": false,
+          "pinned": null,
+          "sort": null,
+          "sortIndex": null,
+          "aggFunc": "COUNT",
+          "rowGroup": false,
+          "rowGroupIndex": null,
+          "pivot": false,
+          "pivotIndex": null,
+          "flex": null
+        },
+        {
+          "colId": "region",
+          "width": 200,
+          "hide": true,
+          "pinned": null,
+          "sort": null,
+          "sortIndex": null,
+          "aggFunc": "VALUE",
+          "rowGroup": true,
+          "rowGroupIndex": 0,
+          "pivot": false,
+          "pivotIndex": null,
+          "flex": null
+        }
+      ],
+      "groupExpandedKeys": [],
+      "suppressMovable": false,
+      "paging": true,
+      "sortable": true,
+      "resizable": true,
+      "showFooterTotal": false,
+      "rowSettings": {
+        "backgroundColor": "transparent",
+        "borderColor": "#000000",
+        "borderWidth": 1,
+        "fontSize": 12,
+        "align": "center",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "color": "#a7a7a7",
+        "colorTo": "#a7a7a7",
+        "borderPosition": "noneBorder",
+        "wordBreak": "keepAll",
+        "activeStyles": false
+      }
+    }
+  },
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "filters": [],
+  "fields": [
+    {
+      "field": "region",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_region_27c0264a_dc39_4879_ae57_4d1999489698",
+      "id": "27c0264a_dc39_4879_ae57_4d1999489698",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "unit_price",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_unit_price_8623ac09_1dd3_48f0_be16_a16fafc48a6a",
+      "id": "8623ac09_1dd3_48f0_be16_a16fafc48a6a",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "unit_cost",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_unit_cost_c579b2ef_e7af_4c53_b9c9_a3f306158b44",
+      "id": "c579b2ef_e7af_4c53_b9c9_a3f306158b44",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "id",
+      "aggregation": "COUNT",
+      "type": "INTEGER",
+      "alias": "COUNT_id_5c7948fc_2a37_4b4b_946a_b646b054b044",
+      "id": "5c7948fc_2a37_4b4b_946a_b646b054b044",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

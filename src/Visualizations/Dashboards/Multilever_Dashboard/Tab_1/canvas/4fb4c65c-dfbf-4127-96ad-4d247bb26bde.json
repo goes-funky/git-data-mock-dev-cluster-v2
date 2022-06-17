@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
+  "type": "Filter",
+  "position": {
+    "x": 2248.165942334109,
+    "y": 172.8057098388672
+  },
+  "size": {
+    "height": 104.28260040283203,
+    "width": 484.7312744627661
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": {
+    "filterPath": "src/Visualizations/Filters/a5bba732-bf8b-4870-9eb5-97a3ad8453ca.json"
+  },
+  "styles": {
+    "background-color": "#ffffff00",
+    "border-color": "#f2f2f200",
+    "border-style": "solid",
+    "border-width": "1px",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}
