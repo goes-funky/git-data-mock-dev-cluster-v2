@@ -4,7 +4,9 @@
   "description": "",
   "tags": [],
   "owners": [],
-  "experts": [],
+  "experts": [
+    "ben.woodley@y42.com"
+  ],
   "watchers": [],
   "asset_status": "no status"
 }
