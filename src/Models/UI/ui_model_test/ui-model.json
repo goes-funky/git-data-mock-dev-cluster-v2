@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-395 -163"
+      "location": "-584 -164"
     },
     {
       "key": "ca912279-95f5-437d-afd3-41e0d4f6f717",
@@ -43,7 +43,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-148 -177"
+      "location": "-129 -242"
     },
     {
       "key": "ef667a54-9172-48a6-aeb3-88cc5a37aebf",
@@ -64,7 +64,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "157 -177"
+      "location": "207 -177"
     },
     {
       "key": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
@@ -85,7 +85,45 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-132 29"
+      "location": "81 29"
+    },
+    {
+      "key": "14e403b1-a88a-457e-b82a-c231a79eae1b",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "14e403b1-a88a-457e-b82a-c231a79eae1b",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "text_extracted",
+          "source": "text",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "NUMERIC",
+              "valueOrOffset": 0
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-205.0578512396694 167.7830188679245"
+    },
+    {
+      "key": "54ce1dff-f4ac-4836-b709-d26172c37bb7",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "54ce1dff-f4ac-4836-b709-d26172c37bb7",
+        "title": "",
+        "transformationType": "FIELDS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "62.29752066115702 173.53773584905662"
     }
   ],
   "linkDataArray": [
@@ -100,6 +138,14 @@
     {
       "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
       "to": "762a4f18-e20e-48ae-a236-8a7c9476f08f"
+    },
+    {
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "14e403b1-a88a-457e-b82a-c231a79eae1b"
+    },
+    {
+      "from": "14e403b1-a88a-457e-b82a-c231a79eae1b",
+      "to": "54ce1dff-f4ac-4836-b709-d26172c37bb7"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
