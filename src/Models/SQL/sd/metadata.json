@@ -2,7 +2,9 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
   "name": "sd",
   "description": "",
-  "tags": [],
+  "tags": [
+    "tag3"
+  ],
   "owners": [],
   "experts": [],
   "watchers": [],
