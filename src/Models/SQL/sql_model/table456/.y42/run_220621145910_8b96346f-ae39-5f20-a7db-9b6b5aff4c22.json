@@ -1,0 +1,37 @@
+{
+  "request_id": "220621145910_8b96346f-ae39-5f20-a7db-9b6b5aff4c22",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-06-21T14:59:10.333832+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/sql_model/table456",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "lyuba-branch"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "df7e761918fb27bd202d97aec72b9aa4b7c16b60"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "194",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-21T14:59:10.333832+00:00",
+  "_signature": "N9IqPgQARhOgjF83gWADRzkD4aLar4GUUMPePN/4+xYAmpXK7PvW5dUMoCIZxcik6609SMQqYVmm1TL2Kt1CDQ=="
+}
