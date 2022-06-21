@@ -1,16 +1,5 @@
 Select 
-  phone,
-  id,
-  country,
-  address1,
-  name,
-  address2,
-  province,
-  city,
-  company,
-  country_code,
-  province_code,
-  zip,
-  created_at,
-  updated_at
-from {{ ref('src/Integrations/shopify/locations') }}
+  version,
+  sdc_deleted_at,
+  sdc_extracted_at
+from {{ ref('src/Integrations/My_SQL_integration/doctrine_migrations') }}

@@ -86,6 +86,19 @@
       "isGroup": true,
       "group": "",
       "location": "-132 29"
+    },
+    {
+      "key": "db6d481b-cdae-48c0-9fc6-4a8e1bf2aeb5",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "db6d481b-cdae-48c0-9fc6-4a8e1bf2aeb5",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "125 79"
     }
   ],
   "linkDataArray": [
@@ -100,6 +113,10 @@
     {
       "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
       "to": "762a4f18-e20e-48ae-a236-8a7c9476f08f"
+    },
+    {
+      "from": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
+      "to": "db6d481b-cdae-48c0-9fc6-4a8e1bf2aeb5"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
