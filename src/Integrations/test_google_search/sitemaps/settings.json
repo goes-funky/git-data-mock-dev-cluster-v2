@@ -1,0 +1,16 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/table",
+  "columns": [
+    "site_url",
+    "path",
+    "last_submitted",
+    "is_pending",
+    "is_sitemaps_index",
+    "type",
+    "last_downloaded",
+    "warnings",
+    "errors",
+    "contents"
+  ],
+  "import": "sitemaps"
+}

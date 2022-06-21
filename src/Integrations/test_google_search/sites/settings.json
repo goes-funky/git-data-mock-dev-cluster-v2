@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/table",
+  "columns": [
+    "permission_level",
+    "site_url"
+  ],
+  "import": "sites"
+}
