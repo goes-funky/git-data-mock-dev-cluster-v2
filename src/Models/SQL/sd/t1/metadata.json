@@ -2,7 +2,7 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
   "name": "t1",
   "description": "",
-  "tags": [],
+  "tags": ["tag4"],
   "owners": [],
   "experts": [],
   "watchers": [],
