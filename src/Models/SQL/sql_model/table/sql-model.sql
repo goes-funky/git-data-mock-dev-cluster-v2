@@ -1,1 +1,13 @@
-
+Select 
+  id,
+  name,
+  orderindex,
+  override_statuses,
+  hidden,
+  space,
+  task_count,
+  archived,
+  statuses,
+  lists,
+  permission_level,
+  space_id
