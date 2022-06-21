@@ -1,6 +1,6 @@
 {
   "request_id": "220621090815_8e1cf0b7-a8ac-5946-91f7-c9a8a8637e29",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -33,5 +33,8 @@
     }
   },
   "created_at": "2022-06-21T09:08:15.075008+00:00",
-  "_signature": "Ruk24QKZPAmzrTjsWAUsxvLD5hw3DFC7/VQOEKyK1TC5TwLYnq3NcVLPE3fApwfDBtAPzlBnAkhrdUFpuIJ0Bw=="
+  "failed_at": "2022-06-21T09:08:43.560595+00:00",
+  "error_code": 422,
+  "error_message": "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Required parameter is missing\",\n    \"errors\": [\n      {\n        \"message\": \"Required parameter is missing\",\n        \"domain\": \"global\",\n        \"reason\": \"required\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+  "_signature": "F7VZBahfm7NSTdlo0sxMHI/yqkyjSokyZ8HTMtyR6zo09UmF7mY+qXG39LcR/o6Sa8OTdZsu18PjSjoChr1FAw=="
 }
