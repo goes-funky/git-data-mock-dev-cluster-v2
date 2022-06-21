@@ -4,5 +4,5 @@
   "order": [
     "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
   ],
-  "last_used_datasource_table_path": "src/Integrations/MySql_Integration/test_view"
+  "last_used_datasource_table_path": "src/Integrations/MySql_Integration/test_pk"
 }
