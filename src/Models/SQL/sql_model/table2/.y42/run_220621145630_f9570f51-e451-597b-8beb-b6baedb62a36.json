@@ -1,0 +1,8 @@
+{
+  "request_id": "220621145630_f9570f51-e451-597b-8beb-b6baedb62a36",
+  "status": "invalid",
+  "failed_at": "2022-06-21T14:56:38.483759+00:00",
+  "error_code": 422,
+  "error_message": "{\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Required parameter is missing\",\n    \"errors\": [\n      {\n        \"message\": \"Required parameter is missing\",\n        \"domain\": \"global\",\n        \"reason\": \"required\"\n      }\n    ],\n    \"status\": \"INVALID_ARGUMENT\"\n  }\n}\n",
+  "_signature": "yevkatcwgh5k5ZpSZvAinbrbGi0HgZC/nVvLK8Yhgsw1AQYR6PaZyqwLitV6OfAZozd2Cj79RxdrVTRx9zmGBQ=="
+}
