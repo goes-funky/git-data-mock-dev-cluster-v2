@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "lala-b59d850e-419b-4079-a862-bd7e7d52499f.json",
+  "order": [
+    "src/Visualizations/Dashboards/lala/Tab_1"
+  ]
+}

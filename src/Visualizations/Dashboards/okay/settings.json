@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "okay-28ce258d-051b-4afc-a73b-4e74822c5676.json",
+  "order": [
+    "src/Visualizations/Dashboards/okay/Tab_1"
+  ]
+}
