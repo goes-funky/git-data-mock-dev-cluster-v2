@@ -1,25 +1,25 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
-  "type": "Widget",
+  "type": "Shape",
   "position": {
-    "x": 757.6056518554688,
-    "y": 67
+    "x": 650.564002147027,
+    "y": 29.512294208154913
   },
   "size": {
-    "height": 374,
-    "width": 520.8228547834403
+    "height": 974.8060936221941,
+    "width": 1567.4468994140625
   },
-  "zIndex": 0,
+  "zIndex": -1,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/to_be_deleted"
+    "shapePath": "M 512 512 H 0 V 0 h 512 v 512 Z"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
-    "border-style": "solid",
-    "border-width": "1px",
+    "background-color": "#ffffffff",
+    "border-color": "#5a9deb",
+    "border-style": "none",
+    "border-width": "1",
     "border-radius": "0",
     "filter": "drop-shadow(0px 0px 0px #939393)"
   },
