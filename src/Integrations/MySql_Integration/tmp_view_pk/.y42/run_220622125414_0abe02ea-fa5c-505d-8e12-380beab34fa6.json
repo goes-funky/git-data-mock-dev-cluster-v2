@@ -1,6 +1,6 @@
 {
   "request_id": "220622125414_0abe02ea-fa5c-505d-8e12-380beab34fa6",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -68,7 +68,96 @@
     "write_disposition": "TRUNCATE",
     "external_id": "e4888b9d-e0ae-479e-ab8a-f6b19c882953",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/5c58b20e-15b8-4682-adc9-b15e79795343",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-22T13:00:37.164986+00:00",
+    "row_count": 1000000,
+    "current_import_row_count": 1000000,
+    "size_in_bytes": 136706927,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "item",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "total_cost",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "total_revenue",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "order_priority",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "unit_cost",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "sales_channel",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "unit_price",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "order_date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "ship_date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "units_sold",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "order_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "total_profit",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "region",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220622125414_0abe02ea-fa5c-505d-8e12-380beab34fa6",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220622125414_0abe02ea-fa5c-505d-8e12-380beab34fa6&page=table"
   },
-  "_signature": "afe4oEiNN1qAK9vwVPcvn5umT3HOdUlok2baqxmG7o3aeMJSvm2YeTNr6d6HboVoZDVMhS3hlLmhKlow8xIPAg=="
+  "finished_at": "2022-06-22T13:00:37.165175+00:00",
+  "_signature": "oQB6KpyDIyViCSjxqqDe1yFDrbWWD+fPZkku8Z4nVtwjbCRuZRnKIw6/G0peOLFNi/tF2kEqhpQQSlQIJR9iAw=="
 }
