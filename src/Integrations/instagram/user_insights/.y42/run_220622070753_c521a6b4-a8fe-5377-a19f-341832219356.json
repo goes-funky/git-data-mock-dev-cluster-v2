@@ -1,0 +1,63 @@
+{
+  "request_id": "220622070753_c521a6b4-a8fe-5377-a19f-341832219356",
+  "status": "pending",
+  "request": {
+    "source_credentials": "7b8d4f61-03bd-42e9-b1ff-0d8c72af7f4c",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/source.json",
+      "parent_id": "102004408442825",
+      "start_date": "2021-06-15T17:03:18Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/table",
+      "columns": [
+        "page_id",
+        "business_account_id",
+        "date",
+        "follower_count",
+        "get_directions_clicks",
+        "impressions",
+        "phone_call_clicks",
+        "profile_views",
+        "reach",
+        "text_message_clicks",
+        "website_clicks",
+        "impressions_week",
+        "reach_week",
+        "impressions_days_28",
+        "reach_days_28",
+        "online_followers"
+      ],
+      "import": "user_insights",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-06-22T07:07:53.417023+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/instagram/user_insights",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "lex"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "9104825c00e5f6ae34e4d1c42150036c2853ff08"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-22T07:07:53.417023+00:00",
+  "_signature": "zj9ic5SOXmEk09Zq7+VpBSg3ZhT8zG9pY2kHO6AFG/SSvb0Vt8FhhL8gQ7DZNlOm4lqjbqcyaQwPwQ2/VSiYCg=="
+}
