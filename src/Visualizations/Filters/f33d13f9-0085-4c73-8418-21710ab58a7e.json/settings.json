@@ -1,0 +1,29 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "field_name": "country",
+  "data_type": "STRING",
+  "type": "dropdown",
+  "operations": [
+    {
+      "operator": "=",
+      "values": [
+        "Egypt"
+      ],
+      "operator_type": "absolute",
+      "value_type": "NONE"
+    }
+  ],
+  "options": [
+    "Panama",
+    "Liberia",
+    "Egypt",
+    "Algeria",
+    "Brunei",
+    "Chad",
+    "Spain",
+    "Finland",
+    "Ghana",
+    "Taiwan"
+  ]
+}
