@@ -1,6 +1,6 @@
 {
   "request_id": "220622124248_1bf1ae3f-d093-56f5-84fb-da40e821d8b1",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -68,5 +68,117 @@
     "previous_table_id": "220616080115_5b51eceb-33fd-55c2-b708-6d083b58a66a"
   },
   "created_at": "2022-06-22T12:42:48.795753+00:00",
-  "_signature": "jPelERf5SZdLm1ssIFvGMChHK7eGmRcffRqIbOqGSRPpyNlDpvlGeMZDeJAPnemWY9WrdbbuDt+HSrF70ec1BA=="
+  "finished_at": "2022-06-22T12:43:07.877652+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-22T12:43:07.877652+00:00",
+    "row_count": 1000000,
+    "current_import_row_count": 0,
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-test_pk": {
+          "replication_key": "id",
+          "replication_key_value": 1000000,
+          "version": 1655366483095
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "a1d767f854edbe8c49597b94703699e0"
+    },
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "item",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "unit_price",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "units_sold",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "order_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "sales_channel",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "unit_cost",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "order_date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "total_cost",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "total_profit",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "total_revenue",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ship_date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "order_priority",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "region",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220616080115_5b51eceb-33fd-55c2-b708-6d083b58a66a",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220616080115_5b51eceb-33fd-55c2-b708-6d083b58a66a&page=table"
+  },
+  "_signature": "dQ75rPRjraUQOa+i9oYKmwGGG21FoaHlZan4UhqwBOYAfbdhw0/913M6Y2tBKZdpurcUk5q8RpGuRbl4dsAFDA=="
 }
