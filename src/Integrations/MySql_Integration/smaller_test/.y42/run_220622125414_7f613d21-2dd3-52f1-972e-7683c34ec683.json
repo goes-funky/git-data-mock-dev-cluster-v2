@@ -52,5 +52,22 @@
     }
   },
   "created_at": "2022-06-22T12:54:14.966567+00:00",
-  "_signature": "I8SSadurgTsUSpw7yGFUJlCK+6ISJSIMb9NNp67M1PkrGI+a1s6NRmulbK5dINkpu+n3nyzlGVzA+zNTlfvkBA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-22T12:56:10.959194+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-smaller_test": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "4b2b3053c386fb8efd5a1016916fe770"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "8243d464-877d-42cf-afdd-f4a50aaba901",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/6097e47a-af0e-44bb-bc17-32fc8f0c0535",
+    "partial": false
+  },
+  "_signature": "RP1auEsKyYmU94ytD0Uf5yRnDIJudLugkvxaNloVeRcamGtJODPjggb8KoUkZ8V/fzC+bmiiogwfZw0BD0FtAA=="
 }
