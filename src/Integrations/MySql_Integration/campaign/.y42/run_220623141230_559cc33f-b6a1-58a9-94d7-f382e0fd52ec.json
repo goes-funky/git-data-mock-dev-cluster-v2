@@ -1,0 +1,83 @@
+{
+  "request_id": "220623141230_559cc33f-b6a1-58a9-94d7-f382e0fd52ec",
+  "status": "pending",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "id",
+        "type",
+        "create_time",
+        "archive_url",
+        "long_archive_url",
+        "status",
+        "send_time",
+        "content_type",
+        "list_id",
+        "segment_text",
+        "segment_id",
+        "title",
+        "to_name",
+        "authenticate",
+        "timewarp",
+        "subject_line",
+        "from_name",
+        "reply_to",
+        "use_conversation",
+        "folder_id",
+        "auto_footer",
+        "inline_css",
+        "auto_tweet",
+        "fb_comments",
+        "template_id",
+        "drag_and_drop",
+        "clicktale",
+        "track_html_clicks",
+        "track_text_clicks",
+        "track_goals",
+        "track_opens",
+        "track_ecomm_360",
+        "google_analytics",
+        "_fivetran_deleted",
+        "winning_combination_id",
+        "winning_campaign_id",
+        "winner_criteria",
+        "wait_time",
+        "test_size",
+        "_fivetran_synced",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "tmp_test_data-campaign"
+    },
+    "created_at": "2022-06-23T14:12:30.504751+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/campaign",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "7e1ad32729b2b4219e2f0993be18ba4d557b0c3d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "6",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-23T14:12:30.504751+00:00",
+  "_signature": "JIiiMRoNW09Z39m7p+XPWsF/5KYe7ArCfnUb4bkN7V2marYFP075VCkuHld2QAI1bOAUwQ7y+w2dDKhZn1N/Dw=="
+}
