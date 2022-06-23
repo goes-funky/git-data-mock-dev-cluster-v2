@@ -1,7 +1,7 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
-  "name": "another_ui_model",
-  "description": "<p>something</p><p><br></p>",
+  "name": "table_1",
+  "description": "",
   "tags": [],
   "owners": [],
   "experts": [],
