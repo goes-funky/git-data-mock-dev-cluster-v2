@@ -1,25 +1,25 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
-  "type": "Widget",
+  "type": "Shape",
   "position": {
-    "x": 461.1531998524788,
-    "y": 959.1812778130648
+    "x": 640.4686138808388,
+    "y": 4037.304939038358
   },
   "size": {
-    "height": 440.6469421386719,
-    "width": 1100.8091494969563
+    "width": 300,
+    "height": 300
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region"
+    "shapePath": "M 512 512 H 0 V 0 h 512 v 512 Z"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
-    "border-style": "solid",
-    "border-width": "1px",
+    "background-color": "#6fd8b2",
+    "border-color": "#5a9deb",
+    "border-style": "none",
+    "border-width": "1",
     "border-radius": "0",
     "filter": "drop-shadow(0px 0px 0px #939393)"
   },

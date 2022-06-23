@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "Maciek's Dash-e30da1c7-8e01-4980-98e5-d55a96019a16.json",
+  "order": [
+    "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1"
+  ]
+}
