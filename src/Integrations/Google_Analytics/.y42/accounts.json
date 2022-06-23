@@ -1,0 +1,40 @@
+{
+  "accounts": [
+    {
+      "id": "257745283",
+      "name": "https://honore-service.dk/ - 257745283",
+      "description": "KH Service"
+    },
+    {
+      "id": "209309576",
+      "name": "https://app.datos-intelligence.com - 209309576",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "218917281",
+      "name": "https://www.y42.com - 218917281",
+      "description": "Master View (All Web Site Data)"
+    },
+    {
+      "id": "236174357",
+      "name": "https://www.y42.com - 236174357",
+      "description": "Test View"
+    },
+    {
+      "id": "239044983",
+      "name": "https://www.y42.com - 239044983",
+      "description": "Unfiltered"
+    },
+    {
+      "id": "255997690",
+      "name": "https://help.y42.com - 255997690",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "251436349",
+      "name": "https://www.martinlunen.dk/ - 251436349",
+      "description": "Malerfirmaet Martin Lunen"
+    }
+  ],
+  "_signature": "4suZgAYiUBzwd3MK8tfFNWcnyo/eSVpDZ/q7brytX0BkACanRf1LtLKQMloy66eFOwlB+nzLcZwhog5Qw/0FAg=="
+}
