@@ -1,6 +1,6 @@
 {
   "request_id": "220623083538_2839651e-8290-5a1d-ace0-cb91a1d1ff0a",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -56,7 +56,36 @@
     "write_disposition": "TRUNCATE",
     "external_id": "f7d6be40-b55b-4d85-aa9b-753184b1f046",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/a489413d-13e3-43c3-a89a-6ee727960f42",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-23T08:36:19.294392+00:00",
+    "row_count": 2,
+    "current_import_row_count": 2,
+    "size_in_bytes": 64,
+    "columns": [
+      {
+        "field_name": "de",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "en",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "fr",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220623083538_2839651e-8290-5a1d-ace0-cb91a1d1ff0a",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220623083538_2839651e-8290-5a1d-ace0-cb91a1d1ff0a&page=table"
   },
-  "_signature": "iSjm26GfenS9j2Btd9EbkJuRpmLMZ9IzXvQRqm7cMd1TfRUEA1LVh6Q8hlbDolSJfstHEteB3l2dhV9oGSttAg=="
+  "finished_at": "2022-06-23T08:36:19.294512+00:00",
+  "_signature": "ztx0tPqiSid+5fS27RFofi/dNGCuM07Q2/vvuKKo/jtg2ZbeBABuuWBdxB43MGW+MCF61JaRwGt1S2B6Xm/qBA=="
 }
