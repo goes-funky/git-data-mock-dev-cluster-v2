@@ -52,5 +52,17 @@
     }
   },
   "created_at": "2022-06-23T12:26:00.365714+00:00",
-  "_signature": "oHI6ewIhKXKHTFjXnmqbe3rAwH9rMeK2IJSTKcpn9wduHyJe3wOfDVVC7vLvEOpcP2lkDUmsChydVOLh/QxCBA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-23T12:26:25.016608+00:00",
+    "external_state": {
+      "schema_hash": "274da1c15ea839a94950f46fd8a934c6",
+      "website_overview": "2022-06-21"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "6d9367fc-3074-4a90-98a4-46a0923c32ac",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-analytics/6af836c4-498c-4fab-b1c0-1b3db5e583a9",
+    "partial": false
+  },
+  "_signature": "x81FfQ5AAMiqmeLgs/d/svHl6MzkZeXH22OiIwAPjq8W194Ygbu3WN5gc1LeASPH4+5Z8Wh3NRVdgZFC+nG4BQ=="
 }
