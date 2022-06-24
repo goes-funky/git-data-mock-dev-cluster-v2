@@ -1,0 +1,38 @@
+{
+  "request_id": "220624110517_47cb491f-8351-544c-acd1-3054d74c9732",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "ce801fa1-4607-46c2-bbcf-0f84686c1fbf"
+    },
+    "created_at": "2022-06-24T11:05:17.934879+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/me_testing/me_testing",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "b455e8179bfd95e9baf058cb50afd8dc82d4e146"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-24T11:05:17.934879+00:00",
+  "_signature": "/jwyEGiRomFUjKpuRzYrDgn+9kTqpPsMgagc7gGOhWSggi2YqnD5PLp63ASF6+nXR2De1XEofXiqeVNOSa2ADA=="
+}
