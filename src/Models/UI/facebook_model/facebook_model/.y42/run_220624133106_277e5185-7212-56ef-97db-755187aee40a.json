@@ -1,6 +1,6 @@
 {
   "request_id": "220624133106_277e5185-7212-56ef-97db-755187aee40a",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -34,5 +34,63 @@
     }
   },
   "created_at": "2022-06-24T13:31:06.425077+00:00",
-  "_signature": "fsp9XXR1HQl2+/bhCtwJBgW2sMWMR05/CmrZLCSo0EmxiRoLsMSEn6CLoqmVMAo+uoI5hPf+qNAdD8dxhSZIDg=="
+  "finished_at": "2022-06-24T13:32:01.877079+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-24T13:32:01.876958+00:00",
+    "row_count": 4043,
+    "current_import_row_count": 4043,
+    "size_in_bytes": 859993,
+    "external_id": "c3343c24-ba15-4e31-a73b-71d43f400e8b",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220624133106_277e5185-7212-56ef-97db-755187aee40a",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220624133106_277e5185-7212-56ef-97db-755187aee40a&page=table"
+  },
+  "_signature": "mwvXIAs9IOGP/JDkwjF8RKu9XdPwgfjvcaQqnlGqK3NCPlTEtUOtbU2WdQpyBGuVHP6vqj0uPcOeffsdX+qxCg=="
 }
