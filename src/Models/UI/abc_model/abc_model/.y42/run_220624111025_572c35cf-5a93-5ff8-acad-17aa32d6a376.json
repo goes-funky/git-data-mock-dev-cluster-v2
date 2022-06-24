@@ -1,6 +1,6 @@
 {
   "request_id": "220624111025_572c35cf-5a93-5ff8-acad-17aa32d6a376",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -34,5 +34,118 @@
     }
   },
   "created_at": "2022-06-24T11:10:25.545998+00:00",
-  "_signature": "H+IX7iC14mzQ1jnxUrfh2Iae7NaBZOXZ5ht0EmziruImQ2a0o7LkqXzC0uP22bzBgu9neuQzFPG1do0Cz+r3BA=="
+  "finished_at": "2022-06-24T11:10:46.569336+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-24T11:10:46.569188+00:00",
+    "row_count": 122,
+    "current_import_row_count": 122,
+    "size_in_bytes": 134835,
+    "external_id": "05fb6ce0-e604-41bd-8d7a-2d18af1dc874",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allowed_advertising_objects",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "created_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "full_picture",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "icon",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "message",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "is_eligible_for_promotion",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_expired",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_hidden",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_instagram_eligible",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_popular",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_published",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "is_spherical",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "parent_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "permalink_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "place",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "story",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "subscribed",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "updated_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220624111025_572c35cf-5a93-5ff8-acad-17aa32d6a376",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220624111025_572c35cf-5a93-5ff8-acad-17aa32d6a376&page=table"
+  },
+  "_signature": "H/i2mzsEDa1Y5o4B84XZEAzzulWYBC8+bxRSMWrxlA+CqTMsU3Ia+x81Bx/QAepvLSlCwe/XjN7Izdq4TzPaAQ=="
 }
