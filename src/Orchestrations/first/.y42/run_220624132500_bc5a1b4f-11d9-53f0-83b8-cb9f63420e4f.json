@@ -56,8 +56,9 @@
     ],
     "visualDataArray": [],
     "nodeStatusArray": {
-      "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": "pending",
-      "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": "pending"
+      "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": "ready",
+      "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": "ready",
+      "2e6274d4-f312-4285-83f8-932dd31e07e3": "pending"
     },
     "jobs": {
       "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": {
@@ -65,15 +66,18 @@
       },
       "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": {
         "run": "src/Integrations/facebook_pages/page_insight_website_clicks/.y42/run_220624132502_04de7aaa-575a-5431-ba8f-ec585956f98b.json"
+      },
+      "2e6274d4-f312-4285-83f8-932dd31e07e3": {
+        "run": "src/Models/UI/facebook_model/facebook_model/.y42/run_220624133106_277e5185-7212-56ef-97db-755187aee40a.json"
       }
     }
   },
   "created_at": "2022-06-24T13:25:00.146506+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-06-24T13:25:03.255481+00:00",
+  "updated_at": "2022-06-24T13:31:06.864887+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "76092691-f396-442d-ad2b-c9d65c55baf4",
-  "_signature": "dgNdunWkEGkoKsK/f27jHNL63CtQcVO32u3Q2x4/UzDQgI4RuTA9CHU3sBw4UbgD+965ATALpSFFu6KOXI7jAA=="
+  "_lock_token": "518f128f-9bba-4c86-8d0b-b9c393baac22",
+  "_signature": "cvXtV4mQ4LIcx9FIWDryZegsaiTJyoA3i801vBEYlQQxxUqMOIH3cRF0lVkWqEKfub7CwIq16uwzwdXuiEWdDQ=="
 }
