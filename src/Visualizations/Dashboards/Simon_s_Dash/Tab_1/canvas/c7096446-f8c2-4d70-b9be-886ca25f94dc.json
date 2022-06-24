@@ -1,19 +1,19 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
-  "type": "Filter",
+  "type": "Widget",
   "position": {
-    "x": 294.0760498046875,
-    "y": 514.238037109375
+    "x": 330.80081770407793,
+    "y": 530.48876953125
   },
   "size": {
-    "height": 122.10231848715864,
-    "width": 454.4056016277136
+    "width": 400,
+    "height": 300
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "filterPath": "src/Visualizations/Filters/f33d13f9-0085-4c73-8418-21710ab58a7e.json"
+    "widgetPath": "src/Visualizations/Widgets/treemap"
   },
   "styles": {
     "background-color": "#ffffff",

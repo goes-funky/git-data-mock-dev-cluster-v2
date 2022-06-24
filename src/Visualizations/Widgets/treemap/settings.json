@@ -1,0 +1,293 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "treemap_chart",
+  "settings": {
+    "series": [
+      {
+        "field_id": "215b1a16_546c_45ca_87e0_b9e58d466287",
+        "format": "inherit"
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "60d2e162_388b_4205_aa4e_5be1d2274672"
+    ],
+    "breakdowns": [
+      "63d2fd7a_a355_4b08_b502_6e88900f5b55"
+    ],
+    "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+    "chart_type": "bar_line_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "total_cost",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_total_cost_b0e667bb_3599_410d_9575_6f5d262ee854",
+        "id": "b0e667bb_3599_410d_9575_6f5d262ee854",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "region",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_region_fed19e92_4b1d_4721_ab23_c3349aa477eb",
+        "id": "fed19e92_4b1d_4721_ab23_c3349aa477eb",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "b0e667bb_3599_410d_9575_6f5d262ee854",
+          "mark": "bar",
+          "stack_name": 1,
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top"
+          },
+          "tooltip": {
+            "show": true,
+            "field_ids": []
+          },
+          "show_right_axis": false,
+          "format": "inherit",
+          "cumulative": false,
+          "hidden": false
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "fed19e92_4b1d_4721_ab23_c3349aa477eb"
+      ],
+      "breakdowns": [],
+      "series_on_y": true,
+      "serieAxis": {
+        "min": null,
+        "max": null,
+        "show": true,
+        "type": "value",
+        "axisName": {
+          "nameRotate": 0,
+          "nameGap": 10,
+          "nameLocation": "middle",
+          "nameTextStyle": {
+            "backgroundColor": "transparent",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7"
+          }
+        },
+        "axisLine": {
+          "showLabel": true,
+          "symbol": "none",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "axisLabel": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "right",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "show": true,
+          "rotate": 0,
+          "margin": 22,
+          "suffix": "",
+          "max_characters": null,
+          "value_conversion": "Automatic",
+          "date_format": "",
+          "value_format": "inherit"
+        },
+        "splitLine": {
+          "showLabel": false,
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dataZoom": {
+          "show": false,
+          "start": 0,
+          "end": 100
+        }
+      },
+      "dimensionAxis": {
+        "min": null,
+        "max": null,
+        "show": true,
+        "type": "category",
+        "axisName": {
+          "nameRotate": 0,
+          "nameGap": 10,
+          "nameLocation": "middle",
+          "nameTextStyle": {
+            "backgroundColor": "transparent",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7"
+          }
+        },
+        "axisLine": {
+          "showLabel": true,
+          "symbol": "none",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "axisLabel": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "show": true,
+          "rotate": 0,
+          "margin": 22,
+          "suffix": "",
+          "max_characters": null,
+          "value_conversion": "Automatic",
+          "date_format": "",
+          "value_format": "inherit"
+        },
+        "splitLine": {
+          "showLabel": false,
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dataZoom": {
+          "show": false,
+          "start": 0,
+          "end": 100
+        }
+      },
+      "show_stack_by": false,
+      "show_stack_by_100_percent": false,
+      "sort": {
+        "order": "NONE",
+        "sort_by": "SERIES",
+        "sortByField": true,
+        "fieldSortKey": null,
+        "stackNameSortKey": null
+      },
+      "show_total_for_stacks": []
+    }
+  },
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "filters": [],
+  "fields": [
+    {
+      "field": "total_cost",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_total_cost_215b1a16_546c_45ca_87e0_b9e58d466287",
+      "id": "215b1a16_546c_45ca_87e0_b9e58d466287",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "region",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_region_60d2e162_388b_4205_aa4e_5be1d2274672",
+      "id": "60d2e162_388b_4205_aa4e_5be1d2274672",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "order_priority",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_order_priority_63d2fd7a_a355_4b08_b502_6e88900f5b55",
+      "id": "63d2fd7a_a355_4b08_b502_6e88900f5b55",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

@@ -227,11 +227,11 @@
     "filters": [],
     "fields": [
       {
-        "field": "total_cost",
-        "aggregation": "SUM",
-        "type": "FLOAT",
-        "alias": "SUM_total_cost_0ecb8088_1be2_4a1b_8a9d_c950a13441f2",
-        "id": "0ecb8088_1be2_4a1b_8a9d_c950a13441f2",
+        "field": "id",
+        "aggregation": "DISTINCT",
+        "type": "INTEGER",
+        "alias": "DISTINCT_id_44e6bcd6_2ffe_4164_9a27_e276eb7378be",
+        "id": "44e6bcd6_2ffe_4164_9a27_e276eb7378be",
         "lowCodeString": null,
         "functionTree": null,
         "show_in_percentage": false,
@@ -241,8 +241,19 @@
         "field": "region",
         "aggregation": "VALUE",
         "type": "STRING",
-        "alias": "VALUE_region_cad1b1ad_7789_4c8c_854a_b4e9bce7d8c4",
-        "id": "cad1b1ad_7789_4c8c_854a_b4e9bce7d8c4",
+        "alias": "VALUE_region_fff43033_d78d_41e8_9828_dc6885e00dc8",
+        "id": "fff43033_d78d_41e8_9828_dc6885e00dc8",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "sales_channel",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_sales_channel_7237a868_18e6_4860_b17f_7b82fd0b8ed7",
+        "id": "7237a868_18e6_4860_b17f_7b82fd0b8ed7",
         "lowCodeString": null,
         "functionTree": null,
         "show_in_percentage": false,
@@ -252,7 +263,7 @@
     "settings": {
       "series": [
         {
-          "field_id": "0ecb8088_1be2_4a1b_8a9d_c950a13441f2",
+          "field_id": "44e6bcd6_2ffe_4164_9a27_e276eb7378be",
           "mark": "bar",
           "stack_name": 1,
           "label": {
@@ -282,9 +293,11 @@
         }
       },
       "dimensions": [
-        "cad1b1ad_7789_4c8c_854a_b4e9bce7d8c4"
+        "fff43033_d78d_41e8_9828_dc6885e00dc8"
       ],
-      "breakdowns": [],
+      "breakdowns": [
+        "7237a868_18e6_4860_b17f_7b82fd0b8ed7"
+      ],
       "series_on_y": true,
       "serieAxis": {
         "min": null,
@@ -440,7 +453,7 @@
           "end": 100
         }
       },
-      "show_stack_by": false,
+      "show_stack_by": true,
       "show_stack_by_100_percent": false,
       "sort": {
         "order": "NONE",
