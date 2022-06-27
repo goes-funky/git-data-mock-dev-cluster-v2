@@ -1,72 +1,190 @@
 {
   "nodeDataArray": [
     {
-      "key": "1be0a39f-bc45-4870-92cd-41c89d3b3539",
+      "key": "db3af513-e528-407c-a089-793ebb427ebc",
       "type": "INPUT",
       "category": "INPUT",
       "transformationStep": {
-        "id": "1be0a39f-bc45-4870-92cd-41c89d3b3539",
-        "title": "src/Integrations/MySql_Integration/campaign",
+        "id": "db3af513-e528-407c-a089-793ebb427ebc",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
         "transformationType": "INPUT",
-        "datasourceName": "MySql Integration",
+        "datasourceName": "Google sheets all field types",
         "transformObject": {
-          "source": "src/Integrations/MySql_Integration",
-          "table": "src/Integrations/MySql_Integration/campaign",
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
           "lang": ""
         }
       },
       "isGroup": true,
       "group": "",
-      "location": "-455.8347107438017 -185.45283018867923"
+      "location": "-336.97058823529414 -436.7142857142857"
     },
     {
-      "key": "24293edb-56e0-4063-8bac-03567ee5d796",
-      "type": "FIELDS",
-      "category": "FIELDS",
+      "key": "9799bdce-93d4-4e34-a346-0e2746e450a3",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
       "transformationStep": {
-        "id": "24293edb-56e0-4063-8bac-03567ee5d796",
-        "title": "",
-        "transformationType": "FIELDS",
-        "transformObject": [
-          {
-            "target": "from_name",
-            "source": "from_name",
-            "type": "STRING",
-            "display": false,
-            "changed": false,
-            "description": "",
-            "source_alias": "",
-            "applied": true,
-            "sourceTypeChanged": false
-          }
-        ]
+        "id": "9799bdce-93d4-4e34-a346-0e2746e450a3",
+        "title": "another_ui_model",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "another_ui_model",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text",
+              "source": "text",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
       },
       "isGroup": true,
       "group": "",
-      "location": "-194.83471074380168 -146.60377358490567"
-    },
-    {
-      "key": "da84b255-220c-4f02-ad69-8a6d18cc7ac1",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
-      "transformationStep": {
-        "id": "da84b255-220c-4f02-ad69-8a6d18cc7ac1",
-        "title": "",
-        "transformationType": "FUNCTIONS"
-      },
-      "isGroup": true,
-      "group": "",
-      "location": "41.66528925619832 -188.6099345398537"
+      "location": "-5.676470588235304 -377.8775510204082"
     }
   ],
   "linkDataArray": [
     {
-      "from": "1be0a39f-bc45-4870-92cd-41c89d3b3539",
-      "to": "24293edb-56e0-4063-8bac-03567ee5d796"
-    },
-    {
-      "from": "24293edb-56e0-4063-8bac-03567ee5d796",
-      "to": "da84b255-220c-4f02-ad69-8a6d18cc7ac1"
+      "from": "db3af513-e528-407c-a089-793ebb427ebc",
+      "to": "9799bdce-93d4-4e34-a346-0e2746e450a3"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
