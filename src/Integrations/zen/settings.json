@@ -1,3 +1,4 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/source.json"
+  "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/source.json",
+  "start_date": "2021-06-28T16:27:36Z"
 }
