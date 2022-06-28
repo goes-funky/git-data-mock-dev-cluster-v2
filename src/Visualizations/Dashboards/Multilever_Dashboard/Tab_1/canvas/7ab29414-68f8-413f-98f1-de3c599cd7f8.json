@@ -2,11 +2,11 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 461.1531998524788,
-    "y": 316.064697265625
+    "x": 442.8828125000001,
+    "y": 325.71091737729205
   },
   "size": {
-    "height": 578,
+    "height": 568.3537764893308,
     "width": 737
   },
   "zIndex": 0,
