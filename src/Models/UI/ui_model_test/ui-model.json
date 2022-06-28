@@ -268,7 +268,20 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "25.031414253523053 -635.4683951317671"
+      "location": "28.031414253523053 -358.4683951317671"
+    },
+    {
+      "key": "f2cdca8e-8213-4251-b843-13b175e52a45",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "f2cdca8e-8213-4251-b843-13b175e52a45",
+        "title": "",
+        "transformationType": "FIELDS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-209.07024793388427 224.36792452830184"
     }
   ],
   "linkDataArray": [
