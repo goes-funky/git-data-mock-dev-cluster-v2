@@ -2,7 +2,9 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/alert/status-alert-settings.json",
   "feature_type": "Integration",
   "alert_on": [
-    "success"
+    "success",
+    "failure",
+    "partial_success"
   ],
   "triggered_by": [
     "user"
