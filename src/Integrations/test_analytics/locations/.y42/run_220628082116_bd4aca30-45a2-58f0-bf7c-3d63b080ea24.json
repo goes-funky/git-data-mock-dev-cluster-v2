@@ -1,0 +1,68 @@
+{
+  "request_id": "220628082116_bd4aca30-45a2-58f0-bf7c-3d63b080ea24",
+  "status": "pending",
+  "request": {
+    "source_credentials": "9391216f-7ff1-4084-a62e-a39600dadf0c",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/source.json",
+      "start_date": "2021-01-13T03:22:26Z",
+      "parent_id": "150680723"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_continent",
+        "ga_subContinent",
+        "ga_country",
+        "ga_region",
+        "ga_metro",
+        "ga_city",
+        "ga_users",
+        "ga_newUsers",
+        "ga_sessions",
+        "ga_sessionsPerUser",
+        "ga_avgSessionDuration",
+        "ga_pageviews",
+        "ga_pageviewsPerSession",
+        "ga_avgTimeOnPage",
+        "ga_bounceRate",
+        "ga_exitRate",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "locations"
+    },
+    "created_at": "2022-06-28T08:21:16.467486+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_analytics/locations",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "4ce516ba0d49a7ca04762da431a9eb7f5a3eb5c0"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "80",
+      "trial": true
+    },
+    "state": {
+      "locations": "2022-06-15",
+      "schema_hash": "6f6aec244203f446b655470a5ac95e09"
+    },
+    "previous_import_id": "220617090959_abb1f4f6-4ffb-5d68-b436-22e4e276abf2",
+    "previous_table_id": "220617074430_18d09700-e43c-5744-a025-d8b6998b2b35"
+  },
+  "created_at": "2022-06-28T08:21:16.467486+00:00",
+  "_signature": "Kj/1LPcW3z2yiEae1oVzUfunk69Gsl+rWCEErSMP7iAIseOHuHD4oaRWS1pSdN3dvRT3Hoz9qu2HrFFb7/+fDg=="
+}
