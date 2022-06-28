@@ -1,0 +1,62 @@
+{
+  "request_id": "220628082530_2a6594e8-ea70-5240-befa-fd63f6c76933",
+  "status": "pending",
+  "request": {
+    "source_credentials": "9391216f-7ff1-4084-a62e-a39600dadf0c",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/source.json",
+      "start_date": "2021-01-13T03:22:26Z",
+      "parent_id": "150680723"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_continent",
+        "ga_subContinent",
+        "ga_country",
+        "ga_region",
+        "ga_metro",
+        "ga_city",
+        "ga_users",
+        "ga_newUsers",
+        "ga_sessions",
+        "ga_sessionsPerUser",
+        "ga_avgSessionDuration",
+        "ga_pageviews",
+        "ga_pageviewsPerSession",
+        "ga_avgTimeOnPage",
+        "ga_bounceRate",
+        "ga_exitRate",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "locations"
+    },
+    "created_at": "2022-06-28T08:25:30.871171+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_analytics/locations",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "b9a1bad670496887b417ba2c5e87eb54a6676ef6"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "80",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-28T08:25:30.871171+00:00",
+  "_signature": "Pk6WBx2X3mistLKSMEnhl+u/KO/omn7iTHUxiY8e949Nho5OKSKWIq86IQ6xPDWGK4lFtO/BZHBlRu6xGm4oBA=="
+}
