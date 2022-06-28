@@ -1,6 +1,6 @@
 {
   "request_id": "220628104549_764fad21-76c7-56a4-8382-124e30b6795e",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -78,7 +78,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "3718005a-613b-4831-8138-e0f6fe51c9b1",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/c39223e0-be98-4044-b26f-e507cd7f4063",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-28T10:46:43.933410+00:00",
+    "row_count": 4083,
+    "current_import_row_count": 4083,
+    "size_in_bytes": 868425,
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220628104549_764fad21-76c7-56a4-8382-124e30b6795e",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220628104549_764fad21-76c7-56a4-8382-124e30b6795e&page=table"
   },
-  "_signature": "vAuMyHxEygu2hfyPSh0fXRLjO2J9siWwC4rqjRNtjhWIsmFD/v6VVfCv77n9UD/KLTO8YfHvY5ulGjkJ722lAQ=="
+  "finished_at": "2022-06-28T10:46:43.933575+00:00",
+  "_signature": "iwpslY78LDM8ZxM1dWsmSQZfqymAZiwzGcTNLXqfq079cX4QhTAXB9uV/5tcaW9xOQbxnNaAd87XfdeUwNuGBw=="
 }
