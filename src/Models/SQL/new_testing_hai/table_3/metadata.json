@@ -1,11 +1,8 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
-  "name": "shopify",
+  "name": "table_3",
   "description": "",
-  "tags": [
-    "test_alerts",
-    "asd f"
-  ],
+  "tags": [],
   "owners": [],
   "experts": [],
   "watchers": [],
