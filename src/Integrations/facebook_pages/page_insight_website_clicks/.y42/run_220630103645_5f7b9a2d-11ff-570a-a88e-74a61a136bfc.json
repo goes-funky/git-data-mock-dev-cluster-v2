@@ -1,6 +1,6 @@
 {
   "request_id": "220630103645_5f7b9a2d-11ff-570a-a88e-74a61a136bfc",
-  "status": "pending",
+  "status": "ready",
   "details": {
     "invalid_rows": 0,
     "export_finished_at": "2022-06-30T10:37:19.366307+00:00",
@@ -31,7 +31,61 @@
     "write_disposition": "TRUNCATE",
     "external_id": "9f678ed2-556c-410a-b170-2c0eb83d5c29",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/a476a8c0-cccf-4b47-aba2-880c57b03f61",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-30T10:37:46.769355+00:00",
+    "row_count": 4103,
+    "current_import_row_count": 4103,
+    "size_in_bytes": 872641,
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220630103645_5f7b9a2d-11ff-570a-a88e-74a61a136bfc",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220630103645_5f7b9a2d-11ff-570a-a88e-74a61a136bfc&page=table"
   },
-  "_signature": "CDNpVV5i5DfJVEiweQoL1V8WHWzyls2nKW4m1nXrlVMXr7UeHSz8g5De7K6kMmpxHIVWrVqoXGR1iw0WfmWcBg=="
+  "finished_at": "2022-06-30T10:37:46.769475+00:00",
+  "_signature": "Q8/4nP/1IkpouW3XLvJEWqtZV6Q8bcDkun9W48wrKt/TkWKLBIabGCLcu5NIJZXjQDD7XQCzt2YbtIYst4DiDA=="
 }
