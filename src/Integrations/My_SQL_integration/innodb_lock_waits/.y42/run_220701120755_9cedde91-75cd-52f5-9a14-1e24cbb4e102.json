@@ -1,0 +1,66 @@
+{
+  "request_id": "220701120755_9cedde91-75cd-52f5-9a14-1e24cbb4e102",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "wait_started",
+        "wait_age",
+        "wait_age_secs",
+        "locked_table",
+        "locked_index",
+        "locked_type",
+        "waiting_trx_id",
+        "waiting_trx_started",
+        "waiting_trx_age",
+        "waiting_trx_rows_locked",
+        "waiting_trx_rows_modified",
+        "waiting_pid",
+        "waiting_query",
+        "waiting_lock_id",
+        "waiting_lock_mode",
+        "blocking_trx_id",
+        "blocking_pid",
+        "blocking_query",
+        "blocking_lock_id",
+        "blocking_lock_mode",
+        "blocking_trx_started",
+        "blocking_trx_age",
+        "blocking_trx_rows_locked",
+        "blocking_trx_rows_modified",
+        "sql_kill_blocking_query",
+        "sql_kill_blocking_connection"
+      ],
+      "import": "sys-innodb_lock_waits"
+    },
+    "created_at": "2022-07-01T12:07:55.847302+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/innodb_lock_waits",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "4b173a986683d7d0484d4087e9218c2792e48d3c"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "194",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-01T12:07:55.847302+00:00",
+  "_signature": "/aq5vjNZgcnTGzmSYlFKasD69GuNdfwmKhEPFoxlljLmTCiOZIFWwrp7MGu7Ts9OVcjIxKL6dh8wSdXrJcVXBg=="
+}
