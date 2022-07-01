@@ -1,0 +1,2150 @@
+{
+  "streams": [
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October",
+      "table_name": "List of Attendees - Gym-October",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November",
+      "table_name": "List of Attendees - Gym-November",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December",
+      "table_name": "List of Attendees - Gym-December",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January",
+      "table_name": "List of Attendees - Gym-January",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February",
+      "table_name": "List of Attendees - Gym-February",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March",
+      "table_name": "List of Attendees - Gym-March",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April",
+      "table_name": "List of Attendees - Gym-April",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May",
+      "table_name": "List of Attendees - Gym-May",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June",
+      "table_name": "List of Attendees - Gym-June",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July",
+      "table_name": "List of Attendees - Gym-July",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August",
+      "table_name": "List of Attendees - Gym-August",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '17",
+      "table_name": "List of Attendees - Gym-September '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '17",
+      "table_name": "List of Attendees - Gym-October '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '17",
+      "table_name": "List of Attendees - Gym-November '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '17",
+      "table_name": "List of Attendees - Gym-December '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-Januar '18",
+      "table_name": "List of Attendees - Gym-Januar '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/Januar '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June '18",
+      "table_name": "List of Attendees - Gym-June '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July '18",
+      "table_name": "List of Attendees - Gym-July '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August '18",
+      "table_name": "List of Attendees - Gym-August '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '18",
+      "table_name": "List of Attendees - Gym-September '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '18",
+      "table_name": "List of Attendees - Gym-October '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '18",
+      "table_name": "List of Attendees - Gym-November '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '18",
+      "table_name": "List of Attendees - Gym-December '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February '19",
+      "table_name": "List of Attendees - Gym-February '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March '19",
+      "table_name": "List of Attendees - Gym-March '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April '19",
+      "table_name": "List of Attendees - Gym-April '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May '19",
+      "table_name": "List of Attendees - Gym-May '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June '19",
+      "table_name": "List of Attendees - Gym-June '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July '19",
+      "table_name": "List of Attendees - Gym-July '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August '19",
+      "table_name": "List of Attendees - Gym-August '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '19",
+      "table_name": "List of Attendees - Gym-September '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '19",
+      "table_name": "List of Attendees - Gym-October '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '19",
+      "table_name": "List of Attendees - Gym-November '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '19",
+      "table_name": "List of Attendees - Gym-December '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January '20",
+      "table_name": "List of Attendees - Gym-January '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February '20",
+      "table_name": "List of Attendees - Gym-February '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March '20",
+      "table_name": "List of Attendees - Gym-March '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April '20",
+      "table_name": "List of Attendees - Gym-April '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May '20",
+      "table_name": "List of Attendees - Gym-May '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June '20",
+      "table_name": "List of Attendees - Gym-June '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July '20",
+      "table_name": "List of Attendees - Gym-July '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August '20",
+      "table_name": "List of Attendees - Gym-August '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '20",
+      "table_name": "List of Attendees - Gym-September '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '20",
+      "table_name": "List of Attendees - Gym-October '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '20",
+      "table_name": "List of Attendees - Gym-November '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '20",
+      "table_name": "List of Attendees - Gym-December '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January 2021",
+      "table_name": "List of Attendees - Gym-January 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February 2021",
+      "table_name": "List of Attendees - Gym-February 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March 2021",
+      "table_name": "List of Attendees - Gym-March 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April 2021",
+      "table_name": "List of Attendees - Gym-April 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May 2021",
+      "table_name": "List of Attendees - Gym-May 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June 2021",
+      "table_name": "List of Attendees - Gym-June 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July 2021",
+      "table_name": "List of Attendees - Gym-July 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August 2021",
+      "table_name": "List of Attendees - Gym-August 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September 2021",
+      "table_name": "List of Attendees - Gym-September 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October 2021",
+      "table_name": "List of Attendees - Gym-October 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November 2021",
+      "table_name": "List of Attendees - Gym-November 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December 2021",
+      "table_name": "List of Attendees - Gym-December 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January '19",
+      "table_name": "List of Attendees - Gym-January '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January 2022",
+      "table_name": "List of Attendees - Gym-January 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February 2022",
+      "table_name": "List of Attendees - Gym-February 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March 2022",
+      "table_name": "List of Attendees - Gym-March 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April 2022",
+      "table_name": "List of Attendees - Gym-April 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May 2022",
+      "table_name": "List of Attendees - Gym-May 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June 2022",
+      "table_name": "List of Attendees - Gym-June 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July 2022",
+      "table_name": "List of Attendees - Gym-July 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August 2022",
+      "table_name": "List of Attendees - Gym-August 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September 2022",
+      "table_name": "List of Attendees - Gym-September 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October 2022",
+      "table_name": "List of Attendees - Gym-October 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November 2022",
+      "table_name": "List of Attendees - Gym-November 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December 2022",
+      "table_name": "List of Attendees - Gym-December 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Form Responses 1",
+      "table_name": "OKR Tracker -Form Responses 1",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Form Responses 1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Company",
+      "table_name": "OKR Tracker -Company",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Company",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Product/Tech",
+      "table_name": "OKR Tracker -Product/Tech",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Product/Tech",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Function Based Tech & Product ",
+      "table_name": "OKR Tracker -Function Based Tech & Product ",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Function Based Tech & Product ",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Mission Based Tech & Product",
+      "table_name": "OKR Tracker -Mission Based Tech & Product",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Mission Based Tech & Product",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Q2 Planning - Function Based Tech & Product ",
+      "table_name": "OKR Tracker -Q2 Planning - Function Based Tech & Product ",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Q2 Planning - Function Based Tech & Product ",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Q2 Planning - Mission Based Tech & Product",
+      "table_name": "OKR Tracker -Q2 Planning - Mission Based Tech & Product",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Q2 Planning - Mission Based Tech & Product",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Creative & Product Marketing OKRs",
+      "table_name": "OKR Tracker -Creative & Product Marketing OKRs",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Creative & Product Marketing OKRs",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Customer Success",
+      "table_name": "OKR Tracker -Customer Success",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Customer Success",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Growth",
+      "table_name": "OKR Tracker -Growth",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Growth",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Operations",
+      "table_name": "OKR Tracker -Operations",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Operations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Talent Acquisition",
+      "table_name": "OKR Tracker -Talent Acquisition",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Talent Acquisition",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -US GTM",
+      "table_name": "OKR Tracker -US GTM",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/US GTM",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -US GTM Q2/22",
+      "table_name": "OKR Tracker -US GTM Q2/22",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/US GTM Q2/22",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -PLG",
+      "table_name": "OKR Tracker -PLG",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/PLG",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "client file",
+      "stream": "client file-bquxjob_4a241c95_17ec5409eda",
+      "table_name": "client file-bquxjob_4a241c95_17ec5409eda",
+      "tap_stream_id": "1gXmhQ6XAc7UrlblTOKCbebzBATABvGz2tZ4bag3Mo7E/bquxjob_4a241c95_17ec5409eda",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "bquxjob_4a241c95_17ec5409eda",
+      "stream": "bquxjob_4a241c95_17ec5409eda-bquxjob_4a241c95_17ec5409eda",
+      "table_name": "bquxjob_4a241c95_17ec5409eda-bquxjob_4a241c95_17ec5409eda",
+      "tap_stream_id": "1drgHRX2I19yRHLZhevOtCjstLym2H4JJRUJQGnT3Iy8/bquxjob_4a241c95_17ec5409eda",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "spreadsheets-2",
+      "stream": "spreadsheets-2-Sheet1",
+      "table_name": "spreadsheets-2-Sheet1",
+      "tap_stream_id": "1doOQ8zrfe7QzyVmSXOj1LA2y39PU2q9a8IADsB69ZhA/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "spreadsheet-1",
+      "stream": "spreadsheet-1-Sheet1",
+      "table_name": "spreadsheet-1-Sheet1",
+      "tap_stream_id": "1IaHK0OI6nX712iGCcCTAzU1tIt_5O19idmpdgqkdMqY/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Tech Org",
+      "stream": "Tech Org-Org Architecture",
+      "table_name": "Tech Org-Org Architecture",
+      "tap_stream_id": "1k0hqN7hLDVHty6DKWC4kVmH9uoPPBT8O0iT1pR73YWE/Org Architecture",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Tech Org",
+      "stream": "Tech Org-Q4 2021 Hiring Goals",
+      "table_name": "Tech Org-Q4 2021 Hiring Goals",
+      "tap_stream_id": "1k0hqN7hLDVHty6DKWC4kVmH9uoPPBT8O0iT1pR73YWE/Q4 2021 Hiring Goals",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Product Glossary & Teams Mapping",
+      "table_name": "Product & Engineering Org (Deprecated)-Product Glossary & Teams Mapping",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Product Glossary & Teams Mapping",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Engineering Teams",
+      "table_name": "Product & Engineering Org (Deprecated)-Engineering Teams",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Engineering Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Product Teams",
+      "table_name": "Product & Engineering Org (Deprecated)-Product Teams",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Product Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Tool Access",
+      "table_name": "Product & Engineering Org (Deprecated)-Tool Access",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Tool Access",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Additional Helpful Slack & Email Channels",
+      "table_name": "Product & Engineering Org (Deprecated)-Additional Helpful Slack & Email Channels",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Additional Helpful Slack & Email Channels",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Hiring Plan",
+      "table_name": "Product & Engineering Org (Deprecated)-Hiring Plan",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Hiring Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "float-ardit",
+      "stream": "float-ardit-Sheet1",
+      "table_name": "float-ardit-Sheet1",
+      "tap_stream_id": "1NqPBHv1ZLYvYyogKjrhMa28mq3KaiBWy_Ki0dLTLAsc/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "float",
+      "stream": "float-Sheet1",
+      "table_name": "float-Sheet1",
+      "tap_stream_id": "1iX1_UYlX1qMy9Jsd9q8Rlfy-WDYT8nv5J_hlb-lDM14/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "float",
+      "stream": "float-Sheet1",
+      "table_name": "float-Sheet1",
+      "tap_stream_id": "19r9jA6-UBi2FTElxqk_5fLAhh655GU5YVW6Ko3zaBys/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_data",
+      "stream": "test_data-Sheet1",
+      "table_name": "test_data-Sheet1",
+      "tap_stream_id": "1pFPMKjQehCAtLvz8AKXhVqMtmqJBnpItrmMCXLMXCQs/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_data",
+      "stream": "test_data-Sheet5",
+      "table_name": "test_data-Sheet5",
+      "tap_stream_id": "1pFPMKjQehCAtLvz8AKXhVqMtmqJBnpItrmMCXLMXCQs/Sheet5",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_data",
+      "stream": "test_data-Sheet2",
+      "table_name": "test_data-Sheet2",
+      "tap_stream_id": "1pFPMKjQehCAtLvz8AKXhVqMtmqJBnpItrmMCXLMXCQs/Sheet2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_data",
+      "stream": "test_data-Sheet3",
+      "table_name": "test_data-Sheet3",
+      "tap_stream_id": "1pFPMKjQehCAtLvz8AKXhVqMtmqJBnpItrmMCXLMXCQs/Sheet3",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_data",
+      "stream": "test_data-Sheet4",
+      "table_name": "test_data-Sheet4",
+      "tap_stream_id": "1pFPMKjQehCAtLvz8AKXhVqMtmqJBnpItrmMCXLMXCQs/Sheet4",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -January 2022",
+      "table_name": "Social Media Content Plan -January 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/January 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -February 2022",
+      "table_name": "Social Media Content Plan -February 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/February 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -March 2022",
+      "table_name": "Social Media Content Plan -March 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/March 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -April 2022",
+      "table_name": "Social Media Content Plan -April 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/April 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -May 2022",
+      "table_name": "Social Media Content Plan -May 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/May 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -June 2022",
+      "table_name": "Social Media Content Plan -June 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/June 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -LinkedIn Content Plan",
+      "table_name": "Social Media Content Plan -LinkedIn Content Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/LinkedIn Content Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -August 2021 SM Plan",
+      "table_name": "Social Media Content Plan -August 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/August 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -September 2021 SM Plan",
+      "table_name": "Social Media Content Plan -September 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/September 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -October 2021 SM Plan",
+      "table_name": "Social Media Content Plan -October 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/October 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -November 2021 SM Plan",
+      "table_name": "Social Media Content Plan -November 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/November 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -December 2021 SM Plan",
+      "table_name": "Social Media Content Plan -December 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/December 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -Content Plan (high-level)",
+      "table_name": "Social Media Content Plan -Content Plan (high-level)",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/Content Plan (high-level)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -Webinar Ideas",
+      "table_name": "Social Media Content Plan -Webinar Ideas",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/Webinar Ideas",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -Podcast Ideas",
+      "table_name": "Social Media Content Plan -Podcast Ideas",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/Podcast Ideas",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Team Ardit Progress",
+      "stream": "Team Ardit Progress-Sheet1",
+      "table_name": "Team Ardit Progress-Sheet1",
+      "tap_stream_id": "1FiUjd8uHdtRIG44peuFwivREinrZ-9dYlgLzwpKXE7E/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 3_hg_templates_shopify_de",
+      "stream": "Copy of 3_hg_templates_shopify_de-Customers_3",
+      "table_name": "Copy of 3_hg_templates_shopify_de-Customers_3",
+      "tap_stream_id": "1a-gG07mDZXYxpx-S1Oh8xXJI0UFesg3bdlcgt0ormgk/Customers_3",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 3_hg_templates_shopify_de",
+      "stream": "Copy of 3_hg_templates_shopify_de-Sheet1",
+      "table_name": "Copy of 3_hg_templates_shopify_de-Sheet1",
+      "tap_stream_id": "1a-gG07mDZXYxpx-S1Oh8xXJI0UFesg3bdlcgt0ormgk/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Candidates Referral Sheet",
+      "stream": "Candidates Referral Sheet-Referral Sheet",
+      "table_name": "Candidates Referral Sheet-Referral Sheet",
+      "tap_stream_id": "1GZsN6dk1_Sf2copuGsjrbbSoQMSIIffQ3PWXgF9s5jQ/Referral Sheet",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Expenses Turkey",
+      "stream": "Expenses Turkey-Sheet1",
+      "table_name": "Expenses Turkey-Sheet1",
+      "tap_stream_id": "1KPGsXRWQzIla4JKM_Q9k5yeaOjNvGeeacKT0HlFD9ac/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "1_hg_templates_shopify_de",
+      "stream": "1_hg_templates_shopify_de-Customers_1",
+      "table_name": "1_hg_templates_shopify_de-Customers_1",
+      "tap_stream_id": "1OzzNa7wccOCQdnQtBBv9-azj-IB9pqfPPwI_Gr0LP4E/Customers_1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 1_hg_templates_shopify_de",
+      "stream": "Copy of 1_hg_templates_shopify_de-Customers_1",
+      "table_name": "Copy of 1_hg_templates_shopify_de-Customers_1",
+      "tap_stream_id": "1WUDcEqWnsNzXQ6G0ezgG5KyOAEIks1Tk09b21M0uZoE/Customers_1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 2_hg_templates_shopify_de",
+      "stream": "Copy of 2_hg_templates_shopify_de-Customers_2",
+      "table_name": "Copy of 2_hg_templates_shopify_de-Customers_2",
+      "tap_stream_id": "1I0nPCWqdCxaFIIaUC84SRNHYsIXnXF0XOms-caUOv3A/Customers_2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "3_hg_templates_shopify_de",
+      "stream": "3_hg_templates_shopify_de-Customers_3",
+      "table_name": "3_hg_templates_shopify_de-Customers_3",
+      "tap_stream_id": "1unRp5iPnujUUUJw94vhKuQUYSnbFycH-qGglH6UBXvw/Customers_3",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "2_hg_templates_shopify_de",
+      "stream": "2_hg_templates_shopify_de-Customers_2",
+      "table_name": "2_hg_templates_shopify_de-Customers_2",
+      "tap_stream_id": "1HY8Vk6Wqg4DJjmSHwCvX21t28Ygx7OYe_d7mD49XGnA/Customers_2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Classifications Integrations Samples",
+      "stream": "Classifications Integrations Samples-Classifying Integration Samples",
+      "table_name": "Classifications Integrations Samples-Classifying Integration Samples",
+      "tap_stream_id": "1CDLeFE9m9oxZkMRgfxITU1WjACTwKYjz-0XDVmyudlQ/Classifying Integration Samples",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Classifications Integrations Samples",
+      "stream": "Classifications Integrations Samples-ClassificationMatrix",
+      "table_name": "Classifications Integrations Samples-ClassificationMatrix",
+      "tap_stream_id": "1CDLeFE9m9oxZkMRgfxITU1WjACTwKYjz-0XDVmyudlQ/ClassificationMatrix",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Christmas Party Berlin 2021",
+      "stream": "Christmas Party Berlin 2021-Sheet1",
+      "table_name": "Christmas Party Berlin 2021-Sheet1",
+      "tap_stream_id": "1ukzqxlDhMWQpd4tHXUkCwWzg2GgNjJw6YtQFyGDq_Uk/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "NPS tool overview",
+      "stream": "NPS tool overview-Sheet1",
+      "table_name": "NPS tool overview-Sheet1",
+      "tap_stream_id": "1xn3Nusr9sm6b-41elgCwH-Ymwq4P2r4INj13i_7QrYI/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_import",
+      "stream": "test_import-Sheet1",
+      "table_name": "test_import-Sheet1",
+      "tap_stream_id": "17idvalEsDREaLZ0RppD9gm0qogkJKnjHgIBe9rxm7WM/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Prospects",
+      "table_name": "Leadlist Outreach_Mittelstand-Prospects",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Prospects",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Overview",
+      "table_name": "Leadlist Outreach_Mittelstand-Overview",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Overview",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Input ",
+      "table_name": "Leadlist Outreach_Mittelstand-Input ",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Input ",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Sheet4",
+      "table_name": "Leadlist Outreach_Mittelstand-Sheet4",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Sheet4",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Mittelstand 10.000 V21",
+      "table_name": "Leadlist Outreach_Mittelstand-Mittelstand 10.000 V21",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Mittelstand 10.000 V21",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "NPS_Driver_Analysis_4-Drivers_E-Commerce",
+      "stream": "NPS_Driver_Analysis_4-Drivers_E-Commerce-survey_answer",
+      "table_name": "NPS_Driver_Analysis_4-Drivers_E-Commerce-survey_answer",
+      "tap_stream_id": "1j29B1iyaosL3KCIAe449dhLYRPGFk6MuuQXgDcFM1aI/survey_answer",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "NPS_Driver_Analysis_4-Drivers_E-Commerce",
+      "stream": "NPS_Driver_Analysis_4-Drivers_E-Commerce-input",
+      "table_name": "NPS_Driver_Analysis_4-Drivers_E-Commerce-input",
+      "tap_stream_id": "1j29B1iyaosL3KCIAe449dhLYRPGFk6MuuQXgDcFM1aI/input",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "C52Di/0njAGo202zeWDLC5qhWNqzHNKzRacyuoC/jQKkPRiMfO1VPCFm5H/t6gBXv6e6+cNUwKZQocDCLma4BQ=="
+}
