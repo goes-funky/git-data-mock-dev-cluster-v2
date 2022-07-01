@@ -1,6 +1,6 @@
 {
   "request_id": "220701101644_704ff97b-7bd0-516c-8007-9461431d2145",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "756a286d-acca-486c-8024-fde1cc7d5657",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -64,7 +64,51 @@
     "write_disposition": "TRUNCATE",
     "external_id": "dc060fb3-5a5e-479b-9a5e-6e1ca6836adc",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-search-console/0da871e8-cde8-4975-9e84-b555fc888660",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-01T10:19:02.045709+00:00",
+    "row_count": 1545,
+    "current_import_row_count": 1545,
+    "size_in_bytes": 102485,
+    "columns": [
+      {
+        "field_name": "site_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "search_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "position",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220701101644_704ff97b-7bd0-516c-8007-9461431d2145",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220701101644_704ff97b-7bd0-516c-8007-9461431d2145&page=table"
   },
-  "_signature": "6PWC3f7NkC1zoZKz9ovrtXFORV91qH17ygrZwB2MJcQK6gDe1hqzhqpfWW0EbGzOKxBuiOdhkE2kp8mjW4RoBA=="
+  "finished_at": "2022-07-01T10:19:02.045858+00:00",
+  "_signature": "Ko/01hIOqlis8OdfkX0UvO19qX86oGPf9YohtsivsZ7IQl9/7Xfhp5BdykeduOq36VQuVzGs55V0lNiP66bsBQ=="
 }
