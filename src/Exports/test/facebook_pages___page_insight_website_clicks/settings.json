@@ -1,0 +1,5 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
+  "datasource_table": "src/Integrations/facebook_pages/page_insight_website_clicks",
+  "sheet_id": "1FUs7iiOLxdQ1sk5Imr6E_3oiGL9UhRBSquZiJGYeh7U"
+}
