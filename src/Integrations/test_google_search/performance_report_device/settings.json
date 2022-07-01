@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/table",
+  "columns": [
+    "site_url",
+    "search_type",
+    "date",
+    "device",
+    "clicks",
+    "impressions",
+    "ctr",
+    "position"
+  ],
+  "import": "performance_report_device"
+}
