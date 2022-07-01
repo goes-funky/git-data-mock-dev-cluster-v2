@@ -1,0 +1,65 @@
+{
+  "streams": [
+    {
+      "group": "client file",
+      "stream": "client file-bquxjob_4a241c95_17ec5409eda",
+      "table_name": "client file-bquxjob_4a241c95_17ec5409eda",
+      "tap_stream_id": "1gXmhQ6XAc7UrlblTOKCbebzBATABvGz2tZ4bag3Mo7E/bquxjob_4a241c95_17ec5409eda",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "bquxjob_4a241c95_17ec5409eda",
+      "stream": "bquxjob_4a241c95_17ec5409eda-bquxjob_4a241c95_17ec5409eda",
+      "table_name": "bquxjob_4a241c95_17ec5409eda-bquxjob_4a241c95_17ec5409eda",
+      "tap_stream_id": "1drgHRX2I19yRHLZhevOtCjstLym2H4JJRUJQGnT3Iy8/bquxjob_4a241c95_17ec5409eda",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "spreadsheets-2",
+      "stream": "spreadsheets-2-Sheet1",
+      "table_name": "spreadsheets-2-Sheet1",
+      "tap_stream_id": "1doOQ8zrfe7QzyVmSXOj1LA2y39PU2q9a8IADsB69ZhA/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "spreadsheet-1",
+      "stream": "spreadsheet-1-Sheet1",
+      "table_name": "spreadsheet-1-Sheet1",
+      "tap_stream_id": "1IaHK0OI6nX712iGCcCTAzU1tIt_5O19idmpdgqkdMqY/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "rYj+yPHkV0AQqvFfxvQ4x0Sl6KyVEbMWzo2DN50C1JTcCZAX9QueO6cpbY3T5RqI0gOj7Gx+xbzipXQTrARsCA=="
+}
