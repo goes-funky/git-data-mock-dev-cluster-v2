@@ -46,5 +46,25 @@
     }
   },
   "created_at": "2022-07-01T10:16:44.289933+00:00",
-  "_signature": "PPQHE6upVfuWKObPbqKkyT0+gRvOSNDZc2j20nczLKdQzalzv75wFRNcwkyIad0MjSSW96AX66eaWP0s/lzpCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-01T10:17:40.984994+00:00",
+    "external_state": {
+      "bookmarks": {
+        "performance_report_date": {
+          "http://aawater.dk/": {
+            "image": "2022-06-28T00:00:00.000000Z",
+            "video": "2022-06-28T00:00:00.000000Z",
+            "web": "2022-06-28T00:00:00.000000Z"
+          }
+        }
+      },
+      "schema_hash": "e02ff59e96b981886f72b067bd7515da"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "dc060fb3-5a5e-479b-9a5e-6e1ca6836adc",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-search-console/0da871e8-cde8-4975-9e84-b555fc888660",
+    "partial": false
+  },
+  "_signature": "6PWC3f7NkC1zoZKz9ovrtXFORV91qH17ygrZwB2MJcQK6gDe1hqzhqpfWW0EbGzOKxBuiOdhkE2kp8mjW4RoBA=="
 }
