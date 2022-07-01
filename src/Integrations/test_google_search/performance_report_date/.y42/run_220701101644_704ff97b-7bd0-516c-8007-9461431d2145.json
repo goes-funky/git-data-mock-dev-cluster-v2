@@ -1,0 +1,50 @@
+{
+  "request_id": "220701101644_704ff97b-7bd0-516c-8007-9461431d2145",
+  "status": "pending",
+  "request": {
+    "source_credentials": "756a286d-acca-486c-8024-fde1cc7d5657",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/source.json",
+      "start_date": "2021-01-01T00:00:00Z",
+      "parent_id": "http://aawater.dk/"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/table",
+      "columns": [
+        "site_url",
+        "search_type",
+        "date",
+        "clicks",
+        "impressions",
+        "ctr",
+        "position"
+      ],
+      "import": "performance_report_date"
+    },
+    "created_at": "2022-07-01T10:16:44.289933+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_google_search/performance_report_date",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "80deb197dee29f38f0dd7eb037af2f556a7d73c8"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "80",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-01T10:16:44.289933+00:00",
+  "_signature": "PPQHE6upVfuWKObPbqKkyT0+gRvOSNDZc2j20nczLKdQzalzv75wFRNcwkyIad0MjSSW96AX66eaWP0s/lzpCA=="
+}
