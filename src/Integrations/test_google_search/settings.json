@@ -1,5 +1,5 @@
 {
   "$schema": "https://s.dev.y42.dev/integrations/google-search-console/0.0.0/source.json",
-  "start_date":"2021-01-01T00:00:00Z",
-"parent_id":"http://aawater.dk/"
+  "start_date": "2021-01-01T00:00:00Z",
+  "parent_id": "https://www.tandlaegeteam.dk/"
 }
