@@ -59,14 +59,21 @@
       "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": "pending",
       "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": "pending"
     },
-    "jobs": {}
+    "jobs": {
+      "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": {
+        "run": "src/Integrations/Google_Analytics/website_overview/.y42/run_220701104627_1c654d1b-5831-574b-b650-f5984611b7ee.json"
+      },
+      "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": {
+        "run": "src/Integrations/facebook_pages/page_insight_website_clicks/.y42/run_220701104629_5e14fe52-22ba-5132-8b11-04920ead57fd.json"
+      }
+    }
   },
   "created_at": "2022-07-01T10:46:25.964623+00:00",
   "finished_at": null,
   "latest_pulse_at": null,
-  "updated_at": "2022-07-01T10:46:26.144068+00:00",
+  "updated_at": "2022-07-01T10:46:30.349850+00:00",
   "canceled_at": null,
   "failed_at": null,
-  "_lock_token": "17fab5f2-e23e-4230-9182-768845422e75",
-  "_signature": "BCL5Wgdhgdd4rezM2ugj61+6G2AXEug3WZF5F2RwYfiQRQ69ChoLHe4EZXYGGaJgeT2qRHJS3PyO06dHk0RcDg=="
+  "_lock_token": "2179f4ff-e806-4013-840e-894af365ff3b",
+  "_signature": "hsq8uNjjllwbUYcm9bPPAuxKuGj1pkXvsH+0GnMJZ4bac05jV9s7lA+K+03iAUKu1ZJwYut+JKdtHnFwLa6XAA=="
 }
