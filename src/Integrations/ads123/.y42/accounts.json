@@ -1,0 +1,30 @@
+{
+  "accounts": [
+    {
+      "id": "customers/1630223965/customerClients/1630223965",
+      "name": "customers/1630223965/customerClients/1630223965",
+      "description": " | CAD | America/Vancouver"
+    },
+    {
+      "id": "customers/1111842615/customerClients/1111842615",
+      "name": "customers/1111842615/customerClients/1111842615",
+      "description": "datos | EUR | Europe/Berlin"
+    },
+    {
+      "id": "customers/1111842615/customerClients/6694898072",
+      "name": "customers/1111842615/customerClients/6694898072",
+      "description": "test account | EUR | Europe/Berlin"
+    },
+    {
+      "id": "customers/5824663529/customerClients/5824663529",
+      "name": "customers/5824663529/customerClients/5824663529",
+      "description": "test-manager@mycompany.example.com | EUR | Europe/Berlin"
+    },
+    {
+      "id": "customers/8998031546/customerClients/8998031546",
+      "name": "customers/8998031546/customerClients/8998031546",
+      "description": "Datos-Integrations | USD | Europe/Berlin"
+    }
+  ],
+  "_signature": "MJYPaW2vIsvVskMMKMSoLiWsvVwBx7Z0yyYbvR3qCbbR+UQicVNsx2TxwptAVRN0oh4BccFCvAjsTWTGnZZ9BA=="
+}
