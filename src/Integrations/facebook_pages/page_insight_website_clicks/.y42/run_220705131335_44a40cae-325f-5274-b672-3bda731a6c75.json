@@ -1,6 +1,6 @@
 {
   "request_id": "220705131335_44a40cae-325f-5274-b672-3bda731a6c75",
-  "status": "canceled",
+  "status": "pending",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -76,5 +76,37 @@
   "created_at": "2022-07-05T13:13:35.008689+00:00",
   "error_code": 10,
   "error_message": "user canceled the task",
-  "_signature": "j+G+3Gcd0YFQfffp1KCu5YdyiQKC+cubtc5gmJ/WTFtUmyisJEYcqg2ABWZp/LUkR6vgjVloGQM3UQ08nlylCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-05T13:15:52.809850+00:00",
+    "external_state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "9b434b57-1cc8-4455-b4ce-9e33c6cd2562",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/c2eb7606-7f88-42e5-96b8-6c0b29e27202",
+    "partial": false
+  },
+  "_signature": "AiAhL1G/wsHTL9YoL8kUNKQPTdt2UTfjZiiV27n+MMqr1+NtvX0elC+rX7+HPacLGaOO2i46nI+JBafiELnQCw=="
 }
