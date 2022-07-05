@@ -1,10 +1,19 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "x$processlist",
   "description": "",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": {
+    "team_ids": [],
+    "user_ids": []
+  },
+  "experts": {
+    "team_ids": [],
+    "user_ids": []
+  },
+  "watchers": {
+    "team_ids": [],
+    "user_ids": []
+  },
   "asset_status": "no status"
 }
