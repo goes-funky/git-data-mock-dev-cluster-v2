@@ -1,19 +1,10 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
   "name": "schema_unused_indexes",
   "description": "",
   "tags": [],
-  "owners": {
-    "team_ids": [],
-    "user_ids": []
-  },
-  "experts": {
-    "team_ids": [],
-    "user_ids": []
-  },
-  "watchers": {
-    "team_ids": [],
-    "user_ids": []
-  },
+  "owners": [],
+  "experts": [],
+  "watchers": [],
   "asset_status": "no status"
 }
