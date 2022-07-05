@@ -1,8 +1,58 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/orchestration/orchestration-settings.json",
-  "cronExpression": "",
+  "cronExpression": "0/45 * 1/1 * *",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "ca7c6c7e-8ac5-42d3-97c5-5396771f4cfa",
+      "to": "1d299ce8-1193-40f9-865d-f4cb73347e4b"
+    },
+    {
+      "from": "ca7c6c7e-8ac5-42d3-97c5-5396771f4cfa",
+      "to": "33cd4ad0-f8d3-4964-bb4f-383ff463e227"
+    },
+    {
+      "from": "ca7c6c7e-8ac5-42d3-97c5-5396771f4cfa",
+      "to": "1088413c-35e1-45b8-9d5c-74c771c8718a"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "1d299ce8-1193-40f9-865d-f4cb73347e4b",
+      "path": "src/Models/SQL/new_testing_hai/table_1",
+      "location": "524.0456949966158 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "ca7c6c7e-8ac5-42d3-97c5-5396771f4cfa",
+      "path": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "location": "0 102",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "33cd4ad0-f8d3-4964-bb4f-383ff463e227",
+      "path": "src/Models/SQL/new_testing_hai/table_2",
+      "location": "524.0456949966158 102",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "1088413c-35e1-45b8-9d5c-74c771c8718a",
+      "path": "src/Models/SQL/new_testing_hai/table_3",
+      "location": "524.0456949966158 204",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
