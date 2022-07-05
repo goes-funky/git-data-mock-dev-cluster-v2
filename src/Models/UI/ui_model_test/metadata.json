@@ -1,10 +1,11 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
   "name": "ui_model_test",
-  "description": "",
+  "description": "sdsd",
   "tags": [],
   "owners": [],
   "experts": [],
   "watchers": [],
-  "asset_status": "no status"
+  "asset_status": "no status",
+  "tedt": 223
 }
