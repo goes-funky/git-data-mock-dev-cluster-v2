@@ -1,0 +1,4217 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "tblehlARuRN2xYi70",
+      "database_name": "Project tracker",
+      "table_name": "Design projects",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Category": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Complete": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Project images": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Client": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Project lead": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Project team": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Kickoff date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Due date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Tasks": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Design projects",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appPl8KzznePKiRu0"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldDo6hsTM8iv5ZXz"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Category"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Category",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldxzwVBht1uWTEI2"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Complete"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Complete",
+            "airtable_type": "checkbox",
+            "airtable_field_ids": [
+              "fldn2ymVLnzmTu6Ou"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Project images"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Project images",
+            "airtable_type": "multipleAttachments",
+            "airtable_field_ids": [
+              "fldEf3R2LoqlukLJF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Client"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Client",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldJRIryHNGz5YZ9H"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Project lead"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Project lead",
+            "airtable_type": "singleCollaborator",
+            "airtable_field_ids": [
+              "fldknFfUxYna1kIB6"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Project team"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Project team",
+            "airtable_type": "multipleCollaborators",
+            "airtable_field_ids": [
+              "fldQwvsEMiCMARHDQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Kickoff date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Kickoff date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fld13xa2mwsCEyTMf"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Due date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Due date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fldK67U44miy0QmvN"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Notes",
+            "airtable_type": "richText",
+            "airtable_field_ids": [
+              "fldlXgZUzygWHX0s3"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Tasks"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Tasks",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldUdpl3Mrthx8SoS"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblya8qtVbBIS4t8e",
+      "database_name": "Project tracker",
+      "table_name": "Tasks",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Subtasks": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Completed": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Assignee": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Time estimate (days)": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "Design project": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Tasks",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appPl8KzznePKiRu0"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldpnmEmFb1Iy1EMx"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Subtasks"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Subtasks",
+            "airtable_type": "richText",
+            "airtable_field_ids": [
+              "fldKp3NgZQP5TI4GJ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Completed"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Completed",
+            "airtable_type": "checkbox",
+            "airtable_field_ids": [
+              "fldTMLTnSuHuJZpvd"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Assignee"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Assignee",
+            "airtable_type": "singleCollaborator",
+            "airtable_field_ids": [
+              "fldZK2HCUwY34jF4m"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Time estimate (days)"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Time estimate (days)",
+            "airtable_type": "number",
+            "airtable_field_ids": [
+              "fldvw4hEtTGkhD5Wj"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Design project"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Design project",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldIMDcSdFxe5tgWy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tbleHl3hrAWRDI2Wo",
+      "database_name": "Project tracker",
+      "table_name": "Clients",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Logo": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "About": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Projects": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Clients",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appPl8KzznePKiRu0"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldqriku91m8G6JwI"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Logo"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Logo",
+            "airtable_type": "multipleAttachments",
+            "airtable_field_ids": [
+              "fldF9m5OzhIVfE2ng"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "About"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "About",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldfzAt9j3IRVdbr5"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Projects"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Projects",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldJBHb8ydvwxjJt0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblvmTaA5urqnvgIh",
+      "database_name": "Sales CRM",
+      "table_name": "Opportunities",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Opportunity name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Status": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Priority": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Owner": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Account": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Estimated value": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Proposal deadline": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Expected close date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Last contact": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Primary contact for": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Interactions": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Opportunities",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appu759V5Rqp4SoYm"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Opportunity name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Opportunity name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldp0YXCkx6ZBxyuO"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Status"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Status",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldPebqSIBA4SySrt"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Priority"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Priority",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldDFZOPRP1KtBnSZ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Owner"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Owner",
+            "airtable_type": "singleCollaborator",
+            "airtable_field_ids": [
+              "fldXZkEgd0QKugDHI"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Account"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Account",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldV2gjPkobkd1vaC"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Estimated value"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Estimated value",
+            "airtable_type": "currency",
+            "airtable_field_ids": [
+              "fldtIkbBGLv6w43uO"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Proposal deadline"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Proposal deadline",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fldY8vZhaPr5oiiWH"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Expected close date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Expected close date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fldAs4pO1G0f06GNk"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Last contact"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Last contact",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldjpgnuVzV0B4OVk"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Primary contact for"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Primary contact for",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldPRvYJqJ4mdQdMB"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Interactions"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Interactions",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldMysmKrts23bv36"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblW392gBRohBlzlP",
+      "database_name": "Sales CRM",
+      "table_name": "Interactions",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Interaction": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Type": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Date and time": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Status": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Opportunity": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Contact": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Interactions",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appu759V5Rqp4SoYm"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Interaction"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Interaction",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fldBDw3aQUS0oTyLc"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Type"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Type",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldSW4j8G9m5DNT1t"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Date and time"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Date and time",
+            "airtable_type": "dateTime",
+            "airtable_field_ids": [
+              "fldNjNvokTQ9lvaw7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Status"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Status",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldKBhnNzgFsPNjIN"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Opportunity"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Opportunity",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldO3uj3VKVmf01LF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Contact"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Contact",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldjJnQkktxIIrBmm"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Notes",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldBhmlnEYCcFU3d4"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblN5OxVLuvoaviBa",
+      "database_name": "Sales CRM",
+      "table_name": "Accounts",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Industry": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Size": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Company website": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Company LinkedIn": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Contacts": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Opportunities": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "HQ address": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Map cache": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Accounts",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appu759V5Rqp4SoYm"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldB6LQYybTiigRvQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Industry"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Industry",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldsCG5OAppBQruwA"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Size"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Size",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldIJxZ1EUhFLKXej"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Company website"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Company website",
+            "airtable_type": "url",
+            "airtable_field_ids": [
+              "fldw9pUtnvgrcIVY5"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Company LinkedIn"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Company LinkedIn",
+            "airtable_type": "url",
+            "airtable_field_ids": [
+              "fldr2KoihDLRONc1M"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Contacts"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Contacts",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldTBvTVfAATmsBmu"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Opportunities"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Opportunities",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fld5bPM4BrN5XLID3"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "HQ address"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "HQ address",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldEeufrXcs6hZsF2"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Map cache"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Map cache",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fld1gyHrBb6xnVNEG"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblaKcHnsmoCv2koi",
+      "database_name": "Sales CRM",
+      "table_name": "Contacts",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name & organization": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Account": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "VIP": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Email": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Phone": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Title": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Department": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "LinkedIn": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Interactions": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Opportunities": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Contacts",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appu759V5Rqp4SoYm"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name & organization"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name & organization",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fld1Fm2PTELpRJkEF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldV2XYNioIOgeZ4u"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Account"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Account",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldQAN4XKgMWIBvcQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "VIP"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "VIP",
+            "airtable_type": "checkbox",
+            "airtable_field_ids": [
+              "fldAEPsuDF35GoqS8"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Email"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Email",
+            "airtable_type": "email",
+            "airtable_field_ids": [
+              "fldTl7PSyt9AzSu1Y"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Phone"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Phone",
+            "airtable_type": "phoneNumber",
+            "airtable_field_ids": [
+              "fldTYVS7hmh74qcf0"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Title"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Title",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fld9Wa7sfCIwtpmtt"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Department"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Department",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "flden42owHzkXCJ8r"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "LinkedIn"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "LinkedIn",
+            "airtable_type": "url",
+            "airtable_field_ids": [
+              "fldXrN6cGbvBAMqPG"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Interactions"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Interactions",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldjDIKzD4zcYeVGO"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Opportunities"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Opportunities",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldt7utMKkJzVaXnv"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblT06YybHR0tT9ah",
+      "database_name": "Content calendar",
+      "table_name": "Content production",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Headline": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Status": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Sub-headline": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Header image": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Section": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Author": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Draft due": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Publish date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Link": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Social posts": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Freelancer timesheets": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Content production",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appjh4Kk2dZFI5VUM"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Headline"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Headline",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldHdAb13utbptIcb"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Status"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Status",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldeuVktnJ5JmMwFY"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Sub-headline"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Sub-headline",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldm6C3LWOeGIW8UM"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Header image"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Header image",
+            "airtable_type": "multipleAttachments",
+            "airtable_field_ids": [
+              "fldxx1CqXfmw8kh4q"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Section"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Section",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldb8fri2kaR73tlu"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Author"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Author",
+            "airtable_type": "singleCollaborator",
+            "airtable_field_ids": [
+              "fldZ2uYWG9APMDcV7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Draft due"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Draft due",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fldE0cda2SCjCFH7H"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Publish date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Publish date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fld6ygbrRFgxP34re"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Link"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Link",
+            "airtable_type": "url",
+            "airtable_field_ids": [
+              "fldMiwTc5sDHa2rnx"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Social posts"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Social posts",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldokCwXcsk0GKBsW"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Freelancer timesheets"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Freelancer timesheets",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldFFvdn2tgfNsHVT"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblTS0UJGoQ2gfXHy",
+      "database_name": "Content calendar",
+      "table_name": "Social schedule",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Social post": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Platform": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Related story": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Character count": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Post length?": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Attachments": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Date": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Published link": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Link to web content": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Social schedule",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appjh4Kk2dZFI5VUM"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Social post"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Social post",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fld7YFUwaO4otlsls"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Platform"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Platform",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldtS4k54HlnYrDoH"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Related story"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Related story",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldX98T0zK6r2brKM"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Character count"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Character count",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fld8QzSZFQ0QAnRlF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Post length?"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Post length?",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fldqGIMvQACb3DExO"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Attachments"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Attachments",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldibpbddtmGI7nSs"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Date",
+            "airtable_type": "dateTime",
+            "airtable_field_ids": [
+              "fldXlwROMzPzdG5uF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Published link"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Published link",
+            "airtable_type": "url",
+            "airtable_field_ids": [
+              "fld0qbXaV0R9QNcuc"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Link to web content"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Link to web content",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldZCUEpWxkt9JjZ5"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblIL1SGXxj4J5Pj0",
+      "database_name": "Content calendar",
+      "table_name": "Freelancer timesheets",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Writer": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Attachments": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Billable hours": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "Hourly rate": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Total billed": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Associated piece(s)": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Start date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Freelancer timesheets",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appjh4Kk2dZFI5VUM"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fldCUJRjjjIx0pVTv"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Writer"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Writer",
+            "airtable_type": "singleCollaborator",
+            "airtable_field_ids": [
+              "fldJb6y5bVD1QxgnQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Attachments"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Attachments",
+            "airtable_type": "multipleAttachments",
+            "airtable_field_ids": [
+              "fldOAlxSJT1ve0Mcs"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Billable hours"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Billable hours",
+            "airtable_type": "number",
+            "airtable_field_ids": [
+              "fld4eC6nShaSpQYry"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Hourly rate"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Hourly rate",
+            "airtable_type": "currency",
+            "airtable_field_ids": [
+              "fld28hSh4ndCxX0iQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Total billed"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Total billed",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fldFq2cC4DkhohzCN"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Associated piece(s)"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Associated piece(s)",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldUjcvXyICE5qzTv"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Start date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Start date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fldoq6I8Rm0thzlfy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblPLpp5nxEjdvLSX",
+      "database_name": "Product planning",
+      "table_name": "Stories",
+      "key_properties": [
+        "story_id"
+      ],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Story name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "User want": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Server points": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Client points": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Built?": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Needs review": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Facet": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Epics": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Blocks release": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Sprint": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Release seq. no.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Blocking stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "So that": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "FhabTask": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "P[?]": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Server eng. tasks": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Client eng. tasks": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "FhabURL": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "story_id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "to-be-pointed": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Stories",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "app1Pknt887kwCInb"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Story name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Story name",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fld1RRDhvnbaGPEx0"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "User want"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "User want",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldVXwHRIvoE3fT3S"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Server points"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Server points",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldTf6NjXLUUAVgb8"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Client points"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Client points",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldvejvddOq91Nhgg"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Built?"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Built?",
+            "airtable_type": "checkbox",
+            "airtable_field_ids": [
+              "fldydWUMsCHBaShWk"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Needs review"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Needs review",
+            "airtable_type": "checkbox",
+            "airtable_field_ids": [
+              "fldqpvTDqLno6FPHL"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Facet"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Facet",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldVQl8lEUx2wV0WE"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Epics"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Epics",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldf9JjPl2ERbczIl"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Blocks release"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Blocks release",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldAZI5NOsRWzNqu7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Sprint"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Sprint",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldyOxCvyqfzX4rSM"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Release seq. no."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Release seq. no.",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldqpHSC2JKgBdU4n"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Blocking stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Blocking stories",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldsW7xAtj50Y0CKV"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "So that"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "So that",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldouJnmaiY76qF9Y"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "FhabTask"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "FhabTask",
+            "airtable_type": "number",
+            "airtable_field_ids": [
+              "fld5cpW1aCAiIAuYQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "P[?]"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "P[?]",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldl4WDhcs2kkf2xE"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Server eng. tasks"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Server eng. tasks",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldlRQAhsp0SJMAl3"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Client eng. tasks"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Client eng. tasks",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldcfaWQ4Sg0KQFON"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Notes",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fld3GTen3VWP45SfK"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "FhabURL"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "FhabURL",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fldfezPaSPz9LIPQT"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "story_id"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "story_id",
+            "airtable_type": "autoNumber",
+            "airtable_field_ids": [
+              "fldxnNa2TCOyW0V7r"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "to-be-pointed"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "to-be-pointed",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "flduQcMQjKczQcb2p"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tbl5hCCgq3G4bkqLl",
+      "database_name": "Product planning",
+      "table_name": "Epics",
+      "key_properties": [
+        "epic_id"
+      ],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Epic name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Epic title": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Blocks release": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Description": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "No. stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Seq. no.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Blocked by (Epic)": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Sprints": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Rob est.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Server pts.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Client pts.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Facets": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "No. open stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "epic_id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Epics",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "app1Pknt887kwCInb"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Epic name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Epic name",
+            "airtable_type": "formula",
+            "airtable_field_ids": [
+              "fldSwWJ6CkL5SG8VT"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Epic title"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Epic title",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldJkCeAPoZ4RS6LY"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Blocks release"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Blocks release",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldNIJJmNYEeDFqoF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Description"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Description",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldxMgDYqHPrjw2TX"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "No. stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "No. stories",
+            "airtable_type": "count",
+            "airtable_field_ids": [
+              "fldreabl3gxWZZPUk"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Seq. no."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Seq. no.",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldoILwYIHy4t7r9r"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Blocked by (Epic)"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Blocked by (Epic)",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldyetVCjRE9QyhzZ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Sprints"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Sprints",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldxYRpay35PK7Tj7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Rob est."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Rob est.",
+            "airtable_type": "multipleSelects",
+            "airtable_field_ids": [
+              "fldPM49uGsPj5yKMo"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Server pts."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Server pts.",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fld6ok92Y0ctxn0GT"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Client pts."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Client pts.",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldknAbCcik3TZvh7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Stories",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldJnp9L2eRADZfYz"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Facets"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Facets",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "fldomnGCwavhBfpOQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "No. open stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "No. open stories",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldud5KyLQh5JCCuZ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "epic_id"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "epic_id",
+            "airtable_type": "autoNumber",
+            "airtable_field_ids": [
+              "fld4eqkxVlkZlxzHG"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblZs74Sby8LsluGW",
+      "database_name": "Product planning",
+      "table_name": "Sprints",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Target release date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Server pts.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Client pts.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Epics": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Sprints",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "app1Pknt887kwCInb"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldBxbCqwMdK8ZjuM"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Target release date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Target release date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fldIjpHZqugP6CP4L"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Server pts."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Server pts.",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldH6D7onc5XzHyr1"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Client pts."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Client pts.",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fld371Xkz5Ot0wkZ9"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Epics"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Epics",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldPcdKnVU1SXbK9g"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Stories",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldG9zo3spMKIFOBa"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Notes",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "flde2iYAqJtfb9u2N"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tbl4dad22Gd4dNm8R",
+      "database_name": "Product planning",
+      "table_name": "Release milestones",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Milestone": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Sequence": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "No. stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Epics": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Attachments": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Release milestones",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "app1Pknt887kwCInb"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Milestone"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Milestone",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldVGroSNT5z5eebo"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Sequence"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Sequence",
+            "airtable_type": "number",
+            "airtable_field_ids": [
+              "fldt4gHTFR03aKZeK"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "No. stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "No. stories",
+            "airtable_type": "count",
+            "airtable_field_ids": [
+              "fldfW4ufWSQ3s0rNq"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Stories",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fld6GCcMRiz4VBTKU"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Epics"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Epics",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fld8pkupqZB4bKTVY"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Notes",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldmgIhZqKId2dop7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Attachments"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Attachments",
+            "airtable_type": "multipleAttachments",
+            "airtable_field_ids": [
+              "fldoPssRfzZ8k0BXh"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblOyMUFzgVDvbJ6W",
+      "database_name": "Product planning",
+      "table_name": "Facets",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Facet": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "App section": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Stories": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Server pts.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Client pts.": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Epics": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Facets",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "app1Pknt887kwCInb"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Facet"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Facet",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldfKlTahVlOiHYRZ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "App section"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "App section",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fld3uNIZMR9Ny7AZf"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Stories"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Stories",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldMkje0qioU27JaU"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Server pts."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Server pts.",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldlD1w76BETh8rpj"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Client pts."
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Client pts.",
+            "airtable_type": "rollup",
+            "airtable_field_ids": [
+              "fldGkw9XVxX0LonoZ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Epics"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Epics",
+            "airtable_type": "lookup",
+            "airtable_field_ids": [
+              "flduFvYbSDC9Q6rMe"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Notes",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fld2XLogTNjC7d8Wm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblCIRXuvjKAvKEhj",
+      "database_name": "Product planning",
+      "table_name": "App sections",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Name": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Facets": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "App sections",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "app1Pknt887kwCInb"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Name"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Name",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldTq5z7sxnCPfzin"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Facets"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Facets",
+            "airtable_type": "multipleRecordLinks",
+            "airtable_field_ids": [
+              "fldO7UuGZ154LrV3L"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblTb0uxXVjtIk82s",
+      "database_name": "Job Hunting",
+      "table_name": "Job Leads",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Company": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Logo": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Company Description": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "My Notes": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Role": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Size": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Location": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Link": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Action Date": {
+            "inclusion": "available",
+            "format": "date",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Follow up?": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Job Leads",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appTyaSnIoBhpF9Uq"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Company"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Company",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldu1Pex8zMWUgRfe"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Logo"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Logo",
+            "airtable_type": "multipleAttachments",
+            "airtable_field_ids": [
+              "fldEIlZnGVMv7h17P"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Company Description"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Company Description",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldQmiNiijZpUr2HO"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "My Notes"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "My Notes",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fldF7IbrynAkQGm7I"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Role"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Role",
+            "airtable_type": "multipleSelects",
+            "airtable_field_ids": [
+              "fldbPbuKQjntYCuvA"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Size"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Size",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fld8nSgzTKTVR4Uy2"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Location"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Location",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldIiYbP84CYXENF7"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Link"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Link",
+            "airtable_type": "url",
+            "airtable_field_ids": [
+              "fld91r2i6pLjvQf9b"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Action Date"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Action Date",
+            "airtable_type": "date",
+            "airtable_field_ids": [
+              "fld8DE8cC7PBsd6kN"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Follow up?"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Follow up?",
+            "airtable_type": "checkbox",
+            "airtable_field_ids": [
+              "fld8MFMzUWK6U9gx3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tbln9nqpGMzGXADVg",
+      "database_name": "Job Hunting",
+      "table_name": "Interview Questions",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Question": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Type": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "My Answer": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Interview Questions",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appTyaSnIoBhpF9Uq"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Question"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Question",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldO56KnPdps5eS2U"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Type"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Type",
+            "airtable_type": "singleSelect",
+            "airtable_field_ids": [
+              "fldO8xfMaJ8txvMYu"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "My Answer"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "My Answer",
+            "airtable_type": "multilineText",
+            "airtable_field_ids": [
+              "fld612VFhjFFL7f7k"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tblHahsxP3IfnNNKw",
+      "database_name": "Imported Base",
+      "table_name": "Imported table",
+      "key_properties": [],
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "City": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Year": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Sport": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Discipline": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Event": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Athlete": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Gender": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Country_Code": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Country": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Event_gender": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "Medal": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "Imported table",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": "database_name",
+          "metadata": {
+            "base_id": "appFnNbuQZD9qAJuS"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "City"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "City",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldMlD88IWNGYcqao"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Year"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Year",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fld7flnRjGljdqXmF"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Sport"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Sport",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldbhbesGc1fIiARV"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Discipline"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Discipline",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldYSDcS18kwCqiiQ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Event"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Event",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldXRH9mdmJ5RJ4vm"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Athlete"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Athlete",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fld92dQl51vto5co1"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Gender"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Gender",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldzzFkjGRvGrmd9O"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Country_Code"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Country_Code",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldpM6fzASmdVDgq9"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Country"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Country",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldSHw7XtAEr2ZR9c"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Event_gender"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Event_gender",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldSirajnFCBilaSZ"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Medal"
+          ],
+          "metadata": {
+            "inclusion": "available",
+            "real_name": "Medal",
+            "airtable_type": "singleLineText",
+            "airtable_field_ids": [
+              "fldoMEuMhUtHdPOiT"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "_signature": "GDuhDf/9gZwf9EOZ4HJlo96NngfS7XLplmwHwFZERcCvBcpk2u+o14Yle4UHMVp9VMQ6OdLePLxGa4wKVRt7AQ=="
+}
