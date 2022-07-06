@@ -1,6 +1,6 @@
 {
   "request_id": "220706083340_89a5145c-68d0-5a58-8ba8-1d93325f64e3",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -80,7 +80,156 @@
     "write_disposition": "TRUNCATE",
     "external_id": "8ab494f7-7660-460f-83e4-c3b4f206b086",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/722bb9d3-ae71-4291-8e27-9f7fee279695",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-06T08:34:29.190522+00:00",
+    "row_count": 1005,
+    "current_import_row_count": 1005,
+    "size_in_bytes": 271680,
+    "columns": [
+      {
+        "field_name": "list_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "vip",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "member_rating",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "latitude",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ip_opt",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "merge_fname",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email_client",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "merge_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "language",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "gmtoff",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "country_code",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "dstoff",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "longitude",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "timestamp_opt",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "last_changed",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "email_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "timezone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "timestamp_signup",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "merge_phone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "fivetran_synced",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "ip_signup",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "unique_email_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "merge_lname",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220706083340_89a5145c-68d0-5a58-8ba8-1d93325f64e3",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220706083340_89a5145c-68d0-5a58-8ba8-1d93325f64e3&page=table"
   },
-  "_signature": "ccv3GlwwRGiLlc398nOm7SKvyvoox1z/gbRntJMNzgCxJeAtfciKAkPvZRO9yPYmLyklT+IJND7JLca1jacYCQ=="
+  "finished_at": "2022-07-06T08:34:29.190669+00:00",
+  "_signature": "XYauk+ea/zNajpmIb8m3ldAWVMjpjhLHrqGMlMY1Re6KM1a+FDZ9yQDS15z28sHlO7elhTDWqWfBomF7wHW/AQ=="
 }
