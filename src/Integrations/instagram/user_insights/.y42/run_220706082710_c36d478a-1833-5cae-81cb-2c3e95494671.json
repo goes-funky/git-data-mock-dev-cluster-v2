@@ -1,0 +1,16 @@
+{
+  "request_id": "220706082710_c36d478a-1833-5cae-81cb-2c3e95494671",
+  "status": "pending",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-06T08:28:26.038224+00:00",
+    "external_state": {
+      "schema_hash": "1d2c53aec4369441c196d1da5ef49ed2"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "71be5e90-cf6c-4a88-a18b-19b7236117b0",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-instagram/ebd3cf33-8c6c-4d5e-a9e3-022049e203f1",
+    "partial": false
+  },
+  "_signature": "RpNa8Y1BYA2O7VZl0qSIADe8hC0UwodAxpBN8ma7s3IXgFiI/S7vSbljIKJmzO5US6JccPDtqQVAJTyQJP3CAg=="
+}
