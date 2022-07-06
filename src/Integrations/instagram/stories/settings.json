@@ -2,19 +2,7 @@
   "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/table",
   "columns": [
     "business_account_id",
-    "page_id",
-    "caption",
-    "id",
-    "ig_id",
-    "like_count",
-    "media_type",
-    "media_url",
-    "owner",
-    "permalink",
-    "shortcode",
-    "thumbnail_url",
-    "timestamp",
-    "username"
+    "id"
   ],
   "import": "stories",
   "_datos_write_settings": {
