@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "Hugo's Dashboard-a5906319-e901-40ae-b5a4-cc38b0de13ea.json",
+  "order": [
+    "src/Visualizations/Dashboards/Hugo_s_Dashboard/Tab_1"
+  ]
+}

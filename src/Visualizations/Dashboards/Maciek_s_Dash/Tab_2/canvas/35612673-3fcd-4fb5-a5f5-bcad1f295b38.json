@@ -1,27 +1,18 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
-  "type": "Text",
+  "type": "Frame",
   "position": {
-    "x": 1179.8828125,
-    "y": 59.577679713321345
+    "x": 139,
+    "y": 73
   },
   "size": {
-    "width": 835,
-    "height": 59
+    "height": 872,
+    "width": 1297
   },
   "zIndex": 0,
-  "layer": "default",
+  "layer": "frames",
   "angle": 0,
-  "typeSettings": {
-    "textStyles": {
-      "font-weight": "normal",
-      "font-size": "40px",
-      "font-family": "Arial",
-      "text-align": "center",
-      "color": "#000"
-    },
-    "text": "MULTILEVER - REGIONAL SALES OVERVIEW"
-  },
+  "typeSettings": {},
   "styles": {
     "background-color": "none",
     "border-color": "none",
@@ -32,9 +23,9 @@
   },
   "locked": false,
   "objectProperties": {
-    "resizable": false,
+    "resizable": true,
     "movable": true,
     "selectable": true,
-    "rotatable": true
+    "rotatable": false
   }
 }
