@@ -3,7 +3,7 @@
   "theme": {
     "themeName": "wonderland",
     "seriesCnt": 3,
-    "backgroundColor": "#ffffff",
+    "backgroundColor": "#969696",
     "titleColor": "#666666",
     "subtitleColor": "#999999",
     "textColorShow": false,
@@ -179,6 +179,9 @@
     "agGridForegroundColor": "#999999",
     "agGridBackgroundColor": "#ffffff",
     "cohortPrimaryColor": "#62BE7B",
-    "cohortSecoundaryColor": "#F8696B"
+    "cohortSecoundaryColor": "#F8696B",
+    "frameBackgroundColor": "#eeeeee",
+    "frameBorderColor": "#636363",
+    "frameBorderWidth": 1
   }
 }
