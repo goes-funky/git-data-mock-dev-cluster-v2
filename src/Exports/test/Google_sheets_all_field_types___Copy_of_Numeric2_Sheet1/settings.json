@@ -1,0 +1,5 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
+  "datasource_table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+  "sheet_id": "1FUs7iiOLxdQ1sk5Imr6E_3oiGL9UhRBSquZiJGYeh7U"
+}
