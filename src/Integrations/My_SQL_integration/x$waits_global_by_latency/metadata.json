@@ -1,10 +1,19 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "x$waits_global_by_latency",
   "description": "",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
   "asset_status": "no status"
 }
