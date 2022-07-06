@@ -1,10 +1,19 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "f33d13f9-0085-4c73-8418-21710ab58a7e.json",
   "description": "",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
   "asset_status": "no status"
 }

@@ -1,10 +1,19 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "ho ho ho-f9a22331-8cff-46c1-a36c-04077f82d4f4.json",
   "description": "",
   "tags": [],
-  "owners": [],
-  "experts": [],
-  "watchers": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
   "asset_status": "no status"
 }
