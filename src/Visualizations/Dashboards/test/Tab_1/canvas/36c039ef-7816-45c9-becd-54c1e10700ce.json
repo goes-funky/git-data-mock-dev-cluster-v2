@@ -2,8 +2,8 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1764.279881698838,
-    "y": -519.0363159179688
+    "x": 617.2955814064629,
+    "y": 9.425414522926758
   },
   "size": {
     "width": 400,
@@ -13,11 +13,11 @@
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/2021_COGS___Profit"
+    "widgetPath": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f2f2f2",
+    "background-color": "#fbfaef",
+    "border-color": "#f7f5df",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",

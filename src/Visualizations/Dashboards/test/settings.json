@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "test-fb61ee80-71fb-4ca5-8ab5-606e8b988467.json",
+  "order": [
+    "src/Visualizations/Dashboards/test/Tab_1",
+    "src/Visualizations/Dashboards/test/Tab_1__copy_",
+    "src/Visualizations/Dashboards/test/fff"
+  ],
+  "last_used_datasource_table_path": "src/Integrations/facebook_pages/page_insight_website_clicks"
+}

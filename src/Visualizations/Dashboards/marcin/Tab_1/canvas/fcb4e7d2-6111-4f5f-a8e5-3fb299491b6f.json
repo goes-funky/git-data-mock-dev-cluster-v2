@@ -1,25 +1,26 @@
 {
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
-  "type": "Widget",
+  "type": "Drawing",
   "position": {
-    "x": 1764.279881698838,
-    "y": -519.0363159179688
+    "x": 697.451416015625,
+    "y": -662.7279663085938
   },
   "size": {
-    "width": 400,
-    "height": 300
+    "width": 0,
+    "height": 0
   },
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
   "typeSettings": {
-    "widgetPath": "src/Visualizations/Widgets/2021_COGS___Profit"
+    "strokeWidth": 5,
+    "path": ""
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f2f2f2",
-    "border-style": "solid",
-    "border-width": "1px",
+    "background-color": "black",
+    "border-color": "#5a9deb",
+    "border-style": "none",
+    "border-width": "5",
     "border-radius": "0",
     "filter": "drop-shadow(0px 0px 0px #939393)"
   },
