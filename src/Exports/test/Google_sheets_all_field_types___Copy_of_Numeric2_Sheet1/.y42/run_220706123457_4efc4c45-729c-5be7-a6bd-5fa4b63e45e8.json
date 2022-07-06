@@ -1,0 +1,41 @@
+{
+  "request_id": "220706123457_4efc4c45-729c-5be7-a6bd-5fa4b63e45e8",
+  "status": "pending",
+  "request": {
+    "export_credentials": "b1b52a8d-6bd3-48ad-be6a-3906bf48b458",
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "sheet_id": "1FUs7iiOLxdQ1sk5Imr6E_3oiGL9UhRBSquZiJGYeh7U"
+    },
+    "import_table": "220615144603_b4cd02b9-438d-51f9-863e-61a26c3c60a4",
+    "created_at": "2022-07-06T12:34:57.759736+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/test/Google_sheets_all_field_types___Copy_of_Numeric2_Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "lex"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "c6485cff6fce54002d9132fbe7fa6410e4081212"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-06T12:34:57.759736+00:00",
+  "_signature": "PvS4Gff4HhG0DBFnGa6PfKdHbvwZ+qy2G0ASqjbl9eOEPywetkrl5fSqWkTYyEIPlwGCAaIQmMpQmVezlXmXDg=="
+}
