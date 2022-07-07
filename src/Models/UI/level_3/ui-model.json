@@ -271,11 +271,6 @@
       "location": "-427.82644628099183 -55.12264150943395"
     }
   ],
-  "linkDataArray": [
-    {
-      "from": "030ca6a6-3e54-442f-a9f0-6e47bcfd21ac",
-      "to": "c4ccba5b-94db-47db-a72e-464ba6887845"
-    }
-  ],
+  "linkDataArray": [],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
