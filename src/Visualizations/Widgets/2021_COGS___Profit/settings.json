@@ -221,7 +221,106 @@
       "fieldSortKey": null,
       "stackNameSortKey": null
     },
-    "show_total_for_stacks": []
+    "show_total_for_stacks": [],
+    "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+    "chart_type": "pie_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "total_profit",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_total_profit_31d24ca4_faea_4ca0_9180_03cdc715aadf",
+        "id": "31d24ca4_faea_4ca0_9180_03cdc715aadf",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "country",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_country_47d8d0eb_6c4f_467d_a9ea_d50490f0ee38",
+        "id": "47d8d0eb_6c4f_467d_a9ea_d50490f0ee38",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "item",
+        "aggregation": "COUNT",
+        "type": "STRING",
+        "alias": "COUNT_item_14d2cb72_3ff9_4306_89fc_34103b57ff2a",
+        "id": "14d2cb72_3ff9_4306_89fc_34103b57ff2a",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "31d24ca4_faea_4ca0_9180_03cdc715aadf",
+          "mark": "bar",
+          "stack_name": 1,
+          "color": {
+            "field_id": null,
+            "extrema": {}
+          },
+          "label": {
+            "show": true,
+            "field_ids": [
+              "14d2cb72_3ff9_4306_89fc_34103b57ff2a"
+            ],
+            "rotate": -31,
+            "align": "center",
+            "verticalAlign": "top",
+            "offset": [
+              -30,
+              0
+            ]
+          },
+          "tooltip": {
+            "show": true,
+            "field_ids": [],
+            "quillString": "<p><span class=\"mention\" data-index=\"1\" data-denotation-char=\"@\" data-id=\"VALUE_country_47d8d0eb_6c4f_467d_a9ea_d50490f0ee38\" data-value=\"country\">﻿<span contenteditable=\"false\"><span class=\"ql-mention-denotation-char\">@</span>country</span>﻿</span> : piesek</p>"
+          },
+          "show_right_axis": false,
+          "format": "",
+          "formatConfig": {
+            "numeralFormat": "",
+            "formatType": "CUSTOM",
+            "decimalPlaces": 2,
+            "negativeSymbol": {
+              "show": true,
+              "type": "symbol"
+            },
+            "displayType": "ORDINAL_NUMBERS",
+            "separator": "COMMA",
+            "locale": "",
+            "prefixOrSuffix": "suffix",
+            "customFormat": ""
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [],
+      "breakdowns": [
+        "47d8d0eb_6c4f_467d_a9ea_d50490f0ee38"
+      ],
+      "show_as_donut": false
+    }
   },
   "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
   "filters": [],

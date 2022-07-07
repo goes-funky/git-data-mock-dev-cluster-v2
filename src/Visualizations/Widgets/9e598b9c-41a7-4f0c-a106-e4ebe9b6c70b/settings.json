@@ -1,0 +1,392 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "bar_line_chart",
+  "settings": {
+    "series": [
+      {
+        "field_id": "81484824_a8fc_4513_97cb_e77ad1e31c33",
+        "mark": "bar",
+        "stack_name": 1,
+        "label": {
+          "show": true,
+          "field_ids": [],
+          "rotate": 0,
+          "align": "center",
+          "verticalAlign": "top"
+        },
+        "tooltip": {
+          "show": true,
+          "field_ids": []
+        },
+        "show_right_axis": false,
+        "format": "inherit",
+        "cumulative": false,
+        "hidden": false
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "a5d2d86e_6cc8_454b_83dd_11d7a26418ba"
+    ],
+    "breakdowns": [],
+    "series_on_y": true,
+    "serieAxis": {
+      "min": null,
+      "max": null,
+      "show": true,
+      "type": "value",
+      "axisName": {
+        "nameRotate": 0,
+        "nameGap": 10,
+        "nameLocation": "middle",
+        "nameTextStyle": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7"
+        }
+      },
+      "axisLine": {
+        "showLabel": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "axisLabel": {
+        "backgroundColor": "transparent",
+        "borderColor": "#f4f4fb",
+        "borderWidth": 0,
+        "fontSize": 12,
+        "align": "right",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "show": true,
+        "rotate": 0,
+        "margin": 22,
+        "suffix": "",
+        "max_characters": null,
+        "value_conversion": "Automatic",
+        "date_format": "",
+        "value_format": "inherit"
+      },
+      "splitLine": {
+        "showLabel": false,
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dataZoom": {
+        "show": false,
+        "start": 0,
+        "end": 100
+      }
+    },
+    "dimensionAxis": {
+      "min": null,
+      "max": null,
+      "show": true,
+      "type": "time",
+      "axisName": {
+        "nameRotate": 0,
+        "nameGap": 10,
+        "nameLocation": "middle",
+        "nameTextStyle": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7"
+        }
+      },
+      "axisLine": {
+        "showLabel": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "axisLabel": {
+        "backgroundColor": "transparent",
+        "borderColor": "#f4f4fb",
+        "borderWidth": 0,
+        "fontSize": 12,
+        "align": "center",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "show": true,
+        "rotate": 0,
+        "margin": 22,
+        "suffix": "",
+        "max_characters": null,
+        "value_conversion": "Automatic",
+        "date_format": "",
+        "value_format": "inherit"
+      },
+      "splitLine": {
+        "showLabel": false,
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dataZoom": {
+        "show": false,
+        "start": 0,
+        "end": 100
+      }
+    },
+    "show_stack_by": false,
+    "show_stack_by_100_percent": false,
+    "sort": {
+      "order": "NONE",
+      "sort_by": "SERIES",
+      "sortByField": true,
+      "fieldSortKey": null,
+      "stackNameSortKey": null
+    },
+    "show_total_for_stacks": [],
+    "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+    "chart_type": "table",
+    "filters": [],
+    "fields": [
+      {
+        "field": "Pozitive_numbers",
+        "aggregation": "SUM",
+        "type": "INTEGER",
+        "alias": "SUM_Pozitive_numbers_39340583_bb1e_416e_8685_0e4ddf385f69",
+        "id": "39340583_bb1e_416e_8685_0e4ddf385f69",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "Date_time",
+        "aggregation": "DAY_MONTH_YEAR",
+        "type": "TIMESTAMP",
+        "alias": "DAY_MONTH_YEAR_Date_time_dc45c58b_1736_48f5_83a5_38881e957798",
+        "id": "dc45c58b_1736_48f5_83a5_38881e957798",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "39340583_bb1e_416e_8685_0e4ddf385f69",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "dimensions": [
+        {
+          "field_id": "dc45c58b_1736_48f5_83a5_38881e957798",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "breakdowns": [],
+      "columnState": [],
+      "groupExpandedKeys": [],
+      "suppressMovable": false,
+      "paging": true,
+      "sortable": true,
+      "resizable": true,
+      "showFooterTotal": false,
+      "rowSettings": {
+        "backgroundColor": "transparent",
+        "borderColor": "#000000",
+        "borderWidth": 1,
+        "fontSize": 12,
+        "align": "center",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "color": "#a7a7a7",
+        "colorTo": "#a7a7a7",
+        "borderPosition": "noneBorder",
+        "wordBreak": "keepAll",
+        "activeStyles": false
+      }
+    }
+  },
+  "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+  "filters": [],
+  "fields": [
+    {
+      "field": "Date_time",
+      "aggregation": "YEAR",
+      "type": "TIMESTAMP",
+      "alias": "YEAR_Date_time_a5d2d86e_6cc8_454b_83dd_11d7a26418ba",
+      "id": "a5d2d86e_6cc8_454b_83dd_11d7a26418ba",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "Pozitive_numbers",
+      "aggregation": "SUM",
+      "type": "INTEGER",
+      "alias": "SUM_Pozitive_numbers_81484824_a8fc_4513_97cb_e77ad1e31c33",
+      "id": "81484824_a8fc_4513_97cb_e77ad1e31c33",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "marcin-56e039c4-65c9-43c1-96ad-925d21d77ab6.json",
+  "order": [
+    "src/Visualizations/Dashboards/marcin/Tab_1"
+  ],
+  "last_used_datasource_table_path": "src/Integrations/MySql_Integration/test_pk"
+}
