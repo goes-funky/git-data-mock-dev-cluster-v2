@@ -1,7 +1,8 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
-  "theme": "Maciek's Dash-e30da1c7-8e01-4980-98e5-d55a96019a16.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-dashboard-settings.json",
+  "theme": "1234-425793d7-436e-47af-8a58-d0d6f45fc34b.json",
   "order": [
-    "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1"
+    "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1",
+    "src/Visualizations/Dashboards/Maciek_s_Dash/Foo"
   ]
 }

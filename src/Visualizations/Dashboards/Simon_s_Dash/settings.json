@@ -1,6 +1,6 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
-  "theme": "Simon's Dash-1028caf0-4964-42ad-a4e4-0f9e2392850a.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-dashboard-settings.json",
+  "theme": "New theme-78f9c68e-9203-4adb-a6d2-4083266a94bf.json",
   "order": [
     "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1",
     "src/Visualizations/Dashboards/Simon_s_Dash/Tab_2",
