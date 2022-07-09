@@ -15,9 +15,7 @@
   "tags": [],
   "destinations": [
     {
-      "type": "internal_notification",
-      "user_ids": [],
-      "team_ids": []
+      "type": "internal_notification"
     }
   ]
 }
