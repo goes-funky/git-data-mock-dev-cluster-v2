@@ -15,7 +15,11 @@
   "tags": [],
   "destinations": [
     {
-      "type": "internal_notification"
+      "type": "internal_notification",
+      "user_ids": [
+        "gabriel.llamas@y42.com"
+      ],
+      "team_ids": []
     }
   ]
 }
