@@ -1,6 +1,6 @@
 {
   "request_id": "220711141315_d34cf561-5280-5436-bc29-7aa175604a07",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -38,5 +38,63 @@
     }
   },
   "created_at": "2022-07-11T14:13:15.500677+00:00",
-  "_signature": "4RNNiA9CGc/xgXPBws3b+24OwiO2rp+28x9L1clJFptYIvn2NCoiMqU6pqx4f0t84xadUL/44/tm/4qam9afCQ=="
+  "finished_at": "2022-07-11T14:13:38.930542+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-11T14:13:38.930434+00:00",
+    "row_count": 333,
+    "current_import_row_count": 333,
+    "size_in_bytes": 67599,
+    "external_id": "91b9acb7-b7da-4ac8-a591-1ca1b55a6908",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220711141315_d34cf561-5280-5436-bc29-7aa175604a07",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220711141315_d34cf561-5280-5436-bc29-7aa175604a07&page=table"
+  },
+  "_signature": "g+EzTB7/4NmrVoclGhKRoxbxmTYSTMBI1miadEUsk/qTFL4mC8Nhzq0zZW1icL+gwEvCMqYiOE7FpJ9AyTHbCw=="
 }
