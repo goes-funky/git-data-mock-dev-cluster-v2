@@ -1,6 +1,6 @@
 {
   "request_id": "220711144716_95ba3cd8-d5df-5a4b-8161-4c1c5a29b72a",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -41,5 +41,8 @@
     "previous_table_id": "220711141312_875d57af-d6a0-5bf8-822e-ba8dc862bc90"
   },
   "created_at": "2022-07-11T14:47:16.791467+00:00",
-  "_signature": "JRLsz4evRwFFa+IhXyHYgH6sWH1MXkdErCwK/qEwdjdxEpLJ+Ipval7YhUu2yBtkgwh6UphHBFxlh4FGKg+FBA=="
+  "failed_at": "2022-07-11T14:47:26.534893+00:00",
+  "error_code": 422,
+  "error_message": "Server error: `GET http://trigger.backend/company/6/environment` resulted in a `500 INTERNAL SERVER ERROR` response:\n{\"error\":\"internal error\",\"success\":false}\n\n",
+  "_signature": "eZRH3P1dOIBNpcr0YjRF8DhxwD/gucii4yLfvL3MlHF4rneNaZ4ErY5tK05nyqXFIFJ4d60KyAtIW0IIIt8UBg=="
 }
