@@ -256,11 +256,49 @@
       "isGroup": true,
       "group": "",
       "location": "355.37190082644634 -73.98113207547169"
+    },
+    {
+      "key": "f40d9887-20e5-4f09-801c-0270d550d5a6",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "f40d9887-20e5-4f09-801c-0270d550d5a6",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "535.7447739426349 -272.1130150173277"
+    },
+    {
+      "key": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
+        "title": "",
+        "transformationType": "FIELDS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "112.62712688381146 -253.21505583365422"
     }
   ],
   "linkDataArray": [
     {
       "from": "0e6f2e40-0dde-403e-9fe6-317fa6d3e9a1",
+      "to": "6c0af187-0e89-4633-81e6-0022f6a022b9"
+    },
+    {
+      "from": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
+      "to": "f40d9887-20e5-4f09-801c-0270d550d5a6"
+    },
+    {
+      "from": "0e6f2e40-0dde-403e-9fe6-317fa6d3e9a1",
+      "to": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee"
+    },
+    {
+      "from": "f40d9887-20e5-4f09-801c-0270d550d5a6",
       "to": "6c0af187-0e89-4633-81e6-0022f6a022b9"
     }
   ],
