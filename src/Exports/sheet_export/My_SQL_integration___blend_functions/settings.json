@@ -1,5 +1,0 @@
-{
-  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
-  "datasource_table": "src/Integrations/My_SQL_integration/blend_functions",
-  "sheet_id": "1G5mFPiO00l7F89PMqmB2n-V4wugCeQ0fcnQKAzIMRAE"
-}
