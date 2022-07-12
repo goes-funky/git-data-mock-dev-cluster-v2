@@ -11,9 +11,9 @@
   "message_body": "<p>fsdf</p>",
   "patterns": [
     "abc_model",
-    "facebook_model",
     "another_ui_model",
-    "dmitry_model"
+    "dmitry_model",
+    "facebook_model"
   ],
   "tags": [],
   "destinations": [
