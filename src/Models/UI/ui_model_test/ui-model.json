@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-584 -164"
+      "location": "-724.2594339622642 -164"
     },
     {
       "key": "ca912279-95f5-437d-afd3-41e0d4f6f717",
@@ -284,17 +284,30 @@
       "location": "-209.07024793388427 224.36792452830184"
     },
     {
-      "key": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
+      "key": "0f561676-4bb4-4e03-8df4-31a26bb9290a",
+      "type": "FILTER",
+      "category": "FILTER",
       "transformationStep": {
-        "id": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
+        "id": "0f561676-4bb4-4e03-8df4-31a26bb9290a",
         "title": "",
-        "transformationType": "FUNCTIONS"
+        "transformationType": "FILTER"
       },
       "isGroup": true,
       "group": "",
-      "location": "126.09132668526365 27.58811680711551"
+      "location": "-535.6127366287228 203.63875044499832"
+    },
+    {
+      "key": "009ee838-11cf-467f-b746-c7c3d9d7249d",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "009ee838-11cf-467f-b746-c7c3d9d7249d",
+        "title": "",
+        "transformationType": "GROUP_BY"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-430.7689622641506 -263.84645745090484"
     }
   ],
   "linkDataArray": [
@@ -319,12 +332,12 @@
       "to": "8fe3c3f0-5f37-4e9b-b20e-fb062ce80e1b"
     },
     {
-      "from": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
-      "to": "ca912279-95f5-437d-afd3-41e0d4f6f717"
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "0f561676-4bb4-4e03-8df4-31a26bb9290a"
     },
     {
-      "from": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
-      "to": "57e206c0-065c-48ce-8792-6fcfef8bdc11"
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "009ee838-11cf-467f-b746-c7c3d9d7249d"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
