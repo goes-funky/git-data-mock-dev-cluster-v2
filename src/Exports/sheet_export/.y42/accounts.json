@@ -1,0 +1,33 @@
+{
+  "accounts": [
+    {
+      "id": "1u-dJypPkfZT7QQFZ6l-35vswt6c0zk71Ihl1phJns9c",
+      "name": "gabi"
+    },
+    {
+      "id": "1E2tgESpy8p1D6zEipws9pm75CssujOQ50vqJ4s4X_qw",
+      "name": "Gastos"
+    },
+    {
+      "id": "1tfiizVfomDKIr-zlGmltGGRNCAQ_jneIt4IciL-HHb0",
+      "name": "Gastos"
+    },
+    {
+      "id": "1sEExvYRexweu9_kbV7qRZojWzF1SvC31-r1lNwwhGYg",
+      "name": "Reformas"
+    },
+    {
+      "id": "1sUbCuMfVN8QXs9pWnFHc82lNK63fVmu_aOHJRV_4z0Y",
+      "name": "peso"
+    },
+    {
+      "id": "1hlN3QRwvATjL6HCdqSQpGC1HtS7e3OGyqjsTQms-XA8",
+      "name": "Gastos"
+    },
+    {
+      "id": "1N0oxpC10FODB60L_l47RQy2gXZWsO2_8IPjmjdQS5Kg",
+      "name": "Gastos"
+    }
+  ],
+  "_signature": "d1ggyKTBO5f7vTX90EAKwG0qE9twAM/gNGaViss+g29uSCepqGSNhN+hwbazBoo99uH9uqUMY3WbCPsD3K31AQ=="
+}
