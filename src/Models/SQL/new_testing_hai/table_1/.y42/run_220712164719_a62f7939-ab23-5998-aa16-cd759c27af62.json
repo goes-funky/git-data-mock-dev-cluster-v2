@@ -1,6 +1,6 @@
 {
   "request_id": "220712164719_a62f7939-ab23-5998-aa16-cd759c27af62",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -39,5 +39,8 @@
     }
   },
   "created_at": "2022-07-12T16:47:19.244609+00:00",
-  "_signature": "htQVhLy4r390hyXafvbE5PH2hk40qXSv5k2ik76UJ9SLVDplFbPb5Cx18HWuvBCMxKGLbVp67yRuZkPvSc5GBg=="
+  "failed_at": "2022-07-12T16:47:46.199052+00:00",
+  "error_code": 400,
+  "error_message": "400 Syntax error: Expected end of input but got keyword SELECT at [12:2]\n\nLocation: US\nJob ID: 13708ddf-7f16-4d2d-9c72-ef0791fada71\n",
+  "_signature": "168cEy+uLX0IwcCqTs2dotScjE8fYHW7VDBHcYSg+8nGBE1hyWWaPXcv1VZFK4nFw3VxIHetaqonMaNlWcwkCw=="
 }
