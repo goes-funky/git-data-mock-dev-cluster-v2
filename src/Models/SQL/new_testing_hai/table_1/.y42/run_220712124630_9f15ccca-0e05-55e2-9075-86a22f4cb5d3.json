@@ -1,0 +1,8 @@
+{
+  "request_id": "220712124630_9f15ccca-0e05-55e2-9075-86a22f4cb5d3",
+  "status": "invalid",
+  "failed_at": "2022-07-12T12:46:44.108134+00:00",
+  "error_code": 400,
+  "error_message": "400 Syntax error: Expected end of input but got keyword SELECT at [12:2]\n\nLocation: US\nJob ID: a6e521a6-1cdd-40fc-bd80-de8a39560374\n",
+  "_signature": "fS8eWd9wy/X3ZH+iHZjpGgs0HLaAOV9UtYX15yPhzMP+ANqtESmIkowFB7SAtvCSU2tbBfWTqq3N8pNzXtCfAA=="
+}
