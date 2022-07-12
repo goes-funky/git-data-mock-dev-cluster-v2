@@ -1,6 +1,6 @@
 {
   "request_id": "220712100011_c98a3b91-5e64-5765-b4a6-c858396353c7",
-  "status": "invalid",
+  "status": "pending",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -77,5 +77,37 @@
   "failed_at": "2022-07-12T10:00:50.457663+00:00",
   "error_code": 500,
   "error_message": "import failed",
-  "_signature": "9avp5dVew64VyH5nEXS9OAOg7tq5KLNHy3tpw1fIO2wLKk1iafy8iygWUXCPacYBCon05NhYP5fJxyjxcH6xCQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-12T10:01:40.370751+00:00",
+    "external_state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "0439ec77-d27f-45f2-a274-842847380564",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/7192b294-4b06-4eab-8758-47e2ebf7a178",
+    "partial": false
+  },
+  "_signature": "FTnlludshRhcGhxw0vR61GOe1RRAW37mTse1EpaoWC7xOkFet69Z/8xwFVq29Bcr/tCef7G1YGfJG4GJpcF2Bw=="
 }
