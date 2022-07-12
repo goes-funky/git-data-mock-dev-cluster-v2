@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/orchestration/orchestration-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [
@@ -21,7 +21,7 @@
     {
       "key": "2e6274d4-f312-4285-83f8-932dd31e07e3",
       "path": "src/Models/UI/facebook_model/facebook_model",
-      "location": "524.0456949966158 62",
+      "location": "524.0456949966159 62",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
@@ -31,6 +31,33 @@
       "key": "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f",
       "path": "src/Integrations/facebook_pages/page_insight_website_clicks",
       "location": "0 62",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "cf9f082e-b984-4164-bf8b-ca4be5e87f50",
+      "path": "src/Models/SQL/My_SQL_Model/table_1",
+      "location": "0 124.00000000000001",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "5837c436-a238-4b27-b3f3-c786a653fa46",
+      "path": "src/Models/UI/abc_model/abc_model",
+      "location": "0 186",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "e2a7af23-cb1a-4437-b268-e1d5630f49b8",
+      "path": "src/Exports/hello/Google_Analytics___website_overview",
+      "location": "0 248",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true

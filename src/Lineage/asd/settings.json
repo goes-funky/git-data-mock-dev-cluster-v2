@@ -1,4 +1,5 @@
 {
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/lineage/lineage-settings.json",
   "linkDataArray": [
     {
       "from": "src/Integrations/facebook_pages/page_insight_website_clicks",

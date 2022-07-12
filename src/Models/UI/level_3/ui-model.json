@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-764.8347107438017 -313.45283018867923"
+      "location": "-1227.8347107438017 -204.45283018867923"
     },
     {
       "key": "c4ccba5b-94db-47db-a72e-464ba6887845",
@@ -255,14 +255,22 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-425.3223140495868 -249.03773584905662"
-    }
-  ],
-  "linkDataArray": [
+      "location": "-245.3223140495868 -473.0377358490566"
+    },
     {
-      "from": "030ca6a6-3e54-442f-a9f0-6e47bcfd21ac",
-      "to": "c4ccba5b-94db-47db-a72e-464ba6887845"
+      "key": "7ab57976-1e28-4912-8369-28e7c3c4ce95",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "7ab57976-1e28-4912-8369-28e7c3c4ce95",
+        "title": "",
+        "transformationType": "FIELDS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-427.82644628099183 -55.12264150943395"
     }
   ],
+  "linkDataArray": [],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
