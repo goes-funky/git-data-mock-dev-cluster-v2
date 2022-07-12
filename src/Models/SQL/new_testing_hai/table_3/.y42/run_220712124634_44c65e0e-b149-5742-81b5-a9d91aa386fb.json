@@ -1,0 +1,63 @@
+{
+  "request_id": "220712124634_44c65e0e-b149-5742-81b5-a9d91aa386fb",
+  "status": "ready",
+  "finished_at": "2022-07-12T12:46:46.155626+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-12T12:46:46.155509+00:00",
+    "row_count": 333,
+    "current_import_row_count": 333,
+    "size_in_bytes": 67599,
+    "external_id": "3b1c226f-9bfa-43c9-ab28-72e002e90441",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220712124634_44c65e0e-b149-5742-81b5-a9d91aa386fb",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220712124634_44c65e0e-b149-5742-81b5-a9d91aa386fb&page=table"
+  },
+  "_signature": "0pp6OSUAQpHgy4s2Ug/SC3k8H6IFmw2ydSblJ0zNsz5u0KOWKdVLWpb9XTBbWmDfQCSVClYNUDRYODezag8+Aw=="
+}
