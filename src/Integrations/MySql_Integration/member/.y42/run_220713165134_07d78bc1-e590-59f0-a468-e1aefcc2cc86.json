@@ -1,0 +1,69 @@
+{
+  "request_id": "220713165134_07d78bc1-e590-59f0-a468-e1aefcc2cc86",
+  "status": "pending",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "list_id",
+        "id",
+        "status",
+        "language",
+        "vip",
+        "latitude",
+        "longitude",
+        "gmtoff",
+        "dstoff",
+        "country_code",
+        "timezone",
+        "email_address",
+        "unique_email_id",
+        "email_type",
+        "ip_signup",
+        "timestamp_signup",
+        "ip_opt",
+        "timestamp_opt",
+        "member_rating",
+        "last_changed",
+        "email_client",
+        "merge_lname",
+        "merge_fname",
+        "merge_address",
+        "merge_phone",
+        "_fivetran_synced",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "tmp_test_data-member"
+    },
+    "created_at": "2022-07-13T16:51:34.645365+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/member",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "test-chris"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "2ccb3dd2e7e85de0076f7b9c893f273014d3c808"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "6",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T16:51:34.645365+00:00",
+  "_signature": "SmlCRPAcxz6UsBvfXZLLanjZAyyWxc7XPJdKeflwYO5sg/4LstkMT+V2v6ess6GpPkAuixBd4YM8fdA+ljQFDw=="
+}
