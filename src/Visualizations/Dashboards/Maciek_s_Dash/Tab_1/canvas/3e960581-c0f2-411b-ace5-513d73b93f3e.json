@@ -2,8 +2,8 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
   "type": "Shape",
   "position": {
-    "x": 661.7232595771382,
-    "y": 4478.094066442343
+    "x": 1332.9495780455445,
+    "y": 4165.008588787861
   },
   "size": {
     "width": 300,

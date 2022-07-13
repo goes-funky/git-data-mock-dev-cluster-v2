@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
+  "name": "My new theme-6a9e43fd-d463-444f-8961-2ff22f432b59.json",
+  "description": "",
+  "tags": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "asset_status": "no status"
+}

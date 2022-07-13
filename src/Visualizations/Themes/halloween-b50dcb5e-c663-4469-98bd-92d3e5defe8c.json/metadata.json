@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
+  "name": "halloween-b50dcb5e-c663-4469-98bd-92d3e5defe8c.json",
+  "description": "",
+  "tags": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "asset_status": "no status"
+}
