@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/table",
+  "columns": [
+    "name",
+    "displayName",
+    "serviceTypes",
+    "moreHoursTypes"
+  ],
+  "import": "categories",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}
