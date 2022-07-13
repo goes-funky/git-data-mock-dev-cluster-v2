@@ -1,0 +1,40 @@
+{
+  "request_id": "220617141702_55394ba7-f79b-5329-a322-183ccdbae192",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-06-17T14:17:02.389775+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/hai_testing/table_1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "0a675f7ae79673469bfdd3acc127d4e490656e04"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "85",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-17T14:17:02.389775+00:00",
+  "failed_at": "2022-06-17T14:17:10.475872+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"INFO\",\"message\":\"<< 200 - 0.0365s - {\\\"success\\\":true,\\\"tables\\\":{\\\"src/Integrations/My_SQL_integration/doctrine_migrations\\\":{\\\"reason\\\":\\\"no valid import, ignore latest ru...\",\"datetime\":\"2022-06-17T14:17:10.386981+00:00\",\"requestId\":\"6552a0e6-7587-4660-b59a-73f893e3a572\",\"channel\":\"local\"}{\"severity\":\"INFO\",\"message\":\"got view info\",\"datetime\":\"2022-06-17T14:17:10.388616+00:00\",\"requestId\":\"6552a0e6-7587-4660-b59a-73f893e3a572\",\"public\":true,\"table_id\":\"src/Integrations/My_SQL_integration/doctrine_migrations\",\"view_info\":[{\"success\":true,\"tables\":{\"src/Integrations/My_SQL_integration/doctrine_migrations\":{\"reason\":\"no valid import, ignore latest run due to: source credentials changed\",\"valid\":false}}},{\"tables\":[\"src/Integrations/My_SQL_integration/doctrine_migrations\"]}],\"channel\":\"local\"}\n{\"severity\":\"ERROR\",\"message\":\"no valid import, ignore latest run due to: source credentials changed\",\"datetime\":\"2022-06-17T14:17:10.388942+00:00\",\"requestId\":\"6552a0e6-7587-4660-b59a-73f893e3a572\",\"public\":true,\"channel\":\"local\"}\n",
+  "_signature": "Qkx8JjzSzlfhcq3vxenUOqaTB7obj7v9CcENEY9CkNbE3JjzL97Hl7LrGgdvsLkqcc+hhMT0l8yV8KPRhB8mAA=="
+}

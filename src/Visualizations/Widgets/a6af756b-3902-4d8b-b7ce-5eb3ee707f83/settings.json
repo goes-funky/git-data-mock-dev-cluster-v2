@@ -1,0 +1,323 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "table",
+  "settings": {
+    "series": [
+      {
+        "field_id": "2cf0e3f0_4913_4ff8_9b32_9450395a7e42",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "dimensions": [
+      {
+        "field_id": "5a6b8c11_7b38_4273_9b12_dbab6284daaa",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "breakdowns": [],
+    "columnState": [],
+    "groupExpandedKeys": [],
+    "suppressMovable": false,
+    "paging": true,
+    "sortable": true,
+    "resizable": true,
+    "showFooterTotal": false,
+    "rowSettings": {
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderWidth": 1,
+      "fontSize": 12,
+      "align": "center",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "verticalAlign": "middle",
+      "fontFamily": "Arial",
+      "borderRadius": 0,
+      "padding": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "color": "#a7a7a7",
+      "colorTo": "#a7a7a7",
+      "borderPosition": "noneBorder",
+      "wordBreak": "keepAll",
+      "activeStyles": false
+    },
+    "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+    "chart_type": "table",
+    "filters": [],
+    "fields": [
+      {
+        "field": "Id",
+        "aggregation": "SUM",
+        "type": "INTEGER",
+        "alias": "SUM_Id_2cf0e3f0_4913_4ff8_9b32_9450395a7e42",
+        "id": "2cf0e3f0_4913_4ff8_9b32_9450395a7e42",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "Date_time",
+        "aggregation": "YEAR",
+        "type": "TIMESTAMP",
+        "alias": "YEAR_Date_time_01558756_2e07_4b42_bcb6_36dfda83ec87",
+        "id": "01558756_2e07_4b42_bcb6_36dfda83ec87",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "2cf0e3f0_4913_4ff8_9b32_9450395a7e42",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "dimensions": [
+        {
+          "field_id": "01558756_2e07_4b42_bcb6_36dfda83ec87",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "breakdowns": [],
+      "columnState": [],
+      "groupExpandedKeys": [],
+      "suppressMovable": false,
+      "paging": true,
+      "sortable": true,
+      "resizable": true,
+      "showFooterTotal": false,
+      "rowSettings": {
+        "backgroundColor": "transparent",
+        "borderColor": "#000000",
+        "borderWidth": 1,
+        "fontSize": 12,
+        "align": "center",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "color": "#a7a7a7",
+        "colorTo": "#a7a7a7",
+        "borderPosition": "noneBorder",
+        "wordBreak": "keepAll",
+        "activeStyles": false
+      }
+    }
+  },
+  "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+  "filters": [],
+  "fields": [
+    {
+      "field": "Date",
+      "aggregation": "YEAR",
+      "type": "DATE",
+      "alias": "YEAR_Date_5a6b8c11_7b38_4273_9b12_dbab6284daaa",
+      "id": "5a6b8c11_7b38_4273_9b12_dbab6284daaa",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "Id",
+      "aggregation": "SUM",
+      "type": "INTEGER",
+      "alias": "SUM_Id_2cf0e3f0_4913_4ff8_9b32_9450395a7e42",
+      "id": "2cf0e3f0_4913_4ff8_9b32_9450395a7e42",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

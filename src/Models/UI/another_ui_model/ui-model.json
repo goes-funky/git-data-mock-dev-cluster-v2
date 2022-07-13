@@ -1,0 +1,73 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "1be0a39f-bc45-4870-92cd-41c89d3b3539",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "1be0a39f-bc45-4870-92cd-41c89d3b3539",
+        "title": "src/Integrations/MySql_Integration/campaign",
+        "transformationType": "INPUT",
+        "datasourceName": "MySql Integration",
+        "transformObject": {
+          "source": "src/Integrations/MySql_Integration",
+          "table": "src/Integrations/MySql_Integration/campaign",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-455.8347107438017 -185.45283018867923"
+    },
+    {
+      "key": "24293edb-56e0-4063-8bac-03567ee5d796",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "24293edb-56e0-4063-8bac-03567ee5d796",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "from_name",
+            "source": "from_name",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-194.83471074380168 -146.60377358490567"
+    },
+    {
+      "key": "da84b255-220c-4f02-ad69-8a6d18cc7ac1",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "da84b255-220c-4f02-ad69-8a6d18cc7ac1",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "41.66528925619832 -188.6099345398537"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "1be0a39f-bc45-4870-92cd-41c89d3b3539",
+      "to": "24293edb-56e0-4063-8bac-03567ee5d796"
+    },
+    {
+      "from": "24293edb-56e0-4063-8bac-03567ee5d796",
+      "to": "da84b255-220c-4f02-ad69-8a6d18cc7ac1"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}

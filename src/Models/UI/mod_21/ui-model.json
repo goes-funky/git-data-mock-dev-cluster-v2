@@ -1,0 +1,598 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "6f6f68c3-15c7-4e30-976a-f8b1b05c0b38",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "6f6f68c3-15c7-4e30-976a-f8b1b05c0b38",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "Google sheets all field types",
+        "transformObject": {
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-723.1266950172511 37.03198827018545"
+    },
+    {
+      "key": "63900df4-a244-4a57-a305-643902445b56",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "63900df4-a244-4a57-a305-643902445b56",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "id_repeatable",
+            "source": "id_repeatable",
+            "type": "STRING",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_text_repeatable_",
+            "source": "id_text_repeatable_",
+            "type": "BOOLEAN",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-326.2066115702479 -165.42452830188677"
+    },
+    {
+      "key": "602fbc61-da94-4027-a660-1435aa85515a",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "602fbc61-da94-4027-a660-1435aa85515a",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "id_repeatable",
+            "source": "id_repeatable",
+            "type": "BOOLEAN",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "boolean",
+            "source": "boolean",
+            "type": "STRING",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "1.1322314049587021 -162.00943396226415"
+    },
+    {
+      "key": "cbf9c4b7-34e7-47f0-94c8-9df2e2ba6182",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "cbf9c4b7-34e7-47f0-94c8-9df2e2ba6182",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "boolean",
+            "source": "boolean",
+            "type": "BOOLEAN",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "306.8099173553719 -180.27358490566036"
+    },
+    {
+      "key": "2b7ca2ab-b4bd-46ec-ba70-c540d50692bd",
+      "type": "FILTER",
+      "category": "FILTER",
+      "transformationStep": {
+        "id": "2b7ca2ab-b4bd-46ec-ba70-c540d50692bd",
+        "title": "",
+        "transformationType": "FILTER",
+        "transformObject": {
+          "global_op": [
+            "AND"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "boolean",
+              "variable_type": "BOOLEAN",
+              "operations": [
+                {
+                  "operator": "=",
+                  "value_type": "NONE",
+                  "operator_type": "absolute",
+                  "values": [
+                    false
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-290.36661576116524 24.263147697957095"
+    },
+    {
+      "key": "7b0d327e-e127-425e-a556-a2c6312aefc2",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "7b0d327e-e127-425e-a556-a2c6312aefc2",
+        "title": "",
+        "transformationType": "FUNCTIONS",
+        "transformObject": [
+          {
+            "target": "function0001",
+            "originalString": "CONTAINS(@text, 'a')",
+            "functionTree": {
+              "type": "Program",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "CONTAINS",
+                      "range": [
+                        0,
+                        8
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 1,
+                          "column": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 8
+                        }
+                      }
+                    },
+                    "arguments": [
+                      {
+                        "type": "Identifier",
+                        "name": "@text",
+                        "range": [
+                          9,
+                          14
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 9
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 14
+                          }
+                        }
+                      },
+                      {
+                        "type": "Literal",
+                        "raw": "'a'",
+                        "value": "a",
+                        "range": [
+                          16,
+                          19
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 1,
+                            "column": 16
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 19
+                          }
+                        }
+                      }
+                    ],
+                    "optional": false,
+                    "range": [
+                      0,
+                      20
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 1,
+                        "column": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 20
+                      }
+                    }
+                  },
+                  "range": [
+                    0,
+                    20
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 20
+                    }
+                  }
+                }
+              ],
+              "sourceType": "script",
+              "range": [
+                0,
+                20
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 20
+                }
+              },
+              "tokens": [
+                {
+                  "type": "Identifier",
+                  "value": "CONTAINS",
+                  "range": [
+                    0,
+                    8
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 8
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": "(",
+                  "range": [
+                    8,
+                    9
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 8
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 9
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "value": "@text",
+                  "range": [
+                    9,
+                    14
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 9
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 14
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ",",
+                  "range": [
+                    14,
+                    15
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 14
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 15
+                    }
+                  }
+                },
+                {
+                  "type": "String",
+                  "value": "'a'",
+                  "range": [
+                    16,
+                    19
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 16
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 19
+                    }
+                  }
+                },
+                {
+                  "type": "Punctuator",
+                  "value": ")",
+                  "range": [
+                    19,
+                    20
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 1,
+                      "column": 19
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 20
+                    }
+                  }
+                }
+              ],
+              "comments": []
+            }
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-352.0309484669706 176.22186020395148"
+    },
+    {
+      "key": "b427b001-a6a2-4273-8b1d-673a7d028e7c",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "b427b001-a6a2-4273-8b1d-673a7d028e7c",
+        "title": "mod_21",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "mod_21",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text",
+              "source": "text",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "function0001",
+              "source": "function0001",
+              "type": "BOOL",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-67.82864498472043 168.11897232912992"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "6f6f68c3-15c7-4e30-976a-f8b1b05c0b38",
+      "to": "63900df4-a244-4a57-a305-643902445b56"
+    },
+    {
+      "from": "63900df4-a244-4a57-a305-643902445b56",
+      "to": "602fbc61-da94-4027-a660-1435aa85515a"
+    },
+    {
+      "from": "602fbc61-da94-4027-a660-1435aa85515a",
+      "to": "cbf9c4b7-34e7-47f0-94c8-9df2e2ba6182"
+    },
+    {
+      "from": "6f6f68c3-15c7-4e30-976a-f8b1b05c0b38",
+      "to": "2b7ca2ab-b4bd-46ec-ba70-c540d50692bd"
+    },
+    {
+      "from": "6f6f68c3-15c7-4e30-976a-f8b1b05c0b38",
+      "to": "7b0d327e-e127-425e-a556-a2c6312aefc2"
+    },
+    {
+      "from": "7b0d327e-e127-425e-a556-a2c6312aefc2",
+      "to": "b427b001-a6a2-4273-8b1d-673a7d028e7c"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}

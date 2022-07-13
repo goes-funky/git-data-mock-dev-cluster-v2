@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
+  "type": "Widget",
+  "position": {
+    "x": -566.3808958323083,
+    "y": 51.86309608920328
+  },
+  "size": {
+    "height": 630.2384284318794,
+    "width": 688.3179079228466
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": {
+    "widgetPath": "src/Visualizations/Widgets/COGS___Profit_by_Country"
+  },
+  "styles": {
+    "background-color": "#ffffff",
+    "border-color": "#f2f2f2",
+    "border-style": "solid",
+    "border-width": "1px",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}

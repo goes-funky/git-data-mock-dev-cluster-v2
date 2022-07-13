@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+  "columns": [
+    "id",
+    "en",
+    "de",
+    "fr"
+  ],
+  "import": "tmp_test_data-testt"
+}

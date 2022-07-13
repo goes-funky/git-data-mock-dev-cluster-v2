@@ -1,0 +1,331 @@
+{
+  "request_id": "220622140616_f0fd0fc5-c149-53e3-b031-e36c205774a3",
+  "status": "ready",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "id",
+        "type",
+        "create_time",
+        "archive_url",
+        "long_archive_url",
+        "status",
+        "send_time",
+        "content_type",
+        "list_id",
+        "segment_text",
+        "segment_id",
+        "title",
+        "to_name",
+        "authenticate",
+        "timewarp",
+        "subject_line",
+        "from_name",
+        "reply_to",
+        "use_conversation",
+        "folder_id",
+        "auto_footer",
+        "inline_css",
+        "auto_tweet",
+        "fb_comments",
+        "template_id",
+        "drag_and_drop",
+        "clicktale",
+        "track_html_clicks",
+        "track_text_clicks",
+        "track_goals",
+        "track_opens",
+        "track_ecomm_360",
+        "google_analytics",
+        "_fivetran_deleted",
+        "winning_combination_id",
+        "winning_campaign_id",
+        "winner_criteria",
+        "wait_time",
+        "test_size",
+        "_fivetran_synced",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "tmp_test_data-campaign"
+    },
+    "created_at": "2022-06-22T14:06:16.408783+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/campaign",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "3002f15e33342cad744cc192d62ca45c562adeb4"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "6",
+      "trial": true
+    },
+    "state": {
+      "bookmarks": {
+        "tmp_test_data-campaign": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "a2f2ed658a7e27c1da0d8c8d076e7507"
+    },
+    "previous_import_id": "220622125414_3033063f-fa30-597e-be99-7b7a619ca3dd",
+    "previous_table_id": "220622125414_3033063f-fa30-597e-be99-7b7a619ca3dd"
+  },
+  "created_at": "2022-06-22T14:06:16.408783+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-22T14:06:32.613085+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-campaign": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "a2f2ed658a7e27c1da0d8c8d076e7507"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "dbefc959-7b1e-4d0a-bcd7-ef6c7e6ac0cb",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/c78deb86-5670-4395-a999-373e25cba498",
+    "partial": false,
+    "import_finished_at": "2022-06-22T14:06:46.738345+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 249,
+    "previous_id": "220622125414_3033063f-fa30-597e-be99-7b7a619ca3dd",
+    "columns": [
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "fb_comments",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "send_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "clicktale",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "wait_time",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "winner_criteria",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "from_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "auto_tweet",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "track_ecomm_360",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "timewarp",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "segment_text",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "segment_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "track_opens",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "list_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "create_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "test_size",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reply_to",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "folder_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "auto_footer",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "authenticate",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "drag_and_drop",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "track_text_clicks",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "winning_combination_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "track_goals",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "content_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "to_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "fivetran_synced",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "winning_campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "inline_css",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "long_archive_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "track_html_clicks",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "google_analytics",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "use_conversation",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "template_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "subject_line",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "archive_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "fivetran_deleted",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      }
+    ],
+    "table_name": "220622140616_f0fd0fc5-c149-53e3-b031-e36c205774a3",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220622140616_f0fd0fc5-c149-53e3-b031-e36c205774a3&page=table"
+  },
+  "finished_at": "2022-06-22T14:06:46.738470+00:00",
+  "_signature": "LtrAgFEgWS79f55iYa4ttXJEL2D1Gsb9Oq3STan3Ty/oPAkXsiHGEoONV/7FcPtCuEb2xr5F6VLO/uXk0qdoCA=="
+}

@@ -1,0 +1,853 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "bar_line_chart",
+  "settings": {
+    "series": [
+      {
+        "field_id": "3ab25da5_f064_485b_997f_f648bab0b891",
+        "mark": "bar",
+        "stack_name": 1,
+        "label": {
+          "show": true,
+          "field_ids": [],
+          "rotate": 0,
+          "align": "center",
+          "verticalAlign": "top",
+          "position": "inside"
+        },
+        "tooltip": {
+          "show": true,
+          "field_ids": []
+        },
+        "show_right_axis": false,
+        "format": "0a",
+        "cumulative": false,
+        "hidden": false,
+        "formatConfig": {
+          "numeralFormat": "0a",
+          "formatType": "NUMBER",
+          "decimalPlaces": 0,
+          "negativeSymbol": {
+            "show": true,
+            "type": "symbol"
+          },
+          "displayType": "DISPLAY_UNITS",
+          "separator": "NONE",
+          "locale": "",
+          "prefixOrSuffix": "suffix",
+          "customFormat": ""
+        }
+      }
+    ],
+    "show_legend": true,
+    "axisPointer": {
+      "show": false,
+      "type": "line",
+      "lineStyle": {
+        "type": "solid",
+        "opacity": 1
+      }
+    },
+    "dimensions": [
+      "de0007f9_4465_4e90_9f57_35426b131a69"
+    ],
+    "breakdowns": [],
+    "series_on_y": false,
+    "serieAxis": {
+      "min": null,
+      "max": null,
+      "show": true,
+      "type": "value",
+      "axisName": {
+        "nameRotate": 0,
+        "nameGap": 10,
+        "nameLocation": "middle",
+        "nameTextStyle": {
+          "backgroundColor": "transparent",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7"
+        }
+      },
+      "axisLine": {
+        "showLabel": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "axisLabel": {
+        "backgroundColor": "#00000000",
+        "borderColor": "#f4f4fb",
+        "borderWidth": 0,
+        "fontSize": 12,
+        "align": "right",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "color": "#a7a7a7",
+        "colorTo": "#a7a7a7",
+        "borderPosition": "noneBorder",
+        "wordBreak": "keepAll",
+        "activeStyles": false,
+        "show": true,
+        "rotate": 0,
+        "margin": 22,
+        "suffix": "",
+        "max_characters": null,
+        "value_conversion": "Automatic",
+        "date_format": "",
+        "value_format": "inherit"
+      },
+      "splitLine": {
+        "showLabel": false,
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dataZoom": {
+        "show": false,
+        "start": 0,
+        "end": 100
+      }
+    },
+    "dimensionAxis": {
+      "min": null,
+      "max": null,
+      "show": true,
+      "type": "category",
+      "axisName": {
+        "nameRotate": 0,
+        "nameGap": 10,
+        "nameLocation": "middle",
+        "nameTextStyle": {
+          "backgroundColor": "#00000000",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        }
+      },
+      "axisLine": {
+        "showLabel": true,
+        "symbol": "none",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "axisLabel": {
+        "backgroundColor": "#00000000",
+        "borderColor": "#f4f4fb",
+        "borderWidth": 0,
+        "fontSize": 12,
+        "align": "right",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "color": "#a7a7a7",
+        "colorTo": "#a7a7a7",
+        "borderPosition": "noneBorder",
+        "wordBreak": "keepAll",
+        "activeStyles": false,
+        "show": true,
+        "rotate": 0,
+        "margin": 22,
+        "suffix": "",
+        "max_characters": null,
+        "value_conversion": "Automatic",
+        "date_format": "",
+        "value_format": "inherit"
+      },
+      "splitLine": {
+        "showLabel": false,
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dataZoom": {
+        "show": false,
+        "start": 0,
+        "end": 100
+      }
+    },
+    "show_stack_by": false,
+    "show_stack_by_100_percent": false,
+    "color_by": {
+      "hiddenValues": {},
+      "area": "default"
+    },
+    "conditional_formatting_rules": [],
+    "sort": {
+      "order": "ASC",
+      "sort_by": "SERIES",
+      "sortByField": true,
+      "fieldSortKey": "3ab25da5_f064_485b_997f_f648bab0b891",
+      "stackNameSortKey": null
+    },
+    "show_total_for_stacks": [],
+    "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+    "chart_type": "bar_line_chart",
+    "filters": [],
+    "fields": [
+      {
+        "field": "item",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_item_de0007f9_4465_4e90_9f57_35426b131a69",
+        "id": "de0007f9_4465_4e90_9f57_35426b131a69",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "total_cost",
+        "aggregation": "SUM",
+        "type": "FLOAT",
+        "alias": "SUM_total_cost_3ab25da5_f064_485b_997f_f648bab0b891",
+        "id": "3ab25da5_f064_485b_997f_f648bab0b891",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "3ab25da5_f064_485b_997f_f648bab0b891",
+          "mark": "bar",
+          "stack_name": 1,
+          "label": {
+            "show": true,
+            "field_ids": [],
+            "rotate": 0,
+            "align": "center",
+            "verticalAlign": "top",
+            "position": "inside"
+          },
+          "tooltip": {
+            "show": true,
+            "field_ids": []
+          },
+          "show_right_axis": false,
+          "format": "0a",
+          "cumulative": false,
+          "hidden": false,
+          "formatConfig": {
+            "numeralFormat": "0a",
+            "formatType": "NUMBER",
+            "decimalPlaces": 0,
+            "negativeSymbol": {
+              "show": true,
+              "type": "symbol"
+            },
+            "displayType": "DISPLAY_UNITS",
+            "separator": "NONE",
+            "locale": "",
+            "prefixOrSuffix": "suffix",
+            "customFormat": ""
+          }
+        }
+      ],
+      "show_legend": true,
+      "axisPointer": {
+        "show": false,
+        "type": "line",
+        "lineStyle": {
+          "type": "solid",
+          "opacity": 1
+        }
+      },
+      "dimensions": [
+        "de0007f9_4465_4e90_9f57_35426b131a69"
+      ],
+      "breakdowns": [],
+      "series_on_y": false,
+      "serieAxis": {
+        "min": null,
+        "max": null,
+        "show": true,
+        "type": "value",
+        "axisName": {
+          "nameRotate": 0,
+          "nameGap": 10,
+          "nameLocation": "middle",
+          "nameTextStyle": {
+            "backgroundColor": "transparent",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7"
+          }
+        },
+        "axisLine": {
+          "showLabel": true,
+          "symbol": "none",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "axisLabel": {
+          "backgroundColor": "#00000000",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "right",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false,
+          "show": true,
+          "rotate": 0,
+          "margin": 22,
+          "suffix": "",
+          "max_characters": null,
+          "value_conversion": "Automatic",
+          "date_format": "",
+          "value_format": "inherit"
+        },
+        "splitLine": {
+          "showLabel": false,
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dataZoom": {
+          "show": false,
+          "start": 0,
+          "end": 100
+        }
+      },
+      "dimensionAxis": {
+        "min": null,
+        "max": null,
+        "show": true,
+        "type": "category",
+        "axisName": {
+          "nameRotate": 0,
+          "nameGap": 10,
+          "nameLocation": "middle",
+          "nameTextStyle": {
+            "backgroundColor": "#00000000",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          }
+        },
+        "axisLine": {
+          "showLabel": true,
+          "symbol": "none",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "axisLabel": {
+          "backgroundColor": "#00000000",
+          "borderColor": "#f4f4fb",
+          "borderWidth": 0,
+          "fontSize": 12,
+          "align": "right",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false,
+          "show": true,
+          "rotate": 0,
+          "margin": 22,
+          "suffix": "",
+          "max_characters": null,
+          "value_conversion": "Automatic",
+          "date_format": "",
+          "value_format": "inherit"
+        },
+        "splitLine": {
+          "showLabel": false,
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dataZoom": {
+          "show": false,
+          "start": 0,
+          "end": 100
+        }
+      },
+      "show_stack_by": false,
+      "show_stack_by_100_percent": false,
+      "color_by": {
+        "hiddenValues": {
+          "Beverages": true
+        },
+        "area": "default"
+      },
+      "conditional_formatting_rules": [],
+      "sort": {
+        "order": "ASC",
+        "sort_by": "SERIES",
+        "sortByField": true,
+        "fieldSortKey": "3ab25da5_f064_485b_997f_f648bab0b891",
+        "stackNameSortKey": null
+      },
+      "show_total_for_stacks": [],
+      "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+      "chart_type": "bar_line_chart",
+      "filters": [],
+      "fields": [
+        {
+          "field": "item",
+          "aggregation": "VALUE",
+          "type": "STRING",
+          "alias": "VALUE_item_de0007f9_4465_4e90_9f57_35426b131a69",
+          "id": "de0007f9_4465_4e90_9f57_35426b131a69",
+          "lowCodeString": null,
+          "functionTree": null,
+          "show_in_percentage": false,
+          "filters": []
+        },
+        {
+          "field": "total_cost",
+          "aggregation": "SUM",
+          "type": "FLOAT",
+          "alias": "SUM_total_cost_3ab25da5_f064_485b_997f_f648bab0b891",
+          "id": "3ab25da5_f064_485b_997f_f648bab0b891",
+          "lowCodeString": null,
+          "functionTree": null,
+          "show_in_percentage": false,
+          "filters": []
+        }
+      ],
+      "settings": {
+        "series": [
+          {
+            "field_id": "3ab25da5_f064_485b_997f_f648bab0b891",
+            "mark": "bar",
+            "stack_name": 1,
+            "label": {
+              "show": true,
+              "field_ids": [],
+              "rotate": 0,
+              "align": "center",
+              "verticalAlign": "top",
+              "position": "inside"
+            },
+            "tooltip": {
+              "show": true,
+              "field_ids": []
+            },
+            "show_right_axis": false,
+            "format": "0a",
+            "cumulative": false,
+            "hidden": false,
+            "formatConfig": {
+              "numeralFormat": "0a",
+              "formatType": "NUMBER",
+              "decimalPlaces": 0,
+              "negativeSymbol": {
+                "show": true,
+                "type": "symbol"
+              },
+              "displayType": "DISPLAY_UNITS",
+              "separator": "NONE",
+              "locale": "",
+              "prefixOrSuffix": "suffix",
+              "customFormat": ""
+            }
+          }
+        ],
+        "show_legend": true,
+        "axisPointer": {
+          "show": false,
+          "type": "line",
+          "lineStyle": {
+            "type": "solid",
+            "opacity": 1
+          }
+        },
+        "dimensions": [
+          "de0007f9_4465_4e90_9f57_35426b131a69"
+        ],
+        "breakdowns": [],
+        "series_on_y": false,
+        "serieAxis": {
+          "min": null,
+          "max": null,
+          "show": true,
+          "type": "value",
+          "axisName": {
+            "nameRotate": 0,
+            "nameGap": 10,
+            "nameLocation": "middle",
+            "nameTextStyle": {
+              "backgroundColor": "transparent",
+              "borderColor": "#f4f4fb",
+              "borderWidth": 0,
+              "fontSize": 12,
+              "align": "center",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "verticalAlign": "middle",
+              "fontFamily": "Arial",
+              "borderRadius": 0,
+              "padding": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "color": "#a7a7a7",
+              "colorTo": "#a7a7a7"
+            }
+          },
+          "axisLine": {
+            "showLabel": true,
+            "symbol": "none",
+            "lineStyle": {
+              "type": "solid",
+              "opacity": 1
+            }
+          },
+          "axisLabel": {
+            "backgroundColor": "#00000000",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "right",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false,
+            "show": true,
+            "rotate": 0,
+            "margin": 22,
+            "suffix": "",
+            "max_characters": null,
+            "value_conversion": "Automatic",
+            "date_format": "",
+            "value_format": "inherit"
+          },
+          "splitLine": {
+            "showLabel": false,
+            "lineStyle": {
+              "type": "solid",
+              "opacity": 1
+            }
+          },
+          "dataZoom": {
+            "show": false,
+            "start": 0,
+            "end": 100
+          }
+        },
+        "dimensionAxis": {
+          "min": null,
+          "max": null,
+          "show": true,
+          "type": "category",
+          "axisName": {
+            "nameRotate": 0,
+            "nameGap": 10,
+            "nameLocation": "middle",
+            "nameTextStyle": {
+              "backgroundColor": "#00000000",
+              "borderColor": "#f4f4fb",
+              "borderWidth": 0,
+              "fontSize": 12,
+              "align": "center",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "verticalAlign": "middle",
+              "fontFamily": "Arial",
+              "borderRadius": 0,
+              "padding": [
+                2,
+                2,
+                2,
+                2
+              ],
+              "color": "#a7a7a7",
+              "colorTo": "#a7a7a7",
+              "borderPosition": "noneBorder",
+              "wordBreak": "keepAll",
+              "activeStyles": false
+            }
+          },
+          "axisLine": {
+            "showLabel": true,
+            "symbol": "none",
+            "lineStyle": {
+              "type": "solid",
+              "opacity": 1
+            }
+          },
+          "axisLabel": {
+            "backgroundColor": "#00000000",
+            "borderColor": "#f4f4fb",
+            "borderWidth": 0,
+            "fontSize": 12,
+            "align": "right",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false,
+            "show": true,
+            "rotate": 0,
+            "margin": 22,
+            "suffix": "",
+            "max_characters": null,
+            "value_conversion": "Automatic",
+            "date_format": "",
+            "value_format": "inherit"
+          },
+          "splitLine": {
+            "showLabel": false,
+            "lineStyle": {
+              "type": "solid",
+              "opacity": 1
+            }
+          },
+          "dataZoom": {
+            "show": false,
+            "start": 0,
+            "end": 100
+          }
+        },
+        "show_stack_by": false,
+        "show_stack_by_100_percent": false,
+        "color_by": {
+          "hiddenValues": {},
+          "area": "dimensions"
+        },
+        "conditional_formatting_rules": [
+          {
+            "operator": "equal",
+            "value": "Baby Food",
+            "color": "#e01f54"
+          },
+          {
+            "operator": "equal",
+            "value": "Beverages",
+            "color": "#001852"
+          },
+          {
+            "operator": "equal",
+            "value": "Cereal",
+            "color": "#f5e8c8"
+          },
+          {
+            "operator": "equal",
+            "value": "Clothes",
+            "color": "#b8d2c7"
+          },
+          {
+            "operator": "equal",
+            "value": "Cosmetics",
+            "color": "#c6b38e"
+          },
+          {
+            "operator": "equal",
+            "value": "Fruits",
+            "color": "#a4d8c2"
+          },
+          {
+            "operator": "equal",
+            "value": "Household",
+            "color": "#f3d999"
+          },
+          {
+            "operator": "equal",
+            "value": "Meat",
+            "color": "#d3758f"
+          },
+          {
+            "operator": "equal",
+            "value": "Office Supplies",
+            "color": "#dcc392"
+          },
+          {
+            "operator": "equal",
+            "value": "Personal Care",
+            "color": "#2e4783"
+          },
+          {
+            "operator": "equal",
+            "value": "Snacks",
+            "color": "#82b6e9"
+          },
+          {
+            "operator": "equal",
+            "value": "Vegetables",
+            "color": "#ff6347"
+          }
+        ],
+        "sort": {
+          "order": "ASC",
+          "sort_by": "SERIES",
+          "sortByField": true,
+          "fieldSortKey": "3ab25da5_f064_485b_997f_f648bab0b891",
+          "stackNameSortKey": null
+        },
+        "show_total_for_stacks": []
+      }
+    },
+    "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json"
+  },
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "filters": [],
+  "fields": [
+    {
+      "field": "item",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_item_de0007f9_4465_4e90_9f57_35426b131a69",
+      "id": "de0007f9_4465_4e90_9f57_35426b131a69",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "total_cost",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_total_cost_3ab25da5_f064_485b_997f_f648bab0b891",
+      "id": "3ab25da5_f064_485b_997f_f648bab0b891",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

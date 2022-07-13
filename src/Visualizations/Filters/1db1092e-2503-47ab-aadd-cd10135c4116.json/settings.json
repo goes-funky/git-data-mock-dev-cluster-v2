@@ -1,0 +1,14 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "field_name": "order_priority",
+  "data_type": "STRING",
+  "type": "multiselect",
+  "operations": [],
+  "options": [
+    "C",
+    "H",
+    "M",
+    "L"
+  ]
+}

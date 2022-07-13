@@ -1,0 +1,26 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
+  "feature_type": "UI-Model",
+  "alert_on": [
+    "failure"
+  ],
+  "triggered_by": [
+    "orchestration"
+  ],
+  "title": "fdf",
+  "message_body": "<p>fsdf</p>",
+  "patterns": [
+    "abc_model",
+    "another_ui_model",
+    "dmitry_model",
+    "facebook_model"
+  ],
+  "tags": [],
+  "destinations": [
+    {
+      "type": "internal_notification",
+      "user_ids": [],
+      "team_ids": []
+    }
+  ]
+}

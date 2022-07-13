@@ -1,0 +1,306 @@
+{
+  "nodeDataArray": [
+    {
+      "key": "0e6f2e40-0dde-403e-9fe6-317fa6d3e9a1",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "0e6f2e40-0dde-403e-9fe6-317fa6d3e9a1",
+        "title": "src/Integrations/facebook_pages/page_insight_website_clicks",
+        "transformationType": "INPUT",
+        "datasourceName": "facebook pages",
+        "transformObject": {
+          "source": "src/Integrations/facebook_pages",
+          "table": "src/Integrations/facebook_pages/posts",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "d2651e9a-22f7-4bb9-b71f-c0935ccb51b5",
+      "location": "-83.5 -194.5"
+    },
+    {
+      "key": "6c0af187-0e89-4633-81e6-0022f6a022b9",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "6c0af187-0e89-4633-81e6-0022f6a022b9",
+        "title": "abc_model",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "abc_model",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "page_id",
+              "source": "page_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "allowed_advertising_objects",
+              "source": "allowed_advertising_objects",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "created_time",
+              "source": "created_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "full_picture",
+              "source": "full_picture",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "icon",
+              "source": "icon",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "message",
+              "source": "message",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_eligible_for_promotion",
+              "source": "is_eligible_for_promotion",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_expired",
+              "source": "is_expired",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_hidden",
+              "source": "is_hidden",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_instagram_eligible",
+              "source": "is_instagram_eligible",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_popular",
+              "source": "is_popular",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_published",
+              "source": "is_published",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "is_spherical",
+              "source": "is_spherical",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "parent_id",
+              "source": "parent_id",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "permalink_url",
+              "source": "permalink_url",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "place",
+              "source": "place",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "story",
+              "source": "story",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "subscribed",
+              "source": "subscribed",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "updated_time",
+              "source": "updated_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "355.37190082644634 -73.98113207547169"
+    },
+    {
+      "key": "f40d9887-20e5-4f09-801c-0270d550d5a6",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "f40d9887-20e5-4f09-801c-0270d550d5a6",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "535.7447739426349 -272.1130150173277"
+    },
+    {
+      "key": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
+        "title": "",
+        "transformationType": "FIELDS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "112.62712688381146 -253.21505583365422"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "0e6f2e40-0dde-403e-9fe6-317fa6d3e9a1",
+      "to": "6c0af187-0e89-4633-81e6-0022f6a022b9"
+    },
+    {
+      "from": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee",
+      "to": "f40d9887-20e5-4f09-801c-0270d550d5a6"
+    },
+    {
+      "from": "0e6f2e40-0dde-403e-9fe6-317fa6d3e9a1",
+      "to": "c5bf9af9-9d56-45fd-90e1-9cb2179088ee"
+    },
+    {
+      "from": "f40d9887-20e5-4f09-801c-0270d550d5a6",
+      "to": "6c0af187-0e89-4633-81e6-0022f6a022b9"
+    }
+  ],
+  "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
+}

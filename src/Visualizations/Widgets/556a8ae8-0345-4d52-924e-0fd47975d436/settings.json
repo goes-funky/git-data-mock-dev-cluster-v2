@@ -1,0 +1,200 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "cohort_table",
+  "settings": {
+    "series": [
+      {
+        "field_id": "21446612_7682_4ef8_949e_23e5455ed539",
+        "type": null,
+        "header_name": "Pozitive_numbers",
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "dimensions": [
+      {
+        "field_id": "5c2c8468_cefa_4cdf_93af_faa180238604",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "breakdowns": [
+      {
+        "field_id": "203a10f7_e751_439a_b923_1f9a61f27107",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "showInPercentage": true,
+    "showFooterTotal": true,
+    "cohortColors": [
+      "#62BE7B",
+      "#F8696B"
+    ],
+    "twoColorCutPoint": 0
+  },
+  "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+  "filters": [],
+  "fields": [
+    {
+      "field": "Pozitive_numbers",
+      "aggregation": "SUM",
+      "type": "INTEGER",
+      "alias": "SUM_Pozitive_numbers_21446612_7682_4ef8_949e_23e5455ed539",
+      "id": "21446612_7682_4ef8_949e_23e5455ed539",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "Date",
+      "aggregation": "YEAR",
+      "type": "DATE",
+      "alias": "YEAR_Date_203a10f7_e751_439a_b923_1f9a61f27107",
+      "id": "203a10f7_e751_439a_b923_1f9a61f27107",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "Id",
+      "aggregation": "VALUE",
+      "type": "INTEGER",
+      "alias": "VALUE_Id_5c2c8468_cefa_4cdf_93af_faa180238604",
+      "id": "5c2c8468_cefa_4cdf_93af_faa180238604",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

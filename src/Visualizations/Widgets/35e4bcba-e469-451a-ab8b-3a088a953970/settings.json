@@ -1,0 +1,163 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "chart_type": "table",
+  "settings": {
+    "series": [
+      {
+        "field_id": "0eccee20_3c2a_4e78_b4d2_12f318edca29",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "dimensions": [
+      {
+        "field_id": "ba149926_4812_4b35_b3f9_8456572d45c7",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "breakdowns": [],
+    "columnState": [],
+    "groupExpandedKeys": [],
+    "suppressMovable": false,
+    "paging": true,
+    "sortable": true,
+    "resizable": true,
+    "showFooterTotal": false,
+    "rowSettings": {
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderWidth": 1,
+      "fontSize": 12,
+      "align": "center",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "verticalAlign": "middle",
+      "fontFamily": "Arial",
+      "borderRadius": 0,
+      "padding": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "color": "#a7a7a7",
+      "colorTo": "#a7a7a7",
+      "borderPosition": "noneBorder",
+      "wordBreak": "keepAll",
+      "activeStyles": false
+    }
+  },
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "filters": [],
+  "fields": [
+    {
+      "field": "unit_cost",
+      "aggregation": "SUM",
+      "type": "FLOAT",
+      "alias": "SUM_unit_cost_0eccee20_3c2a_4e78_b4d2_12f318edca29",
+      "id": "0eccee20_3c2a_4e78_b4d2_12f318edca29",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "region",
+      "aggregation": "VALUE",
+      "type": "STRING",
+      "alias": "VALUE_region_ba149926_4812_4b35_b3f9_8456572d45c7",
+      "id": "ba149926_4812_4b35_b3f9_8456572d45c7",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

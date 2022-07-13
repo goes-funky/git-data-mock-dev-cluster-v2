@@ -1,0 +1,59 @@
+{
+  "request_id": "220622125414_4629edba-1db1-5576-8423-31c7f738e2ef",
+  "status": "invalid",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "region",
+        "country",
+        "item",
+        "type",
+        "sales_channel",
+        "order_priority",
+        "order_date",
+        "order_id",
+        "ship_date",
+        "units_sold",
+        "unit_price",
+        "unit_cost",
+        "total_revenue",
+        "total_cost",
+        "total_profit"
+      ],
+      "import": "tmp_test_data-test_other"
+    },
+    "created_at": "2022-06-22T12:54:14.992188+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/test_other",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "f579f8a0e03f30f182155924f240057dc0d5f261"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "6",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-22T12:54:14.992188+00:00",
+  "failed_at": "2022-06-22T12:56:19.484329+00:00",
+  "error_code": 404,
+  "error_message": "no data",
+  "_signature": "XdgZeGSbHUv68sV30BEGArdcykfEjAEifhMrszlSf2wAmqNxD2KHGT7xVmAsUzGSguVXPYAz0CKUXD3FQyHiBg=="
+}

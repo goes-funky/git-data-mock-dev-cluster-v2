@@ -1,19 +1,21 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/core/y42-metadata.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
   "name": "Google sheets all field types",
   "description": "",
-  "tags": [],
-  "owners": [
-    "ben.woodley@y42.com",
-    "gabriel.llamas@y42.com",
-    "f5f2887e-efa5-4481-ae94-8b6ee95eb303"
+  "tags": [
+    "tag2"
   ],
-  "experts": [
-    "gabriel.llamas@y42.com"
-  ],
-  "watchers": [
-    "gabriel.llamas@y42.com",
-    "f5f2887e-efa5-4481-ae94-8b6ee95eb303"
-  ],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
   "asset_status": "no status"
 }

@@ -1,0 +1,88 @@
+{
+  "request_id": "220621154033_371e1c81-799f-5ea3-89f6-551f92eda355",
+  "status": "ready",
+  "finished_at": "2022-06-21T15:41:09.952197+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-06-21T15:41:09.952028+00:00",
+    "row_count": 6,
+    "current_import_row_count": 6,
+    "size_in_bytes": 453,
+    "external_id": "68c58708-1d26-4825-97c9-27a86bcfe981",
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "pozitive_numbers",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "decimal_numbers",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "negative",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "negative_double",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "text",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id_repeatable",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "id_text_repeatable_",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id_of_mix",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "boolean",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "date_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "time",
+        "data_type": "TIME",
+        "external_data_type": "TIME"
+      },
+      {
+        "field_name": "function0001",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      }
+    ],
+    "table_name": "220621154033_371e1c81-799f-5ea3-89f6-551f92eda355",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220621154033_371e1c81-799f-5ea3-89f6-551f92eda355&page=table"
+  },
+  "_signature": "yLaW3yfRrACDy5QZrPIeOaLc9U52HTw+S5OQpnlkGIFbsYQ0MlU919Ml7W+rwc5hTrVctmf1lcB5dS7aiyT6AA=="
+}

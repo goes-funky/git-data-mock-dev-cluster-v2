@@ -1,5 +1,331 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "Google sheets all field types",
+        "transformObject": {
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-584 -164"
+    },
+    {
+      "key": "ca912279-95f5-437d-afd3-41e0d4f6f717",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "ca912279-95f5-437d-afd3-41e0d4f6f717",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "date",
+            "source": "date",
+            "type": "STRING",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-129 -242"
+    },
+    {
+      "key": "ef667a54-9172-48a6-aeb3-88cc5a37aebf",
+      "type": "DATE_PARSER",
+      "category": "DATE_PARSER",
+      "transformationStep": {
+        "id": "ef667a54-9172-48a6-aeb3-88cc5a37aebf",
+        "title": "",
+        "transformationType": "DATE_PARSER",
+        "transformObject": [
+          {
+            "target": "date",
+            "targetColumn": "date",
+            "format": "YYYY-MM-DD",
+            "timeZone": "UTC"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "207 -177"
+    },
+    {
+      "key": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
+      "type": "DATE_FORMATTER",
+      "category": "DATE_FORMATTER",
+      "transformationStep": {
+        "id": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
+        "title": "",
+        "transformationType": "DATE_FORMATTER",
+        "transformObject": [
+          {
+            "target": "date",
+            "source": "date",
+            "format": "MM-DD-YYYY",
+            "timezone": "UTC"
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-132 29"
+    },
+    {
+      "key": "8fe3c3f0-5f37-4e9b-b20e-fb062ce80e1b",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "8fe3c3f0-5f37-4e9b-b20e-fb062ce80e1b",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "id",
+            "source": "id",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "pozitive_numbers",
+            "source": "pozitive_numbers",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "decimal_numbers",
+            "source": "decimal_numbers",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "negative",
+            "source": "negative",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "negative_double",
+            "source": "negative_double",
+            "type": "FLOAT",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "text",
+            "source": "text",
+            "type": "BOOLEAN",
+            "display": true,
+            "changed": true,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_repeatable",
+            "source": "id_repeatable",
+            "type": "INTEGER",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_text_repeatable_",
+            "source": "id_text_repeatable_",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "id_of_mix",
+            "source": "id_of_mix",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "boolean",
+            "source": "boolean",
+            "type": "BOOLEAN",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "date",
+            "source": "date",
+            "type": "DATE",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "date_time",
+            "source": "date_time",
+            "type": "TIMESTAMP",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          },
+          {
+            "target": "time",
+            "source": "time",
+            "type": "TIME",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "436.08 -562.3018867924528"
+    },
+    {
+      "key": "eff905d8-f7a8-4cf2-85f7-4b875615a1d8",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "eff905d8-f7a8-4cf2-85f7-4b875615a1d8",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "hello",
+          "source": "text",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "NUMERIC",
+              "valueOrOffset": 0
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "28.031414253523053 -358.4683951317671"
+    },
+    {
+      "key": "f2cdca8e-8213-4251-b843-13b175e52a45",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "f2cdca8e-8213-4251-b843-13b175e52a45",
+        "title": "",
+        "transformationType": "FIELDS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-209.07024793388427 224.36792452830184"
+    },
+    {
+      "key": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "126.09132668526365 27.58811680711551"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "ca912279-95f5-437d-afd3-41e0d4f6f717"
+    },
+    {
+      "from": "ca912279-95f5-437d-afd3-41e0d4f6f717",
+      "to": "ef667a54-9172-48a6-aeb3-88cc5a37aebf"
+    },
+    {
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "762a4f18-e20e-48ae-a236-8a7c9476f08f"
+    },
+    {
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "eff905d8-f7a8-4cf2-85f7-4b875615a1d8"
+    },
+    {
+      "from": "eff905d8-f7a8-4cf2-85f7-4b875615a1d8",
+      "to": "8fe3c3f0-5f37-4e9b-b20e-fb062ce80e1b"
+    },
+    {
+      "from": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
+      "to": "ca912279-95f5-437d-afd3-41e0d4f6f717"
+    },
+    {
+      "from": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
+      "to": "57e206c0-065c-48ce-8792-6fcfef8bdc11"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
