@@ -1,6 +1,6 @@
 {
   "request_id": "220713093027_325f74d5-836e-55de-84ba-5048263060df",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d16452f1-9231-4815-ad21-b4c309758776",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -59,7 +59,36 @@
     "write_disposition": "TRUNCATE",
     "external_id": "d3ac2d51-8a9d-41bd-a56d-5c6ce82399bf",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-mybusiness/f226eb54-c77d-47c1-805e-41783020b1d5",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T09:31:37.311863+00:00",
+    "row_count": 4093,
+    "current_import_row_count": 4093,
+    "size_in_bytes": 5121624,
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "displayname",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "servicetypes",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "morehourstypes",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220713093027_325f74d5-836e-55de-84ba-5048263060df",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220713093027_325f74d5-836e-55de-84ba-5048263060df&page=table"
   },
-  "_signature": "G6orvMjdIdHjjBBtmYjFuSQ35zy1nHSQw5A3SvllUIzC+rzHHiQWSdNp/xUdMT3TB2Xyk5ytudM4VvPlJXLQBg=="
+  "finished_at": "2022-07-13T09:31:37.311996+00:00",
+  "_signature": "g6CZWx1TvvgooXL+hdduC+p4q1hWMJMrkUEVReUNvscdanGFHchlIiTlQuBLUO3iKD/O7zu3v8wlAytEx+ITDg=="
 }
