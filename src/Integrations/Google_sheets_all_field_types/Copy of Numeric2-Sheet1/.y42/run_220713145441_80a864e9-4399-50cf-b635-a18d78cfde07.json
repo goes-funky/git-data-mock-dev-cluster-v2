@@ -1,6 +1,6 @@
 {
   "request_id": "220713145441_80a864e9-4399-50cf-b635-a18d78cfde07",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "3392ccdd-5e88-4c9b-b6bd-9a97da9556f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -48,7 +48,81 @@
     "write_disposition": "TRUNCATE",
     "external_id": "813d143a-91bc-4cc7-94b2-6c0bed91b31b",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/singer-google-sheets/6f74362f-391c-494e-8375-3ef777bf3f35",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-13T14:56:02.524905+00:00",
+    "row_count": 6,
+    "current_import_row_count": 6,
+    "size_in_bytes": 448,
+    "columns": [
+      {
+        "field_name": "Id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Pozitive_numbers",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Decimal_numbers",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "Negative",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Negative_double",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "Text",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Id_repeatable",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Id_text_repeatable_",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Id_of_mix",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Boolean",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "Date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "Date_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "Time",
+        "data_type": "TIME",
+        "external_data_type": "TIME"
+      }
+    ],
+    "table_name": "220713145441_80a864e9-4399-50cf-b635-a18d78cfde07",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220713145441_80a864e9-4399-50cf-b635-a18d78cfde07&page=table"
   },
-  "_signature": "JtzrMzgg3sIvUw5aUs4+yvLldejupOQ2Cc72YJrF0SAafMNf9CoxHkaq510WX/Td19gxjjggtpJQ6mUEZCv4BQ=="
+  "finished_at": "2022-07-13T14:56:02.525057+00:00",
+  "_signature": "IpsGKhBEU8DSNnFdwC/J7JyjmMwC71FS4iKD/eXfX+DAYxqeZvvZ12v87kvUaeHrw6zslUOfou2mEHFjYg8gCA=="
 }
