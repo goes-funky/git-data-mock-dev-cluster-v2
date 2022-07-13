@@ -1,0 +1,59 @@
+{
+  "request_id": "220713171219_1df456af-6c66-50ab-8079-f50e3ba6bf0f",
+  "status": "pending",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "region",
+        "country",
+        "item",
+        "type",
+        "sales_channel",
+        "order_priority",
+        "order_date",
+        "order_id",
+        "ship_date",
+        "units_sold",
+        "unit_price",
+        "unit_cost",
+        "total_revenue",
+        "total_cost",
+        "total_profit",
+        "id",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "tmp_test_data-test_pk"
+    },
+    "created_at": "2022-07-13T17:12:19.523245+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/test_pk",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "test-chris"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "3bf8658e15779f6e804f3780189f3d10523d2873"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "6",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-13T17:12:19.523245+00:00",
+  "_signature": "coFWBd8XXiOF083UumNk8OCPT53GU7aS1QKhx04Z0NJZtLvFofahWSQyXn1dlhkdgRyGM28CvTTvlJZZMhWIDg=="
+}
