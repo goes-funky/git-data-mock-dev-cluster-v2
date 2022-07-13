@@ -1,0 +1,103 @@
+{
+  "request_id": "220712194739_4c520c0e-b7d1-5b8b-8fd1-801dd4e80b9f",
+  "status": "ready",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json",
+      "tablesOrder": [
+        "table_3",
+        "table_2",
+        "table_3",
+        "table_1"
+      ]
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-07-12T19:47:39.013947+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/new_testing_hai/table_2",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "0963f399f0eea68d48fbd6d978cc25f14c7e5141"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/second/.y42/run_687a034e-26ea-49f8-8adb-6f1ecbc90a19.json",
+      "trial": true
+    },
+    "previous_import_id": "a021a739-f864-59ad-ac9e-e2fc6e962143",
+    "previous_table_id": "220712184623_a021a739-f864-59ad-ac9e-e2fc6e962143"
+  },
+  "created_at": "2022-07-12T19:47:39.013947+00:00",
+  "finished_at": "2022-07-12T19:48:44.238949+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-12T19:48:44.238815+00:00",
+    "row_count": 4230,
+    "current_import_row_count": 4230,
+    "size_in_bytes": 899579,
+    "external_id": "12a8e7ad-f4bd-4273-b208-fa6e6f52cfe1",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220712194739_4c520c0e-b7d1-5b8b-8fd1-801dd4e80b9f",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220712194739_4c520c0e-b7d1-5b8b-8fd1-801dd4e80b9f&page=table"
+  },
+  "_signature": "oKo/OsjSphUd0EeUH5xeFY6H7WKY3VLDQJa84Jn5FDblSoqOvGIpRrmGsRqUkmqvXkWcUuMs4bGsl3uPPuFlBA=="
+}

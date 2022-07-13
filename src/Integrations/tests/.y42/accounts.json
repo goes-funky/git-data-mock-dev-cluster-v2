@@ -1,0 +1,145 @@
+{
+  "accounts": [
+    {
+      "id": "104676803",
+      "name": "https://vshred.com - 104676803",
+      "description": "Master (formerly All Web Site Data)"
+    },
+    {
+      "id": "122225008",
+      "name": "http://www.vinsanityshred.com - 122225008",
+      "description": "Unfiltered"
+    },
+    {
+      "id": "122227009",
+      "name": "http://www.vinsanityshred.com - 122227009",
+      "description": "Filter Testing"
+    },
+    {
+      "id": "122231309",
+      "name": "http://www.vinsanityshred.com - 122231309",
+      "description": "Internal Only - adMind"
+    },
+    {
+      "id": "155505331",
+      "name": "https://vshred.com - 155505331",
+      "description": "Default"
+    },
+    {
+      "id": "172817687",
+      "name": "https://vshred.com - 172817687",
+      "description": "Blog (Filtered)"
+    },
+    {
+      "id": "195718249",
+      "name": "http://vshred.com - 195718249",
+      "description": "Taboola & Kendago"
+    },
+    {
+      "id": "195816376",
+      "name": "https://vshred.com - 195816376",
+      "description": "Internal - Taboola"
+    },
+    {
+      "id": "203281525",
+      "name": "http://vshred.com - 203281525",
+      "description": "User ID View"
+    },
+    {
+      "id": "166438855",
+      "name": "https://events.genndi.com - 166438855",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "232965823",
+      "name": "https://clothing.vshred.com/ - 232965823",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "233315627",
+      "name": "https://vshredthreads.com/ - 233315627",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "237191075",
+      "name": "https://lp.sculptnation.com/ - 237191075",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "249969359",
+      "name": "https://lp.sculptnation.com/ - 249969359",
+      "description": "User ID View"
+    },
+    {
+      "id": "250397905",
+      "name": "https://sp.vshred.com - 250397905",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "257490371",
+      "name": "https://cc.vshred.com - 257490371",
+      "description": "Default - Raw Data"
+    },
+    {
+      "id": "263085372",
+      "name": "https://cc.vshred.com - 263085372",
+      "description": "Master"
+    },
+    {
+      "id": "263101533",
+      "name": "https://cc.vshred.com - 263101533",
+      "description": "Test"
+    },
+    {
+      "id": "173292276",
+      "name": "https://sculptnation.com - 173292276",
+      "description": "Master View"
+    },
+    {
+      "id": "204053331",
+      "name": "https://sculptnation.com - 204053331",
+      "description": "Test View"
+    },
+    {
+      "id": "204150184",
+      "name": "https://sculptnation.com - 204150184",
+      "description": "Unfiltered View"
+    },
+    {
+      "id": "241394313",
+      "name": "https://sculptnation.com - 241394313",
+      "description": "User ID View"
+    },
+    {
+      "id": "249983500",
+      "name": "https://sculptnation.com - 249983500",
+      "description": "User ID View - New"
+    },
+    {
+      "id": "209309576",
+      "name": "https://app.datos-intelligence.com - 209309576",
+      "description": "All Web Site Data"
+    },
+    {
+      "id": "218917281",
+      "name": "https://www.y42.com - 218917281",
+      "description": "Master View (All Web Site Data)"
+    },
+    {
+      "id": "236174357",
+      "name": "https://www.y42.com - 236174357",
+      "description": "Test View"
+    },
+    {
+      "id": "239044983",
+      "name": "https://www.y42.com - 239044983",
+      "description": "Unfiltered"
+    },
+    {
+      "id": "255997690",
+      "name": "https://help.y42.com - 255997690",
+      "description": "All Web Site Data"
+    }
+  ],
+  "_signature": "kUXwS/xQj3OeuPNhDZGDrJWPKvuX2b3i8B5x2NqWe2jaX4JTpzyReaPuw4P0M4pKr3+/La5MhnsbJLSBTR2vDw=="
+}
