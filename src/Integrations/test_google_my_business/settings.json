@@ -1,5 +1,6 @@
 {
   "$schema": "https://s.dev.y42.dev/integrations/google-mybusiness/0.0.0/source.json",
   "parent_id":"accounts/117589114128819671648",
-  "start_date": "2020-01-01T00:00:00Z"
+  "start_date": "2020-01-01T00:00:00Z",
+   "scopes": ["https://www.googleapis.com/auth/business.manage"]
 }
