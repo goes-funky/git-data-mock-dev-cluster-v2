@@ -1,0 +1,197 @@
+{
+  "accounts": [
+    {
+      "id": "1QWHgSBUaRn-rmQuIAiRglsVsX28D1YufGW_XRJotm3Y",
+      "name": "Clickup tickets integrations"
+    },
+    {
+      "id": "1QlKHQsnCviV66q7uBpEVw1V3-YUpY_QAWrqpAMC7KtU",
+      "name": "Clickup dashboard- closed bugs weekly"
+    },
+    {
+      "id": "1UwrcfMVOgiHmiz9P5pteOWAhs1sxI_3pKqSCPE8iTOQ",
+      "name": "Clickup Tickets to check orchestration"
+    },
+    {
+      "id": "1baJOfJD8BZSPunqy4NVpoJhFE_OfsMOWDIhOwuEib_c",
+      "name": "Closed ticket per product"
+    },
+    {
+      "id": "17iz09h0TUja6tS2YT973Yl9sFb9equo9jS63fOSnpws",
+      "name": "Report of closed tickets"
+    },
+    {
+      "id": "1n4zejimKJBW_yGMDF8LZG_J4_z_zBfxbi7GF7DTJYkM",
+      "name": "Clickup tickets models"
+    },
+    {
+      "id": "1rJOv-VCEwuMhnCg3FcFynJ5zaSWrep6aQ-p2mMBTUXY",
+      "name": "Clickup tickets dashboard"
+    },
+    {
+      "id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0",
+      "name": "List of Attendees - Gym"
+    },
+    {
+      "id": "1dBAi5MMhul6AODqCp6b0qQVqYPvWASS3z9Xq-So97EI",
+      "name": "UI Model - Documentation"
+    },
+    {
+      "id": "1X3z0DSmwyxT8b6g6nLVHyLzKwTDfNTLyT0xz32pjNTs",
+      "name": "CS critical automations"
+    },
+    {
+      "id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw",
+      "name": "Segment - Y42 vv2 \ud83e\udd16"
+    },
+    {
+      "id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s",
+      "name": "Visualize Strategy planning"
+    },
+    {
+      "id": "1PkvRuzeHDsxlQ977kv2SoUDRjQozNMQOZlDDlIivCms",
+      "name": "Visualization - Y42 v2.0 Testing"
+    },
+    {
+      "id": "12RN2qsMZjRrEsRiAUaPl1oUarR2kopzIyTxO4wAmHeI",
+      "name": "Clickup tickets automations"
+    },
+    {
+      "id": "1-i4C4EYp9JybFumI8r1Yhif57JLxjpod93rGdog83GY",
+      "name": "Copy of Copy of Numeric2"
+    },
+    {
+      "id": "1S8Flbrq6eGr3agoDFkwGYF0gWqVghIBRAN3jaOhBvTY",
+      "name": "Source Prioritarization"
+    },
+    {
+      "id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s",
+      "name": "OKR Tracker "
+    },
+    {
+      "id": "1iLlmTaWNnWuqCxG_uF0eo5lEcUtOP7T78OU-ALFsRZQ",
+      "name": "Backend Services (deprecated)"
+    },
+    {
+      "id": "1lQ2D2kZNwlt1kHgtXmAjTSFXMT9z8OZ7tflb8tDWrac",
+      "name": "Portofoglio Management"
+    },
+    {
+      "id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY",
+      "name": "Internal Customer Referral"
+    },
+    {
+      "id": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg",
+      "name": "Copy of Numeric2"
+    },
+    {
+      "id": "1PWvpeHMPTYmn0jyrqcI-OMPdJu3akD6pT1aXl9-daRE",
+      "name": "Numeric1"
+    },
+    {
+      "id": "1VujerwCycDddoTe-mVZVDXqos_oOoq6qqhGk86kdtfM",
+      "name": "Closed ticket by product"
+    },
+    {
+      "id": "18wAW50YeGJQwkuBsEVXQrkHQplMqvtk_N52NnNoOI-E",
+      "name": "Model testing strategy"
+    },
+    {
+      "id": "1k0hqN7hLDVHty6DKWC4kVmH9uoPPBT8O0iT1pR73YWE",
+      "name": "Tech Org"
+    },
+    {
+      "id": "16CqZD3R54W1G0UpnEakv5jsHmdUPfK3YRYg8MoY8NV4",
+      "name": "Orchestration testing strategy"
+    },
+    {
+      "id": "1ghpBc5SSsoiCTYJyVsSozJ29ffFa8EJCiWtPHMn14FE",
+      "name": "GSh test"
+    },
+    {
+      "id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc",
+      "name": "Product & Engineering Org (Deprecated)"
+    },
+    {
+      "id": "1adRQOgNO0NW-zTtOexcWaigklfvFCYoVqy9g8zmPNFo",
+      "name": "NPS data"
+    },
+    {
+      "id": "1-LOqbSt8Ooh1S8CqOx6YQtXrKQUgi6hKRhPbjcgxlWw",
+      "name": "comparazione data creazione vs data autorizazione GDD"
+    },
+    {
+      "id": "1aAXfRFdjpmOYx5ZhnBaKS-BhzRpvHUrzUOjGtyOw2eg",
+      "name": "my tessting sheet replace"
+    },
+    {
+      "id": "1GZsN6dk1_Sf2copuGsjrbbSoQMSIIffQ3PWXgF9s5jQ",
+      "name": "Candidates Referral Sheet"
+    },
+    {
+      "id": "1pf8wrfvEKcRb-1x0G-gkB-gE7taOm-RJQueMnsDRKmY",
+      "name": "Notifications Ideation"
+    },
+    {
+      "id": "1ukzqxlDhMWQpd4tHXUkCwWzg2GgNjJw6YtQFyGDq_Uk",
+      "name": "Christmas Party Berlin 2021"
+    },
+    {
+      "id": "1SBvHeqTtiC_QiiPQm820D6XCqZ0XpCHfalrMaieFdTw",
+      "name": "Q&A Engingeer- Candidates"
+    },
+    {
+      "id": "1_hnP8jkp8i4-3SRZpdJq7IZUFGqBGyKtufEQTH9b2UY",
+      "name": "zendesk-airtable-clickup"
+    },
+    {
+      "id": "1dgSzN2P1HwQgD-0nhtI-8EBguajFsE0oPAwGUiTZ72A",
+      "name": "Problems faced during Zendesk to Airtable"
+    },
+    {
+      "id": "1RuMHp6nMi30-i0usBDOVO_kSvBPQPnusimM5xm2RkBU",
+      "name": "ClickUp - Airtable match"
+    },
+    {
+      "id": "17lOE0__MHJgd8ee5tZmjNDg1LUNfRAVCfgITpKqbEbQ",
+      "name": "Berlin y42 guide"
+    },
+    {
+      "id": "1MNhum1j_wS9leXomW_Vv-9mD2pj1F5HjC7QN7U5fS1U",
+      "name": "Due date storage"
+    },
+    {
+      "id": "1h8HUL_K9SR9vO-9ah8TU3FkvMdKj8Qiij5Plfx_a3pM",
+      "name": "OKR Teams"
+    },
+    {
+      "id": "1rpqTvtC4W98J-8C9QxIYYkqn7j7tue9WbUyRWlRzeUc",
+      "name": "my testtttttt"
+    },
+    {
+      "id": "1mbx09w9gmtDKK_d42RUVbfbcd6FFDYPNYkeWGNb7EyI",
+      "name": "Organizing Sentry"
+    },
+    {
+      "id": "1gbT6469bqmd0ViS-NdIYHbDS_Fg9UpKqCyke9nJPrsU",
+      "name": "Invoice"
+    },
+    {
+      "id": "17idvalEsDREaLZ0RppD9gm0qogkJKnjHgIBe9rxm7WM",
+      "name": "test_import"
+    },
+    {
+      "id": "1RIeXEVu8QLj_Z720q579vtxyH4Hv-fIpcOwyLvMIlLU",
+      "name": "Tirana Office (Device Setup)"
+    },
+    {
+      "id": "1wx-_iaA6y3dLnMAIb-ENPi6nqMBloEPTicSESw0oTl0",
+      "name": "Integration Descriptions"
+    },
+    {
+      "id": "1ozVZqlImdHiRe7yauEGE6m1oxZzwJZU0T1x7vRzq_PU",
+      "name": "New Company Name"
+    }
+  ],
+  "_signature": "akKLulnITMB89S7Q7wB7gJpQ8QQz+7u4nBBQCC0Au3+5hTM7rGUJFqRjvBpEgsBLM7UCO5a4msqlLZ27+fKzAg=="
+}
