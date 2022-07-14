@@ -1,6 +1,6 @@
 {
   "request_id": "220714083035_4a845c11-f3ea-59c9-b847-367e08fc8aee",
-  "status": "pending",
+  "status": "ready",
   "details": {
     "invalid_rows": 0,
     "export_finished_at": "2022-07-14T08:45:14.645830+00:00",
@@ -16,7 +16,227 @@
     "write_disposition": "TRUNCATE",
     "external_id": "86d8fc30-bce6-450b-b625-fd57a6906dbf",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/3c26f744-0f59-467c-b3be-bd5d9a1b959f",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-14T08:45:35.255579+00:00",
+    "row_count": 1,
+    "current_import_row_count": 1,
+    "size_in_bytes": 249,
+    "previous_id": "d7b30423-ebca-59aa-a996-b2bc5d6760b1",
+    "columns": [
+      {
+        "field_name": "to_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_deleted_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "auto_footer",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "auto_tweet",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "subject_line",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "fivetran_deleted",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "track_goals",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "fivetran_synced",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "create_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "long_archive_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "track_opens",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "archive_url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "test_size",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "drag_and_drop",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "inline_css",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "sdc_extracted_at",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "authenticate",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "content_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "track_ecomm_360",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "winner_criteria",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clicktale",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "reply_to",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "winning_combination_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "list_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "fb_comments",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "use_conversation",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "folder_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "send_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "track_html_clicks",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "timewarp",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "template_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "wait_time",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "google_analytics",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "winning_campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "segment_text",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "from_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "segment_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "track_text_clicks",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      }
+    ],
+    "table_name": "220714083035_4a845c11-f3ea-59c9-b847-367e08fc8aee",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220714083035_4a845c11-f3ea-59c9-b847-367e08fc8aee&page=table"
   },
-  "_signature": "iRTXoAyna4+V8G7rvZ/9gcEDRZdif3Z+nr9ROkjfPpxg6ZFK0Ilw1O2uR/b3IdFkcYThqOM/zDB3sLHBu7I4Cg=="
+  "finished_at": "2022-07-14T08:45:35.255763+00:00",
+  "_signature": "A6560/YAxtu+ij5ebqCNsvglsXBX12iLrI/9CzINStgzVf3k5XcrTcUXzCXTaG/Sr67TMG5sVqvYiFx5KZc8Aw=="
 }
