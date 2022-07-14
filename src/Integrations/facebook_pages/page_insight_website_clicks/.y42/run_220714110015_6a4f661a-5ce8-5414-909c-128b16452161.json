@@ -74,5 +74,37 @@
     "previous_table_id": "220714104507_b48af221-c2a3-5e82-a7a7-22f102f71eeb"
   },
   "created_at": "2022-07-14T11:00:15.572141+00:00",
-  "_signature": "eW+Q6reoBSUyuInRWSKA8yLpQ19SvUQf5YFfoDZs6EcEUsBrq7ZzmJnbgRknEvGjjwNpQFuIbpNpcElFGP/9BQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-14T11:00:50.590815+00:00",
+    "external_state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "d176421b-02d8-4b3a-8c47-dda3c62a945f",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/72b5e4cc-3f07-459f-bfab-23288e3dd5c2",
+    "partial": false
+  },
+  "_signature": "uKvMbeeqhywJwlB1wRWMtwCsvcP65El0Pvo2VExOTKqnizv9zMFiM56ELQvrTiA+bNywyiaMi8T+16zP++NsAw=="
 }
