@@ -308,6 +308,61 @@
       "isGroup": true,
       "group": "",
       "location": "-430.7689622641506 -263.84645745090484"
+    },
+    {
+      "key": "ef47ba8c-21a5-4c29-8183-a3d7a19b63a5",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-456 -377",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "d254bf01-7dd8-41d9-b779-f7cef0217bd6",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-733 -517",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "226ec375-007f-4ce4-b320-45864dce4b7d",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-840 -302",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "95f5b49a-019e-4cf2-acd4-b06634c9a218",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-328.9305524861878 -540.2422375690608",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "d0ccc691-3e6f-481b-a10e-34f38b9c780b",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "19.819267955801138 -476.0291280100073",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ],
   "linkDataArray": [
