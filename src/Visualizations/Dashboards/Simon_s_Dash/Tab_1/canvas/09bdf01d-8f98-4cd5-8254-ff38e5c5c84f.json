@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/Test_1"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
+    "background-color": "#333333",
+    "border-color": "#1a1a1a",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",
