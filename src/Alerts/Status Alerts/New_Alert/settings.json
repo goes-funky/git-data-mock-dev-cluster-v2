@@ -2,7 +2,8 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
   "feature_type": "Orchestration",
   "alert_on": [
-    "success"
+    "success",
+    "partial_success"
   ],
   "triggered_by": [
     "user",
