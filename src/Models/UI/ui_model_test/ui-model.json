@@ -17,7 +17,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-584 -164"
+      "location": "-724.2594339622642 -164"
     },
     {
       "key": "ca912279-95f5-437d-afd3-41e0d4f6f717",
@@ -284,17 +284,118 @@
       "location": "-209.07024793388427 224.36792452830184"
     },
     {
-      "key": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
-      "type": "FUNCTIONS",
-      "category": "FUNCTIONS",
+      "key": "0f561676-4bb4-4e03-8df4-31a26bb9290a",
+      "type": "FILTER",
+      "category": "FILTER",
       "transformationStep": {
-        "id": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
+        "id": "0f561676-4bb4-4e03-8df4-31a26bb9290a",
         "title": "",
-        "transformationType": "FUNCTIONS"
+        "transformationType": "FILTER"
       },
       "isGroup": true,
       "group": "",
-      "location": "126.09132668526365 27.58811680711551"
+      "location": "-535.6127366287228 203.63875044499832"
+    },
+    {
+      "key": "009ee838-11cf-467f-b746-c7c3d9d7249d",
+      "type": "GROUP_BY",
+      "category": "GROUP_BY",
+      "transformationStep": {
+        "id": "009ee838-11cf-467f-b746-c7c3d9d7249d",
+        "title": "",
+        "transformationType": "GROUP_BY"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-430.7689622641506 -263.84645745090484"
+    },
+    {
+      "key": "ef47ba8c-21a5-4c29-8183-a3d7a19b63a5",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-456 -377",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "d254bf01-7dd8-41d9-b779-f7cef0217bd6",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-733 -517",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "226ec375-007f-4ce4-b320-45864dce4b7d",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-840 -302",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "95f5b49a-019e-4cf2-acd4-b06634c9a218",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-328.9305524861878 -540.2422375690608",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "d0ccc691-3e6f-481b-a10e-34f38b9c780b",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "19.819267955801138 -476.0291280100073",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "cd1ae054-4ed1-405b-8f12-d624981cf743",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "38.217961165048564 -765.8879417475728",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "892e2d42-f77e-4526-815e-3a6f09e73254",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-491.2581219818274 -739.528355671568",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
+    },
+    {
+      "key": "4244de6a-88c0-4192-8b14-3f33383b2257",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "pinNode",
+      "location": "-429.79101886792444 -1156.6726037735848",
+      "layerName": "",
+      "zOrder": {
+        "class": "NaN"
+      }
     }
   ],
   "linkDataArray": [
@@ -319,12 +420,12 @@
       "to": "8fe3c3f0-5f37-4e9b-b20e-fb062ce80e1b"
     },
     {
-      "from": "57e206c0-065c-48ce-8792-6fcfef8bdc11",
-      "to": "ca912279-95f5-437d-afd3-41e0d4f6f717"
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "0f561676-4bb4-4e03-8df4-31a26bb9290a"
     },
     {
-      "from": "762a4f18-e20e-48ae-a236-8a7c9476f08f",
-      "to": "57e206c0-065c-48ce-8792-6fcfef8bdc11"
+      "from": "7049ea22-e3cd-416d-af80-0a1ed364439a",
+      "to": "009ee838-11cf-467f-b746-c7c3d9d7249d"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"

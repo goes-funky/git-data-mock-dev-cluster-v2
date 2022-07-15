@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
+  "feature_type": "UI-Model",
+  "alert_on": [
+    "success"
+  ],
+  "triggered_by": [
+    "orchestration"
+  ],
+  "title": "",
+  "message_body": "<p>ff</p>",
+  "patterns": [
+    "mod",
+    "hellop",
+    "mo*"
+  ],
+  "tags": [],
+  "destinations": []
+}
