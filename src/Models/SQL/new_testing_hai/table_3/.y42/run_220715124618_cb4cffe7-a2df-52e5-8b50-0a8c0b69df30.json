@@ -1,0 +1,45 @@
+{
+  "request_id": "220715124618_cb4cffe7-a2df-52e5-8b50-0a8c0b69df30",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json",
+      "tablesOrder": [
+        "table_3",
+        "table_2",
+        "table_3",
+        "table_1"
+      ]
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-07-15T12:46:18.655871+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/new_testing_hai/table_3",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "abf80e4f7e026980a6662562f1bed5c295d7a0c0"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/second/.y42/run_143be640-f057-49fd-807a-4ad32b1d5d9f.json",
+      "trial": true
+    },
+    "previous_import_id": "c5654512-732f-5c1f-a06e-2856eba99a24",
+    "previous_table_id": "220715120444_c5654512-732f-5c1f-a06e-2856eba99a24"
+  },
+  "created_at": "2022-07-15T12:46:18.655871+00:00",
+  "_signature": "e9wKGXSospe1ZUi44sPSlIrO1xhMoU8AZfM9tfMw+UPYWWW1PBeCYxXcW9Ohq/kMd79YVAObeuF7xFfytDjOBw=="
+}
