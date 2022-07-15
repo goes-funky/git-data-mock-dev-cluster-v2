@@ -1,6 +1,6 @@
 {
   "request_id": "220715174506_529b7c9a-2c35-5ff5-b2dc-6c1d5b890196",
-  "status": "pending",
+  "status": "ready",
   "details": {
     "invalid_rows": 0,
     "export_finished_at": "2022-07-15T17:45:58.712905+00:00",
@@ -31,7 +31,62 @@
     "write_disposition": "TRUNCATE",
     "external_id": "ae324393-3567-4cfd-bc45-f339327a953e",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/2aeccb5a-248a-423d-9654-70563b91651b",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-15T17:46:20.628963+00:00",
+    "row_count": 4261,
+    "current_import_row_count": 4261,
+    "size_in_bytes": 906138,
+    "previous_id": "c9a565c6-68a8-5691-ba80-c7086abd21bf",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220715174506_529b7c9a-2c35-5ff5-b2dc-6c1d5b890196",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220715174506_529b7c9a-2c35-5ff5-b2dc-6c1d5b890196&page=table"
   },
-  "_signature": "KM9+o3UC6kbBUZPfceiA8K2vOfcvduoZrLk4anxHClAOcIM4ksfyWkrIfrUP3QSJs6ZC9ducwvv4XKtMpwQoBA=="
+  "finished_at": "2022-07-15T17:46:20.629083+00:00",
+  "_signature": "5FANuF/0/kDsTSJ+i7q0rTVLyzQ2jM7eneH+BluQsxo2J2Ig2kXm+1GDiX88yNsZ5vs7BVmHPTVlqvjoXOczBg=="
 }
