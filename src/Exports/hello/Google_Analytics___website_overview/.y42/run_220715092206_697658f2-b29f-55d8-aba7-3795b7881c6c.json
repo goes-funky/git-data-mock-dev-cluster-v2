@@ -1,6 +1,6 @@
 {
   "request_id": "220715092206_697658f2-b29f-55d8-aba7-3795b7881c6c",
-  "status": "pending",
+  "status": "canceled",
   "request": {
     "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "export_settings": {
@@ -35,5 +35,7 @@
     }
   },
   "created_at": "2022-07-15T09:22:06.508943+00:00",
-  "_signature": "13s/mrXY2Vlh6euuos2oRHBeznAgvKTVBLilk3AmOhAPkm3z2CMaV1ONMieyTWsxhWQJUPLCfbbxkgmyu+6vBw=="
+  "error_code": 194,
+  "error_message": "user canceled the task",
+  "_signature": "potK0tsnHtya//oxafyN5Jn4MvgbiaVbbHjU7iSnO4MaF09np/8NJA+3VGIitaJuoGtcUvurGsNeljPV4G/bAw=="
 }
