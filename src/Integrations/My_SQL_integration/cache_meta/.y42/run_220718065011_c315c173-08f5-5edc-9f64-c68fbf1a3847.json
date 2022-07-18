@@ -1,0 +1,50 @@
+{
+  "request_id": "220718065011_c315c173-08f5-5edc-9f64-c68fbf1a3847",
+  "status": "pending",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "id",
+        "cache_key",
+        "valid_until",
+        "table_name",
+        "created_at",
+        "updated_at",
+        "refresh_count",
+        "filter_query",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "analytics-cache_meta"
+    },
+    "created_at": "2022-07-18T06:50:11.468636+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/My_SQL_integration/cache_meta",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "adrian"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "e5ef114a62b026cfb597b4b510992d6887cdd5a2"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "187",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-18T06:50:11.468636+00:00",
+  "_signature": "xdN5G5f3LJWoR78UTjvx21DT2v6p0FR6eJ88BrZNFeTOXCIo3hDPQhcGukFdS/ZX9povYoA4pIp1T9CBZ5s9AA=="
+}
