@@ -1,0 +1,69 @@
+{
+  "request_id": "220719144950_7ddc81ad-7ce9-5d0b-8766-d0136ba5f605",
+  "status": "pending",
+  "request": {
+    "source_credentials": "7b8d4f61-03bd-42e9-b1ff-0d8c72af7f4c",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/source.json",
+      "parent_id": "102004408442825,105306121815794,110203024472908",
+      "start_date": "2018-12-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/table",
+      "columns": [
+        "page_id",
+        "business_account_id",
+        "date",
+        "follower_count",
+        "get_directions_clicks",
+        "impressions",
+        "phone_call_clicks",
+        "profile_views",
+        "reach",
+        "text_message_clicks",
+        "website_clicks",
+        "impressions_week",
+        "reach_week",
+        "impressions_days_28",
+        "reach_days_28",
+        "online_followers"
+      ],
+      "import": "user_insights",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-19T14:49:50.680289+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/instagram/user_insights",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "57f7baa193a570fe985665ab64b407ff77b3bee3"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "80",
+      "trial": true
+    },
+    "state": {
+      "17841448360049396": "2022-07-09T07:00:00Z",
+      "schema_hash": "1d2c53aec4369441c196d1da5ef49ed2"
+    },
+    "previous_import_id": "220719144444_44c2a4b1-c0b1-513d-b769-2397a3ec7cbd",
+    "previous_table_id": "220719144444_44c2a4b1-c0b1-513d-b769-2397a3ec7cbd"
+  },
+  "created_at": "2022-07-19T14:49:50.680289+00:00",
+  "_signature": "DnyF4ti73AQZ4ZLQHkgBvOqosPR0q/xIeCgDjHkLsFH798dasw22bwGdx0ZzDZLk5T6og6fZCmjgScULKabLDQ=="
+}
