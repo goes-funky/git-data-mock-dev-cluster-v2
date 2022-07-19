@@ -1,0 +1,31 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/table",
+  "columns": [
+    "created_at",
+    "title_in_portal",
+    "visible_in_portal",
+    "collapsed_for_agents",
+    "regexp_for_validation",
+    "title",
+    "position",
+    "type",
+    "editable_in_portal",
+    "raw_title_in_portal",
+    "raw_description",
+    "custom_field_options",
+    "updated_at",
+    "tag",
+    "removable",
+    "active",
+    "url",
+    "raw_title",
+    "required",
+    "id",
+    "description",
+    "agent_description",
+    "required_in_portal",
+    "system_field_options",
+    "sub_type_id"
+  ],
+  "import": "ticket_fields"
+}
