@@ -1,0 +1,20 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/bing-ads/0.0.0/table",
+  "columns": [
+    "AccountName",
+    "AccountNumber",
+    "AccountId",
+    "TimePeriod",
+    "CampaignName",
+    "CampaignId",
+    "AdGroupName",
+    "AdGroupId",
+    "AudienceId",
+    "AudienceName",
+    "AssociationStatus",
+    "BidAdjustment",
+    "TargetingSetting",
+    "_sdc_report_datetime"
+  ],
+  "import": "audience_performance_report"
+}
