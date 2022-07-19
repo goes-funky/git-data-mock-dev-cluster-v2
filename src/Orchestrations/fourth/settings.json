@@ -2,7 +2,44 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
   "cronExpression": "",
   "forceSchedule": false,
-  "linkDataArray": [],
-  "nodeDataArray": [],
+  "linkDataArray": [
+    {
+      "from": "531aa3ea-0cba-421b-93d4-242f76b7eb06",
+      "to": "368c281c-0bc7-44be-85c5-bd4ac356092d"
+    },
+    {
+      "from": "368c281c-0bc7-44be-85c5-bd4ac356092d",
+      "to": "28452f75-4fd1-4db1-94cc-4ed1d8fa0fa2"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "531aa3ea-0cba-421b-93d4-242f76b7eb06",
+      "path": "src/Integrations/MySql_Integration/test",
+      "location": "-328.57142857142867 -78.57142857142861",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "368c281c-0bc7-44be-85c5-bd4ac356092d",
+      "path": "src/Integrations/MySql_Integration/test_pk",
+      "location": "202.8571428571429 -112.2857142857143",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "28452f75-4fd1-4db1-94cc-4ed1d8fa0fa2",
+      "path": "src/Integrations/MySql_Integration/testt",
+      "location": "181.42857142857156 124.00000000000004",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
   "visualDataArray": []
 }
