@@ -1,0 +1,13 @@
+{
+  "request_id": "220719082608_0bbc7783-9c2f-5422-a385-c2c4833f0ac1",
+  "status": "pending",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-19T08:26:30.559101+00:00",
+    "write_disposition": "TRUNCATE",
+    "external_id": "a91c233e-403d-483c-891e-3a58b75769c8",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/singer-google-sheets/eb4c30dc-42e5-4fde-b83f-a37f2ef17f58",
+    "partial": false
+  },
+  "_signature": "KlGAUywKz8+QRT8x9P1Qjxeefe9gyBJoap3slf196A5FmBpQyJEupd81IY5rZ2mkNLvl5tJEYjSfCzYDGjHYDQ=="
+}
