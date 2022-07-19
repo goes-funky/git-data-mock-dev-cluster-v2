@@ -1,0 +1,57 @@
+{
+  "request_id": "220719122706_6290de66-bc29-5b53-a00a-d44a711b97df",
+  "status": "pending",
+  "request": {
+    "source_credentials": "33d40ad1-d938-4654-ac6f-6bfc69f67599",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/bing-ads/0.0.0/source.json",
+      "parent_id": "2504644",
+      "start_date": "2021-07-19T11:43:42Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/bing-ads/0.0.0/table",
+      "columns": [
+        "AccountName",
+        "AccountNumber",
+        "AccountId",
+        "TimePeriod",
+        "CampaignName",
+        "CampaignId",
+        "AdGroupName",
+        "AdGroupId",
+        "AudienceId",
+        "AudienceName",
+        "AssociationStatus",
+        "BidAdjustment",
+        "TargetingSetting",
+        "_sdc_report_datetime"
+      ],
+      "import": "audience_performance_report"
+    },
+    "created_at": "2022-07-19T12:27:06.312568+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_bing_ads/audience_performance_report",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "c437bffcb172ce778aafe0f01b2263192cb21984"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "80",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-19T12:27:06.312568+00:00",
+  "_signature": "vc8dnPNpgLolw9KitxqlS5GxSXgtC3srnq4v0yxnezlKNXtav5sUVlK96NXhOKNmKXam3Pj0m6AOzPVJELBxDg=="
+}
