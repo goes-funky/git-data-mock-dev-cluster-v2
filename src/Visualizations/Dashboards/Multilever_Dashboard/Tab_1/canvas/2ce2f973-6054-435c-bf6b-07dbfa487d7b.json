@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
+    "background-color": "#293441",
+    "border-color": "#151b22",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",

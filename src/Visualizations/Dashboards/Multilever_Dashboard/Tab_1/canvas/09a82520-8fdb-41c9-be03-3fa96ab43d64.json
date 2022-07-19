@@ -2,8 +2,8 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1996.6124267578125,
-    "y": 322.67255099762065
+    "x": 1996.612425147521,
+    "y": 321.42761804803047
   },
   "size": {
     "height": 577.9999966009979,
@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/2021_Revenue_Split"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
+    "background-color": "#293441",
+    "border-color": "#151b22",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",

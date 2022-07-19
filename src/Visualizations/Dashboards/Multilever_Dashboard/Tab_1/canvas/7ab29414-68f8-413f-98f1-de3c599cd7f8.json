@@ -3,7 +3,7 @@
   "type": "Widget",
   "position": {
     "x": 442.8828125,
-    "y": 325.7109069824219
+    "y": 323.9174839472107
   },
   "size": {
     "height": 575.5101307018176,
@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/2021_COGS___Profit"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
+    "background-color": "#293441",
+    "border-color": "#151b22",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",

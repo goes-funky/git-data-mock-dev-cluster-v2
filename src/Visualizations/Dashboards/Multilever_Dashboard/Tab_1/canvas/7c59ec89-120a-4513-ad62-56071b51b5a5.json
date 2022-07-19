@@ -1,0 +1,31 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-canvas-element.json",
+  "type": "Frame",
+  "position": {
+    "x": 280.98833678132564,
+    "y": 59.577679713321345
+  },
+  "size": {
+    "height": 2638.0473652533683,
+    "width": 2507.977539062502
+  },
+  "zIndex": 0,
+  "layer": "frames",
+  "angle": 0,
+  "typeSettings": {},
+  "styles": {
+    "background-color": "none",
+    "border-color": "none",
+    "border-style": "none",
+    "border-width": "0",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": false
+  }
+}

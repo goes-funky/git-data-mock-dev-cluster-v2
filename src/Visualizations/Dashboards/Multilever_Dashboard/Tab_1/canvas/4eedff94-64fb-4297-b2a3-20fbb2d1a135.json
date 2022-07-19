@@ -2,7 +2,7 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1634.1668315779425,
+    "x": 1634.1668701171875,
     "y": 959.1812778130648
   },
   "size": {
@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/Revenue_Split_by_Item"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
+    "background-color": "#293441",
+    "border-color": "#151b22",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",

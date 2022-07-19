@@ -2,7 +2,7 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-canvas-element.json",
   "type": "Widget",
   "position": {
-    "x": 1258.4940185546875,
+    "x": 1258.4939575195312,
     "y": 325.7109069824219
   },
   "size": {
@@ -16,8 +16,8 @@
     "widgetPath": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio"
   },
   "styles": {
-    "background-color": "#ffffff",
-    "border-color": "#f5f5f5",
+    "background-color": "#293441",
+    "border-color": "#151b22",
     "border-style": "solid",
     "border-width": "1px",
     "border-radius": "0",
