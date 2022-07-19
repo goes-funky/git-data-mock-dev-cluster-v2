@@ -1,0 +1,67 @@
+{
+  "request_id": "220719140414_7589d362-f4c6-5197-93e5-5eab6b2f34be",
+  "status": "pending",
+  "request": {
+    "source_credentials": "79e23f02-3732-4725-8321-910f851987a6",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/source.json",
+      "start_date": "2021-07-19T15:59:12Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/table",
+      "columns": [
+        "created_at",
+        "title_in_portal",
+        "visible_in_portal",
+        "collapsed_for_agents",
+        "regexp_for_validation",
+        "title",
+        "position",
+        "type",
+        "editable_in_portal",
+        "raw_title_in_portal",
+        "raw_description",
+        "custom_field_options",
+        "updated_at",
+        "tag",
+        "removable",
+        "active",
+        "url",
+        "raw_title",
+        "required",
+        "id",
+        "description",
+        "agent_description",
+        "required_in_portal",
+        "system_field_options",
+        "sub_type_id"
+      ],
+      "import": "ticket_fields"
+    },
+    "created_at": "2022-07-19T14:04:14.234969+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/test_zendesk/ticket_fields",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "424c98974fa2d6ce56a9ae787960190d307f9fe7"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "130",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-19T14:04:14.234969+00:00",
+  "_signature": "7z4QsyagcSrglDhlLiGO8BAGY+BOwGnlMJ8GdTAsB28+LWqysNt2KdIryUqy84DanfzkMQ37y+gEK3cLJQWSCw=="
+}
