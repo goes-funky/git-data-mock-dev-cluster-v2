@@ -1,0 +1,55 @@
+{
+  "request_id": "220719142835_958f49d5-dae3-5b0f-af98-7af554bfc859",
+  "status": "pending",
+  "request": {
+    "source_credentials": "7b8d4f61-03bd-42e9-b1ff-0d8c72af7f4c",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/source.json",
+      "parent_id": "102004408442825,105306121815794,110203024472908",
+      "start_date": "2018-12-01T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/table",
+      "columns": [
+        "business_account_id",
+        "page_id",
+        "id",
+        "engagement",
+        "impressions",
+        "reach",
+        "saved",
+        "video_views",
+        "carousel_album_engagement",
+        "carousel_album_impressions",
+        "carousel_album_reach",
+        "carousel_album_saved"
+      ],
+      "import": "media_insights"
+    },
+    "created_at": "2022-07-19T14:28:35.023535+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/instagram/media_insights",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "191be589fd9890285877640736c59c44698bde6a"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "80",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-19T14:28:35.023535+00:00",
+  "_signature": "eP0/7sZVFfUZf1dxpZz7Z3WR+RdcHL7j23lYNQSUT9Mt47HNxYuxXP2U8/WPNwSBTfAaZOxQmSABrQCPa9GEAg=="
+}
