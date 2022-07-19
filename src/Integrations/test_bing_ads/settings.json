@@ -1,3 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/integrations/bing-ads/0.0.0/source.json"
+  "$schema": "https://s.dev.y42.dev/integrations/bing-ads/0.0.0/source.json",
+  "parent_id": "2504644",
+  "start_date": "2021-07-19T11:43:42Z"
 }
