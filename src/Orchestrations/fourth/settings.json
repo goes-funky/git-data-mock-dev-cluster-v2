@@ -2,45 +2,7 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
   "cronExpression": "",
   "forceSchedule": false,
-  "linkDataArray": [
-    {
-      "from": "d78a2b10-d0cc-47c4-bdab-167244161de9",
-      "to": "bdb85da1-b966-40b3-8318-dfddfdcec66a"
-    },
-    {
-      "from": "bdb85da1-b966-40b3-8318-dfddfdcec66a",
-      "to": "4ca0bbd4-eea1-4ea0-a93a-9c5bf3168cc9"
-    }
-  ],
-  "nodeDataArray": [
-    {
-      "key": "d78a2b10-d0cc-47c4-bdab-167244161de9",
-      "path": "src/Integrations/MySql_Integration/test",
-      "location": "-658.5714285714287 -267.14285714285717",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": true,
-        "globalCustomerId": "DenysPishchenko"
-      }
-    },
-    {
-      "key": "bdb85da1-b966-40b3-8318-dfddfdcec66a",
-      "path": "src/Integrations/MySql_Integration/test_view",
-      "location": "-60.00000000000023 -296.5714285714287",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": true
-      }
-    },
-    {
-      "key": "4ca0bbd4-eea1-4ea0-a93a-9c5bf3168cc9",
-      "path": "src/Integrations/MySql_Integration/tmp_view_pk",
-      "location": "544.2857142857144 -60.28571428571448",
-      "onFailure": "stop",
-      "nodeConfig": {
-        "incremental": true
-      }
-    }
-  ],
+  "linkDataArray": [],
+  "nodeDataArray": [],
   "visualDataArray": []
 }
