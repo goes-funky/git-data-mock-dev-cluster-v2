@@ -19,7 +19,8 @@
       "location": "-658.5714285714287 -267.14285714285717",
       "onFailure": "stop",
       "nodeConfig": {
-        "incremental": true
+        "incremental": true,
+        "globalCustomerId": "DenysPishchenko"
       }
     },
     {
