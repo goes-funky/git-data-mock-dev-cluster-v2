@@ -1,8 +1,0 @@
-{
-  "request_id": "220719134243_15a4c366-9b85-580a-816d-cbbbdb50f525",
-  "status": "invalid",
-  "failed_at": "2022-07-19T13:46:20.090525+00:00",
-  "error_code": 500,
-  "error_message": "import failed",
-  "_signature": "rpuz5c0Ct9F8/V2+e2co08QHNt6QGZ/s76nq6tKp6QGLi6SNPx8urnKI4tIYkVRodROq/0obM6LGcRaC0c4xBA=="
-}
