@@ -1,7 +1,0 @@
-{
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-dashboard-settings.json",
-  "theme": "Wajve Demo-b472293f-c7c6-48af-bd85-39863b84d0e3.json",
-  "order": [
-    "src/Visualizations/Dashboards/Wajve_Demo/Tab_1"
-  ]
-}
