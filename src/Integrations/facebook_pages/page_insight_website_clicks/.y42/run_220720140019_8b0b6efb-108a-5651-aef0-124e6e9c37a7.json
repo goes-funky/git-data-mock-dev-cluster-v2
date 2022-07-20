@@ -1,6 +1,6 @@
 {
   "request_id": "220720140019_8b0b6efb-108a-5651-aef0-124e6e9c37a7",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -74,5 +74,92 @@
     "previous_table_id": "220720135508_a365735f-7aec-5ea1-b5f2-1f9bcacf51fb"
   },
   "created_at": "2022-07-20T14:00:19.091477+00:00",
-  "_signature": "fk/ljQVjVc2hc4qHLEd/z2TNMzcXlyhg67rCOg+Li6BM+Ft55S9n3BMWtKl9IQrgoqeQy93sRjzosar9qO8CDA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-20T14:03:52.705353+00:00",
+    "external_state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "f96b1bc9-3d5b-4648-8d2a-597d46df62bd",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/767068b3-95e6-46c2-86ee-6e2246e4d09e",
+    "partial": false,
+    "import_finished_at": "2022-07-20T14:04:30.860827+00:00",
+    "row_count": 4311,
+    "current_import_row_count": 4311,
+    "size_in_bytes": 916678,
+    "previous_id": "a365735f-7aec-5ea1-b5f2-1f9bcacf51fb",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220720140019_8b0b6efb-108a-5651-aef0-124e6e9c37a7",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720140019_8b0b6efb-108a-5651-aef0-124e6e9c37a7&page=table"
+  },
+  "finished_at": "2022-07-20T14:04:30.860955+00:00",
+  "_signature": "az0uuXpSvOd2LN+evJKut6jk7tj7dkUnjgLyj0IlKh5yK71nHbZJj0Yrzdcp7s8td7X8aiv6sxV/XToU9l6nCg=="
 }
