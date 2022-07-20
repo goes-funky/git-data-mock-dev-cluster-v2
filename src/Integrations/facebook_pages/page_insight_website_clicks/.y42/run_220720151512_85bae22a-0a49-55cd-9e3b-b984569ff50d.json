@@ -1,0 +1,165 @@
+{
+  "request_id": "220720151512_85bae22a-0a49-55cd-9e3b-b984569ff50d",
+  "status": "ready",
+  "request": {
+    "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/source.json",
+      "parent_id": "102004408442825,105306121815794,110203024472908",
+      "start_date": "2021-06-15T15:40:24Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/table",
+      "columns": [
+        "name",
+        "period",
+        "value",
+        "context",
+        "end_time",
+        "title",
+        "description",
+        "id",
+        "page_id"
+      ],
+      "import": "page_insight_website_clicks"
+    },
+    "created_at": "2022-07-20T15:15:12.442676+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/facebook_pages/page_insight_website_clicks",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "89b5f98c03cb5e7471b5514bd1728ec8f9e2038e"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_7819c422-fbd5-4140-8db9-3bade4d65564.json",
+      "trial": true
+    },
+    "state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "previous_import_id": "eff9a785-08c4-52cc-9565-f80de37de535",
+    "previous_table_id": "220720151010_eff9a785-08c4-52cc-9565-f80de37de535"
+  },
+  "created_at": "2022-07-20T15:15:12.442676+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-20T15:15:48.385933+00:00",
+    "external_state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "cf3b6908-ac71-4c10-8bec-14a83ec41ff0",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/29d4076b-320b-4260-8a69-33cdb4f4e87e",
+    "partial": false,
+    "import_finished_at": "2022-07-20T15:16:24.237892+00:00",
+    "row_count": 4311,
+    "current_import_row_count": 4311,
+    "size_in_bytes": 916678,
+    "previous_id": "eff9a785-08c4-52cc-9565-f80de37de535",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220720151512_85bae22a-0a49-55cd-9e3b-b984569ff50d",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720151512_85bae22a-0a49-55cd-9e3b-b984569ff50d&page=table"
+  },
+  "finished_at": "2022-07-20T15:16:24.238048+00:00",
+  "_signature": "5kCaXYL2nQ9z0Q0Z+uDux9VvCoV4thniMm9iktL4y0KXaylkncB26+VmtxDQ91fIOzhZaz0VcvLHI0HrQ7YTBg=="
+}
