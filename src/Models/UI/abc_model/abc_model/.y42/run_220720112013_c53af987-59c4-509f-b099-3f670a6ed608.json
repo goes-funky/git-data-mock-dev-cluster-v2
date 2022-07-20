@@ -1,5 +1,5 @@
 {
-  "request_id": "220720111512_391e5c91-65cf-54c8-b582-8b95d0ea35cb",
+  "request_id": "220720112013_c53af987-59c4-509f-b099-3f670a6ed608",
   "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -10,7 +10,7 @@
       "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
       "output_key": "6c0af187-0e89-4633-81e6-0022f6a022b9"
     },
-    "created_at": "2022-07-20T11:15:12.458972+00:00",
+    "created_at": "2022-07-20T11:20:13.005326+00:00",
     "target": {
       "storage": {
         "type": "githubapp",
@@ -22,22 +22,22 @@
         "app_id": "24758422",
         "owner": "goes-funky",
         "repo": "git-data-mock-dev-cluster-v2",
-        "commit_sha": "51e72ec0821347a989a855f62c3ceade17f6682c"
+        "commit_sha": "13b9003c519114ca864e52ae311546a4adb9dcc1"
       }
     },
     "context": {
       "company_id": 6,
       "company_slug": "y42-demo",
       "triggered_by_type": "orchestration",
-      "triggered_by_id": "/src/Orchestrations/first/.y42/run_8f617b41-891c-4e7a-8356-df6bca7a6011.json",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_64d98def-e45d-4167-98b0-bdf64858331a.json",
       "trial": true
     },
     "previous_import_id": "5408bae1-2c52-52a3-8f38-8bee5dadff93",
     "previous_table_id": "220706122415_5408bae1-2c52-52a3-8f38-8bee5dadff93"
   },
-  "created_at": "2022-07-20T11:15:12.458972+00:00",
-  "failed_at": "2022-07-20T11:15:20.630575+00:00",
+  "created_at": "2022-07-20T11:20:13.005326+00:00",
+  "failed_at": "2022-07-20T11:20:34.660519+00:00",
   "error_code": 422,
-  "error_message": "",
-  "_signature": "gZ/bkKszhWx/xFqMFxpc7sqeEbQVQ3c8gMmKemvqpRuboiSVCzA4KtjeYyhNFO2qS32pb2J29FjqiX3KahUjAg=="
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"validations failed\",\"datetime\":\"2022-07-20T11:20:34.623091+00:00\",\"requestId\":\"29c1c53c-6e4d-4551-b009-ec362f909240\",\"channel\":\"local\"}",
+  "_signature": "swfnbt60nYlDLZ0HgwjhUWZKzoWI03c7rRHiLBXc7Fk96LkX6i+2XO8ezr3QCuxRmz55r4ft4JEtkTHXACLzBA=="
 }

@@ -1,5 +1,5 @@
 {
-  "request_id": "220720111512_391e5c91-65cf-54c8-b582-8b95d0ea35cb",
+  "request_id": "220720113014_b6ad2917-1c1d-5017-995d-73a4b2ab52e7",
   "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -10,7 +10,7 @@
       "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
       "output_key": "6c0af187-0e89-4633-81e6-0022f6a022b9"
     },
-    "created_at": "2022-07-20T11:15:12.458972+00:00",
+    "created_at": "2022-07-20T11:30:14.403343+00:00",
     "target": {
       "storage": {
         "type": "githubapp",
@@ -22,22 +22,22 @@
         "app_id": "24758422",
         "owner": "goes-funky",
         "repo": "git-data-mock-dev-cluster-v2",
-        "commit_sha": "51e72ec0821347a989a855f62c3ceade17f6682c"
+        "commit_sha": "b8afe88dd75fdd2aa780f48e85f0464e0d1b300d"
       }
     },
     "context": {
       "company_id": 6,
       "company_slug": "y42-demo",
       "triggered_by_type": "orchestration",
-      "triggered_by_id": "/src/Orchestrations/first/.y42/run_8f617b41-891c-4e7a-8356-df6bca7a6011.json",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_56aa3c9d-f60b-4099-8ee1-39555b8933cb.json",
       "trial": true
     },
     "previous_import_id": "5408bae1-2c52-52a3-8f38-8bee5dadff93",
     "previous_table_id": "220706122415_5408bae1-2c52-52a3-8f38-8bee5dadff93"
   },
-  "created_at": "2022-07-20T11:15:12.458972+00:00",
-  "failed_at": "2022-07-20T11:15:20.630575+00:00",
+  "created_at": "2022-07-20T11:30:14.403343+00:00",
+  "failed_at": "2022-07-20T11:30:35.282190+00:00",
   "error_code": 422,
-  "error_message": "",
-  "_signature": "gZ/bkKszhWx/xFqMFxpc7sqeEbQVQ3c8gMmKemvqpRuboiSVCzA4KtjeYyhNFO2qS32pb2J29FjqiX3KahUjAg=="
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"validations failed\",\"datetime\":\"2022-07-20T11:30:35.222375+00:00\",\"requestId\":\"f9c80844-5e20-4fb4-9377-34b45f1cf401\",\"channel\":\"local\"}",
+  "_signature": "T4P5OOLRv7yNBGtrbOtKKxOuSOqOQN5mgJWlHzMH87JQwfiYNZe42a9otSOdjWiia64meB/6j40I4TI60xy4Cw=="
 }

@@ -1,5 +1,5 @@
 {
-  "request_id": "220720111508_f702ca63-b908-5dfa-9718-7abdd0056afd",
+  "request_id": "220720113010_e7f3896d-4915-5586-84fa-e993b765073f",
   "status": "ready",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
@@ -24,7 +24,7 @@
       ],
       "import": "page_insight_website_clicks"
     },
-    "created_at": "2022-07-20T11:15:08.574994+00:00",
+    "created_at": "2022-07-20T11:30:10.549547+00:00",
     "target": {
       "storage": {
         "type": "githubapp",
@@ -36,14 +36,14 @@
         "app_id": "24758422",
         "owner": "goes-funky",
         "repo": "git-data-mock-dev-cluster-v2",
-        "commit_sha": "51e72ec0821347a989a855f62c3ceade17f6682c"
+        "commit_sha": "9a63c8d0015ffe19df4f6ee7022fe4f917986e21"
       }
     },
     "context": {
       "company_id": 6,
       "company_slug": "y42-demo",
       "triggered_by_type": "orchestration",
-      "triggered_by_id": "/src/Orchestrations/first/.y42/run_8f617b41-891c-4e7a-8356-df6bca7a6011.json",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_56aa3c9d-f60b-4099-8ee1-39555b8933cb.json",
       "trial": true
     },
     "state": {
@@ -70,13 +70,13 @@
       },
       "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
     },
-    "previous_import_id": "999adfbd-fa6d-5e03-929e-901293481a8d",
-    "previous_table_id": "220720111008_999adfbd-fa6d-5e03-929e-901293481a8d"
+    "previous_import_id": "6d35ac28-8755-5f52-8385-dc3defdd70f1",
+    "previous_table_id": "220720112508_6d35ac28-8755-5f52-8385-dc3defdd70f1"
   },
-  "created_at": "2022-07-20T11:15:08.574994+00:00",
+  "created_at": "2022-07-20T11:30:10.549547+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-20T11:15:48.364276+00:00",
+    "export_finished_at": "2022-07-20T11:31:01.528841+00:00",
     "external_state": {
       "bookmarks": {
         "page_insight_website_clicks": {
@@ -102,14 +102,14 @@
       "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "2f0165d1-e17f-4d06-83b3-920bb8ea8ac1",
-    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/a82fe3fd-c14d-493e-94bf-049c4e01bc4d",
+    "external_id": "9cd6e450-910f-406e-a822-9dc5cb6b87fd",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/ddae6369-f331-4586-9b39-5b4e7b6cb4c8",
     "partial": false,
-    "import_finished_at": "2022-07-20T11:16:16.502354+00:00",
+    "import_finished_at": "2022-07-20T11:31:38.059029+00:00",
     "row_count": 4311,
     "current_import_row_count": 4311,
     "size_in_bytes": 916678,
-    "previous_id": "999adfbd-fa6d-5e03-929e-901293481a8d",
+    "previous_id": "6d35ac28-8755-5f52-8385-dc3defdd70f1",
     "columns": [
       {
         "field_name": "name",
@@ -157,9 +157,9 @@
         "external_data_type": "STRING"
       }
     ],
-    "table_name": "220720111508_f702ca63-b908-5dfa-9718-7abdd0056afd",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720111508_f702ca63-b908-5dfa-9718-7abdd0056afd&page=table"
+    "table_name": "220720113010_e7f3896d-4915-5586-84fa-e993b765073f",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720113010_e7f3896d-4915-5586-84fa-e993b765073f&page=table"
   },
-  "finished_at": "2022-07-20T11:16:16.502485+00:00",
-  "_signature": "BgwI5bACnhEQW39i21DwjZTI0Irl+D9Iqz8jsH7DRhEq2mlF3bbSbRrrNKT11YeExOJVHJQ4vxRP7aS1hzCnCg=="
+  "finished_at": "2022-07-20T11:31:38.059146+00:00",
+  "_signature": "sgurRYzix1B6deZlyNOdfgKkGvpG8+WZWCw84pcIP5SUhvaXkMrZyR0PuDp719N15yeDOlLyavTmwHJXvF/LAg=="
 }
