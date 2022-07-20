@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
+  "feature_type": "UI-Model",
+  "alert_on": [
+    "success"
+  ],
+  "triggered_by": [
+    "orchestration"
+  ],
+  "title": "hello hello",
+  "message_body": "\n<p>Hey hey,</p><br/>\n\n<p>The following {{feature_type}} was a {{status}}:</p><br/>\n\n<p>Name: {{object_name}}</p>\n<p>Triggered by: {{triggered_by_type}}</p>\n<p>At: {{completed_at}}</p>\n<p>Runtime: {{runtime}}</p><br/>\n\n<p>Git Path: {{git_url}}</p>\n<p>Link to {{feature_type}}: {{url}}</p><br/>\n\n<p>Have a nice day,</p>\n<p>Y42</p>\n",
+  "patterns": [
+    "onbuy_ui"
+  ],
+  "tags": [],
+  "destinations": [
+    {
+      "type": "internal_notification",
+      "user_ids": [
+        "hai.bui@y42.com"
+      ],
+      "team_ids": []
+    },
+    {
+      "type": "email",
+      "custom_emails": [],
+      "user_ids": [
+        "hai.bui@y42.com"
+      ],
+      "team_ids": []
+    }
+  ]
+}
