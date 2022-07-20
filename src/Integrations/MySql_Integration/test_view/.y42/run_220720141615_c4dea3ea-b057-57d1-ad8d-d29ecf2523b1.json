@@ -1,5 +1,5 @@
 {
-  "request_id": "220720141409_fb0b4fe4-96d6-558e-af96-49c7df5f3c62",
+  "request_id": "220720141615_c4dea3ea-b057-57d1-ad8d-d29ecf2523b1",
   "status": "ready",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
@@ -16,7 +16,7 @@
       ],
       "import": "tmp_test_data-test_view"
     },
-    "created_at": "2022-07-20T14:14:09.685075+00:00",
+    "created_at": "2022-07-20T14:16:15.287065+00:00",
     "target": {
       "storage": {
         "type": "githubapp",
@@ -28,14 +28,14 @@
         "app_id": "24758422",
         "owner": "goes-funky",
         "repo": "git-data-mock-dev-cluster-v2",
-        "commit_sha": "cb959caad8a7f0ef57c90e1e67a32475c485305b"
+        "commit_sha": "63df389687029d200d761b043a215f6d3f17458d"
       }
     },
     "context": {
       "company_id": 6,
       "company_slug": "y42-demo",
       "triggered_by_type": "orchestration",
-      "triggered_by_id": "/src/Orchestrations/fifth/.y42/run_cf662600-28a4-487f-9c6c-f233f4f5b0c1.json",
+      "triggered_by_id": "/src/Orchestrations/fourth/.y42/run_9948b122-5809-4dd4-8bea-eeacea64dde8.json",
       "trial": true
     },
     "state": {
@@ -50,10 +50,10 @@
     "previous_import_id": "1c48f1e6-0cdb-5882-8ea8-bb22ba009739",
     "previous_table_id": "220720140444_1c48f1e6-0cdb-5882-8ea8-bb22ba009739"
   },
-  "created_at": "2022-07-20T14:14:09.685075+00:00",
+  "created_at": "2022-07-20T14:16:15.287065+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-20T14:17:37.607199+00:00",
+    "export_finished_at": "2022-07-20T14:19:09.256999+00:00",
     "external_state": {
       "bookmarks": {
         "tmp_test_data-test_view": {
@@ -64,17 +64,17 @@
       "schema_hash": "e4e20d511f3ec9d9672b3ebdc8f4a51e"
     },
     "write_disposition": "TRUNCATE",
-    "external_id": "a79d7fef-8042-4a7b-abc6-62ffdb4cea62",
-    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/be54b694-47de-43b8-9531-dbc6410a581f",
+    "external_id": "7ebbdcc3-cbd0-4cf4-b7f3-efcb77290ef6",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/24992f5c-2740-4d10-adaf-caffcda06890",
     "partial": false,
-    "import_finished_at": "2022-07-20T14:18:06.508675+00:00",
+    "import_finished_at": "2022-07-20T14:19:48.963584+00:00",
     "row_count": 1000000,
     "current_import_row_count": 1000000,
     "size_in_bytes": 24841071,
     "previous_id": "1c48f1e6-0cdb-5882-8ea8-bb22ba009739",
     "columns": [
       {
-        "field_name": "order_priority",
+        "field_name": "order_date",
         "data_type": "STRING",
         "external_data_type": "STRING"
       },
@@ -84,14 +84,14 @@
         "external_data_type": "STRING"
       },
       {
-        "field_name": "order_date",
+        "field_name": "order_priority",
         "data_type": "STRING",
         "external_data_type": "STRING"
       }
     ],
-    "table_name": "220720141409_fb0b4fe4-96d6-558e-af96-49c7df5f3c62",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720141409_fb0b4fe4-96d6-558e-af96-49c7df5f3c62&page=table"
+    "table_name": "220720141615_c4dea3ea-b057-57d1-ad8d-d29ecf2523b1",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720141615_c4dea3ea-b057-57d1-ad8d-d29ecf2523b1&page=table"
   },
-  "finished_at": "2022-07-20T14:18:06.508802+00:00",
-  "_signature": "veCfMnTVNncfJX7aa8abyrEgARFj1bRx3D0hpO0VXWcoaS5lyooB7Ukdk9wyygOmhEsYOuXU6pt8CHacG6OMBQ=="
+  "finished_at": "2022-07-20T14:19:48.963707+00:00",
+  "_signature": "0PrhrhfjYGImIp6i9IiDAAntM+sMT2GLNtmvW6T6BNllOYq8e7J+NYUlSzxyeOlYDNzuh9JQdVmsg1Bz+doyAQ=="
 }
