@@ -1,5 +1,296 @@
 {
-  "nodeDataArray": [],
-  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "abf9a3a2-fb49-4e25-8adc-cc577ff85c13",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "abf9a3a2-fb49-4e25-8adc-cc577ff85c13",
+        "title": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "transformationType": "INPUT",
+        "datasourceName": "Google sheets all field types",
+        "transformObject": {
+          "source": "src/Integrations/Google_sheets_all_field_types",
+          "table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-390.02479338842977 -186.49056603773585"
+    },
+    {
+      "key": "97091b60-2cd1-4a32-83b3-8097a70b8883",
+      "type": "FIELDS",
+      "category": "FIELDS",
+      "transformationStep": {
+        "id": "97091b60-2cd1-4a32-83b3-8097a70b8883",
+        "title": "",
+        "transformationType": "FIELDS",
+        "transformObject": [
+          {
+            "target": "text",
+            "source": "text",
+            "type": "STRING",
+            "display": false,
+            "changed": false,
+            "description": "",
+            "source_alias": "",
+            "applied": true,
+            "sourceTypeChanged": false
+          }
+        ]
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-148.17185221195928 -382.806892568348"
+    },
+    {
+      "key": "b5e1149b-9270-48a3-96aa-8ccd66265f4f",
+      "type": "TEXT_EXTRACTION",
+      "category": "TEXT_EXTRACTION",
+      "transformationStep": {
+        "id": "b5e1149b-9270-48a3-96aa-8ccd66265f4f",
+        "title": "",
+        "transformationType": "TEXT_EXTRACTION",
+        "transformObject": {
+          "target": "text_extracted",
+          "source": "id_text_repeatable_",
+          "conditions": [
+            {
+              "operation": "AFTER",
+              "matchCondition": "FIRST",
+              "valueType": "NUMERIC",
+              "valueOrOffset": "3"
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "76.3575595527468 -179.45995379283784"
+    },
+    {
+      "key": "eab8e51c-db30-42db-a953-3938c8609d54",
+      "type": "FILTER",
+      "category": "FILTER",
+      "transformationStep": {
+        "id": "eab8e51c-db30-42db-a953-3938c8609d54",
+        "title": "",
+        "transformationType": "FILTER",
+        "transformObject": {
+          "global_op": [
+            "AND"
+          ],
+          "filterOps": [
+            {
+              "variable_field_name": "decimal_numbers",
+              "variable_type": "FLOAT",
+              "operations": [
+                {
+                  "operator": ">",
+                  "value_type": "NONE",
+                  "operator_type": "absolute",
+                  "values": [
+                    3
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "383.4163830821585 -176.9497497112052"
+    },
+    {
+      "key": "127cf2ff-2163-4672-9515-a8fe1c212c0f",
+      "type": "OUTPUT",
+      "category": "OUTPUT",
+      "transformationStep": {
+        "id": "127cf2ff-2163-4672-9515-a8fe1c212c0f",
+        "title": "onbuy_ui",
+        "transformationType": "OUTPUT",
+        "transformObject": {
+          "name": "onbuy_ui",
+          "fields": [
+            {
+              "target": "id",
+              "source": "id",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "pozitive_numbers",
+              "source": "pozitive_numbers",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "decimal_numbers",
+              "source": "decimal_numbers",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative",
+              "source": "negative",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "negative_double",
+              "source": "negative_double",
+              "type": "FLOAT",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_repeatable",
+              "source": "id_repeatable",
+              "type": "INTEGER",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_text_repeatable_",
+              "source": "id_text_repeatable_",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "id_of_mix",
+              "source": "id_of_mix",
+              "type": "STRING",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "boolean",
+              "source": "boolean",
+              "type": "BOOLEAN",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date",
+              "source": "date",
+              "type": "DATE",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "date_time",
+              "source": "date_time",
+              "type": "TIMESTAMP",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "time",
+              "source": "time",
+              "type": "TIME",
+              "display": true,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "text_extracted",
+              "source": "text_extracted",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            }
+          ]
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "749.0634419056878 -189.76607624181747"
+    }
+  ],
+  "linkDataArray": [
+    {
+      "to": "97091b60-2cd1-4a32-83b3-8097a70b8883",
+      "from": "abf9a3a2-fb49-4e25-8adc-cc577ff85c13",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "eab8e51c-db30-42db-a953-3938c8609d54",
+      "from": "b5e1149b-9270-48a3-96aa-8ccd66265f4f",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "to": "127cf2ff-2163-4672-9515-a8fe1c212c0f",
+      "from": "eab8e51c-db30-42db-a953-3938c8609d54",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "97091b60-2cd1-4a32-83b3-8097a70b8883",
+      "to": "b5e1149b-9270-48a3-96aa-8ccd66265f4f",
+      "frompid": "OUT",
+      "topid": "IN"
+    }
+  ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"
 }
