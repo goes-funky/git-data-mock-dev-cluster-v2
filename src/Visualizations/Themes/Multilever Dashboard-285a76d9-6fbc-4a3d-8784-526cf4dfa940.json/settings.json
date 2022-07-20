@@ -193,8 +193,8 @@
     "agGridBackgroundColor": "#ffffff",
     "cohortPrimaryColor": "#62BE7B",
     "cohortSecoundaryColor": "#F8696B",
-    "frameBackgroundColor": "#eeeeee",
-    "frameBorderColor": "#cccccc",
-    "frameBorderWidth": 1
+    "frameBackgroundColor": "#fcfcfc",
+    "frameBorderColor": "#85a3ff",
+    "frameBorderWidth": 2
   }
 }
