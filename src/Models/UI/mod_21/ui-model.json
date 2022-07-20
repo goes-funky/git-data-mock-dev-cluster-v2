@@ -565,18 +565,7 @@
       },
       "isGroup": true,
       "group": "",
-      "location": "-67.82864498472043 168.11897232912992"
-    },
-    {
-      "key": "96159a4b-336f-4cd6-b3be-a6084b9b46e1",
-      "isSidebarType": true,
-      "version": 1,
-      "category": "pinNode",
-      "location": "426.35416873523934 72.05942524522595",
-      "layerName": "",
-      "zOrder": {
-        "class": "NaN"
-      }
+      "location": "59.17135501527957 77.11897232912992"
     }
   ],
   "linkDataArray": [
