@@ -1,0 +1,31 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-canvas-element.json",
+  "type": "Widget",
+  "position": {
+    "x": 525.3667558390235,
+    "y": -439.2206333872724
+  },
+  "size": {
+    "height": 348.7568664550781,
+    "width": 711.2431618846042
+  },
+  "zIndex": 0,
+  "layer": "default",
+  "angle": 0,
+  "typeSettings": null,
+  "styles": {
+    "background-color": "#222a38ec",
+    "border-color": "#f2f2f200",
+    "border-style": "solid",
+    "border-width": "1px",
+    "border-radius": "0",
+    "filter": "drop-shadow(0px 0px 0px #939393)"
+  },
+  "locked": false,
+  "objectProperties": {
+    "resizable": true,
+    "movable": true,
+    "selectable": true,
+    "rotatable": true
+  }
+}
