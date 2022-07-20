@@ -326,6 +326,38 @@
       "isGroup": true,
       "group": "",
       "location": "-194.74501701507052 -566.9562957258375"
+    },
+    {
+      "key": "8b96224b-c9f5-4405-abcd-8c579390a8d4",
+      "type": "UNION",
+      "category": "UNION",
+      "transformationStep": {
+        "id": "8b96224b-c9f5-4405-abcd-8c579390a8d4",
+        "title": "",
+        "transformationType": "UNION"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-231.4117647058824 -201.48835194455148"
+    },
+    {
+      "key": "ef03e588-d7c9-4561-8581-a8d0bd8d7b34",
+      "type": "INPUT",
+      "category": "INPUT",
+      "transformationStep": {
+        "id": "ef03e588-d7c9-4561-8581-a8d0bd8d7b34",
+        "title": "src/Integrations/facebook_pages/page_insight_website_clicks",
+        "transformationType": "INPUT",
+        "datasourceName": "facebook pages",
+        "transformObject": {
+          "source": "src/Integrations/facebook_pages",
+          "table": "src/Integrations/facebook_pages/page_insight_website_clicks",
+          "lang": ""
+        }
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "-413.764705882353 -348.30467847516377"
     }
   ],
   "linkDataArray": [
@@ -336,8 +368,20 @@
       "topid": "IN"
     },
     {
-      "from": "63c7ea44-7260-46e1-86bd-fd5477c30151",
+      "from": "8b96224b-c9f5-4405-abcd-8c579390a8d4",
       "to": "9799bdce-93d4-4e34-a346-0e2746e450a3",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "63c7ea44-7260-46e1-86bd-fd5477c30151",
+      "to": "8b96224b-c9f5-4405-abcd-8c579390a8d4",
+      "frompid": "OUT",
+      "topid": "IN"
+    },
+    {
+      "from": "ef03e588-d7c9-4561-8581-a8d0bd8d7b34",
+      "to": "8b96224b-c9f5-4405-abcd-8c579390a8d4",
       "frompid": "OUT",
       "topid": "IN"
     }
