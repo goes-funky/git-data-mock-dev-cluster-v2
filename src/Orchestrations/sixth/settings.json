@@ -3,6 +3,17 @@
   "cronExpression": "",
   "forceSchedule": false,
   "linkDataArray": [],
-  "nodeDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720006",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true,
+        "globalCustomerId": "DenysPishchenko-MySql_Integration"
+      }
+    }
+  ],
   "visualDataArray": []
 }
