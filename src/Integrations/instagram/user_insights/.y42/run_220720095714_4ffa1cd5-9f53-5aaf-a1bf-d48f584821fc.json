@@ -1,6 +1,6 @@
 {
   "request_id": "220720095714_4ffa1cd5-9f53-5aaf-a1bf-d48f584821fc",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "7b8d4f61-03bd-42e9-b1ff-0d8c72af7f4c",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -74,7 +74,92 @@
     "write_disposition": "APPEND",
     "external_id": "c365c126-407b-4fe8-b1b8-244e327405b7",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-instagram/e737c9bc-c34a-4f67-85df-836bceae4767",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-20T10:00:56.338286+00:00",
+    "row_count": 97,
+    "current_import_row_count": 87,
+    "size_in_bytes": 13116,
+    "previous_id": "220720095325_059161c2-a778-519e-9c6e-b7e7c3b99794",
+    "columns": [
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "business_account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "follower_count",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "get_directions_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "phone_call_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "profile_views",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "text_message_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "website_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions_week",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach_week",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions_days_28",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach_days_28",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220720095325_059161c2-a778-519e-9c6e-b7e7c3b99794",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720095325_059161c2-a778-519e-9c6e-b7e7c3b99794&page=table"
   },
-  "_signature": "UBVeRVETACdT37uQwJH+i2M/hrLueOV5hKr5+kLCsWC+B0AypuYCVA/cDJb1eSbzNghqqhRVN53oJT4U1mffAQ=="
+  "finished_at": "2022-07-20T10:00:56.338447+00:00",
+  "_signature": "ZPciLVFIZOEzyiNwyYfiHlUAgwQHj/Ftx8ffRfwNmiMpn3EYfoHk2MeT3MLQYqvbcip6mIb4rqT4In7RVdPjAA=="
 }
