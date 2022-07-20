@@ -1,6 +1,6 @@
 {
   "request_id": "220720100358_c08a3bda-7e39-56be-a0c7-8816611c46fd",
-  "status": "ready",
+  "status": "pending",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -78,7 +78,20 @@
       }
     ],
     "table_name": "220720100358_c08a3bda-7e39-56be-a0c7-8816611c46fd",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720100358_c08a3bda-7e39-56be-a0c7-8816611c46fd&page=table"
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220720100358_c08a3bda-7e39-56be-a0c7-8816611c46fd&page=table",
+    "export_finished_at": "2022-07-20T10:06:53.479228+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-test_view": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "e4e20d511f3ec9d9672b3ebdc8f4a51e"
+    },
+    "write_disposition": "TRUNCATE",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/2834bfa1-74b3-4ab0-9a47-426eaf5b9340",
+    "partial": false
   },
-  "_signature": "2cvQoerdYA6EDDvvq6/vqwp6BmYGkdtr7G80gzX3t4O/VuvM7NJHEnAIawOnKojHczvL6Hcz5n5GCvy5kFoEBw=="
+  "_signature": "W6/N2WydYNRkgzt9qe9JdESQK/wLZIhTD4ASXXqpekxwr4s5Db1gy3e859qDb76T13UFw9/JwovV1iADD69cCw=="
 }
