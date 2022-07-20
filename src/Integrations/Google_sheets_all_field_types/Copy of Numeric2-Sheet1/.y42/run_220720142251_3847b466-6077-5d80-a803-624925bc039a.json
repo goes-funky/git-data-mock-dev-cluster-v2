@@ -1,0 +1,48 @@
+{
+  "request_id": "220720142251_3847b466-6077-5d80-a803-624925bc039a",
+  "status": "pending",
+  "request": {
+    "source_credentials": "3392ccdd-5e88-4c9b-b6bd-9a97da9556f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg/Sheet1",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-20T14:22:51.748954+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "9c957aeb3eeafabb8e2170566bc473d3abe4986b"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/onbuy_orch/.y42/run_f972328a-1516-4dee-9d41-c11d8b4012eb.json",
+      "trial": true
+    },
+    "previous_import_id": "52934596-8d3e-5e13-8c11-ce1b7b8e7684",
+    "previous_table_id": "220720075900_52934596-8d3e-5e13-8c11-ce1b7b8e7684"
+  },
+  "created_at": "2022-07-20T14:22:51.748954+00:00",
+  "_signature": "If4OOlhe7qvZ0WJk+zYaVyG2Yhx1lq6NmtpE8Pjx1T5V6ZMaR5v3oIdiRCkayd43fBcQXAqE8211BP+znzitBQ=="
+}
