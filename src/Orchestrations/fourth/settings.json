@@ -10,7 +10,8 @@
       "location": "0 0",
       "onFailure": "stop",
       "nodeConfig": {
-        "incremental": true
+        "incremental": true,
+        "globalCustomerId": "DenysPishchenko-MySql_Integration"
       }
     }
   ],
