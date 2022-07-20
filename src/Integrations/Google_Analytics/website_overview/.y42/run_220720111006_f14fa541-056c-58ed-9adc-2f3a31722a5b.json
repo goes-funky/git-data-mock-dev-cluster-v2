@@ -1,5 +1,5 @@
 {
-  "request_id": "220720105008_214b9c7b-035f-542e-b153-e081c47cbc10",
+  "request_id": "220720111006_f14fa541-056c-58ed-9adc-2f3a31722a5b",
   "status": "ready",
   "request": {
     "source_credentials": "6be42358-1f9a-40c0-bb00-1bbd2d94a657",
@@ -28,7 +28,7 @@
       ],
       "import": "website_overview"
     },
-    "created_at": "2022-07-20T10:50:08.368122+00:00",
+    "created_at": "2022-07-20T11:10:06.417605+00:00",
     "target": {
       "storage": {
         "type": "githubapp",
@@ -40,40 +40,40 @@
         "app_id": "24758422",
         "owner": "goes-funky",
         "repo": "git-data-mock-dev-cluster-v2",
-        "commit_sha": "7e8399cd931d1c9d325703f7764adb470403a056"
+        "commit_sha": "4cf5d8a7955bc9ccad823a8d69651ea1dd77dd4f"
       }
     },
     "context": {
       "company_id": 6,
       "company_slug": "y42-demo",
       "triggered_by_type": "orchestration",
-      "triggered_by_id": "/src/Orchestrations/first/.y42/run_917356dd-ebb7-4ce3-abeb-e3fc12fd769c.json",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_40946c39-2a55-4ce9-b3bb-130adf6fbb6b.json",
       "trial": true
     },
     "state": {
       "schema_hash": "274da1c15ea839a94950f46fd8a934c6",
       "website_overview": "2022-07-18"
     },
-    "previous_import_id": "1d619000-d0e1-5f5a-9336-a281da0ff6ae",
+    "previous_import_id": "ae953572-1e40-542b-9e3b-d012ea16222a",
     "previous_table_id": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031"
   },
-  "created_at": "2022-07-20T10:50:08.368122+00:00",
+  "created_at": "2022-07-20T11:10:06.417605+00:00",
   "details": {
     "invalid_rows": 0,
-    "export_finished_at": "2022-07-20T10:50:31.215595+00:00",
+    "export_finished_at": "2022-07-20T11:10:26.014529+00:00",
     "external_state": {
       "schema_hash": "274da1c15ea839a94950f46fd8a934c6",
       "website_overview": "2022-07-18"
     },
     "write_disposition": "APPEND",
-    "external_id": "bf8ea113-483c-4ad4-a440-835adb9a398f",
-    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-analytics/2b7223f0-d2f5-4000-9786-790a96a43500",
+    "external_id": "7045fa92-ba11-469e-933e-8087dcfbad37",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-analytics/dbbd4230-26e8-4789-a8f2-21a95a1ec038",
     "partial": false,
-    "import_finished_at": "2022-07-20T10:50:56.528918+00:00",
+    "import_finished_at": "2022-07-20T11:10:51.938759+00:00",
     "row_count": 31,
     "current_import_row_count": 3,
     "size_in_bytes": 2728,
-    "previous_id": "1d619000-d0e1-5f5a-9336-a281da0ff6ae",
+    "previous_id": "ae953572-1e40-542b-9e3b-d012ea16222a",
     "columns": [
       {
         "field_name": "ga_date",
@@ -134,6 +134,6 @@
     "table_name": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
     "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031&page=table"
   },
-  "finished_at": "2022-07-20T10:50:56.529044+00:00",
-  "_signature": "5eiOVbZquo6aGwPjjgV/jaNU72bdzwBukvdW9TlUm6WVLvPcd7UMT+RfJ2su438BqFRcwjDfppQs3QM6mHgoAw=="
+  "finished_at": "2022-07-20T11:10:51.938886+00:00",
+  "_signature": "fuyW7yuGWJ/RW3LWX0vGhKwKi2qgyph9QMyRRbUH5Yc75G4dPqXvHSSmPHYsfjsLIYU/EORcAot2BT+0isOuBg=="
 }
