@@ -1,6 +1,6 @@
 {
-  "request_id": "220720142119_40f0c234-e947-5718-bc2b-6591620d3726",
-  "status": "invalid",
+  "request_id": "220720142217_b5b2dea0-24cb-5cf4-b9e4-e51286daa749",
+  "status": "pending",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -8,13 +8,13 @@
     },
     "table_settings": {
       "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
-      "output_key": "6c0af187-0e89-4633-81e6-0022f6a022b9"
+      "output_key": "f192b041-96a0-4528-8326-6c7b8f412425"
     },
-    "created_at": "2022-07-20T14:21:19.970000+00:00",
+    "created_at": "2022-07-20T14:22:17.222513+00:00",
     "target": {
       "storage": {
         "type": "githubapp",
-        "path": "/src/Models/UI/abc_model/abc_model",
+        "path": "/src/Models/UI/facebook_model/facebook_model",
         "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
         "branch": "main"
       },
@@ -22,7 +22,7 @@
         "app_id": "24758422",
         "owner": "goes-funky",
         "repo": "git-data-mock-dev-cluster-v2",
-        "commit_sha": "9a74fc86386feedff0f6c1da5b87707c90a9b6e3"
+        "commit_sha": "9ead806249eba4b45f5b428459fffd50e2009652"
       }
     },
     "context": {
@@ -32,12 +32,9 @@
       "triggered_by_id": "/src/Orchestrations/first/.y42/run_9c7609c0-99ef-466e-8209-9d61041a046f.json",
       "trial": true
     },
-    "previous_import_id": "5408bae1-2c52-52a3-8f38-8bee5dadff93",
-    "previous_table_id": "220706122415_5408bae1-2c52-52a3-8f38-8bee5dadff93"
+    "previous_import_id": "1dfce7d3-c3b2-5cd0-82cc-2528bc7d8ce6",
+    "previous_table_id": "220720132634_1dfce7d3-c3b2-5cd0-82cc-2528bc7d8ce6"
   },
-  "created_at": "2022-07-20T14:21:19.970000+00:00",
-  "failed_at": "2022-07-20T14:21:27.427948+00:00",
-  "error_code": 422,
-  "error_message": "",
-  "_signature": "53CEcrMmKiuokREmaQcpUryiyyk00B/eTE8GTlmpRJZuwvgCGxx0B5UntGMJIsF9wsUctTIWzVsyA7+328DrDQ=="
+  "created_at": "2022-07-20T14:22:17.222513+00:00",
+  "_signature": "ceWW9J7s6FI5AiINGtwHWThkfmipaJuCj2kJxvQ8hC2YPt4BerQQIqJGot/mfRNUu8O/WAS7S6XrvqGOIIV0BQ=="
 }
