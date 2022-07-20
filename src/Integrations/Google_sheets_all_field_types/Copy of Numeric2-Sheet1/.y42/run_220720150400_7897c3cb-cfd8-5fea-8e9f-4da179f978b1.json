@@ -1,0 +1,48 @@
+{
+  "request_id": "220720150400_7897c3cb-cfd8-5fea-8e9f-4da179f978b1",
+  "status": "pending",
+  "request": {
+    "source_credentials": "3392ccdd-5e88-4c9b-b6bd-9a97da9556f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg/Sheet1",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-20T15:04:00.096142+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "hai-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "aaf16a906bef88098c3707757d4cd1656168fde7"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/onbuy_orch/.y42/run_e732aacc-c5f7-44d8-8397-4a99448b4cf6.json",
+      "trial": true
+    },
+    "previous_import_id": "220720142251_3847b466-6077-5d80-a803-624925bc039a",
+    "previous_table_id": "220720142251_3847b466-6077-5d80-a803-624925bc039a"
+  },
+  "created_at": "2022-07-20T15:04:00.096142+00:00",
+  "_signature": "hX7w8nZZWSKW3p43ahXn8QXgz1Kv+TfuUTWoC5JiPVJXb9J0JfwQfxILPpxsKMPSxn+EneUwxBD7ZVlmSDhvAw=="
+}
