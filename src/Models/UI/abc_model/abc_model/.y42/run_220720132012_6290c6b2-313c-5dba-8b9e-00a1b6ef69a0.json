@@ -1,6 +1,6 @@
 {
   "request_id": "220720132012_6290c6b2-313c-5dba-8b9e-00a1b6ef69a0",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -36,5 +36,8 @@
     "previous_table_id": "220706122415_5408bae1-2c52-52a3-8f38-8bee5dadff93"
   },
   "created_at": "2022-07-20T13:20:12.675265+00:00",
-  "_signature": "m2UBKk0rZICP/vkq5gWr30YIV8oUHmVy5Tgd+m0ok3N1A7eaPGkbjHqu1lfGk5R4cHjW4LnD2XdSIkrOLgbFDA=="
+  "failed_at": "2022-07-20T13:20:19.379246+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"validations failed\",\"datetime\":\"2022-07-20T13:20:19.328497+00:00\",\"requestId\":\"ad54aba6-71bc-44ba-ae4a-2aa36493da3d\",\"channel\":\"local\"}",
+  "_signature": "aJna0nbEPO15bfi3TulB4cLN+QaWcvX107zHLyOz98jBNKdNP/F+3InTTHrE9cwwQqfv+AALcp5hGa5ZwyNkDA=="
 }
