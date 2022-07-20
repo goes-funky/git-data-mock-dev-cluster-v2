@@ -42,52 +42,8 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "pozitive_numbers",
-              "source": "pozitive_numbers",
-              "type": "INTEGER",
-              "display": true,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "decimal_numbers",
-              "source": "decimal_numbers",
-              "type": "FLOAT",
-              "display": false,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "negative",
-              "source": "negative",
-              "type": "INTEGER",
-              "display": false,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "negative_double",
-              "source": "negative_double",
-              "type": "FLOAT",
-              "display": false,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "text",
-              "source": "text",
+              "target": "name",
+              "source": "name",
               "type": "STRING",
               "display": false,
               "changed": false,
@@ -97,8 +53,19 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "id_repeatable",
-              "source": "id_repeatable",
+              "target": "period",
+              "source": "period",
+              "type": "STRING",
+              "display": false,
+              "changed": false,
+              "description": "",
+              "source_alias": "",
+              "applied": false,
+              "sourceTypeChanged": false
+            },
+            {
+              "target": "value",
+              "source": "value",
               "type": "INTEGER",
               "display": false,
               "changed": false,
@@ -108,8 +75,8 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "id_text_repeatable_",
-              "source": "id_text_repeatable_",
+              "target": "context",
+              "source": "context",
               "type": "STRING",
               "display": false,
               "changed": false,
@@ -119,8 +86,8 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "id_of_mix",
-              "source": "id_of_mix",
+              "target": "end_time",
+              "source": "end_time",
               "type": "STRING",
               "display": false,
               "changed": false,
@@ -130,9 +97,9 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "boolean",
-              "source": "boolean",
-              "type": "BOOLEAN",
+              "target": "title",
+              "source": "title",
+              "type": "STRING",
               "display": false,
               "changed": false,
               "description": "",
@@ -141,9 +108,9 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "date",
-              "source": "date",
-              "type": "DATE",
+              "target": "description",
+              "source": "description",
+              "type": "STRING",
               "display": false,
               "changed": false,
               "description": "",
@@ -152,20 +119,9 @@
               "sourceTypeChanged": false
             },
             {
-              "target": "date_time",
-              "source": "date_time",
-              "type": "TIMESTAMP",
-              "display": false,
-              "changed": false,
-              "description": "",
-              "source_alias": "",
-              "applied": false,
-              "sourceTypeChanged": false
-            },
-            {
-              "target": "time",
-              "source": "time",
-              "type": "TIME",
+              "target": "page_id",
+              "source": "page_id",
+              "type": "STRING",
               "display": false,
               "changed": false,
               "description": "",
@@ -334,7 +290,14 @@
       "transformationStep": {
         "id": "8b96224b-c9f5-4405-abcd-8c579390a8d4",
         "title": "",
-        "transformationType": "UNION"
+        "transformationType": "UNION",
+        "transformObject": {
+          "fields": [],
+          "tables": [
+            "63c7ea44-7260-46e1-86bd-fd5477c30151",
+            "ef03e588-d7c9-4561-8581-a8d0bd8d7b34"
+          ]
+        }
       },
       "isGroup": true,
       "group": "",
