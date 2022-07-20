@@ -21,7 +21,7 @@
     {
       "key": "2e6274d4-f312-4285-83f8-932dd31e07e3",
       "path": "src/Models/UI/facebook_model/facebook_model",
-      "location": "524.0456949966159 62",
+      "location": "564.0456949966159 -235.14285714285722",
       "onFailure": "stop",
       "nodeConfig": {
         "incremental": true
