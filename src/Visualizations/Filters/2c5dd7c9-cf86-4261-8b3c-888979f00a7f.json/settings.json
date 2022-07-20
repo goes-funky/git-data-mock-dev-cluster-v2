@@ -1,0 +1,29 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "field_name": "order_id",
+  "data_type": "INTEGER",
+  "type": "dropdown",
+  "operations": [
+    {
+      "operator": "=",
+      "values": [
+        "999902904"
+      ],
+      "operator_type": "absolute",
+      "value_type": "NONE"
+    }
+  ],
+  "options": [
+    "999987876",
+    "999967706",
+    "999902904",
+    "999896895",
+    "999810636",
+    "999805915",
+    "999804198",
+    "999790465",
+    "999722230",
+    "999671590"
+  ]
+}
