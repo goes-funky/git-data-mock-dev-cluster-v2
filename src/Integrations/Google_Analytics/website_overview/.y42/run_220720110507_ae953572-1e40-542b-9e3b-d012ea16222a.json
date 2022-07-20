@@ -1,6 +1,6 @@
 {
   "request_id": "220720110507_ae953572-1e40-542b-9e3b-d012ea16222a",
-  "status": "ready",
+  "status": "pending",
   "finished_at": "2022-07-20T11:05:57.397223+00:00",
   "details": {
     "invalid_rows": 0,
@@ -9,7 +9,7 @@
     "current_import_row_count": 3,
     "size_in_bytes": 2728,
     "previous_id": "1e01f524-a013-576f-95d1-c97378f9a1bd",
-    "external_id": "55417cbf-a58f-4f23-a30b-d76929c5630c",
+    "external_id": "d01df0b4-af02-470c-9856-1621305b8203",
     "columns": [
       {
         "field_name": "ga_date",
@@ -68,7 +68,15 @@
       }
     ],
     "table_name": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031&page=table"
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031&page=table",
+    "export_finished_at": "2022-07-20T11:05:31.320960+00:00",
+    "external_state": {
+      "schema_hash": "274da1c15ea839a94950f46fd8a934c6",
+      "website_overview": "2022-07-18"
+    },
+    "write_disposition": "APPEND",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-google-analytics/752f48d8-3c20-459e-acc2-a0a3fa66bbc5",
+    "partial": false
   },
-  "_signature": "IpAgu0K5SR0E3YiwzqPUMS7UN2yKwkFCIJfueB/nQ71LVpRfqhRjO4bIzk7gc3WTYx3bSUtpjrsJ/yPqPkxcCQ=="
+  "_signature": "4t5651y7qjJRAV40TuTNPTkP+vuKkQKW8ndyrj0U/TpHcWKph7DgVHfESROgqgpcCsbwLWUsodQMZU2Pro4SCQ=="
 }
