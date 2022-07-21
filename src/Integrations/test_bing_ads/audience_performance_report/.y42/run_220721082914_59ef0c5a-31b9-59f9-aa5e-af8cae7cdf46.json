@@ -88,5 +88,22 @@
     }
   },
   "created_at": "2022-07-21T08:29:14.536135+00:00",
-  "_signature": "OLnUelWobaj+5Y08oB6qQje8eqb5pPWwFV2ZPUe7w93G+sOUX6FjMNkQ98oig2uCXkaWIKpfq4mKFKNsbSB6DQ=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-21T08:33:11.991619+00:00",
+    "external_state": {
+      "bookmarks": {
+        "2504644_audience_performance_report": {
+          "date": "2021-08-18T00:00:00+00:00",
+          "request_id": null
+        }
+      },
+      "schema_hash": "bafbb881ab7d086eb64dbc0e022ca468"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "947353e2-93b7-4546-a631-5f0850eb2052",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-bing-ads/7b4f67fa-311e-4b4a-9fde-2fff77fbd96c",
+    "partial": true
+  },
+  "_signature": "2fSAeMhHE/NTPOCcbryg2ZR0sjQA5rbP4RwtOHL/xNhdAIvobKI/Uq2e8vCDZCrAB87Oe87cAX19Yo/f28gJAw=="
 }
