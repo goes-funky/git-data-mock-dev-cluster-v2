@@ -99,5 +99,22 @@
     "previous_table_id": "220721082914_59ef0c5a-31b9-59f9-aa5e-af8cae7cdf46"
   },
   "created_at": "2022-07-21T08:34:17.813708+00:00",
-  "_signature": "Tqxi2o7gNY6Ty+H2BCWEu/gZ8kYoeEGlQBW9Oz1XsSyuVHDK0Qkmt/57H40uyHZkTwwRjrLNc4MFsqvqUWfLCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-21T09:03:59.649517+00:00",
+    "external_state": {
+      "bookmarks": {
+        "2504644_audience_performance_report": {
+          "date": "2022-07-21T00:00:00+00:00",
+          "request_id": null
+        }
+      },
+      "schema_hash": "bafbb881ab7d086eb64dbc0e022ca468"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "79e448fa-685b-4024-a344-38df8cf2cd17",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-bing-ads/20843d85-d67b-463f-8deb-53690e0436ca",
+    "partial": false
+  },
+  "_signature": "u9M92GE6KTsjoVCIKBlfuR3r1f+hwy/fGpAnDvbi9iBQsecqoLJc+pF5RYsiD4KUFgue/nKmkcpGX0DASaKbAQ=="
 }
