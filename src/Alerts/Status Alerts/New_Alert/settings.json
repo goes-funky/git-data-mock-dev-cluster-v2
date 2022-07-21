@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/alert/status-alert-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/alert/status-alert-settings.json",
   "feature_type": "UI-Model",
   "alert_on": [
     "success"
@@ -16,7 +16,9 @@
   "tags": [],
   "destinations": [
     {
-      "type": "internal_notification"
+      "type": "internal_notification",
+      "user_ids": [],
+      "team_ids": []
     },
     {
       "type": "email",
