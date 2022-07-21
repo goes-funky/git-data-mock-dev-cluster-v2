@@ -1,0 +1,82 @@
+{
+  "request_id": "220721123727_5e03598b-5f49-50cc-8511-3b17e8415e9a",
+  "status": "pending",
+  "request": {
+    "source_credentials": "2f834608-60cd-4866-bae1-42ea2a0cc000",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/source.json",
+      "start_date": "2021-07-21T12:20:12Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/zendesk/0.0.0/table",
+      "columns": [
+        "organization_id",
+        "requester_id",
+        "problem_id",
+        "is_public",
+        "description",
+        "follower_ids",
+        "submitter_id",
+        "generated_timestamp",
+        "brand_id",
+        "id",
+        "group_id",
+        "type",
+        "recipient",
+        "collaborator_ids",
+        "tags",
+        "has_incidents",
+        "created_at",
+        "raw_subject",
+        "status",
+        "updated_at",
+        "custom_fields",
+        "url",
+        "allow_channelback",
+        "allow_attachments",
+        "due_at",
+        "followup_ids",
+        "priority",
+        "assignee_id",
+        "subject",
+        "external_id",
+        "via",
+        "ticket_form_id",
+        "satisfaction_rating",
+        "sharing_agreement_ids",
+        "email_cc_ids",
+        "forum_topic_id"
+      ],
+      "import": "tickets",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-21T12:37:27.743468+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediZendesk/tickets",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "e955f6d377b55c6bda46d42c4a9eceabd9152b2a"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "144",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-21T12:37:27.743468+00:00",
+  "_signature": "pyLBMWERacmNgbcQvo9Pwx+vy48+e4rtKlRcUSB+mO7reRuTmkg4o0pR/7NE/RpZOCvPtz+LqcPn6ghVvU8YBw=="
+}
