@@ -78,5 +78,21 @@
     }
   },
   "created_at": "2022-07-21T12:32:01.683247+00:00",
-  "_signature": "q+C8t22BJyNQ2B98DhiJam9OAqtSEaLpLclOHt7/OJUi9TbVA2WgpsXC1nyA2HIems+cfpsNBVBFHf6IG4qlCA=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-21T12:35:13.767593+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tickets": {
+          "generated_timestamp": "2022-07-21T11:15:16Z"
+        }
+      },
+      "schema_hash": "70c824ab4bb5032580bdc2894159eee0"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "65d0c150-1514-4ef0-989a-72671aae655c",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-zendesk/b58b9b1c-ad26-4a81-aa01-1ec6f7eb090c",
+    "partial": false
+  },
+  "_signature": "Oq3gnIaS/0z7gCROjL8dMAyQPJQxmp5b6Xog0bT3xAbdsVuxbUPo/WQx+j/DOVDQZvWLMUltkx748h52D1NCDg=="
 }
