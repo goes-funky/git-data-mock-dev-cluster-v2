@@ -1,6 +1,6 @@
 {
   "request_id": "220721082914_59ef0c5a-31b9-59f9-aa5e-af8cae7cdf46",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "33d40ad1-d938-4654-ac6f-6bfc69f67599",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -103,7 +103,261 @@
     "write_disposition": "TRUNCATE",
     "external_id": "947353e2-93b7-4546-a631-5f0850eb2052",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-bing-ads/7b4f67fa-311e-4b4a-9fde-2fff77fbd96c",
-    "partial": true
+    "partial": true,
+    "import_finished_at": "2022-07-21T08:33:46.111640+00:00",
+    "row_count": 146885,
+    "current_import_row_count": 146885,
+    "size_in_bytes": 57450962,
+    "columns": [
+      {
+        "field_name": "accountname",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "accountnumber",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "accountid",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "timeperiod",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "campaignname",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaignid",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "adgroupname",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adgroupid",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "audienceid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "audiencename",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "associationstatus",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "bidadjustment",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "targetingsetting",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ctr",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "averagecpc",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "averageposition",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "conversions",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "conversionrate",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "costperconversion",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "revenue",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "returnonadspend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "revenueperconversion",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "accountstatus",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaignstatus",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adgroupstatus",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "audiencetype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "basecampaignid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allconversions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allrevenue",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allconversionrate",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allcostperconversion",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allreturnonadspend",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allrevenueperconversion",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "associationid",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "associationlevel",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "viewthroughconversions",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "goal",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "goaltype",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "absolutetopimpressionratepercent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "topimpressionratepercent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "averagecpm",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "conversionsqualified",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "allconversionsqualified",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "viewthroughconversionsqualified",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "viewthroughrevenue",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sdc_report_datetime",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220721082914_59ef0c5a-31b9-59f9-aa5e-af8cae7cdf46",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220721082914_59ef0c5a-31b9-59f9-aa5e-af8cae7cdf46&page=table"
   },
-  "_signature": "2fSAeMhHE/NTPOCcbryg2ZR0sjQA5rbP4RwtOHL/xNhdAIvobKI/Uq2e8vCDZCrAB87Oe87cAX19Yo/f28gJAw=="
+  "finished_at": "2022-07-21T08:33:46.111824+00:00",
+  "_signature": "UyJ0ovFKzkIG2XzkfK/c35CcCQ7tPK7z3iSfY3g0fZRva+AJp5A1na3DKlouS/u+n3GyDZNmQkinSFh15zLSBg=="
 }
