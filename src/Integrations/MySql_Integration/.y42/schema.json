@@ -79,7 +79,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "acl",
-            "row-count": 3549,
+            "row-count": 3561,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -1854,7 +1854,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "actions",
-            "row-count": 266324,
+            "row-count": 258634,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -2602,7 +2602,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "actions",
-            "row-count": 321426,
+            "row-count": 327426,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -6650,6 +6650,172 @@
       ]
     },
     {
+      "tap_stream_id": "analytics-embedded_widgets",
+      "table_name": "embedded_widgets",
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "available",
+            "maxLength": 36,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "storage_type": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "storage_id": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "storage_branch": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "storage_path": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "company_id": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "created_at": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "updated_at": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "embedded_widgets",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "analytics",
+            "row-count": 3,
+            "is-view": false,
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "char(36)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storage_type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storage_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storage_branch"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "storage_path"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "company_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "created_at"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "updated_at"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp"
+          }
+        }
+      ]
+    },
+    {
       "tap_stream_id": "analytics-failed_jobs",
       "table_name": "failed_jobs",
       "schema": {
@@ -7391,7 +7557,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "analytics",
-            "row-count": 21,
+            "row-count": 27,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -10693,6 +10859,14 @@
               "string"
             ]
           },
+          "error_message": {
+            "inclusion": "available",
+            "maxLength": 65535,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
           "sdc_deleted_at": {
             "inclusion": "automatic",
             "format": "date-time",
@@ -10754,6 +10928,16 @@
           "metadata": {
             "selected-by-default": true,
             "sql-datatype": "timestamp"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "error_message"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "text"
           }
         },
         {
@@ -23085,7 +23269,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "dashboards_v2",
-            "row-count": 598,
+            "row-count": 597,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -24740,7 +24924,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 1283535,
+            "row-count": 1311319,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -25234,7 +25418,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 14686,
+            "row-count": 14380,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -25991,7 +26175,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 3187538,
+            "row-count": 3723078,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -26157,7 +26341,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 2386,
+            "row-count": 2337,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -27279,7 +27463,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 6637,
+            "row-count": 6660,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -27650,7 +27834,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 2840,
+            "row-count": 2856,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -27873,7 +28057,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 24719,
+            "row-count": 24792,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -28185,7 +28369,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 324769,
+            "row-count": 325399,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -28969,7 +29153,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 3711679,
+            "row-count": 3382352,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -29243,7 +29427,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "datasources",
-            "row-count": 3454011,
+            "row-count": 3515898,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -30073,7 +30257,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "email",
-            "row-count": 22141,
+            "row-count": 25757,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -31679,7 +31863,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 41183192,
+            "row-count": 42474524,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -31972,7 +32156,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 33915,
+            "row-count": 33883,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -32249,7 +32433,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 19801,
+            "row-count": 19775,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -32450,7 +32634,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 36694,
+            "row-count": 36662,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -32653,7 +32837,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 17690,
+            "row-count": 17664,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -32978,7 +33162,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 19219,
+            "row-count": 19193,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -33303,7 +33487,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 21140,
+            "row-count": 21114,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -34051,7 +34235,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 22974,
+            "row-count": 22941,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -34344,7 +34528,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 307,
+            "row-count": 304,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -34637,7 +34821,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "hydra",
-            "row-count": 21754,
+            "row-count": 19230,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -35071,7 +35255,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "identitymanager",
-            "row-count": 243593,
+            "row-count": 243249,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -35257,7 +35441,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "identitymanager",
-            "row-count": 218,
+            "row-count": 223,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -35676,7 +35860,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "identitymanager",
-            "row-count": 551,
+            "row-count": 539,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -38025,7 +38209,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "identitymanager",
-            "row-count": 1487,
+            "row-count": 1486,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -38397,7 +38581,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "modeling_api",
-            "row-count": 0,
+            "row-count": 1,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -38536,7 +38720,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "modeling_api",
-            "row-count": 10,
+            "row-count": 16,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -39005,7 +39189,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "notifications",
-            "row-count": 297447590,
+            "row-count": 305524647,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -40333,7 +40517,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "orchestrations",
-            "row-count": 367553,
+            "row-count": 377648,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -40780,7 +40964,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "orchestrations",
-            "row-count": 8913637,
+            "row-count": 9144627,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -63055,7 +63239,7 @@
           "metadata": {
             "selected-by-default": false,
             "database-name": "tap-webhook",
-            "row-count": 8651,
+            "row-count": 9519,
             "is-view": false,
             "y42-extraction-key": "sdc_extracted_at",
             "table-key-properties": [
@@ -69546,5 +69730,5 @@
       ]
     }
   ],
-  "_signature": "mYwG8HJNTXVMydXk/XCqn4iqQNTfdh2k4TojXj032laMBixGkT1CGimfj9i4v6Qx4qo1YD77d6JnQ53J1nuyDw=="
+  "_signature": "hQaLFADm3v+Qk3SxmfJykFm354g0PlM/u3MLBvAIMp2/Oi/07JWcFKbwoSKy8ox2Jce+6KIA9ivzZ13E3mNhAQ=="
 }
