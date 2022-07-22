@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/table",
+  "datasource_table": "src/Models/UI/onbuy_ui/onbuy_ui"
+}
