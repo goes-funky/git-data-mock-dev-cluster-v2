@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/bigquery/0.0.0/table",
+  "columns": [
+    "time_field",
+    "id"
+  ],
+  "import": "testingtime_testing_time_20220704091339"
+}
