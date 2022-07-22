@@ -1,6 +1,6 @@
 {
   "request_id": "220722143453_86e04378-e21b-58af-9f5e-3e82f1bc7a9b",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "d7b3c6b5-056b-48b5-9129-6349f59831b1",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -72,7 +72,116 @@
     "write_disposition": "TRUNCATE",
     "external_id": "4a3b0b1f-c65e-4b2b-ab79-cff20b8ba02b",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-datos/1cd74df7-3603-4408-baf8-a3a7a1ac6b6d",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-22T14:36:07.895943+00:00",
+    "row_count": 866,
+    "current_import_row_count": 866,
+    "size_in_bytes": 1662836,
+    "columns": [
+      {
+        "field_name": "bid_type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adset_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "adlabels",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "bid_amount",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "bid_info",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "creative",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "updated_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "created_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "targeting",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "effective_status",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_updated_by_app_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "recommendations",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "source_ad_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tracking_specs",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "conversion_specs",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220722143453_86e04378-e21b-58af-9f5e-3e82f1bc7a9b",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220722143453_86e04378-e21b-58af-9f5e-3e82f1bc7a9b&page=table"
   },
-  "_signature": "BzeLk6YsCR//PBRI1ImTbkLszNI+y2lGTmNP0abKTnNXhpeKuL8FrW+D5mhH00++yBWb+kj4/IzPRvvz6SmyCw=="
+  "finished_at": "2022-07-22T14:36:07.896103+00:00",
+  "_signature": "0U5kT1FzjpW1WIkg1Whw+KJkU1O3rGRwOHQ4TfxKW+2LfYHu2idtSZ06Lv+kLX5XhdvBAczg2JCpSTp/rurBCA=="
 }
