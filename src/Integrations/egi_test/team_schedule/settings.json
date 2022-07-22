@@ -1,0 +1,10 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/postgres/0.0.0/table",
+  "columns": [
+    "id",
+    "team_name",
+    "clock_in_time",
+    "clock_out_time"
+  ],
+  "import": "postgres-public-team_schedule"
+}

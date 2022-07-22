@@ -1,0 +1,1711 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/lineage/lineage-settings.json",
+  "linkDataArray": [
+    {
+      "from": "src/Integrations/facebook_pages/posts",
+      "to": "src/Models/UI/abc_model/abc_model"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Models/UI/another_ui_model/another_ui_model"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/UI/facebook_model/facebook_model"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/campaign",
+      "to": "src/Models/UI/me_testing/me_testing"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Models/UI/mod_21/mod_21"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/My_SQL_Model/table_1"
+    },
+    {
+      "from": "src/Integrations/Google_Analytics/website_overview",
+      "to": "src/Models/SQL/My_new_SQL_model/my_sql_table"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/My_new_SQL_model/new_tab"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/posts",
+      "to": "src/Models/SQL/My_new_SQL_model/new_tab"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/My_new_SQL_model/table_2"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/new_testing_hai/table_1"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/new_testing_hai/table_2"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/new_testing_hai/table_3"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_COGS___Profit"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio___Copy"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_Revenue_Split"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/COGS___Profit_by_Country"
+    },
+    {
+      "from": "src/Integrations/My_SQL_integration/blend_functions",
+      "to": "src/Visualizations/Widgets/Gabi_Widget"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Regional_Overview__Tabular_"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Revenue_Split_by_Item"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Test_1"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_view",
+      "to": "src/Visualizations/Widgets/Title_of_this_widget"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Visualizations/Widgets/test1"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Visualizations/Widgets/test1___Copy"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_view",
+      "to": "src/Visualizations/Widgets/to_be_deleted"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Hugo_s_Dashboard/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_2"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Revenue_Split_by_Item",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/COGS___Profit_by_Country",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Regional_Overview__Tabular_",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Test_1",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/to_be_deleted",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/COGS___Profit_by_Country",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/marcintest/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/test1",
+      "to": "src/Visualizations/Dashboards/test/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio",
+      "to": "src/Visualizations/Dashboards/test/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio___Copy",
+      "to": "src/Visualizations/Dashboards/test/Tab_1__copy_"
+    },
+    {
+      "from": "src/Visualizations/Widgets/test1___Copy",
+      "to": "src/Visualizations/Dashboards/test/Tab_1__copy_"
+    },
+    {
+      "from": "src/Integrations/Google_Analytics/website_overview",
+      "to": "src/Exports/My_Google_Sheets_export/Google_Analytics___website_overview"
+    },
+    {
+      "from": "src/Integrations/Google_Analytics/website_overview",
+      "to": "src/Exports/hello/Google_Analytics___website_overview"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "7bf73634-3bd7-4c22-b1d4-ba4a30e178e1",
+      "isSidebarType": true,
+      "version": 1,
+      "category": "freeDraw",
+      "geometry": "M1130,68.57143c-23.19217,0 -48.76765,-3.42734 -71.42857,1.42857c-24.71709,5.29652 -45.07593,18.82306 -65.71429,32.85714c-32.05234,21.79559 -60.69492,45.13076 -82.85714,77.14286c-43.47424,62.79612 -49.45577,153.84354 28.57143,192.85714c19.58253,9.79127 37.35443,8.57143 58.57143,8.57143c60.83482,0 113.0449,-20.87075 160,-60c10.44295,-8.70246 20.29831,-16.11203 28.57143,-27.14286c11.54263,-15.39017 12.4371,-34.37097 14.28571,-52.85714c3.20927,-32.09266 0.21496,-66.88491 -21.42857,-92.85714c-25.07685,-30.09222 -72.93975,-56.952 -112.85714,-41.42857c-29.90529,11.62983 -51.03775,36.75203 -72.85714,58.57143c-11.15581,11.15581 -22.7778,24.12702 -30,38.57143c-10.90965,21.8193 -14.06827,56.90337 -1.42857,78.57143c13.8539,23.74954 60.96217,45.94749 87.14286,32.85714c20.95358,-10.47679 35.28524,-30.17517 48.57143,-48.57143c8.9773,-12.43011 21.34321,-29.08359 18.57143,-45.71429c-1.64808,-9.8885 -18.54757,-18.01647 -27.14286,-20c-28.43607,-6.56217 -56.57868,1.72878 -70,28.57143c-8.5154,17.03079 3.84463,43.00417 25.71429,35.71429c6.55009,-2.18336 22.75887,-14.38399 14.28571,-22.85714c-4.6128,-4.6128 -12.20335,-7.91764 -15.71429,-11.42857",
+      "borderColor": "#000000",
+      "borderWidth": 5,
+      "locked": false,
+      "location": "848.5714285714288 38.571428571428555",
+      "layerName": "bringToFront",
+      "zOrder": 1
+    },
+    {
+      "key": "src/Integrations/123_123",
+      "category": "Integration",
+      "location": "12 51",
+      "isGroup": true
+    },
+    {
+      "key": "8708928f-4bff-4801-bcbc-75a3e2f0fd2b",
+      "category": "Empty",
+      "group": "src/Integrations/123_123"
+    },
+    {
+      "key": "src/Integrations/Google_Analytics",
+      "category": "Integration",
+      "location": "12 185",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Google_Analytics/website_overview",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Google_Analytics"
+    },
+    {
+      "key": "src/Integrations/Google_sheets_all_field_types",
+      "category": "Integration",
+      "location": "12 355",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/Google_sheets_all_field_types"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration",
+      "category": "Integration",
+      "location": "12 937.8706494036549",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/campaign",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/member",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/smaller_test",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/test",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/test_other",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/test_pk",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/test_view",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/testt",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/tmp_view_pk",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/MySql_Integration/yourtable",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/MySql_Integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration",
+      "category": "Integration",
+      "location": "12 1451",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/blend_functions",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/cache_meta",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/cleaned_answers",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/doctrine_migrations",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/failed_jobs",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/filter_questions",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/host_summary",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/host_summary_by_file_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/host_summary_by_file_io_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/host_summary_by_stages",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/host_summary_by_statement_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/host_summary_by_statement_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/innodb_buffer_stats_by_schema",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/innodb_buffer_stats_by_table",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/innodb_lock_waits",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/io_by_thread_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/io_global_by_file_by_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/io_global_by_file_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/io_global_by_wait_by_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/io_global_by_wait_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/labels",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/labels_text_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/latest_file_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/memory_by_host_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/memory_by_thread_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/memory_by_user_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/memory_global_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/memory_global_total",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/metrics",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/migrations",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_choice_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_cleaned_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_cleaned_value_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_contact_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_likert_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_nps_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_number_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_other_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_survey_data",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_survey_data_string",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_text_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/normalized_tracking_params",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/nouns",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/nouns_text_responses",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/open_text_variables",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/option_references",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/processlist",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/ps_check_lost_instrumentation",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/question_references",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_auto_increment_columns",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_index_statistics",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_object_overview",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_redundant_indexes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_table_lock_waits",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_table_statistics",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_table_statistics_with_buffer",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_tables_with_full_table_scans",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/schema_unused_indexes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/session",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/session_ssl_status",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/sql_model_history",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/statement_analysis",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/statements_with_errors_or_warnings",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/statements_with_full_table_scans",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/statements_with_runtimes_in_95th_percentile",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/statements_with_sorting",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/statements_with_temp_tables",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/survey_answers",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/survey_answers_backup",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/survey_meta",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/sys_config",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/tracking_params",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/user_summary",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/user_summary_by_file_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/user_summary_by_file_io_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/user_summary_by_stages",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/user_summary_by_statement_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/user_summary_by_statement_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/version",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/wait_classes_global_by_avg_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/wait_classes_global_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/waits_by_host_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/waits_by_user_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/waits_global_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$host_summary",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$host_summary_by_file_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$host_summary_by_file_io_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$host_summary_by_stages",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$host_summary_by_statement_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$host_summary_by_statement_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$innodb_buffer_stats_by_schema",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$innodb_buffer_stats_by_table",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$innodb_lock_waits",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$io_by_thread_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$io_global_by_file_by_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$io_global_by_file_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$io_global_by_wait_by_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$io_global_by_wait_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$latest_file_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$memory_by_host_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$memory_by_thread_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$memory_by_user_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$memory_global_by_current_bytes",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$memory_global_total",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$processlist",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$ps_digest_95th_percentile_by_avg_us",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$ps_digest_avg_latency_distribution",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$ps_schema_table_statistics_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$schema_flattened_keys",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$schema_index_statistics",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$schema_table_lock_waits",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$schema_table_statistics",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$schema_table_statistics_with_buffer",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$schema_tables_with_full_table_scans",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$session",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$statement_analysis",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$statements_with_errors_or_warnings",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$statements_with_full_table_scans",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$statements_with_runtimes_in_95th_percentile",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$statements_with_sorting",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$statements_with_temp_tables",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$user_summary",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$user_summary_by_file_io",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$user_summary_by_file_io_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$user_summary_by_stages",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$user_summary_by_statement_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$user_summary_by_statement_type",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$wait_classes_global_by_avg_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$wait_classes_global_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$waits_by_host_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$waits_by_user_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/My_SQL_integration/x$waits_global_by_latency",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/My_SQL_integration"
+    },
+    {
+      "key": "src/Integrations/ads",
+      "category": "Integration",
+      "location": "12 1513",
+      "isGroup": true
+    },
+    {
+      "key": "e1c9f3a2-1ef7-41c8-aff8-79d38b85c3b8",
+      "category": "Empty",
+      "group": "src/Integrations/ads"
+    },
+    {
+      "key": "src/Integrations/ddd",
+      "category": "Integration",
+      "location": "12 1575",
+      "isGroup": true
+    },
+    {
+      "key": "acc9674a-4db3-4355-a35e-5ac6626eb2d1",
+      "category": "Empty",
+      "group": "src/Integrations/ddd"
+    },
+    {
+      "key": "src/Integrations/facebook_pages",
+      "category": "Integration",
+      "location": "12 1817",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/facebook_pages"
+    },
+    {
+      "key": "src/Integrations/facebook_pages/posts",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/facebook_pages"
+    },
+    {
+      "key": "src/Integrations/instagram",
+      "category": "Integration",
+      "location": "12 2059",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/instagram/user_insights",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/instagram"
+    },
+    {
+      "key": "src/Integrations/new",
+      "category": "Integration",
+      "location": "12 2121",
+      "isGroup": true
+    },
+    {
+      "key": "7805312c-dfa4-4d5e-ae54-bef35c986284",
+      "category": "Empty",
+      "group": "src/Integrations/new"
+    },
+    {
+      "key": "src/Integrations/shopify",
+      "category": "Integration",
+      "location": "12 2183",
+      "isGroup": true
+    },
+    {
+      "key": "src/Integrations/shopify/locations",
+      "category": "Integration",
+      "isGroup": false,
+      "group": "src/Integrations/shopify"
+    },
+    {
+      "key": "src/Integrations/test",
+      "category": "Integration",
+      "location": "12 2245",
+      "isGroup": true
+    },
+    {
+      "key": "ba03e74e-873e-45ef-aaa5-4dc00dd206c6",
+      "category": "Empty",
+      "group": "src/Integrations/test"
+    },
+    {
+      "key": "src/Integrations/test7",
+      "category": "Integration",
+      "location": "12 2307",
+      "isGroup": true
+    },
+    {
+      "key": "9acadb32-bf39-46e1-bc85-70b9ccdf1293",
+      "category": "Empty",
+      "group": "src/Integrations/test7"
+    },
+    {
+      "key": "src/Integrations/test_templates",
+      "category": "Integration",
+      "location": "12 2369",
+      "isGroup": true
+    },
+    {
+      "key": "b7cdec66-b507-4113-a6d8-16b47ce6b200",
+      "category": "Empty",
+      "group": "src/Integrations/test_templates"
+    },
+    {
+      "key": "src/Integrations/tests",
+      "category": "Integration",
+      "location": "12 2431",
+      "isGroup": true
+    },
+    {
+      "key": "15e3a80b-b060-4942-863d-c35d5db4a2a4",
+      "category": "Empty",
+      "group": "src/Integrations/tests"
+    },
+    {
+      "key": "src/Integrations/tiktok_ads_test",
+      "category": "Integration",
+      "location": "12 2493",
+      "isGroup": true
+    },
+    {
+      "key": "f4ccb4ed-8f2f-4be8-885a-9735f8e83ec6",
+      "category": "Empty",
+      "group": "src/Integrations/tiktok_ads_test"
+    },
+    {
+      "key": "src/Integrations/tralala",
+      "category": "Integration",
+      "location": "12 2555",
+      "isGroup": true
+    },
+    {
+      "key": "4d71145b-2288-4c61-9c26-0929ac068c53",
+      "category": "Empty",
+      "group": "src/Integrations/tralala"
+    },
+    {
+      "key": "src/Models/UI/Mo0707",
+      "category": "UiModel",
+      "location": "12 2617",
+      "isGroup": true
+    },
+    {
+      "key": "e2ec3d18-d5c3-4bb6-b29b-233b95994cb7",
+      "category": "Empty",
+      "group": "src/Models/UI/Mo0707"
+    },
+    {
+      "key": "src/Models/UI/abc_model",
+      "category": "UiModel",
+      "location": "392.0456949966159 1637",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/abc_model/abc_model",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/abc_model"
+    },
+    {
+      "key": "src/Models/UI/abc_test",
+      "category": "UiModel",
+      "location": "12 2679",
+      "isGroup": true
+    },
+    {
+      "key": "b523b9c4-909e-4c23-8d79-0379bf735c06",
+      "category": "Empty",
+      "group": "src/Models/UI/abc_test"
+    },
+    {
+      "key": "src/Models/UI/another_ui_model",
+      "category": "UiModel",
+      "location": "392.0456949966159 319",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/another_ui_model/another_ui_model",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/another_ui_model"
+    },
+    {
+      "key": "src/Models/UI/dmitry_model",
+      "category": "UiModel",
+      "location": "12 2741",
+      "isGroup": true
+    },
+    {
+      "key": "adb26b83-5f4f-4c64-9a88-1c990c62e82b",
+      "category": "Empty",
+      "group": "src/Models/UI/dmitry_model"
+    },
+    {
+      "key": "src/Models/UI/facebook_model",
+      "category": "UiModel",
+      "location": "392.0456949966159 1709",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/facebook_model/facebook_model",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/facebook_model"
+    },
+    {
+      "key": "src/Models/UI/level_3",
+      "category": "UiModel",
+      "location": "12 2803",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/level_3/level_3",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/level_3"
+    },
+    {
+      "key": "src/Models/UI/me_testing",
+      "category": "UiModel",
+      "location": "392.0456949966159 486.7412988073097",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/me_testing/me_testing",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/me_testing"
+    },
+    {
+      "key": "src/Models/UI/mod_21",
+      "category": "UiModel",
+      "location": "392.0456949966159 391",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/UI/mod_21/mod_21",
+      "category": "UiModel",
+      "isGroup": false,
+      "group": "src/Models/UI/mod_21"
+    },
+    {
+      "key": "src/Models/UI/ui_model_test",
+      "category": "UiModel",
+      "location": "12 2865",
+      "isGroup": true
+    },
+    {
+      "key": "70bed8fc-4984-409d-ba55-dc855fa01de8",
+      "category": "Empty",
+      "group": "src/Models/UI/ui_model_test"
+    },
+    {
+      "key": "src/Models/SQL/My_SQL_Model",
+      "category": "SqlModel",
+      "location": "392.0456949966159 1781",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/My_SQL_Model/table_1",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/My_SQL_Model"
+    },
+    {
+      "key": "src/Models/SQL/My_new_SQL_model",
+      "category": "SqlModel",
+      "location": "392.0456949966159 113",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/My_new_SQL_model/my_sql_table",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/My_new_SQL_model"
+    },
+    {
+      "key": "src/Models/SQL/My_new_SQL_model/new_tab",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/My_new_SQL_model"
+    },
+    {
+      "key": "src/Models/SQL/My_new_SQL_model/table_2",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/My_new_SQL_model"
+    },
+    {
+      "key": "src/Models/SQL/new_testing_hai",
+      "category": "SqlModel",
+      "location": "392.0456949966159 1853",
+      "isGroup": true
+    },
+    {
+      "key": "src/Models/SQL/new_testing_hai/table_1",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/new_testing_hai"
+    },
+    {
+      "key": "src/Models/SQL/new_testing_hai/table_2",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/new_testing_hai"
+    },
+    {
+      "key": "src/Models/SQL/new_testing_hai/table_3",
+      "category": "SqlModel",
+      "isGroup": false,
+      "group": "src/Models/SQL/new_testing_hai"
+    },
+    {
+      "key": "src/Models/SQL/test__ac",
+      "category": "SqlModel",
+      "location": "12 2927",
+      "isGroup": true
+    },
+    {
+      "key": "8851ab48-f4a5-4f60-b017-5891115ce04f",
+      "category": "Empty",
+      "group": "src/Models/SQL/test__ac"
+    },
+    {
+      "key": "src/Models/SQL/test_hai",
+      "category": "SqlModel",
+      "location": "12 2989",
+      "isGroup": true
+    },
+    {
+      "key": "c9c4f5e4-84df-407a-9d4a-a6d94db91eee",
+      "category": "Empty",
+      "group": "src/Models/SQL/test_hai"
+    },
+    {
+      "key": "src/Models/SQL/testing",
+      "category": "SqlModel",
+      "location": "12 3051",
+      "isGroup": true
+    },
+    {
+      "key": "804a2336-a067-49c7-83f2-81c9d983ef7e",
+      "category": "Empty",
+      "group": "src/Models/SQL/testing"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Hugo_s_Dashboard",
+      "category": "Dashboard",
+      "location": "771.5685424949238 453.00000000000006",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Hugo_s_Dashboard/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Hugo_s_Dashboard"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Maciek_s_Dash",
+      "category": "Dashboard",
+      "location": "771.5685424949238 525",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Maciek_s_Dash"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_2",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Maciek_s_Dash"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_3",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Maciek_s_Dash"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Multilever_Dashboard",
+      "category": "Dashboard",
+      "location": "771.5685424949238 597",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Multilever_Dashboard"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Simon_s_Dash",
+      "category": "Dashboard",
+      "location": "771.5685424949238 669",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Simon_s_Dash"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_2",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Simon_s_Dash"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/Simon_s_Dash/tab_3",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/Simon_s_Dash"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/marcintest",
+      "category": "Dashboard",
+      "location": "12 3113",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/marcintest/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/marcintest"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/test",
+      "category": "Dashboard",
+      "location": "771.5685424949238 741",
+      "isGroup": true
+    },
+    {
+      "key": "src/Visualizations/Dashboards/test/Tab_1",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/test"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/test/Tab_1__copy_",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/test"
+    },
+    {
+      "key": "src/Visualizations/Dashboards/test/fff",
+      "category": "Dashboard",
+      "isGroup": false,
+      "group": "src/Visualizations/Dashboards/test"
+    },
+    {
+      "key": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "category": "Widget",
+      "location": "380.0456949966159 510.00000000000006",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio",
+      "category": "Widget",
+      "location": "380.0456949966159 690",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio___Copy",
+      "category": "Widget",
+      "location": "380.0456949966159 762",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "category": "Widget",
+      "location": "380.0456949966159 834",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/COGS___Profit_by_Country",
+      "category": "Widget",
+      "location": "380.0456949966159 906",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Gabi_Widget",
+      "category": "Widget",
+      "location": "380.0456949966159 1400",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Regional_Overview__Tabular_",
+      "category": "Widget",
+      "location": "380.0456949966159 978",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region",
+      "category": "Widget",
+      "location": "380.0456949966159 1050",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Revenue_Split_by_Item",
+      "category": "Widget",
+      "location": "380.0456949966159 1122",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Test_1",
+      "category": "Widget",
+      "location": "380.0456949966159 1194",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/Title_of_this_widget",
+      "category": "Widget",
+      "location": "380.0456949966159 1266",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/test1",
+      "category": "Widget",
+      "location": "380.0456949966159 1874",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/test1___Copy",
+      "category": "Widget",
+      "location": "380.0456949966159 1946",
+      "isGroup": false
+    },
+    {
+      "key": "src/Visualizations/Widgets/to_be_deleted",
+      "category": "Widget",
+      "location": "380.0456949966159 1338",
+      "isGroup": false
+    },
+    {
+      "key": "src/Exports/My_GSH_export",
+      "category": "Export",
+      "location": "12 3175",
+      "isGroup": true
+    },
+    {
+      "key": "ad698345-c68b-4c14-b382-fc6ce9f27165",
+      "category": "Empty",
+      "group": "src/Exports/My_GSH_export"
+    },
+    {
+      "key": "src/Exports/My_Google_Sheets_export",
+      "category": "Export",
+      "location": "392.0456949966159 185",
+      "isGroup": true
+    },
+    {
+      "key": "src/Exports/My_Google_Sheets_export/Google_Analytics___website_overview",
+      "category": "Export",
+      "isGroup": false,
+      "group": "src/Exports/My_Google_Sheets_export"
+    },
+    {
+      "key": "src/Exports/hai_test",
+      "category": "Export",
+      "location": "12 3237",
+      "isGroup": true
+    },
+    {
+      "key": "48d11867-db4b-428d-879d-a8c1b4c5e5ed",
+      "category": "Empty",
+      "group": "src/Exports/hai_test"
+    },
+    {
+      "key": "src/Exports/hello",
+      "category": "Export",
+      "location": "392.0456949966159 257",
+      "isGroup": true
+    },
+    {
+      "key": "src/Exports/hello/Google_Analytics___website_overview",
+      "category": "Export",
+      "isGroup": false,
+      "group": "src/Exports/hello"
+    }
+  ]
+}

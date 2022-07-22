@@ -1,0 +1,54 @@
+{
+  "request_id": "220722101850_73afd648-5d46-5201-b71a-9cb55c71fc95",
+  "status": "ready",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-22T10:19:11.927800+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-team_schedule": {
+          "last_replication_method": "INCREMENTAL",
+          "replication_key": "id",
+          "replication_key_value": 5,
+          "version": 1658485141917
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "26997290159bc10dc2bac2bde2e89c12"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "eae4f0e6-6b56-4b1f-b94b-e70b064b4f3d",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-postgres/668740db-f8ae-44c2-9cd5-ac50ca3c9199",
+    "partial": false,
+    "import_finished_at": "2022-07-22T10:19:33.673652+00:00",
+    "row_count": 5,
+    "current_import_row_count": 5,
+    "size_in_bytes": 207,
+    "columns": [
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "team_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clock_in_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "clock_out_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220722101850_73afd648-5d46-5201-b71a-9cb55c71fc95",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220722101850_73afd648-5d46-5201-b71a-9cb55c71fc95&page=table"
+  },
+  "finished_at": "2022-07-22T10:19:33.673781+00:00",
+  "_signature": "6zTCNh1nyucjpzE8P3//19j+i6+v76l+BzBb6PnSuziZVcD5p/Gi5wdNb0ganRAVmVFOk/FN6g4U9Un6h7lmCg=="
+}

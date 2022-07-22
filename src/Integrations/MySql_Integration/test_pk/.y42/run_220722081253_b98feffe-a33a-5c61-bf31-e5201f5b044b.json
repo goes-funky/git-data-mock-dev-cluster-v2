@@ -1,0 +1,78 @@
+{
+  "request_id": "220722081253_b98feffe-a33a-5c61-bf31-e5201f5b044b",
+  "status": "pending",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "region",
+        "country",
+        "item",
+        "type",
+        "sales_channel",
+        "order_priority",
+        "order_date",
+        "order_id",
+        "ship_date",
+        "units_sold",
+        "unit_price",
+        "unit_cost",
+        "total_revenue",
+        "total_cost",
+        "total_profit",
+        "id",
+        "sdc_deleted_at",
+        "sdc_extracted_at"
+      ],
+      "import": "tmp_test_data-test_pk"
+    },
+    "created_at": "2022-07-22T08:12:53.535265+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/test_pk",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "02c76e46c5290baf9d9f93a8f3e745924336d090"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-22T08:12:53.535265+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-22T08:15:28.473229+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-test_pk": {
+          "replication_key": "id",
+          "replication_key_value": 1000000,
+          "version": 1658477593576
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "a1d767f854edbe8c49597b94703699e0"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "24c28244-2d64-4300-84a3-b1656cc61cd9",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/a59585ee-9675-4e9d-90f2-9bdf903452b8",
+    "partial": false
+  },
+  "_signature": "85lljMKOcTiYad82fArSXqRomHdBE51aXfUm+So0d5uqyl7coR6c5DCaTRbfA/UGRwIo47lbWhX22fmOGbJ2Dw=="
+}

@@ -1,5 +1,5 @@
 {
-  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-widget-settings.json",
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-widget-settings.json",
   "chart_type": "table",
   "settings": {
     "series": [

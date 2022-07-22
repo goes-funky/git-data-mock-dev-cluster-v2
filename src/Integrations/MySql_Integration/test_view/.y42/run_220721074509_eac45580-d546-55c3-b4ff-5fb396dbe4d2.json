@@ -1,0 +1,97 @@
+{
+  "request_id": "220721074509_eac45580-d546-55c3-b4ff-5fb396dbe4d2",
+  "status": "ready",
+  "request": {
+    "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/mysql/0.0.0/table",
+      "columns": [
+        "country",
+        "order_priority",
+        "order_date"
+      ],
+      "import": "tmp_test_data-test_view"
+    },
+    "created_at": "2022-07-21T07:45:09.283485+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/MySql_Integration/test_view",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "7443a635f53b18602686f2aa8144da2d7b2e2903"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/sixth/.y42/run_55c5ce34-16a7-4b37-8f6d-38c0f6d1815d.json",
+      "trial": true
+    },
+    "state": {
+      "bookmarks": {
+        "tmp_test_data-test_view": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "e4e20d511f3ec9d9672b3ebdc8f4a51e"
+    },
+    "previous_import_id": "23de9642-8deb-58dc-9ab6-6ceac0d5d9f2",
+    "previous_table_id": "220721073647_23de9642-8deb-58dc-9ab6-6ceac0d5d9f2"
+  },
+  "created_at": "2022-07-21T07:45:09.283485+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-21T07:47:44.705378+00:00",
+    "external_state": {
+      "bookmarks": {
+        "tmp_test_data-test_view": {
+          "initial_full_table_complete": true
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "e4e20d511f3ec9d9672b3ebdc8f4a51e"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "26cf2baf-1e9c-4789-8149-8c95a7513c55",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/b21e7a3b-7fc8-4014-8d6a-8be6d55049fd",
+    "partial": false,
+    "import_finished_at": "2022-07-21T07:48:27.124035+00:00",
+    "row_count": 1000000,
+    "current_import_row_count": 1000000,
+    "size_in_bytes": 24841071,
+    "previous_id": "23de9642-8deb-58dc-9ab6-6ceac0d5d9f2",
+    "columns": [
+      {
+        "field_name": "order_priority",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "order_date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220721074509_eac45580-d546-55c3-b4ff-5fb396dbe4d2",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220721074509_eac45580-d546-55c3-b4ff-5fb396dbe4d2&page=table"
+  },
+  "finished_at": "2022-07-21T07:48:27.124144+00:00",
+  "_signature": "/cT147pvSLLi909ZETm2+L56XmzcwoxaaPfNor908+mUmYH5iXTpc/195hUavc1uhHte0eaNsIXQNMzeNx3yBg=="
+}

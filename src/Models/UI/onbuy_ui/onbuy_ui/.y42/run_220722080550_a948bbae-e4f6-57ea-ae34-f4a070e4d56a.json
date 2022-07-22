@@ -1,0 +1,41 @@
+{
+  "request_id": "220722080550_a948bbae-e4f6-57ea-ae34-f4a070e4d56a",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "85ff5fbb-a235-4ac4-afac-970cadd9b39f"
+    },
+    "created_at": "2022-07-22T08:05:50.971586+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/onbuy_ui/onbuy_ui",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "c5870a0e49d4f4494101a8200ffc17c77a628c2c"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "186",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-22T08:05:50.971586+00:00",
+  "failed_at": "2022-07-22T08:06:12.740735+00:00",
+  "error_code": 422,
+  "error_message": "",
+  "_signature": "yR3kiU8f5Oq5wN2OUnHNO/40Kd6IEquxg8xMdFiQMw1JLHOMZx6IvGWxQUUT3plWzFFz0eOB3gaITma87AfWAQ=="
+}

@@ -1,0 +1,43 @@
+{
+  "request_id": "220720145016_c14cf49d-5e1c-5777-aa88-ec643293a51c",
+  "status": "pending",
+  "finished_at": "2022-07-20T14:50:31.529867+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220720145016_c14cf49d-5e1c-5777-aa88-ec643293a51c.xlsx?Expires=1661007031&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=luOVmas8PyAmUI%2BZNWbtlZcgxG%2FXkxAxwaoKtuVlR6h2BiLXap%2FuENVAHDECKIT6%2F%2BdSMdD7bvBm5Ul%2BvRi7sxEHEvE%2BZECTorvErrdKMrCuOULwBJLgoO7WsaX%2BjUY7ljaKh8uchSw7%2BqLZ2pnhOvoBCQxXmveVU0n9%2FaIKZbS5XHJgCefbeedS1sYWZVIC1tBBS%2Bj%2BtMb13R8JnCfa8tkf8YWY9H%2FGDFBBHU3bMqtmU9cUEdbl6f7nwzqCUk38VEi7dLUhH8nSJUdRoHCMqOSER6yPpVxy%2BF6wDilNVkZl41rLJ4f6g7BnL0%2FEaF%2BCfFlYQT4ruznYG%2Byx5CmKuw%3D%3D"
+  },
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+    },
+    "import_table": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
+    "created_at": "2022-07-20T14:50:16.941267+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/hello/Google_Analytics___website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "7d5a7cd5ac72217c5ae8eeee53b29945c82ed379"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_1ed2f2be-7c3d-4f63-aff1-e16a7971f288.json",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-20T14:50:16.941267+00:00",
+  "_signature": "VuLj6DNIuOwd/ZLeouIeJXmCZhZ/9+ExunYAEtKLVgSSYrJ9M4NtMTE9SCxYT1yaNHBv0Bn3hu33JPsTJCRZAw=="
+}

@@ -2,7 +2,8 @@
   "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-dashboard-settings.json",
   "theme": "Multilever Dashboard-285a76d9-6fbc-4a3d-8784-526cf4dfa940.json",
   "order": [
-    "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1",
+    "src/Visualizations/Dashboards/Multilever_Dashboard/Test_Tab"
   ],
   "last_used_datasource_table_path": "src/Integrations/MySql_Integration/test_pk"
 }
