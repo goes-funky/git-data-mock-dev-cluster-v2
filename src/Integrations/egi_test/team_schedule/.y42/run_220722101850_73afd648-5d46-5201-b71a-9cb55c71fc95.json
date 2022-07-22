@@ -1,0 +1,25 @@
+{
+  "request_id": "220722101850_73afd648-5d46-5201-b71a-9cb55c71fc95",
+  "status": "pending",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-22T10:19:11.927800+00:00",
+    "external_state": {
+      "bookmarks": {
+        "postgres-public-team_schedule": {
+          "last_replication_method": "INCREMENTAL",
+          "replication_key": "id",
+          "replication_key_value": 5,
+          "version": 1658485141917
+        }
+      },
+      "currently_syncing": null,
+      "schema_hash": "26997290159bc10dc2bac2bde2e89c12"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "eae4f0e6-6b56-4b1f-b94b-e70b064b4f3d",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-postgres/668740db-f8ae-44c2-9cd5-ac50ca3c9199",
+    "partial": false
+  },
+  "_signature": "t9XmG+hBe24ugXay3177zs3lIJUkURq4amTKbTA+jnewU+ssgKylNxGDpoglh8+F6xsIy9Ydd/61XP1yXHVACg=="
+}
