@@ -1,6 +1,6 @@
 {
   "request_id": "220722125537_b712ccc2-ba15-5b7b-9bea-86e91d1db17a",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "export_settings": {
@@ -35,5 +35,9 @@
     }
   },
   "created_at": "2022-07-22T12:55:37.393198+00:00",
-  "_signature": "3YURFn5fUPTSyPwu1uWAGKQ/LDQe7GoZ6QgjbKWe+g1MyYpN7ml2cEgWcdxfktYnZOrjuIws+GUL9poY1hqgDg=="
+  "finished_at": "2022-07-22T12:58:00.015659+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/gs%3A//y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220722125537_b712ccc2-ba15-5b7b-9bea-86e91d1db17a.csv?Expires=1661173079&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=KWwln2ZfSKzZTPZ5e1b6KAV3ABbAXpiffkIuk8hXMJ7uTy5ym3%2Fqg5iEbBzcYMltJW3%2B0RMXessPviaESYyvvhttMI1hdlmD%2BtIOtgNuD4mCVsra5JDukbw60TblSQo5TAQcS1dOKzVt2J0ChVeOd9QqBK1adRB6MXBlT8aqa7YaoBJh2V0Wb8blexDO0UnrRmCjuKS3WYDvWsUHTZ3T5yKSZC7%2B8Fupc6VUrsywYlf7u8yCx%2FqhSbUGmnSY2vuL8%2FOqgikNVdFmVBqu4%2FdwEU9rlze46qyDElZXuhAXwMixgtG%2BEbhmLeX2mJWGQMMPOuxPyrY04V2umtvg6gwb0g%3D%3D"
+  },
+  "_signature": "JQShUy5tI1VuQwat7DaNfJGFj7+Rl3Zcq8vXHgYmtPNHEZgcOzVvmM3+r69VdZs929YY0luUIe48CGbx0E/cDQ=="
 }
