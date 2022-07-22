@@ -1,6 +1,6 @@
 {
   "request_id": "220722150345_1ad96c76-5e46-554a-91f5-eafcf0441280",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "b0c28dcf-bc00-4858-9377-afd516fbb4c6",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -80,7 +80,126 @@
     "write_disposition": "TRUNCATE",
     "external_id": "672de2af-861c-4965-9b83-eefb95d6a33c",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-shopify/47f22463-e215-449a-bfab-613bea951d77",
-    "partial": true
+    "partial": true,
+    "import_finished_at": "2022-07-22T15:04:57.772835+00:00",
+    "row_count": 474,
+    "current_import_row_count": 474,
+    "size_in_bytes": 475116,
+    "columns": [
+      {
+        "field_name": "last_order_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "currency",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "multipass_identifier",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "default_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "orders_count",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "state",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "verified_email",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "total_spent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_order_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "first_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "note",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "phone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "addresses",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tax_exempt",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "accepts_marketing",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220722150345_1ad96c76-5e46-554a-91f5-eafcf0441280",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220722150345_1ad96c76-5e46-554a-91f5-eafcf0441280&page=table"
   },
-  "_signature": "nISYzpExXKFSaxxZAX7/gHxpEYBHNGlRt4P48POaS6CYIuQX6ogzmUdaLpQuyMR4U/LycIc7a26Ax6W6W/mlDg=="
+  "finished_at": "2022-07-22T15:04:57.772984+00:00",
+  "_signature": "e+ER1DlLjfFrDBPBoADIF1IBKvzfPBsTaI66OA1/cz0bWa1kuvm5088xcdhaZg1WlK0n3NurxwByQuX33ZhRDA=="
 }
