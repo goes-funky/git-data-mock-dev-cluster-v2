@@ -1,0 +1,20 @@
+{
+  "accounts": [
+    {
+      "id": "2869712333351891",
+      "name": "Y42 ads account",
+      "description": "Datos-Intelligence GmbH"
+    },
+    {
+      "id": "437123967579523",
+      "name": "Franz Kafka",
+      "description": ""
+    },
+    {
+      "id": "401099855320065",
+      "name": "test",
+      "description": ""
+    }
+  ],
+  "_signature": "70UiKcUsJnb6iAQgYeG9PfIQd3peEw0JXXhPamFKG67adm1zzGfks4HixngHEummWD/pgQuZqrwObcFHxL+5Cg=="
+}
