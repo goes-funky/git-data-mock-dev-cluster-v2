@@ -1,0 +1,25 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/table",
+  "columns": [
+    "ga_date",
+    "ga_channelGrouping",
+    "ga_source",
+    "ga_medium",
+    "ga_socialNetwork",
+    "ga_sourceMedium",
+    "ga_adContent",
+    "ga_users",
+    "ga_newUsers",
+    "ga_sessions",
+    "ga_sessionsPerUser",
+    "ga_avgSessionDuration",
+    "ga_pageviews",
+    "ga_pageviewsPerSession",
+    "ga_avgTimeOnPage",
+    "ga_bounceRate",
+    "ga_exitRate",
+    "report_start_date",
+    "report_end_date"
+  ],
+  "import": "traffic_sources"
+}
