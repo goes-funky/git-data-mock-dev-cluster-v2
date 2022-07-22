@@ -1,0 +1,33 @@
+{
+  "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+  "columns": [
+    "last_order_name",
+    "currency",
+    "email",
+    "multipass_identifier",
+    "default_address",
+    "orders_count",
+    "state",
+    "verified_email",
+    "total_spent",
+    "last_order_id",
+    "first_name",
+    "updated_at",
+    "note",
+    "phone",
+    "admin_graphql_api_id",
+    "addresses",
+    "last_name",
+    "tags",
+    "tax_exempt",
+    "id",
+    "accepts_marketing",
+    "accepts_marketing_updated_at",
+    "created_at"
+  ],
+  "import": "customers",
+  "_datos_write_settings": {
+    "max_flatten_depth": 0,
+    "decimals": false
+  }
+}
