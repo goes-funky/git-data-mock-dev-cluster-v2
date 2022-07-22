@@ -1,0 +1,80 @@
+{
+  "request_id": "220722150507_6a2b01c0-cbd6-5e75-ae46-d61e402f2e15",
+  "status": "pending",
+  "request": {
+    "source_credentials": "b0c28dcf-bc00-4858-9377-afd516fbb4c6",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/source.json",
+      "start_date": "2021-07-22T16:44:54Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/shopify/0.0.0/table",
+      "columns": [
+        "last_order_name",
+        "currency",
+        "email",
+        "multipass_identifier",
+        "default_address",
+        "orders_count",
+        "state",
+        "verified_email",
+        "total_spent",
+        "last_order_id",
+        "first_name",
+        "updated_at",
+        "note",
+        "phone",
+        "admin_graphql_api_id",
+        "addresses",
+        "last_name",
+        "tags",
+        "tax_exempt",
+        "id",
+        "accepts_marketing",
+        "accepts_marketing_updated_at",
+        "created_at"
+      ],
+      "import": "customers",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-22T15:05:07.095375+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediNewShopify/customers",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "d1623d8d2db7a7406dae4dab6011d972e77c7d85"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "144",
+      "trial": true
+    },
+    "state": {
+      "bookmarks": {
+        "currently_sync_stream": "customers",
+        "customers": {
+          "updated_at": "2021-07-23T16:44:55.000000Z"
+        }
+      },
+      "schema_hash": "48afa72e6b356476560b001a1e42f0cd"
+    },
+    "previous_import_id": "220722150345_1ad96c76-5e46-554a-91f5-eafcf0441280",
+    "previous_table_id": "220722150345_1ad96c76-5e46-554a-91f5-eafcf0441280"
+  },
+  "created_at": "2022-07-22T15:05:07.095375+00:00",
+  "_signature": "8JW/xUPg/XiPLzSsnAtwdiuR0/eWAomPvfjV7gv8D6B0k56HCrDzDd6xtM5Odj/hHhnkS5ssLEJRHK5/Vz9HAw=="
+}
