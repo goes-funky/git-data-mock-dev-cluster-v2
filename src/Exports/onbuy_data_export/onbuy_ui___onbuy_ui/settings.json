@@ -1,5 +1,0 @@
-{
-  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
-  "datasource_table": "src/Models/UI/onbuy_ui/onbuy_ui",
-  "sheet_id": "1FkJtQw-tgKNzUUzH6Scm0KHop39ncv3azO1iP_Tbv-Q"
-}
