@@ -1,6 +1,6 @@
 {
   "request_id": "220722143630_3778eae3-52e9-56c2-b6f7-ead464043235",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "ca0389b4-3f3b-49a4-ae5f-d5c3874b81f4",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -66,7 +66,32 @@
     "write_disposition": "TRUNCATE",
     "external_id": "d41abd84-8042-4878-9968-bfee2a6d551a",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-mysql/37555c21-6c63-465f-a25b-32661eed7fa9",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-22T14:39:37.887386+00:00",
+    "row_count": 1000000,
+    "current_import_row_count": 1000000,
+    "size_in_bytes": 24841071,
+    "previous_id": "0ec3298f-9a8d-5c6f-9359-836eaa9bb022",
+    "columns": [
+      {
+        "field_name": "order_priority",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "country",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "order_date",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220722143630_3778eae3-52e9-56c2-b6f7-ead464043235",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220722143630_3778eae3-52e9-56c2-b6f7-ead464043235&page=table"
   },
-  "_signature": "2Oy0RjxgEekRW19H9i05pvsLTnjHA+NdPmm0e+cmgF27cDu0CxPSHjQv7vWpmWPCauLrVzUpfch1o6t3i1neDg=="
+  "finished_at": "2022-07-22T14:39:37.887538+00:00",
+  "_signature": "Ew9dzXHV/lq0D8V8XAgyx2/wGkuD9jDyKwTLlaBKVZ7n2knKj/SCUqGeqBNoIFPViY4YMPES2cEJros4CVo6DQ=="
 }
