@@ -1,0 +1,67 @@
+{
+  "request_id": "220722112236_c8ded523-292d-5f8e-b68a-72f65acefd06",
+  "status": "pending",
+  "request": {
+    "source_credentials": "d7b3c6b5-056b-48b5-9129-6349f59831b1",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook/0.0.0/source.json",
+      "parent_id": "2869712333351891",
+      "start_date": "2021-07-22T13:12:55Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook/0.0.0/table",
+      "columns": [
+        "bid_type",
+        "account_id",
+        "campaign_id",
+        "adset_id",
+        "adlabels",
+        "bid_amount",
+        "bid_info",
+        "status",
+        "creative",
+        "id",
+        "updated_time",
+        "created_time",
+        "name",
+        "targeting",
+        "effective_status",
+        "last_updated_by_app_id",
+        "recommendations",
+        "source_ad_id",
+        "tracking_specs",
+        "conversion_specs"
+      ],
+      "import": "ads",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-22T11:22:36.842423+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/RediAds/ads",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "ardit-test"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "70b470d374904e28ac0316882b70cdae958c1d86"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "144",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-22T11:22:36.842423+00:00",
+  "_signature": "RYFcm0B+XrmqZE20L8sOSK4VlpVNRsLN+F9iko2FfB2bM7qe6YgriKnmIkDaCPnukQ+36SWD0jUvnuf+6u2CDA=="
+}
