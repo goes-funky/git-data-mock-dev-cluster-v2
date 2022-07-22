@@ -1,0 +1,17 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-filter-settings.json",
+  "datasource_table_path": "src/Integrations/MySql_Integration/test_pk",
+  "field_name": "region",
+  "data_type": "STRING",
+  "type": "multiselect",
+  "operations": [],
+  "options": [
+    "Europe",
+    "Sub-Saharan Africa",
+    "Middle East and North Africa",
+    "Asia",
+    "Central America and the Caribbean",
+    "Australia and Oceania",
+    "North America"
+  ]
+}
