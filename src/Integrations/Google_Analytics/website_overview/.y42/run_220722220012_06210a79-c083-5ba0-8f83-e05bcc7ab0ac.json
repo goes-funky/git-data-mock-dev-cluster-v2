@@ -1,6 +1,6 @@
 {
   "request_id": "220722220012_06210a79-c083-5ba0-8f83-e05bcc7ab0ac",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "6be42358-1f9a-40c0-bb00-1bbd2d94a657",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -58,5 +58,74 @@
     "previous_table_id": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031"
   },
   "created_at": "2022-07-22T22:00:12.416083+00:00",
-  "_signature": "Pe+ITnaxcRu3cog+ccGVVoT4GPF2ll+7RLDNcU1EC+7HJGSZp8ASygjrtsDuqoC+6lnzOHHfFL+q/R192IsBDg=="
+  "finished_at": "2022-07-22T22:03:35.099159+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "import_finished_at": "2022-07-22T22:03:35.099024+00:00",
+    "row_count": 33,
+    "current_import_row_count": 2,
+    "size_in_bytes": 2904,
+    "previous_id": "d6d2fa5f-cff0-57be-849a-a9bf399680ce",
+    "external_id": "8de3528d-cc58-4be6-b9f2-921c16658e41",
+    "columns": [
+      {
+        "field_name": "ga_date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "ga_users",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ga_newusers",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ga_sessions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ga_sessionsperuser",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_avgsessionduration",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_pageviews",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "ga_pageviewspersession",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_avgtimeonpage",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_bouncerate",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "ga_exitrate",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      }
+    ],
+    "table_name": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031&page=table"
+  },
+  "_signature": "iI6EUqeXZLLLIVH0TtVB7taWH92k2UW4shu2CJN+HOk/z90Tgii7W+ary+CcgkFLlvy8kx5YPrM/SZl/QYaVDQ=="
 }
