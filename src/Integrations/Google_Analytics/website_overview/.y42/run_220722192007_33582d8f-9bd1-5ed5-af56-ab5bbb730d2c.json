@@ -1,0 +1,62 @@
+{
+  "request_id": "220722192007_33582d8f-9bd1-5ed5-af56-ab5bbb730d2c",
+  "status": "pending",
+  "request": {
+    "source_credentials": "6be42358-1f9a-40c0-bb00-1bbd2d94a657",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/source.json",
+      "parent_id": "218917281",
+      "start_date": "2022-06-20T12:00:00Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/google-analytics/0.0.0/table",
+      "columns": [
+        "ga_date",
+        "ga_users",
+        "ga_newUsers",
+        "ga_sessions",
+        "ga_sessionsPerUser",
+        "ga_avgSessionDuration",
+        "ga_pageviews",
+        "ga_pageviewsPerSession",
+        "ga_avgTimeOnPage",
+        "ga_bounceRate",
+        "ga_exitRate",
+        "report_start_date",
+        "report_end_date"
+      ],
+      "import": "website_overview"
+    },
+    "created_at": "2022-07-22T19:20:07.646923+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_Analytics/website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "c9185c40f9cb4c8f6d9288a9beb6879a836ca68d"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_47326d0e-51a3-4232-b0d1-a8284f7923c6.json",
+      "trial": true
+    },
+    "state": {
+      "schema_hash": "274da1c15ea839a94950f46fd8a934c6",
+      "website_overview": "2022-07-20"
+    },
+    "previous_import_id": "8eccaa7f-ab68-5b0a-b7b7-dfb5e7bd6086",
+    "previous_table_id": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031"
+  },
+  "created_at": "2022-07-22T19:20:07.646923+00:00",
+  "_signature": "OJafzRouLEj604rmavzWcqE7qjya5HNz4P0iOb5ybfpruWAPB7q7wIJgwLRJbQTPUZ8TwYzDBH4abkOGlUnJAw=="
+}
