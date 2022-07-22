@@ -498,12 +498,33 @@
       "isGroup": true,
       "group": "",
       "location": "345.04958677685954 -22.30188679245282"
+    },
+    {
+      "key": "9d43d89b-4c9d-4624-a907-22d560f5ac7e",
+      "type": "FUNCTIONS",
+      "category": "FUNCTIONS",
+      "transformationStep": {
+        "id": "9d43d89b-4c9d-4624-a907-22d560f5ac7e",
+        "title": "",
+        "transformationType": "FUNCTIONS"
+      },
+      "isGroup": true,
+      "group": "",
+      "location": "174.230675741371 122.03273007316136"
     }
   ],
   "linkDataArray": [
     {
       "from": "b11092d1-b61f-4a8a-b8b2-3cb3c5b6cb77",
       "to": "ce801fa1-4607-46c2-bbcf-0f84686c1fbf"
+    },
+    {
+      "from": "9d43d89b-4c9d-4624-a907-22d560f5ac7e",
+      "to": "ce801fa1-4607-46c2-bbcf-0f84686c1fbf"
+    },
+    {
+      "from": "b11092d1-b61f-4a8a-b8b2-3cb3c5b6cb77",
+      "to": "9d43d89b-4c9d-4624-a907-22d560f5ac7e"
     }
   ],
   "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/model.json"

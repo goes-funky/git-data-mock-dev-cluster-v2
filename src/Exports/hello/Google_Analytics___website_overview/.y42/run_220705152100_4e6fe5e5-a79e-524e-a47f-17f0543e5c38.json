@@ -1,0 +1,43 @@
+{
+  "request_id": "220705152100_4e6fe5e5-a79e-524e-a47f-17f0543e5c38",
+  "status": "ready",
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+    },
+    "import_table": "220704161448_8121e72d-cb25-5baf-825c-079d444a0907",
+    "created_at": "2022-07-05T15:21:00.877348+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/hello/Google_Analytics___website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "c980fb7deabad44eee70255088c0125b2006e200"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-05T15:21:00.877348+00:00",
+  "finished_at": "2022-07-05T15:25:45.079521+00:00",
+  "details": {
+    "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220705152100_4e6fe5e5-a79e-524e-a47f-17f0543e5c38.xlsx?Expires=1659713145&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=YiQK%2BDXuBtT1kDv4BQTexbZ9qhx3fROxVp1DmxwoRX0QfiwllSFl0W2H1YBcGetyqhT4aVB%2FJOQmNFFf%2FmdbJ3LQNUOQ%2F2UTgA0hmljSXJe0CIvLlJgV0Q7ssYvyhBqQfysg%2BUyfnIscbJXGKpEluDGzVQ0LNp4ovo84wXFV9IzVDBFtxm0lgWkM%2FXOpadyCljwmXd%2BeKnvy0dkYdsz9UAt31pHgrgE2n3NyPFVL4ZpVjjG8bZQfVpaSq9iHYUW6hqRhGO%2FPEv6ucAMxr9NafvYVkuwYIC%2FfmzHh5DZeV7lATrtqrGsnP4ChxozhXOyHGXQtTP5RyMXhOScfPfXauw%3D%3D"
+  },
+  "_signature": "4qi8pfSq4LN6ABaEZLPR3zUNLHhOtx9a2/k3bjF+AgheuvjNYl+v7kpPkBt0TI8X54X+PDaJtPVNYNrW4d/HDA=="
+}

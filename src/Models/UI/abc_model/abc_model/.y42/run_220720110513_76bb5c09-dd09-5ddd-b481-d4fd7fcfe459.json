@@ -1,0 +1,43 @@
+{
+  "request_id": "220720110513_76bb5c09-dd09-5ddd-b481-d4fd7fcfe459",
+  "status": "pending",
+  "failed_at": "2022-07-20T11:05:22.276445+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"validations failed\",\"datetime\":\"2022-07-20T11:05:22.229172+00:00\",\"requestId\":\"585a2268-f072-4fd8-9063-f5c4eb941cd4\",\"channel\":\"local\"}",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/ui_model/0.0.0/table.json",
+      "output_key": "6c0af187-0e89-4633-81e6-0022f6a022b9"
+    },
+    "created_at": "2022-07-20T11:05:13.333302+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/UI/abc_model/abc_model",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "2cb37b149ccb41f9be512fa84e5c7f4fbea85fb3"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_2bbf8c9f-38c7-43cb-b071-ba4d9433b171.json",
+      "trial": true
+    },
+    "previous_import_id": "5408bae1-2c52-52a3-8f38-8bee5dadff93",
+    "previous_table_id": "220706122415_5408bae1-2c52-52a3-8f38-8bee5dadff93"
+  },
+  "created_at": "2022-07-20T11:05:13.333302+00:00",
+  "_signature": "sIm5V593KKKdhuQQ+BT6BolbUX0qZr8q43SGEsqbEp659E8bo0nf2wu5bItQ6p50pPHOeZe1RVohxItAx2HKBA=="
+}

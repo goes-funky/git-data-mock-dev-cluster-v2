@@ -4,16 +4,16 @@
   "description": "something in the water",
   "tags": [],
   "owners": {
-    "user_ids": [],
-    "team_ids": []
+    "team_ids": [],
+    "user_ids": []
   },
   "experts": {
-    "user_ids": [],
-    "team_ids": []
+    "team_ids": [],
+    "user_ids": []
   },
   "watchers": {
-    "user_ids": [],
-    "team_ids": []
+    "team_ids": [],
+    "user_ids": []
   },
   "asset_status": "no status"
 }

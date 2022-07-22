@@ -1,0 +1,3545 @@
+{
+  "streams": [
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Product Glossary & Teams Mapping",
+      "table_name": "Product & Engineering Org-Product Glossary & Teams Mapping",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Product Glossary & Teams Mapping",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Engineering Teams",
+      "table_name": "Product & Engineering Org-Engineering Teams",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Engineering Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Product Teams",
+      "table_name": "Product & Engineering Org-Product Teams",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Product Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Tool Access",
+      "table_name": "Product & Engineering Org-Tool Access",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Tool Access",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Additional Helpful Slack & Email Channels",
+      "table_name": "Product & Engineering Org-Additional Helpful Slack & Email Channels",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Additional Helpful Slack & Email Channels",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org",
+      "stream": "Product & Engineering Org-Hiring Plan",
+      "table_name": "Product & Engineering Org-Hiring Plan",
+      "tap_stream_id": "1LWQINhqGMXIdj3X4figToL_OtdMg1TtTx6B0Zu4fqS8/Hiring Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October",
+      "table_name": "List of Attendees - Gym-October",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November",
+      "table_name": "List of Attendees - Gym-November",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December",
+      "table_name": "List of Attendees - Gym-December",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January",
+      "table_name": "List of Attendees - Gym-January",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February",
+      "table_name": "List of Attendees - Gym-February",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March",
+      "table_name": "List of Attendees - Gym-March",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April",
+      "table_name": "List of Attendees - Gym-April",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May",
+      "table_name": "List of Attendees - Gym-May",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June",
+      "table_name": "List of Attendees - Gym-June",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July",
+      "table_name": "List of Attendees - Gym-July",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August",
+      "table_name": "List of Attendees - Gym-August",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '17",
+      "table_name": "List of Attendees - Gym-September '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '17",
+      "table_name": "List of Attendees - Gym-October '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '17",
+      "table_name": "List of Attendees - Gym-November '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '17",
+      "table_name": "List of Attendees - Gym-December '17",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '17",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-Januar '18",
+      "table_name": "List of Attendees - Gym-Januar '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/Januar '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June '18",
+      "table_name": "List of Attendees - Gym-June '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July '18",
+      "table_name": "List of Attendees - Gym-July '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August '18",
+      "table_name": "List of Attendees - Gym-August '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '18",
+      "table_name": "List of Attendees - Gym-September '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '18",
+      "table_name": "List of Attendees - Gym-October '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '18",
+      "table_name": "List of Attendees - Gym-November '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '18",
+      "table_name": "List of Attendees - Gym-December '18",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '18",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February '19",
+      "table_name": "List of Attendees - Gym-February '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March '19",
+      "table_name": "List of Attendees - Gym-March '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April '19",
+      "table_name": "List of Attendees - Gym-April '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May '19",
+      "table_name": "List of Attendees - Gym-May '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June '19",
+      "table_name": "List of Attendees - Gym-June '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July '19",
+      "table_name": "List of Attendees - Gym-July '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August '19",
+      "table_name": "List of Attendees - Gym-August '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '19",
+      "table_name": "List of Attendees - Gym-September '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '19",
+      "table_name": "List of Attendees - Gym-October '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '19",
+      "table_name": "List of Attendees - Gym-November '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '19",
+      "table_name": "List of Attendees - Gym-December '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January '20",
+      "table_name": "List of Attendees - Gym-January '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February '20",
+      "table_name": "List of Attendees - Gym-February '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March '20",
+      "table_name": "List of Attendees - Gym-March '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April '20",
+      "table_name": "List of Attendees - Gym-April '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May '20",
+      "table_name": "List of Attendees - Gym-May '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June '20",
+      "table_name": "List of Attendees - Gym-June '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July '20",
+      "table_name": "List of Attendees - Gym-July '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August '20",
+      "table_name": "List of Attendees - Gym-August '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September '20",
+      "table_name": "List of Attendees - Gym-September '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October '20",
+      "table_name": "List of Attendees - Gym-October '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November '20",
+      "table_name": "List of Attendees - Gym-November '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December '20",
+      "table_name": "List of Attendees - Gym-December '20",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December '20",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January 2021",
+      "table_name": "List of Attendees - Gym-January 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February 2021",
+      "table_name": "List of Attendees - Gym-February 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March 2021",
+      "table_name": "List of Attendees - Gym-March 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April 2021",
+      "table_name": "List of Attendees - Gym-April 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May 2021",
+      "table_name": "List of Attendees - Gym-May 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June 2021",
+      "table_name": "List of Attendees - Gym-June 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July 2021",
+      "table_name": "List of Attendees - Gym-July 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August 2021",
+      "table_name": "List of Attendees - Gym-August 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September 2021",
+      "table_name": "List of Attendees - Gym-September 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October 2021",
+      "table_name": "List of Attendees - Gym-October 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November 2021",
+      "table_name": "List of Attendees - Gym-November 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December 2021",
+      "table_name": "List of Attendees - Gym-December 2021",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December 2021",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January '19",
+      "table_name": "List of Attendees - Gym-January '19",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January '19",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January 2022",
+      "table_name": "List of Attendees - Gym-January 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/January 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-February 2022",
+      "table_name": "List of Attendees - Gym-February 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/February 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-March 2022",
+      "table_name": "List of Attendees - Gym-March 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/March 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-April 2022",
+      "table_name": "List of Attendees - Gym-April 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/April 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-May 2022",
+      "table_name": "List of Attendees - Gym-May 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/May 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-June 2022",
+      "table_name": "List of Attendees - Gym-June 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/June 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-July 2022",
+      "table_name": "List of Attendees - Gym-July 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/July 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-August 2022",
+      "table_name": "List of Attendees - Gym-August 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/August 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-September 2022",
+      "table_name": "List of Attendees - Gym-September 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/September 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-October 2022",
+      "table_name": "List of Attendees - Gym-October 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/October 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-November 2022",
+      "table_name": "List of Attendees - Gym-November 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/November 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-December 2022",
+      "table_name": "List of Attendees - Gym-December 2022",
+      "tap_stream_id": "1EEH6u6AulOTGN41iLR0m8jGNYYcWufeQEbs_DrX95D0/December 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Product Glossary & Teams Mapping",
+      "table_name": "Product & Engineering Org (Deprecated)-Product Glossary & Teams Mapping",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Product Glossary & Teams Mapping",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Engineering Teams",
+      "table_name": "Product & Engineering Org (Deprecated)-Engineering Teams",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Engineering Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Product Teams",
+      "table_name": "Product & Engineering Org (Deprecated)-Product Teams",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Product Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Tool Access",
+      "table_name": "Product & Engineering Org (Deprecated)-Tool Access",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Tool Access",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Additional Helpful Slack & Email Channels",
+      "table_name": "Product & Engineering Org (Deprecated)-Additional Helpful Slack & Email Channels",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Additional Helpful Slack & Email Channels",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Product & Engineering Org (Deprecated)",
+      "stream": "Product & Engineering Org (Deprecated)-Hiring Plan",
+      "table_name": "Product & Engineering Org (Deprecated)-Hiring Plan",
+      "tap_stream_id": "1LJdoCiMH20o5OQtj4Rjm3tVaQHBTXEvwzYDMNpvHCCc/Hiring Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Y42 - Deployed Integrations",
+      "stream": "Y42 - Deployed Integrations-Y 42 - Deployed Integrations",
+      "table_name": "Y42 - Deployed Integrations-Y 42 - Deployed Integrations",
+      "tap_stream_id": "1d4YwcHmIm6yBoiqr8FdTYIegsMtlJA9Z2YN7A4nnZDA/Y 42 - Deployed Integrations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Y42 - Deployed Integrations",
+      "stream": "Y42 - Deployed Integrations-TapOwners",
+      "table_name": "Y42 - Deployed Integrations-TapOwners",
+      "tap_stream_id": "1d4YwcHmIm6yBoiqr8FdTYIegsMtlJA9Z2YN7A4nnZDA/TapOwners",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Y42 - Deployed Integrations",
+      "stream": "Y42 - Deployed Integrations-Detail2-Nico Marlon Haesler",
+      "table_name": "Y42 - Deployed Integrations-Detail2-Nico Marlon Haesler",
+      "tap_stream_id": "1d4YwcHmIm6yBoiqr8FdTYIegsMtlJA9Z2YN7A4nnZDA/Detail2-Nico Marlon Haesler",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Y42 - Deployed Integrations",
+      "stream": "Y42 - Deployed Integrations-Detail1-Najada Xara",
+      "table_name": "Y42 - Deployed Integrations-Detail1-Najada Xara",
+      "tap_stream_id": "1d4YwcHmIm6yBoiqr8FdTYIegsMtlJA9Z2YN7A4nnZDA/Detail1-Najada Xara",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Goals",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Goals",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Goals",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Initialize",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Initialize",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Initialize",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Timing - Personas OR Protocols",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Timing - Personas OR Protocols",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Timing - Personas OR Protocols",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Timing - Personas AND Protocols",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Timing - Personas AND Protocols",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Timing - Personas AND Protocols",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Page",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Page",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Page",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Identify",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Identify",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Identify",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Track (Custom)",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Track (Custom)",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Track (Custom)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Group",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Group",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Group",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Track (Product)",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Track (Product)",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Track (Product)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Reusable Props",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Reusable Props",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Reusable Props",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Track (Landing page and pre-conversion)",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Track (Landing page and pre-conversion)",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Track (Landing page and pre-conversion)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Video (Wistia-specific)",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Video (Wistia-specific)",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Video (Wistia-specific)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Button tracking - landing page",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Button tracking - landing page",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Button tracking - landing page",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Track (Hubspot - webhook)",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Track (Hubspot - webhook)",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Track (Hubspot - webhook)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-ETL / API Layer",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-ETL / API Layer",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/ETL / API Layer",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-References",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-References",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/References",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Protocols Config",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Protocols Config",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Protocols Config",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Events Overview",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Events Overview",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Events Overview",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Background Tables",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Background Tables",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Background Tables",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Segment - Y42 vv2 \ud83e\udd16",
+      "stream": "Segment - Y42 vv2 \ud83e\udd16-Import Template",
+      "table_name": "Segment - Y42 vv2 \ud83e\udd16-Import Template",
+      "tap_stream_id": "1DBu9HbOnPO3sA8jiGvFt1EkQQwFi1yo5FxPGoYmVnzw/Import Template",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Vision & Intents",
+      "table_name": "Visualize Strategy planning-Vision & Intents",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Vision & Intents",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Product Initiatives",
+      "table_name": "Visualize Strategy planning-Product Initiatives",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Product Initiatives",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Product Options",
+      "table_name": "Visualize Strategy planning-Product Options",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Product Options",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Q2 OKRs",
+      "table_name": "Visualize Strategy planning-Q2 OKRs",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Q2 OKRs",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Q2 Capacity Planning",
+      "table_name": "Visualize Strategy planning-Q2 Capacity Planning",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Q2 Capacity Planning",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Q1 OKRs",
+      "table_name": "Visualize Strategy planning-Q1 OKRs",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Q1 OKRs",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Visualize Strategy planning",
+      "stream": "Visualize Strategy planning-Q1 Capacity Planning",
+      "table_name": "Visualize Strategy planning-Q1 Capacity Planning",
+      "tap_stream_id": "1XRgFgRAVrXC2m5YUQc9laMNu7iVOu-T8cgTj6WnFm3s/Q1 Capacity Planning",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Form Responses 1",
+      "table_name": "OKR Tracker -Form Responses 1",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Form Responses 1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Company",
+      "table_name": "OKR Tracker -Company",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Company",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Product/Tech",
+      "table_name": "OKR Tracker -Product/Tech",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Product/Tech",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Function Based Tech & Product ",
+      "table_name": "OKR Tracker -Function Based Tech & Product ",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Function Based Tech & Product ",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Mission Based Tech & Product",
+      "table_name": "OKR Tracker -Mission Based Tech & Product",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Mission Based Tech & Product",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Q2 Planning - Function Based Tech & Product ",
+      "table_name": "OKR Tracker -Q2 Planning - Function Based Tech & Product ",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Q2 Planning - Function Based Tech & Product ",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Q2 Planning - Mission Based Tech & Product",
+      "table_name": "OKR Tracker -Q2 Planning - Mission Based Tech & Product",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Q2 Planning - Mission Based Tech & Product",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Creative & Product Marketing OKRs",
+      "table_name": "OKR Tracker -Creative & Product Marketing OKRs",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Creative & Product Marketing OKRs",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Customer Success",
+      "table_name": "OKR Tracker -Customer Success",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Customer Success",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Growth",
+      "table_name": "OKR Tracker -Growth",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Growth",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Operations",
+      "table_name": "OKR Tracker -Operations",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Operations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -Talent Acquisition",
+      "table_name": "OKR Tracker -Talent Acquisition",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/Talent Acquisition",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -US GTM",
+      "table_name": "OKR Tracker -US GTM",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/US GTM",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -US GTM Q2/22",
+      "table_name": "OKR Tracker -US GTM Q2/22",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/US GTM Q2/22",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Tracker ",
+      "stream": "OKR Tracker -PLG",
+      "table_name": "OKR Tracker -PLG",
+      "tap_stream_id": "1Vh74o4gIyKGx5oGcVUbVRD6DxqjggyaH3EypDAZj-0s/PLG",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Incremental Use Case for each Strategy",
+      "stream": "Incremental Use Case for each Strategy-Sheet1",
+      "table_name": "Incremental Use Case for each Strategy-Sheet1",
+      "tap_stream_id": "1kiNz3r1ro-y_ZwPSYCbYKWuJFzNNkyWXBgVtbWIYFas/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Backend Services (deprecated)",
+      "stream": "Backend Services (deprecated)-Services",
+      "table_name": "Backend Services (deprecated)-Services",
+      "tap_stream_id": "1iLlmTaWNnWuqCxG_uF0eo5lEcUtOP7T78OU-ALFsRZQ/Services",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Backend Services (deprecated)",
+      "stream": "Backend Services (deprecated)-API Key Management",
+      "table_name": "Backend Services (deprecated)-API Key Management",
+      "tap_stream_id": "1iLlmTaWNnWuqCxG_uF0eo5lEcUtOP7T78OU-ALFsRZQ/API Key Management",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Backend Services (deprecated)",
+      "stream": "Backend Services (deprecated)-Integrations",
+      "table_name": "Backend Services (deprecated)-Integrations",
+      "tap_stream_id": "1iLlmTaWNnWuqCxG_uF0eo5lEcUtOP7T78OU-ALFsRZQ/Integrations",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Widget Builder - Widget Functionality Comparison",
+      "stream": "Widget Builder - Widget Functionality Comparison-Legend",
+      "table_name": "Widget Builder - Widget Functionality Comparison-Legend",
+      "tap_stream_id": "13KFQ3SgxoXrkWqo0mvIe9BLSP_b-f2lmbJjSkl2rWHw/Legend",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Widget Builder - Widget Functionality Comparison",
+      "stream": "Widget Builder - Widget Functionality Comparison-Comparison",
+      "table_name": "Widget Builder - Widget Functionality Comparison-Comparison",
+      "tap_stream_id": "13KFQ3SgxoXrkWqo0mvIe9BLSP_b-f2lmbJjSkl2rWHw/Comparison",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Widget Builder - Widget Functionality Comparison",
+      "stream": "Widget Builder - Widget Functionality Comparison-Label Index Match",
+      "table_name": "Widget Builder - Widget Functionality Comparison-Label Index Match",
+      "tap_stream_id": "13KFQ3SgxoXrkWqo0mvIe9BLSP_b-f2lmbJjSkl2rWHw/Label Index Match",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Talent List ",
+      "stream": "Talent List -Sheet1",
+      "table_name": "Talent List -Sheet1",
+      "tap_stream_id": "1nD5qJdJwbp7mqH9fXEIOT7niWD747LwByxAW5v01_lM/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Incremental Model USE CASE",
+      "stream": "Incremental Model USE CASE-Sheet1",
+      "table_name": "Incremental Model USE CASE-Sheet1",
+      "tap_stream_id": "1NlpLqdnfy4J702Zn62Sopkq1lzWxB4UiWgGZArE983I/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Incremental Model USE CASE",
+      "stream": "Incremental Model USE CASE-Sheet2",
+      "table_name": "Incremental Model USE CASE-Sheet2",
+      "tap_stream_id": "1NlpLqdnfy4J702Zn62Sopkq1lzWxB4UiWgGZArE983I/Sheet2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-READ ME",
+      "table_name": "Internal Customer Referral-READ ME",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/READ ME",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-Refer here!",
+      "table_name": "Internal Customer Referral-Refer here!",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/Refer here!",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-Progress",
+      "table_name": "Internal Customer Referral-Progress",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/Progress",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-Steps",
+      "table_name": "Internal Customer Referral-Steps",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/Steps",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-Referrals/person",
+      "table_name": "Internal Customer Referral-Referrals/person",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/Referrals/person",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-HS_upload_comps",
+      "table_name": "Internal Customer Referral-HS_upload_comps",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/HS_upload_comps",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Internal Customer Referral",
+      "stream": "Internal Customer Referral-HS_upload_prep",
+      "table_name": "Internal Customer Referral-HS_upload_prep",
+      "tap_stream_id": "1AcRrSrIw3Ocg9I3HViO4UwWvtj_4XiZCuK4rvWE4lsY/HS_upload_prep",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of Product & Engineering Org template",
+      "stream": "Copy of Product & Engineering Org template-Product & Engineering Org",
+      "table_name": "Copy of Product & Engineering Org template-Product & Engineering Org",
+      "tap_stream_id": "1nxpMTkMcbJ_kvdozAkJXLcLvT5lyOqfNsN6Y9BdP-C4/Product & Engineering Org",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of Product & Engineering Org template",
+      "stream": "Copy of Product & Engineering Org template-Engineering teams",
+      "table_name": "Copy of Product & Engineering Org template-Engineering teams",
+      "tap_stream_id": "1nxpMTkMcbJ_kvdozAkJXLcLvT5lyOqfNsN6Y9BdP-C4/Engineering teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of Product & Engineering Org template",
+      "stream": "Copy of Product & Engineering Org template-Product Teams",
+      "table_name": "Copy of Product & Engineering Org template-Product Teams",
+      "tap_stream_id": "1nxpMTkMcbJ_kvdozAkJXLcLvT5lyOqfNsN6Y9BdP-C4/Product Teams",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of Product & Engineering Org template",
+      "stream": "Copy of Product & Engineering Org template-Tool Access",
+      "table_name": "Copy of Product & Engineering Org template-Tool Access",
+      "tap_stream_id": "1nxpMTkMcbJ_kvdozAkJXLcLvT5lyOqfNsN6Y9BdP-C4/Tool Access",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of Product & Engineering Org template",
+      "stream": "Copy of Product & Engineering Org template-Additional Helpful Slack & Email Channels",
+      "table_name": "Copy of Product & Engineering Org template-Additional Helpful Slack & Email Channels",
+      "tap_stream_id": "1nxpMTkMcbJ_kvdozAkJXLcLvT5lyOqfNsN6Y9BdP-C4/Additional Helpful Slack & Email Channels",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of Product & Engineering Org template",
+      "stream": "Copy of Product & Engineering Org template-Hiring Plan",
+      "table_name": "Copy of Product & Engineering Org template-Hiring Plan",
+      "tap_stream_id": "1nxpMTkMcbJ_kvdozAkJXLcLvT5lyOqfNsN6Y9BdP-C4/Hiring Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Run File DB Schema Draft",
+      "stream": "Run File DB Schema Draft-Sheet1",
+      "table_name": "Run File DB Schema Draft-Sheet1",
+      "tap_stream_id": "1qohST3CQsLhfFP8MA2oqC7FwDlPOMASVKsim7m9FLtY/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Model testing strategy",
+      "stream": "Model testing strategy-Sheet1",
+      "table_name": "Model testing strategy-Sheet1",
+      "tap_stream_id": "18wAW50YeGJQwkuBsEVXQrkHQplMqvtk_N52NnNoOI-E/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Tech Org",
+      "stream": "Tech Org-Org Architecture",
+      "table_name": "Tech Org-Org Architecture",
+      "tap_stream_id": "1k0hqN7hLDVHty6DKWC4kVmH9uoPPBT8O0iT1pR73YWE/Org Architecture",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Tech Org",
+      "stream": "Tech Org-Q4 2021 Hiring Goals",
+      "table_name": "Tech Org-Q4 2021 Hiring Goals",
+      "tap_stream_id": "1k0hqN7hLDVHty6DKWC4kVmH9uoPPBT8O0iT1pR73YWE/Q4 2021 Hiring Goals",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Orchestration testing strategy",
+      "stream": "Orchestration testing strategy-Sheet1",
+      "table_name": "Orchestration testing strategy-Sheet1",
+      "tap_stream_id": "16CqZD3R54W1G0UpnEakv5jsHmdUPfK3YRYg8MoY8NV4/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test_deu_3",
+      "stream": "test_deu_3-test_deu_3",
+      "table_name": "test_deu_3-test_deu_3",
+      "tap_stream_id": "1Yb6rVpiADLDnW20LnLZeJeslyA-QwH_eUZ2mChEiXLQ/test_deu_3",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "CS Calls @ Product",
+      "stream": "CS Calls @ Product-Sheet1",
+      "table_name": "CS Calls @ Product-Sheet1",
+      "tap_stream_id": "1w1mt0zcH4sSS4s4Eb0NPVfNnsJHWc2zvI142hHO-C74/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -January 2022",
+      "table_name": "Social Media Content Plan -January 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/January 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -February 2022",
+      "table_name": "Social Media Content Plan -February 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/February 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -March 2022",
+      "table_name": "Social Media Content Plan -March 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/March 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -April 2022",
+      "table_name": "Social Media Content Plan -April 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/April 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -May 2022",
+      "table_name": "Social Media Content Plan -May 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/May 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -June 2022",
+      "table_name": "Social Media Content Plan -June 2022",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/June 2022",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -LinkedIn Content Plan",
+      "table_name": "Social Media Content Plan -LinkedIn Content Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/LinkedIn Content Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -August 2021 SM Plan",
+      "table_name": "Social Media Content Plan -August 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/August 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -September 2021 SM Plan",
+      "table_name": "Social Media Content Plan -September 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/September 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -October 2021 SM Plan",
+      "table_name": "Social Media Content Plan -October 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/October 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -November 2021 SM Plan",
+      "table_name": "Social Media Content Plan -November 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/November 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -December 2021 SM Plan",
+      "table_name": "Social Media Content Plan -December 2021 SM Plan",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/December 2021 SM Plan",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -Content Plan (high-level)",
+      "table_name": "Social Media Content Plan -Content Plan (high-level)",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/Content Plan (high-level)",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -Webinar Ideas",
+      "table_name": "Social Media Content Plan -Webinar Ideas",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/Webinar Ideas",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Social Media Content Plan ",
+      "stream": "Social Media Content Plan -Podcast Ideas",
+      "table_name": "Social Media Content Plan -Podcast Ideas",
+      "tap_stream_id": "1tAuF0kgweZlzUmPIPyb9jXJ3G0MZ5cr-4E-8BMP0W4M/Podcast Ideas",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Backend Technical Challenge Evaluations",
+      "stream": "Backend Technical Challenge Evaluations-Sheet1",
+      "table_name": "Backend Technical Challenge Evaluations-Sheet1",
+      "tap_stream_id": "1mcyNHi76WNn2jj5C8suiBfVmT6oC29iHJifyOTu-YHA/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Circular Std Typography Use",
+      "stream": "Circular Std Typography Use-Sheet1",
+      "table_name": "Circular Std Typography Use-Sheet1",
+      "tap_stream_id": "1F2HMR-VXVD200qs58XaW9wOWTiIsXDZhi-bChQ5yq-U/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "dollar test",
+      "stream": "dollar test-Sheet1",
+      "table_name": "dollar test-Sheet1",
+      "tap_stream_id": "1hHEbT2FR0fNl_VrWJ9z5OOGBHYc49VawQABPz1wvX5c/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test deutsch 2",
+      "stream": "test deutsch 2-test deutsch 2",
+      "table_name": "test deutsch 2-test deutsch 2",
+      "tap_stream_id": "1zGCw9DXuZ-JhOL5m1iFTMS6Afv8gZJ2wU9cJQ991xsY/test deutsch 2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "test german gsheets",
+      "stream": "test german gsheets-test german gsheets",
+      "table_name": "test german gsheets-test german gsheets",
+      "tap_stream_id": "1WHtfzYQk4R5BPGw7rEjJC_S5B6eY0z2gUE5jCHya8fc/test german gsheets",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Keywords ",
+      "stream": "Keywords -Sheet1",
+      "table_name": "Keywords -Sheet1",
+      "tap_stream_id": "1EVBfaZ8i_i2ALmbTIzL-NpIzSJ93s_QfKjnNE7yAAIs/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "results-20220408-125300",
+      "stream": "results-20220408-125300-results-20220408-125300",
+      "table_name": "results-20220408-125300-results-20220408-125300",
+      "tap_stream_id": "19umdwziCosXwvAuGsr0nYVO7OzuoZzkiLEQEI1wnEPc/results-20220408-125300",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Candidates Referral Sheet",
+      "stream": "Candidates Referral Sheet-Referral Sheet",
+      "table_name": "Candidates Referral Sheet-Referral Sheet",
+      "tap_stream_id": "1GZsN6dk1_Sf2copuGsjrbbSoQMSIIffQ3PWXgF9s5jQ/Referral Sheet",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "1_hg_templates_shopify_de",
+      "stream": "1_hg_templates_shopify_de-Customers_1",
+      "table_name": "1_hg_templates_shopify_de-Customers_1",
+      "tap_stream_id": "1OzzNa7wccOCQdnQtBBv9-azj-IB9pqfPPwI_Gr0LP4E/Customers_1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 1_hg_templates_shopify_de",
+      "stream": "Copy of 1_hg_templates_shopify_de-Customers_1",
+      "table_name": "Copy of 1_hg_templates_shopify_de-Customers_1",
+      "tap_stream_id": "11DtqDUKGNORnAiKC34dEdezZdZFLpk_3dvzox-ooN20/Customers_1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 2_hg_templates_shopify_de",
+      "stream": "Copy of 2_hg_templates_shopify_de-Customers_2",
+      "table_name": "Copy of 2_hg_templates_shopify_de-Customers_2",
+      "tap_stream_id": "1w2Ubb91l7v9Wg8Q1WTu6V9Q569oFDLVHiuaOcoEZ-Ek/Customers_2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Copy of 3_hg_templates_shopify_de",
+      "stream": "Copy of 3_hg_templates_shopify_de-Customers_3",
+      "table_name": "Copy of 3_hg_templates_shopify_de-Customers_3",
+      "tap_stream_id": "1FBaqYyWvOt4zjkeo8NWcQaX2vj5_jjHUr7nuf7BwlR8/Customers_3",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "3_hg_templates_shopify_de",
+      "stream": "3_hg_templates_shopify_de-Customers_3",
+      "table_name": "3_hg_templates_shopify_de-Customers_3",
+      "tap_stream_id": "1unRp5iPnujUUUJw94vhKuQUYSnbFycH-qGglH6UBXvw/Customers_3",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "2_hg_templates_shopify_de",
+      "stream": "2_hg_templates_shopify_de-Customers_2",
+      "table_name": "2_hg_templates_shopify_de-Customers_2",
+      "tap_stream_id": "1HY8Vk6Wqg4DJjmSHwCvX21t28Ygx7OYe_d7mD49XGnA/Customers_2",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "hg_templates_shopify_de",
+      "stream": "hg_templates_shopify_de-Sheet1",
+      "table_name": "hg_templates_shopify_de-Sheet1",
+      "tap_stream_id": "1K1mxssg6UfVLiDr1pOt35uPUiVFrPJSwWtecZpe4sl8/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "stg_shopify_orders",
+      "stream": "stg_shopify_orders-stg_shopify_orders",
+      "table_name": "stg_shopify_orders-stg_shopify_orders",
+      "tap_stream_id": "1BJX_TSsx-86NxuoMsF5ktTyeROzin4j01T2UrKR_SEo/stg_shopify_orders",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "stg_shopify_order_items",
+      "stream": "stg_shopify_order_items-stg_shopify_order_items",
+      "table_name": "stg_shopify_order_items-stg_shopify_order_items",
+      "tap_stream_id": "19eqHWzsZmOoMML6damb2fLBgj2MQsW35wv3Z4JeLJTI/stg_shopify_order_items",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "stg_shopify_orders",
+      "stream": "stg_shopify_orders-Sheet1",
+      "table_name": "stg_shopify_orders-Sheet1",
+      "tap_stream_id": "13swjR2uZ0QQlP5vYiXeKCErT7HtJxmb_XFKUwwUM1VA/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "stg_shopify_y42",
+      "stream": "stg_shopify_y42-stg_shopify",
+      "table_name": "stg_shopify_y42-stg_shopify",
+      "tap_stream_id": "1rlFFSgUQYd31cSxiXLg94UHz30VDtaytiVcwC_fgryw/stg_shopify",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-Example",
+      "table_name": "JTBD Data Gathering CS-Example",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/Example",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-Giang",
+      "table_name": "JTBD Data Gathering CS-Giang",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/Giang",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-Braulio",
+      "table_name": "JTBD Data Gathering CS-Braulio",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/Braulio",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-Rebecca",
+      "table_name": "JTBD Data Gathering CS-Rebecca",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/Rebecca",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-Flo",
+      "table_name": "JTBD Data Gathering CS-Flo",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/Flo",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-Hai",
+      "table_name": "JTBD Data Gathering CS-Hai",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/Hai",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "JTBD Data Gathering CS",
+      "stream": "JTBD Data Gathering CS-framework",
+      "table_name": "JTBD Data Gathering CS-framework",
+      "tap_stream_id": "1dc3jozO8jjmaPiaqIZ-r-ey2qsqaOVLTyxh40hYjA1Q/framework",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Notifications Ideation",
+      "stream": "Notifications Ideation-Alerts",
+      "table_name": "Notifications Ideation-Alerts",
+      "tap_stream_id": "1pf8wrfvEKcRb-1x0G-gkB-gE7taOm-RJQueMnsDRKmY/Alerts",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-todos",
+      "table_name": "202112_cs-ticketing-project-todos",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/todos",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-project >>>",
+      "table_name": "202112_cs-ticketing-project-project >>>",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/project >>>",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-project_overview",
+      "table_name": "202112_cs-ticketing-project-project_overview",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/project_overview",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-project_solution-space-search",
+      "table_name": "202112_cs-ticketing-project-project_solution-space-search",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/project_solution-space-search",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-project_recommendation",
+      "table_name": "202112_cs-ticketing-project-project_recommendation",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/project_recommendation",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-project_timeline",
+      "table_name": "202112_cs-ticketing-project-project_timeline",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/project_timeline",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-software >>>",
+      "table_name": "202112_cs-ticketing-project-software >>>",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/software >>>",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-software-requirements",
+      "table_name": "202112_cs-ticketing-project-software-requirements",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/software-requirements",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-software-decision",
+      "table_name": "202112_cs-ticketing-project-software-decision",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/software-decision",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-implementation >>>",
+      "table_name": "202112_cs-ticketing-project-implementation >>>",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/implementation >>>",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-implementation-sop",
+      "table_name": "202112_cs-ticketing-project-implementation-sop",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/implementation-sop",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-solution-notes",
+      "table_name": "202112_cs-ticketing-project-solution-notes",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/solution-notes",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-references/learnings >>>",
+      "table_name": "202112_cs-ticketing-project-references/learnings >>>",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/references/learnings >>>",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-20211206_ishan-call",
+      "table_name": "202112_cs-ticketing-project-20211206_ishan-call",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/20211206_ishan-call",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-meetings >>>",
+      "table_name": "202112_cs-ticketing-project-meetings >>>",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/meetings >>>",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "202112_cs-ticketing-project",
+      "stream": "202112_cs-ticketing-project-20211209_kick-off",
+      "table_name": "202112_cs-ticketing-project-20211209_kick-off",
+      "tap_stream_id": "1uxsN7A4oFBhUKRwBvqBGo3hlXXtApFMO6_eVDB7Xwk8/20211209_kick-off",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "List of Attendees - Gym",
+      "stream": "List of Attendees - Gym-January",
+      "table_name": "List of Attendees - Gym-January",
+      "tap_stream_id": "1mtU91zpdf2tXMpKoq7FjaUe4bGlJXIBJAp1jVHxvhck/January",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "hubspot-crm-exports-all-deals-2021-12-27",
+      "stream": "hubspot-crm-exports-all-deals-2021-12-27-All deals",
+      "table_name": "hubspot-crm-exports-all-deals-2021-12-27-All deals",
+      "tap_stream_id": "1vkBaIIC1kxlINSW1Y_7rSJkmrMb646RDQHxtMRT3q9w/All deals",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Berlin y42 guide",
+      "stream": "Berlin y42 guide-Sheet1",
+      "table_name": "Berlin y42 guide-Sheet1",
+      "tap_stream_id": "17lOE0__MHJgd8ee5tZmjNDg1LUNfRAVCfgITpKqbEbQ/Sheet1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "hai_bigbrother_out",
+      "stream": "hai_bigbrother_out-hai_bigbrother_out",
+      "table_name": "hai_bigbrother_out-hai_bigbrother_out",
+      "tap_stream_id": "10wnNJTqzyGIji9BUoXOIjY99hm5jwbsPw1MQksel0e4/hai_bigbrother_out",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Teams",
+      "stream": "OKR Teams-Objective Key Results",
+      "table_name": "OKR Teams-Objective Key Results",
+      "tap_stream_id": "1h8HUL_K9SR9vO-9ah8TU3FkvMdKj8Qiij5Plfx_a3pM/Objective Key Results",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "OKR Teams",
+      "stream": "OKR Teams-Q&A + Processes",
+      "table_name": "OKR Teams-Q&A + Processes",
+      "tap_stream_id": "1h8HUL_K9SR9vO-9ah8TU3FkvMdKj8Qiij5Plfx_a3pM/Q&A + Processes",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Prospects",
+      "table_name": "Leadlist Outreach_Mittelstand-Prospects",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Prospects",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Overview",
+      "table_name": "Leadlist Outreach_Mittelstand-Overview",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Overview",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Input ",
+      "table_name": "Leadlist Outreach_Mittelstand-Input ",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Input ",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Sheet4",
+      "table_name": "Leadlist Outreach_Mittelstand-Sheet4",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Sheet4",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "Leadlist Outreach_Mittelstand",
+      "stream": "Leadlist Outreach_Mittelstand-Mittelstand 10.000 V21",
+      "table_name": "Leadlist Outreach_Mittelstand-Mittelstand 10.000 V21",
+      "tap_stream_id": "1TgpC6iq2RHJTMMataN0BMp0c9dMSVmtFO-eqPR3aoOU/Mittelstand 10.000 V21",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "NPS_Driver_Analysis_4-Drivers_E-Commerce",
+      "stream": "NPS_Driver_Analysis_4-Drivers_E-Commerce-survey_answer",
+      "table_name": "NPS_Driver_Analysis_4-Drivers_E-Commerce-survey_answer",
+      "tap_stream_id": "1j29B1iyaosL3KCIAe449dhLYRPGFk6MuuQXgDcFM1aI/survey_answer",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "NPS_Driver_Analysis_4-Drivers_E-Commerce",
+      "stream": "NPS_Driver_Analysis_4-Drivers_E-Commerce-input",
+      "table_name": "NPS_Driver_Analysis_4-Drivers_E-Commerce-input",
+      "tap_stream_id": "1j29B1iyaosL3KCIAe449dhLYRPGFk6MuuQXgDcFM1aI/input",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "BigQuery incremental benchmarking",
+      "stream": "BigQuery incremental benchmarking-benchmarks",
+      "table_name": "BigQuery incremental benchmarking-benchmarks",
+      "tap_stream_id": "1mR2EAvwgTikjZVtPpBGgToPC8H59YbVfckG4OzVsVFE/benchmarks",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "BigQuery incremental benchmarking",
+      "stream": "BigQuery incremental benchmarking-Chart1",
+      "table_name": "BigQuery incremental benchmarking-Chart1",
+      "tap_stream_id": "1mR2EAvwgTikjZVtPpBGgToPC8H59YbVfckG4OzVsVFE/Chart1",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "BigQuery incremental benchmarking",
+      "stream": "BigQuery incremental benchmarking-seconds",
+      "table_name": "BigQuery incremental benchmarking-seconds",
+      "tap_stream_id": "1mR2EAvwgTikjZVtPpBGgToPC8H59YbVfckG4OzVsVFE/seconds",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "BigQuery incremental benchmarking",
+      "stream": "BigQuery incremental benchmarking-GBs",
+      "table_name": "BigQuery incremental benchmarking-GBs",
+      "tap_stream_id": "1mR2EAvwgTikjZVtPpBGgToPC8H59YbVfckG4OzVsVFE/GBs",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "BigQuery incremental benchmarking",
+      "stream": "BigQuery incremental benchmarking-first attempt",
+      "table_name": "BigQuery incremental benchmarking-first attempt",
+      "tap_stream_id": "1mR2EAvwgTikjZVtPpBGgToPC8H59YbVfckG4OzVsVFE/first attempt",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    },
+    {
+      "group": "BigQuery incremental benchmarking",
+      "stream": "BigQuery incremental benchmarking-cleaned first attempt",
+      "table_name": "BigQuery incremental benchmarking-cleaned first attempt",
+      "tap_stream_id": "1mR2EAvwgTikjZVtPpBGgToPC8H59YbVfckG4OzVsVFE/cleaned first attempt",
+      "schema": {
+        "properties": {
+          "auto_detect": {
+            "inclusion": "automatic",
+            "type": "object"
+          }
+        },
+        "type": "object"
+      }
+    }
+  ],
+  "_signature": "7i4uMcegwH1mq2VcNJhfAPXdmFz1DOkXBWEONeDE4ZKZcHjIwG9cUtOCiyH3IfiaJkMz/F1S7o0Jgps2IFhgCg=="
+}

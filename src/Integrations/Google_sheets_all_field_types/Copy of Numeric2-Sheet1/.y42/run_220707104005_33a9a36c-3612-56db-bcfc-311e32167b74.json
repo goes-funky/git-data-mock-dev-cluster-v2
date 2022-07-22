@@ -1,0 +1,128 @@
+{
+  "request_id": "220707104005_33a9a36c-3612-56db-bcfc-311e32167b74",
+  "status": "ready",
+  "request": {
+    "source_credentials": "3392ccdd-5e88-4c9b-b6bd-9a97da9556f4",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/singer-google-sheets/0.0.0/table",
+      "columns": [
+        "auto_detect"
+      ],
+      "import": "14SRE0irgnndPD6koB6mWZ8DEpSFAT9YH8nisPSnu2cg/Sheet1",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-07T10:40:05.474539+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "2f287538eccd65b97ae78a37549eae3f267e2ad4"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "10",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-07T10:40:05.474539+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-07T10:40:17.982772+00:00",
+    "write_disposition": "TRUNCATE",
+    "external_id": "91cfaa03-c9fd-4831-98bf-5946996e0619",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/6/singer-google-sheets/e704e81a-3973-412f-ad71-c112072fe395",
+    "partial": false,
+    "import_finished_at": "2022-07-07T10:40:37.135377+00:00",
+    "row_count": 6,
+    "current_import_row_count": 6,
+    "size_in_bytes": 448,
+    "columns": [
+      {
+        "field_name": "Id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Pozitive_numbers",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Decimal_numbers",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "Negative",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Negative_double",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "Text",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Id_repeatable",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "Id_text_repeatable_",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Id_of_mix",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "Boolean",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "Date",
+        "data_type": "DATE",
+        "external_data_type": "DATE"
+      },
+      {
+        "field_name": "Date_time",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "Time",
+        "data_type": "TIME",
+        "external_data_type": "TIME"
+      }
+    ],
+    "table_name": "220707104005_33a9a36c-3612-56db-bcfc-311e32167b74",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220707104005_33a9a36c-3612-56db-bcfc-311e32167b74&page=table"
+  },
+  "finished_at": "2022-07-07T10:40:37.135539+00:00",
+  "_signature": "frfbewS1YgQ+1mdmxVxYd/eMt2Lua8Ys+mneaEYAnf0Hk+1Ivdhs77/y6wpoXPoD1VDesh7SdLc5K6fncsFSCg=="
+}

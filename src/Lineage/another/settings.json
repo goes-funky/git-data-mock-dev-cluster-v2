@@ -1,4 +1,5 @@
 {
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/lineage/lineage-settings.json",
   "linkDataArray": [
     {
       "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
@@ -1013,7 +1014,7 @@
     {
       "key": "src/Visualizations/Dashboards/Multilever_Dashboard",
       "category": "Dashboard",
-      "location": "776.5685424949238 113",
+      "location": "771.5685424949238 113",
       "isGroup": true
     },
     {
@@ -1025,7 +1026,7 @@
     {
       "key": "src/Visualizations/Dashboards/Simon_s_Dash",
       "category": "Dashboard",
-      "location": "776.5685424949238 617",
+      "location": "771.5685424949238 617",
       "isGroup": true
     },
     {

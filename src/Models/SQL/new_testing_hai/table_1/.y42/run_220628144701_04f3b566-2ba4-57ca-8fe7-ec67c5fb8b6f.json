@@ -1,0 +1,45 @@
+{
+  "request_id": "220628144701_04f3b566-2ba4-57ca-8fe7-ec67c5fb8b6f",
+  "status": "invalid",
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json",
+      "tablesOrder": [
+        "table_1",
+        "table_2",
+        "table_3"
+      ]
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-06-28T14:47:01.893714+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/new_testing_hai/table_1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "c40d75743c367cfebe6aa5e7537f9ebbb3bd9159"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "85",
+      "trial": true
+    }
+  },
+  "created_at": "2022-06-28T14:47:01.893714+00:00",
+  "failed_at": "2022-06-28T14:47:37.102571+00:00",
+  "error_code": 400,
+  "error_message": "400 Syntax error: Expected end of input but got keyword SELECT at [12:2]\n\nLocation: US\nJob ID: 70b2af3b-e076-4881-abb5-8b721960993a\n",
+  "_signature": "A4isjL89W9VukfDjS3MQOltYcbIm1bH6lKaHOIUBUjR0xgG7Gsvc17+FS/FO5WKRyC8AHMr3h/rxkVDzfmz2Ag=="
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
+  "cronExpression": "0 0/1 1/1 * *",
+  "forceSchedule": false,
+  "linkDataArray": [
+    {
+      "from": "fd85a764-21c0-41c9-b04f-60fb0396a5de",
+      "to": "432a5064-69f0-47d9-a34b-7829e1436e53"
+    },
+    {
+      "from": "432a5064-69f0-47d9-a34b-7829e1436e53",
+      "to": "c52d86c9-c0b3-44f0-bca8-3abca9a5dd89"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "c52d86c9-c0b3-44f0-bca8-3abca9a5dd89",
+      "path": "src/Exports/onbuy_data_export/onbuy_ui___onbuy_ui",
+      "location": "1048.0913899932318 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "432a5064-69f0-47d9-a34b-7829e1436e53",
+      "path": "src/Models/UI/onbuy_ui/onbuy_ui",
+      "location": "524.0456949966159 7.105427357601002e-15",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    },
+    {
+      "key": "fd85a764-21c0-41c9-b04f-60fb0396a5de",
+      "path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "location": "0 7.105427357601002e-15",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true
+      }
+    }
+  ],
+  "visualDataArray": []
+}

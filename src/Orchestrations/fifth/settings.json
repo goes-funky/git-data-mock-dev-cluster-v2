@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/orchestration/orchestration-settings.json",
+  "cronExpression": "",
+  "forceSchedule": false,
+  "linkDataArray": [],
+  "nodeDataArray": [
+    {
+      "key": "9501414d-51a5-464c-a807-4727a0720005",
+      "path": "src/Integrations/MySql_Integration/test_view",
+      "location": "0 0",
+      "onFailure": "stop",
+      "nodeConfig": {
+        "incremental": true,
+        "globalCustomerId": "DenysPishchenko-MySql_Integration"
+      }
+    }
+  ],
+  "visualDataArray": []
+}

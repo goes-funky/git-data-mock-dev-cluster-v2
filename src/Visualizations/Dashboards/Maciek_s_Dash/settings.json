@@ -3,6 +3,7 @@
   "theme": "foo-9cadb072-5740-4820-b856-11f858a38790.json",
   "order": [
     "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1",
-    "src/Visualizations/Dashboards/Maciek_s_Dash/Foo"
+    "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_2",
+    "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_3"
   ]
 }

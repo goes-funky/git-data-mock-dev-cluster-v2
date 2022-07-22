@@ -1,0 +1,7 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "marcintest-1d902612-3b1c-4588-9e71-360dd286b23f.json",
+  "order": [
+    "src/Visualizations/Dashboards/marcintest/Tab_1"
+  ]
+}

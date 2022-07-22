@@ -1,0 +1,319 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/lineage/lineage-settings.json",
+  "linkDataArray": [
+    {
+      "from": "src/Integrations/facebook_pages/posts",
+      "to": "src/Models/UI/abc_model/abc_model"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Models/UI/another_ui_model/another_ui_model"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/UI/facebook_model/facebook_model"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/campaign",
+      "to": "src/Models/UI/me_testing/me_testing"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Models/UI/mod_21/mod_21"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/My_SQL_Model/table_1"
+    },
+    {
+      "from": "src/Integrations/Google_Analytics/website_overview",
+      "to": "src/Models/SQL/My_new_SQL_model/my_sql_table"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/My_new_SQL_model/new_tab"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/posts",
+      "to": "src/Models/SQL/My_new_SQL_model/new_tab"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/My_new_SQL_model/table_2"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/new_testing_hai/table_1"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/new_testing_hai/table_2"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Models/SQL/new_testing_hai/table_3"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/12af526e-49de-497e-812e-f9ccd6745a26"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_COGS___Profit"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio___Copy"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/2021_Revenue_Split"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/23181c2c-0142-4926-9f41-4d3bae8dab37"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/35e4bcba-e469-451a-ab8b-3a088a953970"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/39bc2b4d-87d7-48a4-bedf-8a5c31137f28"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/473cabef-d123-4ff1-b5df-bbe08cd39a62"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/556a8ae8-0345-4d52-924e-0fd47975d436"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/5a53babd-5a12-491e-bea4-99c63f0caa1f"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/9e598b9c-41a7-4f0c-a106-e4ebe9b6c70b"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/COGS___Profit_by_Country"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Regional_Overview__Tabular_"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Revenue_Split_by_Item"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_pk",
+      "to": "src/Visualizations/Widgets/Test_1"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_view",
+      "to": "src/Visualizations/Widgets/Title_of_this_widget"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/a6af756b-3902-4d8b-b7ce-5eb3ee707f83"
+    },
+    {
+      "from": "src/Integrations/instagram/user_insights",
+      "to": "src/Visualizations/Widgets/b55edcaf-124d-45a5-bdc4-ce71be9fea54"
+    },
+    {
+      "from": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+      "to": "src/Visualizations/Widgets/d97923cf-a963-4d2d-bf5d-dee4101054f1"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Visualizations/Widgets/test1"
+    },
+    {
+      "from": "src/Integrations/facebook_pages/page_insight_website_clicks",
+      "to": "src/Visualizations/Widgets/test1___Copy"
+    },
+    {
+      "from": "src/Integrations/MySql_Integration/test_view",
+      "to": "src/Visualizations/Widgets/to_be_deleted"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Hugo_s_Dashboard/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Maciek_s_Dash/Tab_2"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Revenue_Split_by_Channel_by_Region",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Revenue_Split_by_Item",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/COGS___Profit_by_Country",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Regional_Overview__Tabular_",
+      "to": "src/Visualizations/Dashboards/Multilever_Dashboard/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/Test_1",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_COGS___Profit",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/to_be_deleted",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Revenue_Split",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/COGS___Profit_by_Country",
+      "to": "src/Visualizations/Dashboards/Simon_s_Dash/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/12af526e-49de-497e-812e-f9ccd6745a26",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/23181c2c-0142-4926-9f41-4d3bae8dab37",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/a6af756b-3902-4d8b-b7ce-5eb3ee707f83",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/39bc2b4d-87d7-48a4-bedf-8a5c31137f28",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/556a8ae8-0345-4d52-924e-0fd47975d436",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/473cabef-d123-4ff1-b5df-bbe08cd39a62",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/35e4bcba-e469-451a-ab8b-3a088a953970",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/b55edcaf-124d-45a5-bdc4-ce71be9fea54",
+      "to": "src/Visualizations/Dashboards/marcin/Tab_1"
+    },
+    {
+      "to": "src/Visualizations/Dashboards/marcintest/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/test1",
+      "to": "src/Visualizations/Dashboards/test/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio",
+      "to": "src/Visualizations/Dashboards/test/Tab_1"
+    },
+    {
+      "from": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio___Copy",
+      "to": "src/Visualizations/Dashboards/test/Tab_1__copy_"
+    },
+    {
+      "from": "src/Visualizations/Widgets/test1___Copy",
+      "to": "src/Visualizations/Dashboards/test/Tab_1__copy_"
+    },
+    {
+      "from": "src/Integrations/Google_Analytics/website_overview",
+      "to": "src/Exports/My_Google_Sheets_export/Google_Analytics___website_overview"
+    },
+    {
+      "from": "src/Integrations/Google_Analytics/website_overview",
+      "to": "src/Exports/hello/Google_Analytics___website_overview"
+    }
+  ],
+  "nodeDataArray": [
+    {
+      "key": "src/Exports/My_GSH_export",
+      "category": "Export",
+      "location": "12 51",
+      "isGroup": true
+    },
+    {
+      "key": "src/Exports/My_Google_Sheets_export",
+      "category": "Export",
+      "location": "12 113",
+      "isGroup": true
+    },
+    {
+      "key": "src/Exports/My_Google_Sheets_export/Google_Analytics___website_overview",
+      "category": "Export",
+      "isGroup": false,
+      "group": "src/Exports/My_Google_Sheets_export"
+    },
+    {
+      "key": "src/Exports/hello",
+      "category": "Export",
+      "location": "12 175",
+      "isGroup": true
+    },
+    {
+      "key": "src/Exports/hello/Google_Analytics___website_overview",
+      "category": "Export",
+      "isGroup": false,
+      "group": "src/Exports/hello"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/visualization/visualization-widget-settings.json",
+  "chart_type": "table",
+  "settings": {
+    "series": [
+      {
+        "field_id": "71302f8f_ac25_4a21_adf3_469d1b56d951",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "dimensions": [
+      {
+        "field_id": "f538fe17_7464_4a83_8209_c52d10cc8a44",
+        "type": null,
+        "header_name": null,
+        "renderer": "default",
+        "cellSettings": {
+          "backgroundColor": "transparent",
+          "borderColor": "#000000",
+          "borderWidth": 1,
+          "fontSize": 12,
+          "align": "center",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "verticalAlign": "middle",
+          "fontFamily": "Arial",
+          "borderRadius": 0,
+          "padding": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "color": "#a7a7a7",
+          "colorTo": "#a7a7a7",
+          "borderPosition": "noneBorder",
+          "wordBreak": "keepAll",
+          "activeStyles": false
+        },
+        "cellTypesSettings": {
+          "barSettings": {
+            "max": 0,
+            "displayPercent": false,
+            "diffColumn": [
+              "none"
+            ]
+          },
+          "imageSettings": {
+            "width": 50,
+            "height": 50
+          },
+          "distributionSettings": {
+            "type": "bar"
+          }
+        },
+        "format": "inherit",
+        "showAggregationText": true,
+        "sort": "asc"
+      }
+    ],
+    "breakdowns": [],
+    "columnState": [],
+    "groupExpandedKeys": [],
+    "suppressMovable": false,
+    "paging": true,
+    "sortable": true,
+    "resizable": true,
+    "showFooterTotal": false,
+    "rowSettings": {
+      "backgroundColor": "transparent",
+      "borderColor": "#000000",
+      "borderWidth": 1,
+      "fontSize": 12,
+      "align": "center",
+      "fontStyle": "normal",
+      "fontWeight": "normal",
+      "verticalAlign": "middle",
+      "fontFamily": "Arial",
+      "borderRadius": 0,
+      "padding": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "color": "#a7a7a7",
+      "colorTo": "#a7a7a7",
+      "borderPosition": "noneBorder",
+      "wordBreak": "keepAll",
+      "activeStyles": false
+    },
+    "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+    "chart_type": "table",
+    "filters": [],
+    "fields": [
+      {
+        "field": "Pozitive_numbers",
+        "aggregation": "SUM",
+        "type": "INTEGER",
+        "alias": "SUM_Pozitive_numbers_71302f8f_ac25_4a21_adf3_469d1b56d951",
+        "id": "71302f8f_ac25_4a21_adf3_469d1b56d951",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "Date",
+        "aggregation": "WEEK_MONTH",
+        "type": "DATE",
+        "alias": "WEEK_MONTH_Date_46467ab8_5f2a_4ae6_aac2_4024ce359243",
+        "id": "46467ab8_5f2a_4ae6_aac2_4024ce359243",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "Id_repeatable",
+        "aggregation": "SUM",
+        "type": "INTEGER",
+        "alias": "SUM_Id_repeatable_31d762ac_f8d7_43f1_98cd_0ace0e48d14e",
+        "id": "31d762ac_f8d7_43f1_98cd_0ace0e48d14e",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      },
+      {
+        "field": "Text",
+        "aggregation": "VALUE",
+        "type": "STRING",
+        "alias": "VALUE_Text_828c76b6_6eed_4fa3_a361_f35457892aa4",
+        "id": "828c76b6_6eed_4fa3_a361_f35457892aa4",
+        "lowCodeString": null,
+        "functionTree": null,
+        "show_in_percentage": false,
+        "filters": []
+      }
+    ],
+    "settings": {
+      "series": [
+        {
+          "field_id": "71302f8f_ac25_4a21_adf3_469d1b56d951",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "#00000000",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "left",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": true
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        },
+        {
+          "field_id": "31d762ac_f8d7_43f1_98cd_0ace0e48d14e",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "#00000000",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "left",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": true
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "dimensions": [
+        {
+          "field_id": "46467ab8_5f2a_4ae6_aac2_4024ce359243",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "breakdowns": [
+        {
+          "field_id": "828c76b6_6eed_4fa3_a361_f35457892aa4",
+          "type": null,
+          "header_name": null,
+          "renderer": "default",
+          "cellSettings": {
+            "backgroundColor": "transparent",
+            "borderColor": "#000000",
+            "borderWidth": 1,
+            "fontSize": 12,
+            "align": "center",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "verticalAlign": "middle",
+            "fontFamily": "Arial",
+            "borderRadius": 0,
+            "padding": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "color": "#a7a7a7",
+            "colorTo": "#a7a7a7",
+            "borderPosition": "noneBorder",
+            "wordBreak": "keepAll",
+            "activeStyles": false
+          },
+          "cellTypesSettings": {
+            "barSettings": {
+              "max": 0,
+              "displayPercent": false,
+              "diffColumn": [
+                "none"
+              ]
+            },
+            "imageSettings": {
+              "width": 50,
+              "height": 50
+            },
+            "distributionSettings": {
+              "type": "bar"
+            }
+          },
+          "format": "inherit",
+          "showAggregationText": true,
+          "sort": "asc"
+        }
+      ],
+      "columnState": [],
+      "groupExpandedKeys": [],
+      "suppressMovable": false,
+      "paging": true,
+      "sortable": true,
+      "resizable": true,
+      "showFooterTotal": false,
+      "rowSettings": {
+        "backgroundColor": "transparent",
+        "borderColor": "#000000",
+        "borderWidth": 1,
+        "fontSize": 12,
+        "align": "center",
+        "fontStyle": "normal",
+        "fontWeight": "normal",
+        "verticalAlign": "middle",
+        "fontFamily": "Arial",
+        "borderRadius": 0,
+        "padding": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "color": "#a7a7a7",
+        "colorTo": "#a7a7a7",
+        "borderPosition": "noneBorder",
+        "wordBreak": "keepAll",
+        "activeStyles": false
+      }
+    }
+  },
+  "datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1",
+  "filters": [],
+  "fields": [
+    {
+      "field": "Pozitive_numbers",
+      "aggregation": "SUM",
+      "type": "INTEGER",
+      "alias": "SUM_Pozitive_numbers_71302f8f_ac25_4a21_adf3_469d1b56d951",
+      "id": "71302f8f_ac25_4a21_adf3_469d1b56d951",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    },
+    {
+      "field": "Date_time",
+      "aggregation": "DAY_MONTH_YEAR",
+      "type": "TIMESTAMP",
+      "alias": "DAY_MONTH_YEAR_Date_time_f538fe17_7464_4a83_8209_c52d10cc8a44",
+      "id": "f538fe17_7464_4a83_8209_c52d10cc8a44",
+      "lowCodeString": null,
+      "functionTree": null,
+      "show_in_percentage": false,
+      "filters": []
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "request_id": "220706083121_4dbda712-c8e1-58dc-9ad1-7342607f2191",
+  "status": "ready",
+  "request": {
+    "source_credentials": "7b8d4f61-03bd-42e9-b1ff-0d8c72af7f4c",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/source.json",
+      "parent_id": "102004408442825",
+      "start_date": "2021-06-15T17:03:18Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/instagram/0.0.0/table",
+      "columns": [
+        "page_id",
+        "business_account_id",
+        "date",
+        "follower_count",
+        "get_directions_clicks",
+        "impressions",
+        "phone_call_clicks",
+        "profile_views",
+        "reach",
+        "text_message_clicks",
+        "website_clicks",
+        "impressions_week",
+        "reach_week",
+        "impressions_days_28",
+        "reach_days_28",
+        "online_followers"
+      ],
+      "import": "user_insights",
+      "_datos_write_settings": {
+        "max_flatten_depth": 0,
+        "decimals": false
+      }
+    },
+    "created_at": "2022-07-06T08:31:21.487157+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/instagram/user_insights",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "cb5784d63a8d6d47746f7e7b8aaddf53b3ef29cb"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": "85",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-06T08:31:21.487157+00:00",
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-07-06T08:32:16.076991+00:00",
+    "external_state": {
+      "schema_hash": "1d2c53aec4369441c196d1da5ef49ed2"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "5b3fd50a-a919-4ef0-a777-b7040d59c055",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-instagram/ae26d412-1535-48df-ad77-2f5375dc3132",
+    "partial": false,
+    "import_finished_at": "2022-07-06T08:32:34.720012+00:00",
+    "row_count": 29,
+    "current_import_row_count": 29,
+    "size_in_bytes": 4060,
+    "columns": [
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "business_account_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "date",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "follower_count",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "get_directions_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "phone_call_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "profile_views",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "text_message_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "website_clicks",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions_week",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach_week",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "impressions_days_28",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "reach_days_28",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220706083121_4dbda712-c8e1-58dc-9ad1-7342607f2191",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220706083121_4dbda712-c8e1-58dc-9ad1-7342607f2191&page=table"
+  },
+  "finished_at": "2022-07-06T08:32:34.720233+00:00",
+  "_signature": "JteAJZnhINEgQj7vWc2IVrgbqLmuq0BM4bbNjMpYTmc5e7CvSI3ahMJX9Ee6tn+YxWf5hoyR+J1IXGtzqKzXAQ=="
+}

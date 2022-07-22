@@ -3,7 +3,7 @@
   "type": "Text",
   "position": {
     "x": 1179.8828125,
-    "y": 59.577679713321345
+    "y": 65.18311309814453
   },
   "size": {
     "width": 835,
@@ -17,7 +17,7 @@
       "font-weight": "normal",
       "font-size": "40px",
       "font-family": "Arial",
-      "text-align": "left",
+      "text-align": "center",
       "color": "#000"
     },
     "text": "MULTILEVER - REGIONAL SALES OVERVIEW"

@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+  "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+}

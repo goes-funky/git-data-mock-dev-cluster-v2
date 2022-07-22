@@ -1,0 +1,83 @@
+{
+  "run_id": "220701102104_bc5a1b4f-11d9-53f0-83b8-cb9f63420e4f",
+  "status": "ready",
+  "request": {
+    "target": {
+      "storage": {
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "type": "githubapp",
+        "path": "/src/Orchestrations/first",
+        "branch": "main"
+      },
+      "info": {}
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "user",
+      "triggered_by_id": 10
+    }
+  },
+  "details": {
+    "linkDataArray": [
+      {
+        "from": "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f",
+        "to": "2e6274d4-f312-4285-83f8-932dd31e07e3"
+      }
+    ],
+    "nodeDataArray": [
+      {
+        "key": "ddfd3764-55a9-4ee3-8648-c4accb9f4cde",
+        "path": "src/Integrations/Google_Analytics/website_overview",
+        "location": "0 0",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "2e6274d4-f312-4285-83f8-932dd31e07e3",
+        "path": "src/Models/UI/facebook_model/facebook_model",
+        "location": "524.0456949966158 62",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      },
+      {
+        "key": "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f",
+        "path": "src/Integrations/facebook_pages/page_insight_website_clicks",
+        "location": "0 62",
+        "onFailure": "stop",
+        "nodeConfig": {
+          "incremental": true
+        }
+      }
+    ],
+    "visualDataArray": [],
+    "nodeStatusArray": {
+      "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": "ready",
+      "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": "ready",
+      "2e6274d4-f312-4285-83f8-932dd31e07e3": "ready"
+    },
+    "jobs": {
+      "ddfd3764-55a9-4ee3-8648-c4accb9f4cde": {
+        "run": "src/Integrations/Google_Analytics/website_overview/.y42/run_220701102106_222a917a-cbf2-5cf9-9aab-cdee0eae160c.json"
+      },
+      "d2f77100-9afe-43c1-97b0-4b5cb2e36f1f": {
+        "run": "src/Integrations/facebook_pages/page_insight_website_clicks/.y42/run_220701102108_99a5cc5e-dc64-5e4d-8279-a42d6532439b.json"
+      },
+      "2e6274d4-f312-4285-83f8-932dd31e07e3": {
+        "run": "src/Models/UI/facebook_model/facebook_model/.y42/run_220701102222_1ef1edbe-96f6-5810-8b97-25c1fd14405c.json"
+      }
+    }
+  },
+  "created_at": "2022-07-01T10:21:04.293712+00:00",
+  "finished_at": "2022-07-01T10:23:08.549133+00:00",
+  "latest_pulse_at": null,
+  "updated_at": "2022-07-01T10:23:08.549182+00:00",
+  "canceled_at": null,
+  "failed_at": null,
+  "_lock_token": "c93b1433-a37e-4ce4-84f5-52409f5e5526",
+  "_signature": "hMNZ/52O6MQPd+ZTtibSXo8rSACRoSNLe/OfDC2R+mubL5GmzBAWYw/xiDG+BZrWftRRgJPii2kC/HeNJzRaAw=="
+}
