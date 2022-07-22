@@ -1,0 +1,4239 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "tmp_test_data-campaign",
+      "table_name": "campaign",
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "create_time": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "archive_url": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "long_archive_url": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "send_time": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "content_type": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "list_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "segment_text": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "segment_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "title": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "to_name": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "authenticate": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "timewarp": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "subject_line": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "from_name": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "reply_to": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "use_conversation": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "folder_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "auto_footer": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "inline_css": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "auto_tweet": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "fb_comments": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "template_id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "drag_and_drop": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "clicktale": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "track_html_clicks": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "track_text_clicks": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "track_goals": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "track_opens": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "track_ecomm_360": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "google_analytics": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_deleted": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "winning_combination_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "winning_campaign_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "winner_criteria": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "wait_time": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "test_size": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "_fivetran_synced": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "campaign",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 0,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "create_time"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "archive_url"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "long_archive_url"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "status"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "send_time"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "content_type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "list_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "segment_text"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "segment_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "title"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "to_name"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "authenticate"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timewarp"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "subject_line"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "from_name"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "reply_to"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "use_conversation"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "folder_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "auto_footer"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "inline_css"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "auto_tweet"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "fb_comments"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "template_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "drag_and_drop"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "clicktale"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "track_html_clicks"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "track_text_clicks"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "track_goals"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "track_opens"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "track_ecomm_360"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "google_analytics"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_deleted"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "winning_combination_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "winning_campaign_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "winner_criteria"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "wait_time"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "test_size"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_synced"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-fivetran_audit",
+      "table_name": "fivetran_audit",
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "message": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "update_started": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "update_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "schema": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "table": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "start": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "done": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "rows_updated_or_inserted": {
+            "inclusion": "available",
+            "minimum": -9223372036854775808,
+            "maximum": 9223372036854775807,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "status": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "progress": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_synced": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "fivetran_audit",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 6,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "message"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "update_started"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "update_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "schema"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "table"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "start"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "done"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "rows_updated_or_inserted"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "bigint(20)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "status"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "progress"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_synced"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-list",
+      "table_name": "list",
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_company": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_address_1": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_address_2": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_city": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_state": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_zip": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contact_country": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "visibility": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_deleted": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "permission_reminder": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "use_archive_bar": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "default_subject": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "default_language": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "default_from_name": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "default_from_email": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "notify_on_subscribe": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "notify_on_unsubscribe": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "date_created": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "list_rating": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "email_type_option": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "subscribe_url_short": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "subscribe_url_long": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "beamer_address": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_synced": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "list",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 0,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "name"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_company"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_address_1"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_address_2"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_city"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_state"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_zip"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "contact_country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "visibility"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_deleted"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permission_reminder"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "use_archive_bar"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "default_subject"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "default_language"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "default_from_name"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "default_from_email"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "notify_on_subscribe"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "notify_on_unsubscribe"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "date_created"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "list_rating"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "email_type_option"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "subscribe_url_short"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "subscribe_url_long"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "beamer_address"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_synced"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-member",
+      "table_name": "member",
+      "schema": {
+        "properties": {
+          "list_id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "language": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "vip": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "latitude": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "longitude": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "gmtoff": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "dstoff": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "country_code": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "timezone": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "email_address": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "unique_email_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "email_type": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "ip_signup": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "timestamp_signup": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "ip_opt": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "timestamp_opt": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "member_rating": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "last_changed": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "email_client": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "merge_lname": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "merge_fname": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "merge_address": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "merge_phone": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_synced": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "member",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 1005,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "list_id",
+              "id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "list_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "status"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "language"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "vip"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "latitude"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "longitude"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "gmtoff"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "dstoff"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "double"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country_code"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timezone"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "email_address"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unique_email_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "email_type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ip_signup"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timestamp_signup"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ip_opt"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timestamp_opt"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "member_rating"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "last_changed"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "email_client"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "merge_lname"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "merge_fname"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "merge_address"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "json"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "merge_phone"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_synced"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-segment",
+      "table_name": "segment",
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "name": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_deleted": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "member_count": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "created_at": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "updated_at": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "list_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_synced": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "segment",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 342,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "name"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_deleted"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "member_count"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "created_at"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "updated_at"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "list_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_synced"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-segment_member",
+      "table_name": "segment_member",
+      "schema": {
+        "properties": {
+          "member_id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "segment_id": {
+            "inclusion": "automatic",
+            "maxLength": 256,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "list_id": {
+            "inclusion": "available",
+            "maxLength": 4294967295,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_fivetran_deleted": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "_fivetran_synced": {
+            "inclusion": "available",
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "segment_member",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 5324,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "member_id",
+              "segment_id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "member_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "segment_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(256)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "list_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "longtext"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_deleted"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "tinyint(1)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_fivetran_synced"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "timestamp(6)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-smaller_test",
+      "table_name": "smaller_test",
+      "schema": {
+        "properties": {
+          "region": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "country": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "item": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sales_channel": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_priority": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ship_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "units_sold": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "unit_price": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "unit_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_revenue": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_profit": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "smaller_test",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 2000,
+            "is-view": false,
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "region"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "item"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sales_channel"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_priority"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ship_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "units_sold"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_price"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_revenue"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_profit"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-test",
+      "table_name": "test",
+      "schema": {
+        "properties": {
+          "region": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "country": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "item": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sales_channel": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_priority": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ship_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "units_sold": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "unit_price": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "unit_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_revenue": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_profit": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "test",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 990625,
+            "is-view": false,
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "region"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "item"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sales_channel"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_priority"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ship_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "units_sold"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_price"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_revenue"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_profit"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-testt",
+      "table_name": "testt",
+      "schema": {
+        "properties": {
+          "id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "en": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "de": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "fr": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "testt",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 2,
+            "is-view": false,
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "en"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "de"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "fr"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-test_other",
+      "table_name": "test_other",
+      "schema": {
+        "properties": {
+          "region": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "country": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "item": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sales_channel": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_priority": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ship_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "units_sold": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "unit_price": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "unit_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_revenue": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_profit": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "test_other",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 0,
+            "is-view": false,
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "region"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "item"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sales_channel"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_priority"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ship_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "units_sold"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_price"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_revenue"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_profit"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-test_pk",
+      "table_name": "test_pk",
+      "schema": {
+        "properties": {
+          "region": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "country": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "item": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sales_channel": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_priority": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ship_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "units_sold": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "unit_price": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "unit_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_revenue": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_profit": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "id": {
+            "inclusion": "automatic",
+            "minimum": 0,
+            "maximum": 4294967295,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "sdc_deleted_at": {
+            "inclusion": "automatic",
+            "format": "date-time",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sdc_extracted_at": {
+            "inclusion": "automatic",
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "test_pk",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 994904,
+            "is-view": false,
+            "y42-extraction-key": "sdc_extracted_at",
+            "table-key-properties": [
+              "id"
+            ]
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "region"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "item"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sales_channel"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_priority"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ship_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "units_sold"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_price"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_revenue"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_profit"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(10) unsigned"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_deleted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sdc_extracted_at"
+          ],
+          "metadata": {
+            "generated": true,
+            "inclusion": "automatic"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-test_view",
+      "table_name": "test_view",
+      "schema": {
+        "properties": {
+          "country": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_priority": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "test_view",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "is-view": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_priority"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-tmp_view_pk",
+      "table_name": "tmp_view_pk",
+      "schema": {
+        "properties": {
+          "region": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "country": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "item": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "type": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "sales_channel": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_priority": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "order_id": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "ship_date": {
+            "inclusion": "available",
+            "maxLength": 255,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "units_sold": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "unit_price": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "unit_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_revenue": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_cost": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "total_profit": {
+            "inclusion": "available",
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "id": {
+            "inclusion": "available",
+            "minimum": 0,
+            "maximum": 4294967295,
+            "type": [
+              "null",
+              "integer"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "tmp_view_pk",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "is-view": true
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "region"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "country"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "item"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "type"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "sales_channel"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_priority"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "order_id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ship_date"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(255)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "units_sold"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_price"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "unit_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_revenue"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_cost"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "total_profit"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "float"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(10) unsigned"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "tmp_test_data-yourtable",
+      "table_name": "yourtable",
+      "schema": {
+        "properties": {
+          "en": {
+            "inclusion": "available",
+            "maxLength": 4,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "de": {
+            "inclusion": "available",
+            "maxLength": 5,
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "fr": {
+            "inclusion": "available",
+            "minimum": -2147483648,
+            "maximum": 2147483647,
+            "type": [
+              "null",
+              "integer"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "yourtable",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "selected-by-default": false,
+            "database-name": "tmp_test_data",
+            "row-count": 2,
+            "is-view": false,
+            "table-key-properties": []
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "en"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(4)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "de"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "varchar(5)"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "fr"
+          ],
+          "metadata": {
+            "selected-by-default": true,
+            "sql-datatype": "int(11)"
+          }
+        }
+      ]
+    }
+  ],
+  "_signature": "fug4Ha0lT2+B943CEdy/EUl2fbdqXeS9ICBObE6cyc2aGrgPW+WIAYWdGvnWwM60jhW2v9PITG3H5qCLvE8RAA=="
+}
