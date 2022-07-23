@@ -1,6 +1,6 @@
 {
   "request_id": "220723194009_25505720-4f94-5e37-91d2-1ecce0672431",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -104,7 +104,62 @@
     "write_disposition": "TRUNCATE",
     "external_id": "ad82acbc-1b1d-4da9-bcb1-da5a33560720",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/7202d72e-185f-4ce6-a3bc-0de34baa015e",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-23T19:41:34.160841+00:00",
+    "row_count": 4341,
+    "current_import_row_count": 4341,
+    "size_in_bytes": 923002,
+    "previous_id": "a4a3bc33-20ff-579c-aa84-448be73dc7d5",
+    "columns": [
+      {
+        "field_name": "name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "period",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "value",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "context",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "end_time",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "page_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      }
+    ],
+    "table_name": "220723194009_25505720-4f94-5e37-91d2-1ecce0672431",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220723194009_25505720-4f94-5e37-91d2-1ecce0672431&page=table"
   },
-  "_signature": "XXB1GzJmOU+ERi51CKRdZluIpQcChwmiQ22KI6R3FKNpgplYauSiPu18g128RUrRMSFHZC2gm1zyKvL3jFraAg=="
+  "finished_at": "2022-07-23T19:41:34.160974+00:00",
+  "_signature": "ylQKSfy8CpaCkgktWp1K3G9By7CN0t6TUmMTeFTapgAVhfIcRiahbnqyEMrs+BlZULZYFfsXhw7+xzqmmP9CCw=="
 }
