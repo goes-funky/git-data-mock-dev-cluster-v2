@@ -1,6 +1,6 @@
 {
   "request_id": "220723070014_422b6579-60bf-5ecb-9849-601d1d20bd42",
-  "status": "ready",
+  "status": "pending",
   "request": {
     "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -131,7 +131,35 @@
       }
     ],
     "table_name": "220723070014_422b6579-60bf-5ecb-9849-601d1d20bd42",
-    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220723070014_422b6579-60bf-5ecb-9849-601d1d20bd42&page=table"
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220723070014_422b6579-60bf-5ecb-9849-601d1d20bd42&page=table",
+    "export_finished_at": "2022-07-23T07:03:20.677104+00:00",
+    "external_state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "write_disposition": "TRUNCATE",
+    "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-facebook-pages/de5d4c93-f885-4499-bf79-87e26c6b7b97",
+    "partial": false
   },
-  "_signature": "nxzbkHtLkVJs0glf4ab1dhgzfSe7fkuFhjSnBQwmqmppq6VFmkfMSC78pqLutlr5bE14xkUQ2uj54hMllFFTDA=="
+  "_signature": "dl4SijcJ6z8jfKoOxo5FloLibjQ3netlQVwmT0zACyZXNhmAagDAt5xgiksnU2CYfSr8E3ES042EEiFjgm66CA=="
 }
