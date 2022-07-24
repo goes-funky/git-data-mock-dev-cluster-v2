@@ -1,8 +1,45 @@
 {
   "request_id": "220724024010_f69db294-9f9a-52ec-9442-dca6fc6aa7e0",
-  "status": "invalid",
+  "status": "pending",
   "failed_at": "2022-07-24T02:40:29.416036+00:00",
   "error_code": 422,
   "error_message": "{\"severity\":\"ERROR\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"datetime\":\"2022-07-24T02:40:29.313211+00:00\",\"requestId\":\"79e7a98b-a59c-40ca-8518-7d430b7d74bc\",\"exception\":{\"class\":\"TypeError\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"code\":0,\"file\":\"/var/www/vendor/datos_intelligence/api_connector/src/ApiConnector.php:25\"},\"channel\":\"local\"}",
-  "_signature": "PCck9YR2rI/Y0pZMHThmEtItysLkpA7D4AmQ94ckx6KVDg+dnV0tvdYfvdmmzVmpMJpzousXKnsfPNyhiMF7CA=="
+  "request": {
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/source.json",
+      "tablesOrder": [
+        "table_1"
+      ]
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/sql_model/0.0.0/table.json"
+    },
+    "created_at": "2022-07-24T02:40:10.422208+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Models/SQL/My_SQL_Model/table_1",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "4045a0e39e379925d98d251db8e3ed2236e9eff3"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_2b7783cc-6f35-4327-aa14-a0722bb18f9a.json",
+      "trial": true
+    },
+    "previous_import_id": "223e23d3-0eef-560c-9b1f-a743e947e58c",
+    "previous_table_id": "220720152511_223e23d3-0eef-560c-9b1f-a743e947e58c"
+  },
+  "created_at": "2022-07-24T02:40:10.422208+00:00",
+  "_signature": "AxeXlljEjQddgKB3oxFLrpG+YGst3OYTmxKGJlHOok1xCAtqXNSXrSjyyoo/tX3imXO5XcnoG2vi/chbf7M3AA=="
 }
