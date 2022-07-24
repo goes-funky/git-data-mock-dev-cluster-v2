@@ -1,9 +1,43 @@
 {
   "request_id": "220724094015_d116b865-450a-5804-87ed-858c65244da4",
-  "status": "ready",
+  "status": "pending",
   "finished_at": "2022-07-24T09:40:39.527383+00:00",
   "details": {
     "external_url": "https://storage.googleapis.com/y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/exportUploads/220724094015_d116b865-450a-5804-87ed-858c65244da4.xlsx?Expires=1661334039&GoogleAccessId=datos-d-bigquery%40datos-tech.iam.gserviceaccount.com&Signature=nnYNHkEk%2FII%2BS5pZBd3gtHGDxlvYPt%2ByDRG8AG63ekbL7PlIauxp3mSMr7hj1TgH5Jf7MnYP4oMzNivsVMiUL7WOrq52ze8nv4mPtspnlJsPlW3sMsKWwBlnW5PLbIWUovZYzYr5gSmtDN3UDCUFfguQflSUQJDWiLnHenbxwJLukPYRvNMoS7BhC4jzCE%2FNgfJL%2BCbnMXPg6NgqBEoOXwH%2Fu705CSaU0ov0YN%2BSJll%2Ff8471e3%2FRqw%2FSOX9qnFtcMjPvOLsBX%2BIDIdBSssc%2FEvVmxkF3YS4nRZDn0xGGEjTRwA35jesvw5O6kaq2%2BckVmAgbvddtqVf6ZfgpQVcYQ%3D%3D"
   },
-  "_signature": "1pAfdWYYd/bSJP2FlCQbPKV7wDRUeKBB0BltEVE8BLmktm+mdsZcPyU/T47wsUuwQdZgnNQ5YJGHnicDtAbrBg=="
+  "request": {
+    "company_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "export_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/source.json"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/exports/xlsx/0.0.0/table",
+      "datasource_table": "src/Integrations/Google_Analytics/website_overview"
+    },
+    "import_table": "220708135637_d567ebd2-8744-51cc-99e7-dfd26addd031",
+    "created_at": "2022-07-24T09:40:15.055020+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Exports/hello/Google_Analytics___website_overview",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "ca6b485f856e026a6485282b6785e86e82c89faa"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_959c6455-f0d6-4cb6-b03f-adc11d5ab5e7.json",
+      "trial": true
+    }
+  },
+  "created_at": "2022-07-24T09:40:15.055020+00:00",
+  "_signature": "EF0k0M0pL1JWsQJgew1rteiyesZG4bviygUNfZXwV3BgoiayDqbhfSwxw28MVoSrQzLCPQnnBpMM2OSIZae0DA=="
 }
