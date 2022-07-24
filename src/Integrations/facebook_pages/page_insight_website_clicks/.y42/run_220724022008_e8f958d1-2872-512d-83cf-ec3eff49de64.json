@@ -1,0 +1,78 @@
+{
+  "request_id": "220724022008_e8f958d1-2872-512d-83cf-ec3eff49de64",
+  "status": "pending",
+  "request": {
+    "source_credentials": "616d1d39-3cac-493f-be89-d52df43ab563",
+    "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
+    "source_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/source.json",
+      "parent_id": "102004408442825,105306121815794,110203024472908",
+      "start_date": "2021-06-15T15:40:24Z"
+    },
+    "table_settings": {
+      "$schema": "https://s.dev.y42.dev/integrations/facebook-pages/0.0.0/table",
+      "columns": [
+        "name",
+        "period",
+        "value",
+        "context",
+        "end_time",
+        "title",
+        "description",
+        "id",
+        "page_id"
+      ],
+      "import": "page_insight_website_clicks"
+    },
+    "created_at": "2022-07-24T02:20:08.374720+00:00",
+    "target": {
+      "storage": {
+        "type": "githubapp",
+        "path": "/src/Integrations/facebook_pages/page_insight_website_clicks",
+        "id": "6:909f4b48-879e-4a1e-acca-6c1a4fcfa2ff",
+        "branch": "main"
+      },
+      "info": {
+        "app_id": "24758422",
+        "owner": "goes-funky",
+        "repo": "git-data-mock-dev-cluster-v2",
+        "commit_sha": "671d1d7f52037b2c24d9962b762922340751eaca"
+      }
+    },
+    "context": {
+      "company_id": 6,
+      "company_slug": "y42-demo",
+      "triggered_by_type": "orchestration",
+      "triggered_by_id": "/src/Orchestrations/first/.y42/run_ead8dfa8-ab13-4767-849f-8495fdf4d260.json",
+      "trial": true
+    },
+    "state": {
+      "bookmarks": {
+        "page_insight_website_clicks": {
+          "partitions": [
+            {
+              "context": {
+                "page_id": "102004408442825"
+              }
+            },
+            {
+              "context": {
+                "page_id": "105306121815794"
+              }
+            },
+            {
+              "context": {
+                "page_id": "110203024472908"
+              }
+            }
+          ]
+        }
+      },
+      "schema_hash": "9ae04295eb7ef2f09742bff479d3c672"
+    },
+    "previous_import_id": "e473ca39-30ea-5e4e-aef2-3136a10da4b7",
+    "previous_table_id": "220724020015_e473ca39-30ea-5e4e-aef2-3136a10da4b7"
+  },
+  "created_at": "2022-07-24T02:20:08.374720+00:00",
+  "_signature": "iF8Ucway+5ng8kci/DdfcPimF1TDEjjuHaga/NU5aWd9t5lKfgEjHd66nsqPPqdS/3OalGccci3pJ87xCC1MCQ=="
+}
