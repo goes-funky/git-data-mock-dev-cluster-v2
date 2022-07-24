@@ -1,6 +1,6 @@
 {
   "request_id": "220724052012_53be2cd7-04a6-5870-9c50-a296a3a4d7f7",
-  "status": "pending",
+  "status": "invalid",
   "request": {
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
     "source_settings": {
@@ -36,5 +36,8 @@
     "previous_table_id": "220706122415_5408bae1-2c52-52a3-8f38-8bee5dadff93"
   },
   "created_at": "2022-07-24T05:20:12.863665+00:00",
-  "_signature": "81c4JADhyPedn9T13jEuTHMhbeS7TMLS7nkUq/O5FaZOBQWQxONGO0Vx1pfIRzrK2I4hEMWU2grOwuMU1VEPDw=="
+  "failed_at": "2022-07-24T05:20:59.660731+00:00",
+  "error_code": 422,
+  "error_message": "{\"severity\":\"ERROR\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"datetime\":\"2022-07-24T05:20:59.553527+00:00\",\"requestId\":\"786aa6e7-4819-458a-bd77-99b5e971d35c\",\"exception\":{\"class\":\"TypeError\",\"message\":\"Datos\\\\ApiConnector\\\\ApiConnector::__construct(): Argument #1 ($baseUri) must be of type string, null given, called in /var/www/vendor/y42/analytics-query-builder/src/Services/HttpClients/JobInfoClient.php on line 22\",\"code\":0,\"file\":\"/var/www/vendor/datos_intelligence/api_connector/src/ApiConnector.php:25\"},\"channel\":\"local\"}",
+  "_signature": "Gz7xs7TqtaFHbleGhn1AURb80Jjx+Mvds+3+fdLZcEWGh0dNQ1cN5YtSFBMlVLDtDSO/meclZYDz0CHmfFnnCg=="
 }
