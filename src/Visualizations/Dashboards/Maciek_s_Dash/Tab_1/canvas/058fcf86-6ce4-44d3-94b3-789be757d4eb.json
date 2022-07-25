@@ -12,7 +12,9 @@
   "zIndex": 0,
   "layer": "default",
   "angle": 0,
-  "typeSettings": null,
+  "typeSettings": {
+    "widgetPath": "src/Visualizations/Widgets/2021_Cost_to_Profit_ratio"
+  },
   "styles": {
     "background-color": "#ffffff",
     "border-color": "#f2f2f2",
