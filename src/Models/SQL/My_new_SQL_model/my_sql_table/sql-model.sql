@@ -10,4 +10,4 @@ Select
   ga_avgtimeonpage,
   ga_bouncerate,
   ga_exitrate
-from {{ ref('src/Integrations/Google_Analytics/website_overview') }} as A where A.
+from {{ ref('src/Integrations/Google_Analytics/website_overview') }}
