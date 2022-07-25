@@ -1,0 +1,4 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/csv/0.0.0/table",
+  "datasource_table": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1"
+}
