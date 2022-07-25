@@ -1,6 +1,6 @@
 {
   "request_id": "220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "b0c28dcf-bc00-4858-9377-afd516fbb4c6",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -80,7 +80,126 @@
     "write_disposition": "TRUNCATE",
     "external_id": "eab1ddf0-c0f5-4024-80a9-0152637a3074",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-shopify/fda67800-6eb4-4d11-8490-a094dd6ff1c0",
-    "partial": true
+    "partial": true,
+    "import_finished_at": "2022-07-25T08:44:00.977759+00:00",
+    "row_count": 474,
+    "current_import_row_count": 474,
+    "size_in_bytes": 475116,
+    "columns": [
+      {
+        "field_name": "last_order_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "currency",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "email",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "multipass_identifier",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "default_address",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "orders_count",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "state",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "verified_email",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "total_spent",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_order_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "first_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "note",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "phone",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "admin_graphql_api_id",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "addresses",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "last_name",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tags",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "tax_exempt",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "accepts_marketing",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      }
+    ],
+    "table_name": "220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220725084239_0c42f5a9-f962-5c93-aa70-76186b45a832&page=table"
   },
-  "_signature": "jJ19r/MiAyzKLEgftOQZ07BxqRSH6/IhmWK6spn6FsmLPq3Cmb++lxAAG1o0q21EGiyS6ajxEaGO1zCzXb0oDw=="
+  "finished_at": "2022-07-25T08:44:00.977938+00:00",
+  "_signature": "sX+4hRjCP3VPm2o5JSKS8OUINgCjFRbYgRG8XoGcM1HhWC1hpK/GnsW+1Bj8q2/Kze25WhndwUC2hDe5gUyICQ=="
 }
