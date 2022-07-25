@@ -1,0 +1,8 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.0/visualization/visualization-dashboard-settings.json",
+  "theme": "marcin-23a1681a-4ee9-470d-873f-7ed6fc86b374.json",
+  "order": [
+    "src/Visualizations/Dashboards/marcin/Tab_1"
+  ],
+  "last_used_datasource_table_path": "src/Integrations/Google_sheets_all_field_types/Copy of Numeric2-Sheet1"
+}

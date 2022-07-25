@@ -1,0 +1,19 @@
+{
+  "$schema": "https://s.dev.y42.dev/frontend/0.0.1/core/y42-metadata.json",
+  "name": "marcin-23a1681a-4ee9-470d-873f-7ed6fc86b374.json",
+  "description": "",
+  "tags": [],
+  "owners": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "experts": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "watchers": {
+    "user_ids": [],
+    "team_ids": []
+  },
+  "asset_status": "no status"
+}
