@@ -1,6 +1,6 @@
 {
   "request_id": "220725083113_bab8dfe9-1532-502b-9cfc-eb8d8d63fd88",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "2f834608-60cd-4866-bae1-42ea2a0cc000",
     "target_credentials": "d1c0c221-4a2f-4c3d-8a2d-ff57308ce5fe",
@@ -77,7 +77,141 @@
     "write_disposition": "TRUNCATE",
     "external_id": "feb96e3b-39bf-44c5-a9a7-d4205edded42",
     "storage_file": "gs://y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048/userUploads/v2/tap-zendesk/21d6a446-107a-4efc-a169-61b493c27b0c",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-07-25T08:31:50.519623+00:00",
+    "row_count": 7,
+    "current_import_row_count": 7,
+    "size_in_bytes": 1889,
+    "columns": [
+      {
+        "field_name": "created_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "title_in_portal",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "visible_in_portal",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "collapsed_for_agents",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "regexp_for_validation",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "position",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "type",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "editable_in_portal",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "raw_title_in_portal",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "raw_description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "custom_field_options",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "updated_at",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP"
+      },
+      {
+        "field_name": "tag",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "removable",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "active",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "url",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "raw_title",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "required",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      },
+      {
+        "field_name": "description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "agent_description",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "required_in_portal",
+        "data_type": "BOOLEAN",
+        "external_data_type": "BOOLEAN"
+      },
+      {
+        "field_name": "system_field_options",
+        "data_type": "STRING",
+        "external_data_type": "STRING"
+      },
+      {
+        "field_name": "sub_type_id",
+        "data_type": "INTEGER",
+        "external_data_type": "INTEGER"
+      }
+    ],
+    "table_name": "220725083113_bab8dfe9-1532-502b-9cfc-eb8d8d63fd88",
+    "external_url": "https://console.cloud.google.com/bigquery?p=datos-tech&d=y42_newdevspace_ee3d738c7fe64ddfa1063f679c5b1048&t=220725083113_bab8dfe9-1532-502b-9cfc-eb8d8d63fd88&page=table"
   },
-  "_signature": "0IGCpJuYzYlg2d3HvaU83/OSCPeHYHNJYHbuCC25B50pW/D2JpUQyb7ISLyDetRHGxR+tapviiy4lrVYlIFTAg=="
+  "finished_at": "2022-07-25T08:31:50.519852+00:00",
+  "_signature": "n0inuhiv96IAqglgJDrtmEk44GoC60V3XLakKcBVPqgex5438NZX4YLgjPOlB3Zlc/ydHL5sDSB27vZdPmSfAg=="
 }
