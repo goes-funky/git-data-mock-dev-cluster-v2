@@ -1,31 +1,19 @@
 {
   "streams": [
     {
-      "tap_stream_id": "stories",
+      "tap_stream_id": "users",
       "key_properties": [
         "id"
       ],
       "schema": {
         "properties": {
-          "business_account_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "page_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "caption": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
           "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "biography": {
             "type": [
               "null",
               "string"
@@ -34,61 +22,34 @@
           "ig_id": {
             "type": [
               "null",
-              "string"
+              "integer"
             ]
           },
-          "like_count": {
+          "followers_count": {
             "type": [
               "null",
               "integer"
             ]
           },
-          "media_type": {
+          "follows_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "media_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "name": {
             "type": [
               "null",
               "string"
             ]
           },
-          "media_url": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "owner": {
-            "properties": {
-              "id": {
-                "type": [
-                  "null",
-                  "string"
-                ]
-              }
-            },
-            "type": [
-              "null",
-              "object"
-            ]
-          },
-          "permalink": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "shortcode": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "thumbnail_url": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "timestamp": {
-            "format": "date-time",
+          "profile_picture_url": {
             "type": [
               "null",
               "string"
@@ -99,11 +60,17 @@
               "null",
               "string"
             ]
+          },
+          "website": {
+            "type": [
+              "null",
+              "string"
+            ]
           }
         },
         "type": "object"
       },
-      "stream": "stories",
+      "stream": "users",
       "metadata": [
         {
           "breadcrumb": [],
@@ -112,33 +79,6 @@
               "id"
             ],
             "forced-replication-method": "FULL_TABLE",
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "business_account_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "page_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "caption"
-          ],
-          "metadata": {
             "inclusion": "available"
           }
         },
@@ -154,6 +94,15 @@
         {
           "breadcrumb": [
             "properties",
+            "biography"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
             "ig_id"
           ],
           "metadata": {
@@ -163,7 +112,7 @@
         {
           "breadcrumb": [
             "properties",
-            "like_count"
+            "followers_count"
           ],
           "metadata": {
             "inclusion": "available"
@@ -172,7 +121,7 @@
         {
           "breadcrumb": [
             "properties",
-            "media_type"
+            "follows_count"
           ],
           "metadata": {
             "inclusion": "available"
@@ -181,7 +130,7 @@
         {
           "breadcrumb": [
             "properties",
-            "media_url"
+            "media_count"
           ],
           "metadata": {
             "inclusion": "available"
@@ -190,7 +139,7 @@
         {
           "breadcrumb": [
             "properties",
-            "owner"
+            "name"
           ],
           "metadata": {
             "inclusion": "available"
@@ -199,34 +148,7 @@
         {
           "breadcrumb": [
             "properties",
-            "permalink"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "shortcode"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "thumbnail_url"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "timestamp"
+            "profile_picture_url"
           ],
           "metadata": {
             "inclusion": "available"
@@ -236,6 +158,15 @@
           "breadcrumb": [
             "properties",
             "username"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "website"
           ],
           "metadata": {
             "inclusion": "available"
@@ -448,6 +379,106 @@
       ]
     },
     {
+      "tap_stream_id": "user_lifetime_insights",
+      "key_properties": [
+        "id"
+      ],
+      "schema": {
+        "properties": {
+          "page_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "business_account_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "date": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "metric": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "value": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "user_lifetime_insights",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "id"
+            ],
+            "forced-replication-method": "FULL_TABLE",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "page_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "business_account_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "metric"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "value"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    },
+    {
       "tap_stream_id": "story_insights",
       "key_properties": [
         "id"
@@ -599,545 +630,6 @@
           "breadcrumb": [
             "properties",
             "taps_back"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        }
-      ]
-    },
-    {
-      "tap_stream_id": "users",
-      "key_properties": [
-        "id"
-      ],
-      "schema": {
-        "properties": {
-          "id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "biography": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "ig_id": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "followers_count": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "follows_count": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "media_count": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "name": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "profile_picture_url": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "username": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "website": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        },
-        "type": "object"
-      },
-      "stream": "users",
-      "metadata": [
-        {
-          "breadcrumb": [],
-          "metadata": {
-            "table-key-properties": [
-              "id"
-            ],
-            "forced-replication-method": "FULL_TABLE",
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "id"
-          ],
-          "metadata": {
-            "inclusion": "automatic"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "biography"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "ig_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "followers_count"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "follows_count"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "media_count"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "name"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "profile_picture_url"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "username"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "website"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        }
-      ]
-    },
-    {
-      "tap_stream_id": "user_insights",
-      "key_properties": [
-        "id"
-      ],
-      "schema": {
-        "properties": {
-          "page_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "business_account_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "date": {
-            "format": "date-time",
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "follower_count": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "get_directions_clicks": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "impressions": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "phone_call_clicks": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "profile_views": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "reach": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "text_message_clicks": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "website_clicks": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "impressions_week": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "reach_week": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "impressions_days_28": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "reach_days_28": {
-            "type": [
-              "null",
-              "integer"
-            ]
-          },
-          "online_followers": {
-            "type": [
-              "null",
-              "object"
-            ]
-          }
-        },
-        "type": "object"
-      },
-      "stream": "user_insights",
-      "metadata": [
-        {
-          "breadcrumb": [],
-          "metadata": {
-            "table-key-properties": [
-              "id"
-            ],
-            "forced-replication-method": "FULL_TABLE",
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "page_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "business_account_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "date"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "follower_count"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "get_directions_clicks"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "impressions"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "phone_call_clicks"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "profile_views"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "reach"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "text_message_clicks"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "website_clicks"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "impressions_week"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "reach_week"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "impressions_days_28"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "reach_days_28"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "online_followers"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        }
-      ]
-    },
-    {
-      "tap_stream_id": "user_lifetime_insights",
-      "key_properties": [
-        "id"
-      ],
-      "schema": {
-        "properties": {
-          "page_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "business_account_id": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "date": {
-            "format": "date-time",
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "metric": {
-            "type": [
-              "null",
-              "string"
-            ]
-          },
-          "value": {
-            "type": [
-              "null",
-              "string"
-            ]
-          }
-        },
-        "type": "object"
-      },
-      "stream": "user_lifetime_insights",
-      "metadata": [
-        {
-          "breadcrumb": [],
-          "metadata": {
-            "table-key-properties": [
-              "id"
-            ],
-            "forced-replication-method": "FULL_TABLE",
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "page_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "business_account_id"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "date"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "metric"
-          ],
-          "metadata": {
-            "inclusion": "available"
-          }
-        },
-        {
-          "breadcrumb": [
-            "properties",
-            "value"
           ],
           "metadata": {
             "inclusion": "available"
@@ -1518,7 +1010,515 @@
           }
         }
       ]
+    },
+    {
+      "tap_stream_id": "stories",
+      "key_properties": [
+        "id"
+      ],
+      "schema": {
+        "properties": {
+          "business_account_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "page_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "caption": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "ig_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "like_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "media_type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "media_url": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "owner": {
+            "properties": {
+              "id": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              }
+            },
+            "type": [
+              "null",
+              "object"
+            ]
+          },
+          "permalink": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "shortcode": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "thumbnail_url": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "timestamp": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "username": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "stories",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "id"
+            ],
+            "forced-replication-method": "FULL_TABLE",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "business_account_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "page_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "caption"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "id"
+          ],
+          "metadata": {
+            "inclusion": "automatic"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ig_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "like_count"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "media_type"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "media_url"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "owner"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "permalink"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "shortcode"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "thumbnail_url"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timestamp"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "username"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    },
+    {
+      "tap_stream_id": "user_insights",
+      "key_properties": [
+        "id"
+      ],
+      "schema": {
+        "properties": {
+          "page_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "business_account_id": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "date": {
+            "format": "date-time",
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "follower_count": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "get_directions_clicks": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "impressions": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "phone_call_clicks": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "profile_views": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "reach": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "text_message_clicks": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "website_clicks": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "impressions_week": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "reach_week": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "impressions_days_28": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "reach_days_28": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "online_followers": {
+            "type": [
+              "null",
+              "object"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "user_insights",
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": [
+              "id"
+            ],
+            "forced-replication-method": "INCREMENTAL",
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "page_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "business_account_id"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "date"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "follower_count"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "get_directions_clicks"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "impressions"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "phone_call_clicks"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "profile_views"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "reach"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "text_message_clicks"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "website_clicks"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "impressions_week"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "reach_week"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "impressions_days_28"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "reach_days_28"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "online_followers"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
     }
   ],
-  "_signature": "NMp6b+AyfUorvjDLEZ/ZcVyz+oSXV5zh18u3o2iTNIzMjy1BjSsBm9S50RYkc0TWCXXMwbdKGEHEyPASnAOOAw=="
+  "_signature": "wo7S+X10hNbT6c2g2isi9o7TkFKVTMG6dxr2MqsAUhFZcgl5iU/ZIEQznwAIGxUul03mm9cm2U9K8CmLdBN3DQ=="
 }
