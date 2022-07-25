@@ -17,16 +17,11 @@
   "destinations": [
     {
       "type": "internal_notification",
-      "user_ids": [],
-      "team_ids": []
-    },
-    {
-      "type": "email",
-      "custom_emails": [],
-      "team_ids": [],
       "user_ids": [
-        "ben.woodley@y42.com"
-      ]
+        "pawel.paulinski@y42.com",
+        "adrian.barfuss@y42.com"
+      ],
+      "team_ids": []
     }
   ]
 }
