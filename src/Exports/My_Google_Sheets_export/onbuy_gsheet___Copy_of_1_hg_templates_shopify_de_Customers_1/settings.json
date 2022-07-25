@@ -1,0 +1,5 @@
+{
+  "$schema": "https://s.dev.y42.dev/exports/google_sheets/0.0.0/table",
+  "datasource_table": "src/Integrations/onbuy_gsheet/Copy of 1_hg_templates_shopify_de-Customers_1",
+  "sheet_id": "1rpqTvtC4W98J-8C9QxIYYkqn7j7tue9WbUyRWlRzeUc"
+}
